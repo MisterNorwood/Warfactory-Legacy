@@ -30,19 +30,6 @@ recipes.addShaped(<enderio:item_liquid_conduit:1> * 4, [
 	[<ore:itemConduitBinder>, <metaitem:foilPolyvinylChloride>, <ore:itemConduitBinder>]]);
 assembler.recipeBuilder().inputs([<minecraft:glass> * 3, <ore:itemConduitBinder> * 4, <metaitem:foilPolyvinylChloride> * 2]).outputs([<enderio:item_liquid_conduit:1> * 8]).duration(80).EUt(16).buildAndRegister();
 
-//// Hard Firebricks
-//recipes.removeByRecipeName("gregtech:casing_primitive_bricks");
-//recipes.addShaped(<gregtech:metal_casing:1>, [
-//    [<metaitem:brick.fireclay>, <metaitem:dustGypsum>, <metaitem:brick.fireclay>],
-//    [<metaitem:brick.fireclay>, <forge:bucketfilled>.withTag({FluidName: "concrete", Amount: 1000}), <metaitem:brick.fireclay>],
-//    [<metaitem:brick.fireclay>, <metaitem:dustGypsum>, <metaitem:brick.fireclay>]
-//]);
-//
-//recipes.addShaped(<forge:bucketfilled>.withTag({FluidName: "concrete", Amount: 1000}), [
-//    [<metaitem:dustCalcite>, <minecraft:bucket>, <metaitem:dustStone>],
-//    [<metaitem:dustCalcite>, <minecraft:water_bucket>, <metaitem:dustQuartzSand>],
-//    [null, <metaitem:dustClay>, null]
-//]);
 
 // Ender Tank (Ender Storage)
 recipes.remove(<enderstorage:ender_storage:1>);
