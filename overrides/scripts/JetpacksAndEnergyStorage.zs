@@ -201,7 +201,7 @@ recipes.removeByRecipeName("simplyjetpacks:upgraderecipe4");
 recipes.addShaped(vibrantjetpack, [
 	[<metaitem:nomilabs:plateVibrantAlloy>,     compressedoctadiccap,               <metaitem:nomilabs:plateVibrantAlloy>],
 	[<metaitem:nomilabs:plateVibrantAlloy>,     energeticjetpack.marked("jetpack"), <metaitem:nomilabs:plateVibrantAlloy>],
-	[<simplyjetpacks:metaitemmods:10>, <ore:circuitIv>,                               <simplyjetpacks:metaitemmods:10>]],
+	[<simplyjetpacks:metaitemmods:10>, <ore:circuitZpm>,                               <simplyjetpacks:metaitemmods:10>]],
 	transferTag);
 
 //Resonant Jetpack
