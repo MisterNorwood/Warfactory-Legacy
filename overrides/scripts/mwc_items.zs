@@ -180,21 +180,21 @@ recipes.addShapeless(<mwc:swat_chest>, [<mwc:spec_ops_chest>, <ore:dyeGray>]);
 recipes.addShapeless(<mwc:swat_boots>, [<mwc:spec_ops_boots>, <ore:dyeGray>]);
 
 
-recipes.addShaped(<mwc:ghille_helmet>, [
+recipes.addShaped(<mwc:ghillie_helmet>, [
   [null, <minecraft:tallgrass:1>, null],
   [<minecraft:tallgrass:1>, <mwc:swat_helmet>, <minecraft:tallgrass:1>], 
   [null, <minecraft:tallgrass:1>, null]
 ]);
 
 
-recipes.addShaped(<mwc:ghille_chest>, [
+recipes.addShaped(<mwc:ghillie_chest>, [
   [null, <minecraft:tallgrass:1>, null],
   [<minecraft:tallgrass:1>, <mwc:swat_chest>, <minecraft:tallgrass:1>], 
   [null, <minecraft:tallgrass:1>, null]
 ]);
 
 
-recipes.addShaped(<mwc:ghille_boots>, [
+recipes.addShaped(<mwc:ghillie_boots>, [
   [null, <minecraft:tallgrass:1>, null],
   [<minecraft:tallgrass:1>, <mwc:swat_boots>, <minecraft:tallgrass:1>], 
   [null, <minecraft:tallgrass:1>, null]
