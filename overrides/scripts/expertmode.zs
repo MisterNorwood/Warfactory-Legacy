@@ -30,6 +30,61 @@ recipes.addShaped(<enderio:item_liquid_conduit:1> * 4, [
 	[<ore:itemConduitBinder>, <metaitem:foilPolyvinylChloride>, <ore:itemConduitBinder>]]);
 assembler.recipeBuilder().inputs([<minecraft:glass> * 3, <ore:itemConduitBinder> * 4, <metaitem:foilPolyvinylChloride> * 2]).outputs([<enderio:item_liquid_conduit:1> * 8]).duration(80).EUt(16).buildAndRegister();
 
+//add back a bunch of easy mode stuff
+
+recipes.addShaped(<metaitem:component.glass.tube>, [
+	[null, null, null],
+	[<ore:paneGlass>, <ore:paneGlass>, <ore:paneGlass>],
+	[<ore:paneGlass>, <ore:paneGlass>, <ore:paneGlass>]
+]);
+
+recipes.addShaped(<metaitem:plateRubber>,[[<ore:toolHammer>],[<metaitem:rubber_drop>],[<metaitem:rubber_drop>]]);	
+//Rubber Sheet
+compressor.recipeBuilder().inputs(<metaitem:rubber_drop>).outputs(<metaitem:plateRubber>).duration(20).EUt(8).buildAndRegister();
+
+recipes.remove(<meta_tile_entity:macerator.lv>);
+recipes.addShaped(<meta_tile_entity:macerator.lv>, [
+	[<metaitem:electric.piston.lv>, <metaitem:electric.motor.lv>, <metaitem:toolHeadBuzzSawWroughtIron>],
+	[<ore:cableGtSingleTin>, <ore:cableGtSingleTin>, <meta_tile_entity:hull.lv>],
+	[<ore:circuitLv>, <ore:circuitLv>, <ore:cableGtSingleTin>]]);
+
+//Wrought Iron
+furnace.remove(<metaitem:nuggetWroughtIron>);
+furnace.addRecipe(<metaitem:ingotWroughtIron>, <minecraft:iron_ingot>, 0.0);
+
+
+
+
+
+//MV Macerator
+recipes.remove(<meta_tile_entity:macerator.mv>);
+recipes.addShaped(<meta_tile_entity:macerator.mv>, [
+	[<metaitem:electric.piston.mv>, <metaitem:electric.motor.mv>, <metaitem:toolHeadBuzzSawSteel>],
+	[<ore:cableGtSingleCopper>, <ore:cableGtSingleCopper>, <meta_tile_entity:hull.mv>],
+	[<ore:circuitMv>, <ore:circuitMv>, <ore:cableGtSingleCopper>]]);
+
+
+//Distillation Tower
+recipes.removeByRecipeName("gregtech:distillation_tower");
+recipes.addShaped(<meta_tile_entity:distillation_tower>, [
+	[<ore:pipeLargeFluidStainlessSteel>, <metaitem:electric.pump.hv>, <ore:pipeLargeFluidStainlessSteel>], 
+	[<ore:circuitHv>, <meta_tile_entity:hull.mv>, <ore:circuitHv>], 
+	[<ore:pipeLargeFluidStainlessSteel>, <metaitem:electric.pump.hv>, <ore:pipeLargeFluidStainlessSteel>]]);
+
+// PBF nomified
+furnace.remove(<metaitem:brick.fireclay>);
+furnace.addRecipe(<metaitem:brick.fireclay>, <metaitem:dustFireclay>, 0.5);
+recipes.removeByRecipeName("gregtech:fireclay_dust");
+recipes.addShapeless("fireclay_dust", <metaitem:dustFireclay> * 16, [<metaitem:dustClay>, <metaitem:dustBrick>]);
+
+// Compressed Fireclay * 1
+<recipemap:compressor>.findRecipe(4, [<metaitem:dustFireclay>], null).remove();
+
+// Clay Dust * 1
+<recipemap:centrifuge>.findRecipe(30, [<metaitem:dustFireclay> * 2], null).remove();
+
+recipes.addShapeless("clay_dust", <metaitem:dustFireclay> * 16, [<metaitem:dustClay>, <metaitem:dustBrick>]);
+
 
 // Ender Tank (Ender Storage)
 recipes.remove(<enderstorage:ender_storage:1>);
@@ -189,9 +244,7 @@ mixer.recipeBuilder()
     .outputs([<ore:itemBinderComposite>.firstItem * 16])
     .duration(80).EUt(30).buildAndRegister();
 
-// Remove clay hand mortaring
-recipes.removeByRecipeName("gregtech:clay_block_to_dust");
-recipes.removeByRecipeName("gregtech:clay_ball_to_dust");
+
 
 
 //Item conduit - by hand
