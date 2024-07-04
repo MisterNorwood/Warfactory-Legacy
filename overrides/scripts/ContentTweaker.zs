@@ -171,3 +171,13 @@ casing.register();
 var action_blacksteel = VanillaFactory.createItem("action_blacksteel");
 action_blacksteel.maxStackSize = 64;
 action_blacksteel.register();
+
+
+//BulletKits
+var bullet_kit = VanillaFactory.createItem("bullet_kit");
+bullet_kit.maxStackSize = 64;
+bullet_kit.register();
+
+var bullet_kit_adv = VanillaFactory.createItem("bullet_kit_adv");
+bullet_kit_adv.maxStackSize = 64;
+bullet_kit_adv.register();
