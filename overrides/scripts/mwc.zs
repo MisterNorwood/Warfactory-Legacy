@@ -379,3 +379,39 @@ assembler.recipeBuilder()
   .fluidInputs([<liquid:polytetrafluoroethylene>*144])
   .outputs(<mwc:p90mag>)
   .duration(2400).EUt(1920).buildAndRegister();
+
+assembler.recipeBuilder()
+  .inputs([<ore:plateDoubleGunSteel>*4, <ore:platePolyvinylButyral>*18, <ore:stickLongTitanium>, <contenttweaker:action_titanium>, <contenttweaker:barrel_ultimet>*2, <contenttweaker:receiver_titanium>,<ore:springHssg>] )
+  .fluidInputs([<liquid:lubricant> * 500])
+  .outputs(<mwc:origin12>)
+  .duration(2400).EUt(1920).buildAndRegister();
+
+assembler.recipeBuilder()
+  .inputs([<ore:platePolyvinylButyral>*4, <ore:springSmallKanthal>*2] )
+  .fluidInputs([<liquid:polytetrafluoroethylene>*144])
+  .outputs(<mwc:origin12mag>)
+  .duration(2400).EUt(1920).buildAndRegister();
+
+assembler.recipeBuilder()
+  .inputs([<ore:plateDenseGunSteel>*4, <ore:platePolyvinylButyral>*18, <ore:stickLongTitanium>*2, <contenttweaker:action_titanium>, <contenttweaker:barrel_ultimet>*4, <contenttweaker:receiver_titanium>])
+  .fluidInputs([<liquid:lubricant> * 500])
+  .outputs(<mwc:ssg_08>)
+  .duration(2400).EUt(1920).buildAndRegister();
+
+assembler.recipeBuilder()
+  .inputs([<ore:platePolycaprolactam>*4, <ore:springSmallHssg>*4] )
+  .fluidInputs([<liquid:polytetrafluoroethylene>*144])
+  .outputs(<mwc:ssg08mag>)
+  .duration(2400).EUt(1920).buildAndRegister();
+
+assembler.recipeBuilder()
+  .inputs([<ore:plateGunSteel>*3, <ore:platePolyvinylButyral>*4, <ore:stickLongTitanium>*2, <contenttweaker:action_titanium>, <contenttweaker:barrel_ultimet>*1, <contenttweaker:receiver_titanium>])
+  .fluidInputs([<liquid:lubricant> * 500])
+  .outputs(<mwc:glock_19>)
+  .duration(2400).EUt(1920).buildAndRegister();
+
+assembler.recipeBuilder()
+  .inputs([<ore:foilGunMetal>*4, <ore:springSmallHssg>*4] )
+  .fluidInputs([<liquid:polytetrafluoroethylene>*144])
+  .outputs(<mwc:glockmag13>)
+  .duration(2400).EUt(1920).buildAndRegister();
