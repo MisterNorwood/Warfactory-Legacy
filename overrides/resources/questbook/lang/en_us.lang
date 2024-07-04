@@ -18,7 +18,7 @@ nomifactory.quest.normal.line.2.desc=GregTech §6High Voltage§r, §5Extreme Vol
 
 # line 3 of mode normal
 nomifactory.quest.normal.line.3.title=Progression
-nomifactory.quest.normal.line.3.desc=It's always rewarding to take a step forward.%n%nThis tab outlines the progression of various things in §5Nomifactory§r.%n%nCircuits are the primary measure of your progress.
+nomifactory.quest.normal.line.3.desc=It's always rewarding to take a step forward.%n%nThis tab outlines the progression of various things in §5Warfactory§r.%n%nCircuits are the primary measure of your progress.
 
 # line 4 of mode normal
 nomifactory.quest.normal.line.4.title=Late Game
@@ -66,11 +66,11 @@ nomifactory.quest.normal.db.2.desc=Note: this quest accepts both LV and MV Canni
 
 # db 3 of mode normal
 nomifactory.quest.normal.db.3.title=§2Genesis
-nomifactory.quest.normal.db.3.desc=Welcome to §5Nomifactory§r §2GTCEu Edition§r!%n%nThis pack is intended to be played in a §bLost Cities / Overworld dimension§r.%n%nIf you're playing with friends, don't forget to invite them to the §equestbook party§r.%n%n§rIf you wish to build your base in a skyblock world, place the §6Void World Cake§r down on the ground, and eat a slice to be sent to the void. Please note that you'll still need to return to the Lost Cities / Overworld dimension to mine, but you can freely build in complete safety in the §eVoid World§r.%n%nFeatures new to §2CEu§r and quests with new content will be highlighted in §2dark green (colour 2)§r.
+nomifactory.quest.normal.db.3.desc=Welcome to §5Warfactory§r §2GTCEu Edition§r!%n%nThis pack is intended to be played in a §bLost Cities / Overworld dimension§r.%n%nIf you're playing with friends, don't forget to invite them to the §equestbook party§r.%n%n§rIf you wish to build your base in a skyblock world, place the §6Void World Cake§r down on the ground, and eat a slice to be sent to the void. Please note that you'll still need to return to the Lost Cities / Overworld dimension to mine, but you can freely build in complete safety in the §eVoid World§r.%n%nFeatures new to §2CEu§r and quests with new content will be highlighted in §2dark green (colour 2)§r.
 
 # db 4 of mode normal
 nomifactory.quest.normal.db.4.title=Iron Supply
-nomifactory.quest.normal.db.4.desc=§c§rOres in §5Nomifactory§r exist in large clusters, or '§eveins§r'. These veins are scattered around the world, and are relatively common. §2The upgraded HV Electric Prospector's Scanner you were given will tell you the types of ores you can find within a 7x7 chunk area!%n§r%nWhile the Scanner requires energy to work, you are unlikely to deplete its battery. That said, the quest book will later guide you towards making §2an HV Battery§r to charge §aHV tools §rin your inventory.%n%nIn order to proceed, you'll need to locate a source of §6Iron§r. You have a few options. §6Magnetite§r veins are higher up and contain large amounts of iron, as well as some §6Vanadium§r and §6Gold§r. Another good source of iron is §6Limonite§r veins, which contain several types of iron. Finally, §6Pyrite§r can be found paired with §6Copper§r in several types of veins.%n%n§6Wrought Iron§r is obtained simply by §esmelting Iron a second time§r. It has more durability than Iron, so it is better for making tools, but §cdo not convert your entire Iron supply over to Wrought Iron§r. The two materials are not interchangeable and you'll need Iron or Wrought Iron as demanded by various recipes.
+nomifactory.quest.normal.db.4.desc=§c§rOres in §5Warfactory§r exist in large clusters, or '§eveins§r'. These veins are scattered around the world, and are relatively common. §2The upgraded HV Electric Prospector's Scanner you were given will tell you the types of ores you can find within a 7x7 chunk area!%n§r%nWhile the Scanner requires energy to work, you are unlikely to deplete its battery. That said, the quest book will later guide you towards making §2an HV Battery§r to charge §aHV tools §rin your inventory.%n%nIn order to proceed, you'll need to locate a source of §6Iron§r. You have a few options. §6Magnetite§r veins are higher up and contain large amounts of iron, as well as some §6Vanadium§r and §6Gold§r. Another good source of iron is §6Limonite§r veins, which contain several types of iron. Finally, §6Pyrite§r can be found paired with §6Copper§r in several types of veins.%n%n§6Wrought Iron§r is obtained simply by §esmelting Iron a second time§r. It has more durability than Iron, so it is better for making tools, but §cdo not convert your entire Iron supply over to Wrought Iron§r. The two materials are not interchangeable and you'll need Iron or Wrought Iron as demanded by various recipes.
 
 # db 5 of mode normal
 nomifactory.quest.normal.db.5.title=Mining Hammers
@@ -90,7 +90,7 @@ nomifactory.quest.normal.db.8.desc=With three §6Microcircuits§r and some stand
 
 # db 9 of mode normal
 nomifactory.quest.normal.db.9.title=§2Ore Doubling?
-nomifactory.quest.normal.db.9.desc=In most expert packs, you want to try to process as little ore as possible before you get access to ore doubling. It's a habit most of us pick up.%n%n§eYou shouldn't feel any pressure to do that in Nomifactory, though§r. Ore veins are massive, and mining is extremely fast with §aMining Hammers§r. What's more, even once you get access to §3Macerators§r, they initially process ore slowly and require power to operate.%n%nObvious exceptions would be rare materials or anything you buy with §dNomicoins §rbecause you can't find it. Those are worth doubling, if possible.%n%nBut at least for now, you shouldn't feel any guilt about smelting the more common ores without doubling them! §eOre doubling can be safely ignored until you have the §2Steam Grinder§r§e, or Medium Voltage machines or even later.§r
+nomifactory.quest.normal.db.9.desc=In most expert packs, you want to try to process as little ore as possible before you get access to ore doubling. It's a habit most of us pick up.%n%n§eYou shouldn't feel any pressure to do that in Warfactory, though§r. Ore veins are massive, and mining is extremely fast with §aMining Hammers§r. What's more, even once you get access to §3Macerators§r, they initially process ore slowly and require power to operate.%n%nObvious exceptions would be rare materials or anything you buy with §dNomicoins §rbecause you can't find it. Those are worth doubling, if possible.%n%nBut at least for now, you shouldn't feel any guilt about smelting the more common ores without doubling them! §eOre doubling can be safely ignored until you have the §2Steam Grinder§r§e, or Medium Voltage machines or even later.§r
 
 # db 10 of mode normal
 nomifactory.quest.normal.db.10.title=§2Tier Two Micro Miner
@@ -590,7 +590,7 @@ nomifactory.quest.normal.db.140.desc=§3Advanced Inscribers§r are much easier t
 
 # db 141 of mode normal
 nomifactory.quest.normal.db.141.title=Spend Your Coins!
-nomifactory.quest.normal.db.141.desc=While there are no types of veins that are extremely rare, you're likely to struggle with finding at least one of the less common vein types. This isn't really avoidable.%n%nYou will accumulate a lot of §dNomicoins§r from quest turn-ins while playing Nomifactory. Do not be hesitant to spend them on things you need! %n%nSearch for various ores (generally the first one listed in §bJEI§r) to find the coin recipes for them. Alternatively, hover your cursor over a coin and press §6U§r to see what you can buy with it.%n%n§aDon't be a hoarder!
+nomifactory.quest.normal.db.141.desc=While there are no types of veins that are extremely rare, you're likely to struggle with finding at least one of the less common vein types. This isn't really avoidable.%n%nYou will accumulate a lot of §dNomicoins§r from quest turn-ins while playing Warfactory. Do not be hesitant to spend them on things you need! %n%nSearch for various ores (generally the first one listed in §bJEI§r) to find the coin recipes for them. Alternatively, hover your cursor over a coin and press §6U§r to see what you can buy with it.%n%n§aDon't be a hoarder!
 
 # db 144 of mode normal
 nomifactory.quest.normal.db.144.title=Yttrium
@@ -1426,7 +1426,7 @@ nomifactory.quest.normal.db.365.desc=An ultimate pair of leggings, forged from a
 
 # db 366 of mode normal
 nomifactory.quest.normal.db.366.title=Creative Chest
-nomifactory.quest.normal.db.366.desc=You win.%n%nCongratulations.%n%nI hope you enjoyed playing §5Nomifactory§r.
+nomifactory.quest.normal.db.366.desc=You win.%n%nCongratulations.%n%nI hope you enjoyed playing §5Warfactory§r.
 
 # db 367 of mode normal
 nomifactory.quest.normal.db.367.title=§2Creative Tank
@@ -1538,7 +1538,7 @@ nomifactory.quest.normal.db.407.desc=The §3Medium Microverse Projector§r is a 
 
 # db 408 of mode normal
 nomifactory.quest.normal.db.408.title=PackagedAuto
-nomifactory.quest.normal.db.408.desc=§bPackagedAuto§r is an addon for §bApplied Energistics 2§r. Its main purpose in §5Nomifactory§r is to allow you to eventually automate §bExtended Crafting§r recipes, but you may come up with other fun uses for it as well.%n%n§bApplied Energistics 2§r stores recipes in §aPatterns§r, but so far they have been limited to at most 9 stacks of items as input (a standard 3x3 crafting grid). PackagedAuto stores recipes in §aPackage Recipe Holders§r, which don't have this limitation. Additionally, each Holder can store up to §e20 different recipes§r. Holders must be encoded in the §3Package Recipe Encoder§r.%n%nIn the vast majority of situations you'll need two identically-encoded Holders, as the following machines work together.%n%nThe §3Packager§r is a machine that compresses ingredients for a specific recipe into a set of §6Recipe Packages§r. Each package in a set can hold up to 9 stacks of ingredient items. A simple recipe might consist of one package, but a complex recipe can have up to 9 packages in its set (for 81 total item stacks).%n%nThe §3Unpackager§r is a machine that extracts ingredient items from complete sets of Recipe Packages made in a Packager, ejecting the items into an adjacent inventory. It will only extract the items if §eall packages in a set are present§r.%n%nWhen both a Packager and Unpackager are connected to an ME Network and have the same recipe, the resulting item will appear as craftable in your §aTerminal§r.%n%n§3Packager Extensions§r will act like a clone of an adjacent Packager - including access to patterns in its Package Recipe Holder - allowing you to craft recipe packages faster. Simply place the Packager Extensions around the Packager. Up to 26 extensions in a 3x3x3 cube around the Packager are supported.
+nomifactory.quest.normal.db.408.desc=§bPackagedAuto§r is an addon for §bApplied Energistics 2§r. Its main purpose in §5Warfactory§r is to allow you to eventually automate §bExtended Crafting§r recipes, but you may come up with other fun uses for it as well.%n%n§bApplied Energistics 2§r stores recipes in §aPatterns§r, but so far they have been limited to at most 9 stacks of items as input (a standard 3x3 crafting grid). PackagedAuto stores recipes in §aPackage Recipe Holders§r, which don't have this limitation. Additionally, each Holder can store up to §e20 different recipes§r. Holders must be encoded in the §3Package Recipe Encoder§r.%n%nIn the vast majority of situations you'll need two identically-encoded Holders, as the following machines work together.%n%nThe §3Packager§r is a machine that compresses ingredients for a specific recipe into a set of §6Recipe Packages§r. Each package in a set can hold up to 9 stacks of ingredient items. A simple recipe might consist of one package, but a complex recipe can have up to 9 packages in its set (for 81 total item stacks).%n%nThe §3Unpackager§r is a machine that extracts ingredient items from complete sets of Recipe Packages made in a Packager, ejecting the items into an adjacent inventory. It will only extract the items if §eall packages in a set are present§r.%n%nWhen both a Packager and Unpackager are connected to an ME Network and have the same recipe, the resulting item will appear as craftable in your §aTerminal§r.%n%n§3Packager Extensions§r will act like a clone of an adjacent Packager - including access to patterns in its Package Recipe Holder - allowing you to craft recipe packages faster. Simply place the Packager Extensions around the Packager. Up to 26 extensions in a 3x3x3 cube around the Packager are supported.
 
 # db 409 of mode normal
 nomifactory.quest.normal.db.409.title=§2A Primer on Power
@@ -1758,7 +1758,7 @@ nomifactory.quest.normal.db.540.desc=The §3Extruder§r is a universal metalwork
 
 # db 541 of mode normal
 nomifactory.quest.normal.db.541.title=§2More Blast Furnaces
-nomifactory.quest.normal.db.541.desc=Overclocking aside, as you continue to progress in §5Nomifactory§r, materials made in the §3Electric Blast Furnace§r will take longer to complete. §eMore advanced coils allow for the furnace to §eget hot enough to process more advanced materials§r, §2and they also granting energy efficiency bonuses and speed bonuses to overclocking.§r%n%nDespite this, you'll still need to continually expand your smelting and power generation infrastructure.%n%nYou don't have to get all four of these Electric Blast Furnaces completed and running just yet, but be prepared to make many of them over the course of the pack.%n%n§2As a reminder, all blocks and hatches can be shared across EBFs, except Maintenance!
+nomifactory.quest.normal.db.541.desc=Overclocking aside, as you continue to progress in §5Warfactory§r, materials made in the §3Electric Blast Furnace§r will take longer to complete. §eMore advanced coils allow for the furnace to §eget hot enough to process more advanced materials§r, §2and they also granting energy efficiency bonuses and speed bonuses to overclocking.§r%n%nDespite this, you'll still need to continually expand your smelting and power generation infrastructure.%n%nYou don't have to get all four of these Electric Blast Furnaces completed and running just yet, but be prepared to make many of them over the course of the pack.%n%n§2As a reminder, all blocks and hatches can be shared across EBFs, except Maintenance!
 
 # db 542 of mode normal
 nomifactory.quest.normal.db.542.title=Soul Binder
@@ -2314,7 +2314,7 @@ nomifactory.quest.normal.db.732.desc=§6Hard Carbon Alloy§r is an alloy made fr
 
 # db 733 of mode normal
 nomifactory.quest.normal.db.733.title=Draconic Evolution Information Tablet
-nomifactory.quest.normal.db.733.desc=The §aDraconic Evolution Information Tablet§r contains useful information about the mod as well as diagrams for valid Fusion Crafting block placement.%n%nYou might also be interested in the §oDraconic Evolution Fusion Core Automation§r guide linked to in §9#omnicompendium§r in the official §5Nomifactory§r Discord server.
+nomifactory.quest.normal.db.733.desc=The §aDraconic Evolution Information Tablet§r contains useful information about the mod as well as diagrams for valid Fusion Crafting block placement.%n%nYou might also be interested in the §oDraconic Evolution Fusion Core Automation§r guide linked to in §9#omnicompendium§r in the official §5Warfactory§r Discord server.
 
 # db 743 of mode normal
 nomifactory.quest.normal.db.743.title=Use JEI! Use JEI! USE. JEI.
@@ -2350,7 +2350,7 @@ nomifactory.quest.normal.db.750.desc=A complex material from §bThermal Expansio
 
 # db 751 of mode normal
 nomifactory.quest.normal.db.751.title=Infinitest Water
-nomifactory.quest.normal.db.751.desc=§3Aqueous Accumulators§r in §5Nomifactory§r are infinite water sources; they §odo not§r require any water blocks nearby.%n%nThis machine can produce §9Water§r as fast as you can extract it (the only downside being that it makes some annoying noises).%n%nFriendship with §aEndervoirs§r ended.
+nomifactory.quest.normal.db.751.desc=§3Aqueous Accumulators§r in §5Warfactory§r are infinite water sources; they §odo not§r require any water blocks nearby.%n%nThis machine can produce §9Water§r as fast as you can extract it (the only downside being that it makes some annoying noises).%n%nFriendship with §aEndervoirs§r ended.
 
 # db 752 of mode normal
 nomifactory.quest.normal.db.752.title=Boilers and Turbines
@@ -2406,7 +2406,7 @@ nomifactory.quest.normal.db.764.desc=Circuits along this line are LV, and can al
 
 # db 765 of mode normal
 nomifactory.quest.normal.db.765.title=What is This?
-nomifactory.quest.normal.db.765.desc=The Progression tab was added so you can keep track of the important bits of the pack.%n%nCircuits are the baseline of the entire Nomifactory progression, so keep climbing!
+nomifactory.quest.normal.db.765.desc=The Progression tab was added so you can keep track of the important bits of the pack.%n%nCircuits are the baseline of the entire Warfactory progression, so keep climbing!
 
 # db 766 of mode normal
 nomifactory.quest.normal.db.766.title=MV Circuits
@@ -2574,7 +2574,7 @@ nomifactory.quest.normal.db.806.desc=Plant some crops, fluid extract some seeds,
 
 # db 807 of mode normal
 nomifactory.quest.normal.db.807.title=Discord and GitHub
-nomifactory.quest.normal.db.807.desc=§5Nomi-CEu§r shares an official Discord server with §5Nomifactory§r, which serves as a useful community resource.%n%nOn the server, there are flowcharts and guides to help you with many parts of the pack, development announcements and more are available in the Nomi-CEu-News channel, and the community helps with tech support questions, and investigates possible bug reports.%n%nYou can also chat with many fellow players there if you like, who are largely willing to help with general questions one might have.%n%nTo join the server, you can use the button on the Main Menu to go to the join URL, or if you're not into Discord you can find our projects on GitHub at our organization page: §9https://github.com/Nomi-CEu§r.%n%nIssue tracking and development, including for Nomi Labs, is handled on our respective GitHub project repositories. The repository for this pack is §9https://github.com/Nomi-CEu/Nomi-CEu§r.
+nomifactory.quest.normal.db.807.desc=§5Nomi-CEu§r shares an official Discord server with §5Warfactory§r, which serves as a useful community resource.%n%nOn the server, there are flowcharts and guides to help you with many parts of the pack, development announcements and more are available in the Nomi-CEu-News channel, and the community helps with tech support questions, and investigates possible bug reports.%n%nYou can also chat with many fellow players there if you like, who are largely willing to help with general questions one might have.%n%nTo join the server, you can use the button on the Main Menu to go to the join URL, or if you're not into Discord you can find our projects on GitHub at our organization page: §9https://github.com/Nomi-CEu§r.%n%nIssue tracking and development, including for Nomi Labs, is handled on our respective GitHub project repositories. The repository for this pack is §9https://github.com/Nomi-CEu/Nomi-CEu§r.
 
 # db 808 of mode normal
 nomifactory.quest.normal.db.808.title=§2Simulation Supercomputer
@@ -2602,7 +2602,7 @@ nomifactory.quest.normal.db.813.desc=§2Technically not new to CEu, but it was d
 
 # db 814 of mode normal
 nomifactory.quest.normal.db.814.title=§2LV Bending Machine
-nomifactory.quest.normal.db.814.desc=The §3Bending Machine§r improves the yield of a great deal of items. Most notably, you can use it to get one §6Plate§r from a single ingot, instead of having to spend two ingots for a single plate.%n%nAs with the §3Wiremill§r, this requires a §6Programmed Circuit§r to tell it what to make. For plates, this is §econfiguration 1§r. Refer to §eJEI§r for which configuration to use for your recipe.%n %nOther materials it can produce include:%n- 4 §6Foils§r from a Plate%n- §6Double Plates§r from two Plates%n- §6Dense Plates§r from nine Plates%n- §6Small Springs§r from one Rod%n- §6Springs§r from one Long Rod. %n§r%nIf you played the CE version of §dNomifactory§r, note that the functions of the §3Compressor§r (for making Plates) and §3Cluster Mill§r are merged into this machine.
+nomifactory.quest.normal.db.814.desc=The §3Bending Machine§r improves the yield of a great deal of items. Most notably, you can use it to get one §6Plate§r from a single ingot, instead of having to spend two ingots for a single plate.%n%nAs with the §3Wiremill§r, this requires a §6Programmed Circuit§r to tell it what to make. For plates, this is §econfiguration 1§r. Refer to §eJEI§r for which configuration to use for your recipe.%n %nOther materials it can produce include:%n- 4 §6Foils§r from a Plate%n- §6Double Plates§r from two Plates%n- §6Dense Plates§r from nine Plates%n- §6Small Springs§r from one Rod%n- §6Springs§r from one Long Rod. %n§r%nIf you played the CE version of §dWarfactory§r, note that the functions of the §3Compressor§r (for making Plates) and §3Cluster Mill§r are merged into this machine.
 
 # db 815 of mode normal
 nomifactory.quest.normal.db.815.title=§2LV Circuit Assembler
@@ -3026,7 +3026,7 @@ nomifactory.quest.normal.db.919.desc=No Description
 
 # db 920 of mode normal
 nomifactory.quest.normal.db.920.title=Progression Tab
-nomifactory.quest.normal.db.920.desc=The Progression tab was added so you can keep track of the important bits of the pack.%n%nCircuits are the baseline of the entire Nomifactory-GTCEu progression, so keep climbing!
+nomifactory.quest.normal.db.920.desc=The Progression tab was added so you can keep track of the important bits of the pack.%n%nCircuits are the baseline of the entire Warfactory-GTCEu progression, so keep climbing!
 
 # db 921 of mode normal
 nomifactory.quest.normal.db.921.title=§2UV Machine Hulls
@@ -3414,7 +3414,7 @@ nomifactory.quest.normal.db.1016.desc=Accessing AE2 from anywhere is a bit more 
 
 # db 1017 of mode normal
 nomifactory.quest.normal.db.1017.title=ME Controller
-nomifactory.quest.normal.db.1017.desc=The §aME Controller§r acts as the `brain' and a bit of power storage for an §eME Network§r.%n%nNormally, this block acts as a source of §echannels§r, but those mechanics are disabled by default in §5Nomifactory§r.%n%nYou don't have to make this to operate a network when channels are disabled, but if you do, §eyour network will consume less power§r than if it did not have a Controller. Plus, they look kind of cool.%n%nMake sure you craft the AE2 one though, and not the one from §bChisel§r!%n%nFood for thought.
+nomifactory.quest.normal.db.1017.desc=The §aME Controller§r acts as the `brain' and a bit of power storage for an §eME Network§r.%n%nNormally, this block acts as a source of §echannels§r, but those mechanics are disabled by default in §5Warfactory§r.%n%nYou don't have to make this to operate a network when channels are disabled, but if you do, §eyour network will consume less power§r than if it did not have a Controller. Plus, they look kind of cool.%n%nMake sure you craft the AE2 one though, and not the one from §bChisel§r!%n%nFood for thought.
 
 # db 1018 of mode normal
 nomifactory.quest.normal.db.1018.title=Automating Draconic Evolution Fusion
@@ -3540,7 +3540,7 @@ nomifactory.quest.expert.line.2.desc=GregTech §6High Voltage§r, §5Extreme Vol
 
 # line 3 of mode expert
 nomifactory.quest.expert.line.3.title=Progression
-nomifactory.quest.expert.line.3.desc=It's always rewarding to take a step forward.%n%nThis tab outlines the progression of various things in §5Nomifactory§r.%n%nCircuits are the primary measure of your progress.
+nomifactory.quest.expert.line.3.desc=It's always rewarding to take a step forward.%n%nThis tab outlines the progression of various things in §5Warfactory§r.%n%nCircuits are the primary measure of your progress.
 
 # line 4 of mode expert
 nomifactory.quest.expert.line.4.title=Late Game
@@ -3580,11 +3580,11 @@ nomifactory.quest.expert.db.2.desc=Note: this quest accepts both LV and MV Canni
 
 # db 3 of mode expert
 nomifactory.quest.expert.db.3.title=§cHard-§2Genesis
-nomifactory.quest.expert.db.3.desc=Welcome to §5Nomifactory§r §2GTCEu Edition: §cHard/Expert Mode§r!%n%nThis pack is intended to be played in a §bLost Cities / Overworld dimension§r.%n%nIf you're playing with friends, don't forget to invite them to the §equestbook party§r.%n%n§rIf you wish to build your base in a skyblock world, place the §6Void World Cake§r down on the ground, and eat a slice to be sent to the void. Please note that you'll still need to return to the Lost Cities / Overworld dimension to mine, but you can freely build in complete safety in the §eVoid World§r.%n%nFeatures new to §2CEu§r and quests with new content will be highlighted in §2dark green (color 2)§r, and features unique to §cHard/Expert Mode§r will be highlighted in §cred (color C)§r.
+nomifactory.quest.expert.db.3.desc=Welcome to §5Warfactory§r §2GTCEu Edition: §cHard/Expert Mode§r!%n%nThis pack is intended to be played in a §bSUSY-fied Mode§r.%n%nIf you're playing with friends, don't forget to invite them to the §equestbook party§r.%n%n§rIf you wish to build your base in a skyblock world, place the §6Void World Cake§r down on the ground, and eat a slice to be sent to the void. Please note that you'll still need to return to the Lost Cities / Overworld dimension to mine, but you can freely build in complete safety in the §eVoid World§r.%n%nFeatures new to §2CEu§r and quests with new content will be highlighted in §2dark green (color 2)§r, and features unique to §cHard/Expert Mode§r will be highlighted in §cred (color C)§r.
 
 # db 4 of mode expert
 nomifactory.quest.expert.db.4.title=Iron Supply
-nomifactory.quest.expert.db.4.desc=§c§rOres in §5Nomifactory§r exist in large clusters, or '§eveins§r'. These veins are scattered around the world, and are relatively common. §2The upgraded HV Electric Prospector's Scanner you were given will tell you the types of ores you can find within a 7x7 chunk area!%n§r%nWhile the Scanner requires energy to work, you are unlikely to deplete its battery. That said, there is a quest you can use to refill the energy of the scanner, which is located on this chapter.%n%nIn order to proceed, you'll need to locate a source of §6Iron§r. You have a few options. §6Magnetite§r veins are higher up and contain large amounts of iron, as well as some §6Vanadium§r and §6Gold§r. Another good source of iron is §6Limonite§r veins, which contain several types of iron. Finally, §6Pyrite§r can be found paired with §6Copper§r in several types of veins.%n%n§6Wrought Iron§r is obtained simply by §esmelting Iron §cNuggets§e a second time§r. It has more durability than Iron, so it is better for making tools, but §cdo not convert your entire Iron supply over to Wrought Iron§r. The two materials are not interchangeable and you'll need Iron or Wrought Iron as demanded by various recipes.
+nomifactory.quest.expert.db.4.desc=§c§rOres in §5Warfactory§r exist in large clusters, or '§eveins§r'. These veins are scattered around the world, and are relatively common. §2The upgraded HV Electric Prospector's Scanner you were given will tell you the types of ores you can find within a 7x7 chunk area!%n§r%nWhile the Scanner requires energy to work, you are unlikely to deplete its battery. That said, there is a quest you can use to refill the energy of the scanner, which is located on this chapter.%n%nIn order to proceed, you'll need to locate a source of §6Iron§r. You have a few options. §6Magnetite§r veins are higher up and contain large amounts of iron, as well as some §6Vanadium§r and §6Gold§r. Another good source of iron is §6Limonite§r veins, which contain several types of iron. Finally, §6Pyrite§r can be found paired with §6Copper§r in several types of veins.%n%n§6Wrought Iron§r is obtained simply by §esmelting Iron §cNuggets§e a second time§r. It has more durability than Iron, so it is better for making tools, but §cdo not convert your entire Iron supply over to Wrought Iron§r. The two materials are not interchangeable and you'll need Iron or Wrought Iron as demanded by various recipes.
 
 # db 5 of mode expert
 nomifactory.quest.expert.db.5.title=Mining Hammers
@@ -3604,7 +3604,7 @@ nomifactory.quest.expert.db.8.desc=With three §6Microcircuits§r and some stand
 
 # db 9 of mode expert
 nomifactory.quest.expert.db.9.title=Ore Doubling?
-nomifactory.quest.expert.db.9.desc=In most expert packs, you want to try to process as little ore as possible before you get access to ore doubling. It's a habit most of us pick up.%n%n§eYou shouldn't feel any pressure to do that in Nomifactory, though§r. Ore veins are massive, and mining is extremely fast with §aMining Hammers§r. What's more, even once you get access to §3Macerators§r, they initially process ore slowly and require power to operate.%n%nObvious exceptions would be rare materials §rbecause you can't find it. Those are worth doubling, if possible.%n%nBut at least for now, you shouldn't feel any guilt about smelting the more common ores without doubling them! §eOre doubling can be safely ignored until you have Medium Voltage machines or even later.§r
+nomifactory.quest.expert.db.9.desc=In most expert packs, you want to try to process as little ore as possible before you get access to ore doubling. It's a habit most of us pick up.%n%n§eYou shouldn't feel any pressure to do that in Warfactory, though§r. Ore veins are massive, and mining is extremely fast with §aMining Hammers§r. What's more, even once you get access to §3Macerators§r, they initially process ore slowly and require power to operate.%n%nObvious exceptions would be rare materials §rbecause you can't find it. Those are worth doubling, if possible.%n%nBut at least for now, you shouldn't feel any guilt about smelting the more common ores without doubling them! §eOre doubling can be safely ignored until you have Medium Voltage machines or even later.§r
 
 # db 10 of mode expert
 nomifactory.quest.expert.db.10.title=§2Tier Two Micro Miner
@@ -5052,7 +5052,7 @@ nomifactory.quest.expert.db.407.desc=The §3Medium Microverse Projector§r is a 
 
 # db 408 of mode expert
 nomifactory.quest.expert.db.408.title=PackagedAuto
-nomifactory.quest.expert.db.408.desc=§bPackagedAuto§r is an addon for §bApplied Energistics 2§r. Its main purpose in §5Nomifactory§r is to allow you to eventually automate §bExtended Crafting§r recipes, but you may come up with other fun uses for it as well.%n%n§bApplied Energistics 2§r stores recipes in §aPatterns§r, but so far they have been limited to at most 9 stacks of items as input (a standard 3x3 crafting grid). PackagedAuto stores recipes in §aPackage Recipe Holders§r, which don't have this limitation. Additionally, each Holder can store up to §e20 different recipes§r. Holders must be encoded in the §3Package Recipe Encoder§r.%n%nIn the vast majority of situations you'll need two identically-encoded Holders, as the following machines work together.%n%nThe §3Packager§r is a machine that compresses ingredients for a specific recipe into a set of §6Recipe Packages§r. Each package in a set can hold up to 9 stacks of ingredient items. A simple recipe might consist of one package, but a complex recipe can have up to 9 packages in its set (for 81 total item stacks).%n%nThe §3Unpackager§r is a machine that extracts ingredient items from complete sets of Recipe Packages made in a Packager, ejecting the items into an adjacent inventory. It will only extract the items if §eall packages in a set are present§r.%n%nWhen both a Packager and Unpackager are connected to an ME Network and have the same recipe, the resulting item will appear as craftable in your §aTerminal§r.%n%n§3Packager Extensions§r will act like a clone of an adjacent Packager - including access to patterns in its Package Recipe Holder - allowing you to craft recipe packages faster. Simply place the Packager Extensions around the Packager. Up to 26 extensions in a 3x3x3 cube around the Packager are supported.
+nomifactory.quest.expert.db.408.desc=§bPackagedAuto§r is an addon for §bApplied Energistics 2§r. Its main purpose in §5Warfactory§r is to allow you to eventually automate §bExtended Crafting§r recipes, but you may come up with other fun uses for it as well.%n%n§bApplied Energistics 2§r stores recipes in §aPatterns§r, but so far they have been limited to at most 9 stacks of items as input (a standard 3x3 crafting grid). PackagedAuto stores recipes in §aPackage Recipe Holders§r, which don't have this limitation. Additionally, each Holder can store up to §e20 different recipes§r. Holders must be encoded in the §3Package Recipe Encoder§r.%n%nIn the vast majority of situations you'll need two identically-encoded Holders, as the following machines work together.%n%nThe §3Packager§r is a machine that compresses ingredients for a specific recipe into a set of §6Recipe Packages§r. Each package in a set can hold up to 9 stacks of ingredient items. A simple recipe might consist of one package, but a complex recipe can have up to 9 packages in its set (for 81 total item stacks).%n%nThe §3Unpackager§r is a machine that extracts ingredient items from complete sets of Recipe Packages made in a Packager, ejecting the items into an adjacent inventory. It will only extract the items if §eall packages in a set are present§r.%n%nWhen both a Packager and Unpackager are connected to an ME Network and have the same recipe, the resulting item will appear as craftable in your §aTerminal§r.%n%n§3Packager Extensions§r will act like a clone of an adjacent Packager - including access to patterns in its Package Recipe Holder - allowing you to craft recipe packages faster. Simply place the Packager Extensions around the Packager. Up to 26 extensions in a 3x3x3 cube around the Packager are supported.
 
 # db 409 of mode expert
 nomifactory.quest.expert.db.409.title=§2A Primer on Power
@@ -5272,7 +5272,7 @@ nomifactory.quest.expert.db.540.desc=The §3Extruder§r is an alternative way to
 
 # db 541 of mode expert
 nomifactory.quest.expert.db.541.title=§2More Blast Furnaces
-nomifactory.quest.expert.db.541.desc=Overclocking aside, as you continue to progress in §5Nomifactory§r, materials made in the §3Electric Blast Furnace§r will take longer to complete. §eMore advanced coils do not give speed bonuses§r §2directly§r; they mainly allow for the furnace to §eget hot enough to process more advanced materials§r, §2and they also granting energy efficiency bonuses and speed bonuses to overclocking.§r%n%nConsequently, you'll need to continually expand your smelting and power generation infrastructure.%n%nYou don't have to get all four of these Electric Blast Furnaces completed and running just yet, but be prepared to make many of them over the course of the pack.%n%n§2As a reminder, all blocks and hatches can be shared across EBFs, except Maintenance!
+nomifactory.quest.expert.db.541.desc=Overclocking aside, as you continue to progress in §5Warfactory§r, materials made in the §3Electric Blast Furnace§r will take longer to complete. §eMore advanced coils do not give speed bonuses§r §2directly§r; they mainly allow for the furnace to §eget hot enough to process more advanced materials§r, §2and they also granting energy efficiency bonuses and speed bonuses to overclocking.§r%n%nConsequently, you'll need to continually expand your smelting and power generation infrastructure.%n%nYou don't have to get all four of these Electric Blast Furnaces completed and running just yet, but be prepared to make many of them over the course of the pack.%n%n§2As a reminder, all blocks and hatches can be shared across EBFs, except Maintenance!
 
 # db 542 of mode expert
 nomifactory.quest.expert.db.542.title=Soul Binder
@@ -5864,7 +5864,7 @@ nomifactory.quest.expert.db.750.desc=A complex material from §bThermal Expansio
 
 # db 751 of mode expert
 nomifactory.quest.expert.db.751.title=Infinitest Water
-nomifactory.quest.expert.db.751.desc=§3Aqueous Accumulators§r in §5Nomifactory§r are infinite water sources; they §l§ndo not§r require any water blocks nearby.%n%nThis machine can produce §9Water§r as fast as you can extract it (the only downside being that it makes some annoying noises).%n%nFriendship with §aEndervoirs§r ended.
+nomifactory.quest.expert.db.751.desc=§3Aqueous Accumulators§r in §5Warfactory§r are infinite water sources; they §l§ndo not§r require any water blocks nearby.%n%nThis machine can produce §9Water§r as fast as you can extract it (the only downside being that it makes some annoying noises).%n%nFriendship with §aEndervoirs§r ended.
 
 # db 752 of mode expert
 nomifactory.quest.expert.db.752.title=Universal Crystallizer
@@ -5920,7 +5920,7 @@ nomifactory.quest.expert.db.764.desc=Circuits along this line are LV, and can al
 
 # db 765 of mode expert
 nomifactory.quest.expert.db.765.title=What is This?
-nomifactory.quest.expert.db.765.desc=The Progression tab was added so you can keep track of the important bits of the pack.%n%nCircuits are the baseline of the entire Nomifactory progression, so keep climbing!
+nomifactory.quest.expert.db.765.desc=The Progression tab was added so you can keep track of the important bits of the pack.%n%nCircuits are the baseline of the entire Warfactory progression, so keep climbing!
 
 # db 766 of mode expert
 nomifactory.quest.expert.db.766.title=MV Circuits
@@ -6092,7 +6092,7 @@ nomifactory.quest.expert.db.807.desc=Plant some crops, fluid extract some seeds,
 
 # db 808 of mode expert
 nomifactory.quest.expert.db.808.title=Discord and GitHub
-nomifactory.quest.expert.db.808.desc=§5Nomi-CEu§r shares an official Discord server with §5Nomifactory§r, which serves as a useful community resource.%n%nOn the server, there are flowcharts and guides to help you with many parts of the pack, development announcements and more are available in the Nomi-CEu-News channel, and the community helps with tech support questions, and investigates possible bug reports.%n%nYou can also chat with many fellow players there if you like, who are largely willing to help with general questions one might have.%n%nTo join the server, you can use the button on the Main Menu to go to the join URL, or if you're not into Discord you can find our projects on GitHub at our organization page: §9https://github.com/Nomi-CEu§r.%n%nIssue tracking and development, including for Nomi Labs, is handled on our respective GitHub project repositories. The repository for this pack is §9https://github.com/Nomi-CEu/Nomi-CEu§r.
+nomifactory.quest.expert.db.808.desc=§5Nomi-CEu§r shares an official Discord server with §5Warfactory§r, which serves as a useful community resource.%n%nOn the server, there are flowcharts and guides to help you with many parts of the pack, development announcements and more are available in the Nomi-CEu-News channel, and the community helps with tech support questions, and investigates possible bug reports.%n%nYou can also chat with many fellow players there if you like, who are largely willing to help with general questions one might have.%n%nTo join the server, you can use the button on the Main Menu to go to the join URL, or if you're not into Discord you can find our projects on GitHub at our organization page: §9https://github.com/Nomi-CEu§r.%n%nIssue tracking and development, including for Nomi Labs, is handled on our respective GitHub project repositories. The repository for this pack is §9https://github.com/Nomi-CEu/Nomi-CEu§r.
 
 # db 809 of mode expert
 nomifactory.quest.expert.db.809.title=Setting Up Autocrafting
@@ -6516,7 +6516,7 @@ nomifactory.quest.expert.db.913.desc=If you §osomehow§r run out of charge on y
 
 # db 914 of mode expert
 nomifactory.quest.expert.db.914.title=Progression Tab
-nomifactory.quest.expert.db.914.desc=The Progression tab was added so you can keep track of the important bits of the pack.%n%nCircuits are the baseline of the entire Nomifactory progression, so keep climbing!
+nomifactory.quest.expert.db.914.desc=The Progression tab was added so you can keep track of the important bits of the pack.%n%nCircuits are the baseline of the entire Warfactory progression, so keep climbing!
 
 # db 915 of mode expert
 nomifactory.quest.expert.db.915.title=Fluid Interface Configuration Terminal
@@ -6556,7 +6556,7 @@ nomifactory.quest.expert.db.923.desc=No Description
 
 # db 924 of mode expert
 nomifactory.quest.expert.db.924.title=ME Controller
-nomifactory.quest.expert.db.924.desc=The §aME Controller§r acts as the `brain' and a bit of power storage for an §eME Network§r.%n%nNormally, this block acts as a source of §echannels§r, but those mechanics are disabled by default in §5Nomifactory§r.%n%nYou don't have to make this to operate a network when channels are disabled, but if you do, §eyour network will consume less power§r than if it did not have a Controller. Plus, they look kind of cool.%n%nMake sure you craft the AE2 one though, and not the one from §bChisel§r!%n%nFood for thought.
+nomifactory.quest.expert.db.924.desc=The §aME Controller§r acts as the `brain' and a bit of power storage for an §eME Network§r.%n%nNormally, this block acts as a source of §echannels§r, but those mechanics are disabled by default in §5Warfactory§r.%n%nYou don't have to make this to operate a network when channels are disabled, but if you do, §eyour network will consume less power§r than if it did not have a Controller. Plus, they look kind of cool.%n%nMake sure you craft the AE2 one though, and not the one from §bChisel§r!%n%nFood for thought.
 
 # db 925 of mode expert
 nomifactory.quest.expert.db.925.title=Automating Draconic Evolution Fusion
