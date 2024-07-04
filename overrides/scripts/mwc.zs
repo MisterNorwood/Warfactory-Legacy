@@ -298,9 +298,9 @@ assembler.recipeBuilder()
 
 //////// HV GUNS ////////
 
-val mvGuns = <ore:hvGuns>;
+val hvGuns = <ore:hvGuns>;
 
-lvGuns.add(<mwc:m4a1a>);
+lvGuns.add(<mwc:m4a1>);
 lvGuns.add(<mwc:spas_12>);
 lvGuns.add(<mwc:m17>);
 lvGuns.add(<mwc:mp7>);
@@ -351,18 +351,31 @@ val evGuns = <ore:evGuns>;
 
 evGuns.add(<mwc:ngsw_r>);
 evGuns.add(<mwc:origin12>);
-evGuns.add(<mwc:vss_vintorez>);
+//evGuns.add(<mwc:vss_vintorez>); DEBATED
 evGuns.add(<mwc:p90>);
 evGuns.add(<mwc:ssg_08>);
 evGuns.add(<mwc:glock_19>);
 
 assembler.recipeBuilder()
-  .inputs([<ore:plateDenseHslaSteel>*4, <ore:platePolytetrafluoroethylene>*5, <ore:stickLongHslaSteel>*2, <contenttweaker:action_titanium>, <contenttweaker:barrel_ultimet>*2, <contenttweaker:receiver_titanium>,<gregtech:meta_item_1:175>,<ore:foilGunMetal>] )
+  .inputs([<ore:plateDenseGunSteel>*4, <ore:platePolyvinylButyral>*5, <ore:stickLongGunSteel>*2, <contenttweaker:action_titanium>, <contenttweaker:barrel_ultimet>*2, <contenttweaker:receiver_titanium>,<gregtech:meta_item_1:175>,<ore:springHssg>] )
+  .fluidInputs([<liquid:lubricant> * 500])
   .outputs(<mwc:ngsw_r>)
   .duration(2400).EUt(1920).buildAndRegister();
 
 assembler.recipeBuilder()
-  .inputs([<ore:platedoubleHslaSteel>*8, <ore:platePolytetrafluoroethylene>*2, <ore:stickHslaSteel>*2, <contenttweaker:action_titanium>, <contenttweaker:barrel_ultimet>*1, <contenttweaker:receiver_titanium>] )
-  .outputs(<mwc:origin12>)
+  .inputs([<ore:platePolyvinylButyral>*4, <ore:springGunSteel>, <ore:boltUltimet>*4] )
+  .fluidInputs([<liquid:polytetrafluoroethylene>*144])
+  .outputs(<mwc:ngswr_mag>)
   .duration(2400).EUt(1920).buildAndRegister();
 
+assembler.recipeBuilder()
+  .inputs([<ore:plateDoubleHslaSteel>*4, <ore:platePolyvinylButyral>*9, <contenttweaker:action_titanium>, <contenttweaker:barrel_ultimet>*1, <contenttweaker:receiver_titanium>, <ore:boltGunSteel>*16, <ore:springNichrome>] )
+  .fluidInputs([<liquid:lubricant> * 500])
+  .outputs(<mwc:p90>)
+  .duration(2400).EUt(1920).buildAndRegister();
+
+assembler.recipeBuilder()
+  .inputs([<ore:platePolyvinylButyral>*4, <ore:springSmallGunMetal>*2])
+  .fluidInputs([<liquid:polytetrafluoroethylene>*144])
+  .outputs(<mwc:p90mag>)
+  .duration(2400).EUt(1920).buildAndRegister();
