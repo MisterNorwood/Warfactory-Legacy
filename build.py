@@ -54,8 +54,8 @@ INCLUDE = [
 if(os.path.isfile("overrides/mods/"+MCHELI_FN) != True):
     print("Preparing to download "+MCHELI_FN)
     download_from_google_drive(LINK)
+    shutil.move('./' + MCHELI_FN, './overrides/mods/' + MCHELI_FN)
 
-shutil.move('./' + MCHELI_FN, './overrides/mods/' + MCHELI_FN)
 zip_up(INCLUDE, ZIP_NAME)
 
 
