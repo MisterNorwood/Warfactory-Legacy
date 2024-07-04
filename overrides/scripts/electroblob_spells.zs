@@ -1250,7 +1250,7 @@ forming_press.recipeBuilder()
 forming_press.recipeBuilder()
     .inputs(<minecraft:book>, <ebwizardry:magic_crystal:7>, <contenttweaker:advanced_shadow_dollar>)
     .circuit(16)
-    .outputs(<ebwizardry:spell_book:90>)
+    .outputs(<minecraft:apple>*64)
     .duration(300).EUt(8192).buildAndRegister();
 
 forming_press.recipeBuilder()
