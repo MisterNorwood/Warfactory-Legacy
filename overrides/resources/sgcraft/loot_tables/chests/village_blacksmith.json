@@ -1,0 +1,42 @@
+{
+    "pools": [
+        {
+            "conditions": [
+                {
+                    "condition": "random_chance",
+                    "chance": 0.5
+                }
+            ],
+            "rolls": {
+                "min": 1,
+                "max": 2
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "nomilabs:nomicoin",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "contenttweaker:barackbuck",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "contenttweaker:bullet_kit",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}
