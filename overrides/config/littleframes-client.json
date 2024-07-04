@@ -1,0 +1,14 @@
+{
+  "maxRenderDistance": 10000,
+  "useVLC": true,
+  "customLinks": {
+    "description": [
+      "Link1 Description",
+      "Link2 Description"
+    ],
+    "link": [
+      "yourLink1here",
+      "yourLink2here"
+    ]
+  }
+}
