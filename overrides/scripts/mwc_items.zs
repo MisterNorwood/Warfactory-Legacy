@@ -1,4 +1,5 @@
 import mods.gregtech.recipe.RecipeMap;
+import mods.gregtech.recipe.Recipe;
 import mods.gregtech.material.MaterialRegistry;
 import mods.gregtech.material.Material;
 import crafttweaker.item.IItemStack;
@@ -262,3 +263,102 @@ forming_press.recipeBuilder()
     .inputs(<contenttweaker:casing>*4, <ore:nuggetUranium238>*4, <gregtech:meta_item_1:498>)
     .outputs(<contenttweaker:bullet_kit_adv>*8)
     .duration(60).EUt(16).buildAndRegister();
+
+
+
+//AMMUNITION
+
+packager.recipeBuilder()
+    .inputs(<contenttweaker:bullet_kit>)
+    .circuit(1)
+    .outputs(<mwc:bullet44>*30)
+    .duration(30).EUt(10).buildAndRegister();
+
+packager.recipeBuilder()
+    .inputs(<contenttweaker:bullet_kit>)
+    .circuit(2)
+    .outputs(<mwc:bullet3006springfield>*30)
+    .duration(30).EUt(10).buildAndRegister();
+
+packager.recipeBuilder()
+    .inputs(<contenttweaker:bullet_kit>)
+    .circuit(3)
+    .outputs(<mwc:shotgun12gauge>*10)
+    .duration(30).EUt(10).buildAndRegister();
+
+packager.recipeBuilder()
+    .inputs(<contenttweaker:bullet_kit>)
+    .circuit(4)
+    .outputs(<mwc:bullet4570>*30)
+    .duration(30).EUt(10).buildAndRegister();
+
+packager.recipeBuilder()
+    .inputs(<contenttweaker:bullet_kit>)
+    .circuit(5)
+    .outputs(<mwc:bullet762x51>*30)
+    .duration(30).EUt(10).buildAndRegister();
+
+packager.recipeBuilder()
+    .inputs(<contenttweaker:bullet_kit>)
+    .circuit(6)
+    .outputs(<mwc:bullet762x39>*30)
+    .duration(30).EUt(10).buildAndRegister();
+
+packager.recipeBuilder()
+    .inputs(<contenttweaker:bullet_kit>)
+    .circuit(7)
+    .outputs(<mwc:bullet762x54>*30)
+    .duration(30).EUt(10).buildAndRegister();
+
+packager.recipeBuilder()
+    .inputs(<contenttweaker:bullet_kit>)
+    .circuit(8)
+    .outputs(<mwc:bullet45acp>*30)
+    .duration(30).EUt(10).buildAndRegister();
+
+packager.recipeBuilder()
+    .inputs(<contenttweaker:bullet_kit>)
+    .circuit(9)
+    .outputs(<mwc:bullet357>*30)
+    .duration(30).EUt(10).buildAndRegister();
+
+packager.recipeBuilder()
+    .inputs(<contenttweaker:bullet_kit>)
+    .circuit(10)
+    .outputs(<mwc:bullet308winchester>*30)
+    .duration(30).EUt(10).buildAndRegister();
+
+packager.recipeBuilder()
+    .inputs(<contenttweaker:bullet_kit>)
+    .circuit(11)
+    .outputs(<mwc:bullet556x45>*30)
+    .duration(30).EUt(10).buildAndRegister();
+
+packager.recipeBuilder()
+    .inputs(<contenttweaker:bullet_kit>)
+    .circuit(12)
+    .outputs(<mwc:bullet46x30mm>*30)
+    .duration(30).EUt(10).buildAndRegister();
+
+packager.recipeBuilder()
+    .inputs(<contenttweaker:bullet_kit>)
+    .circuit(13)
+    .outputs(<mwc:bullet9x19mm>*30)
+    .duration(30).EUt(10).buildAndRegister();
+
+packager.recipeBuilder()
+    .inputs(<contenttweaker:bullet_kit>)
+    .circuit(14)
+    .outputs(<mwc:bullet_277>*30)
+    .duration(30).EUt(10).buildAndRegister();
+
+packager.recipeBuilder()
+    .inputs(<contenttweaker:bullet_kit>)
+    .circuit(15)
+    .outputs(<mwc:bullet57x28mm>*30)
+    .duration(30).EUt(10).buildAndRegister();
+
+packager.recipeBuilder()
+    .inputs(<contenttweaker:bullet_kit>, <gregtech:itnt>)
+    .outputs(<mwc:grenade40mm>*4)
+    .duration(30).EUt(10).buildAndRegister();
