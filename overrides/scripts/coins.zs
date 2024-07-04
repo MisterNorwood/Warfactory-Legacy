@@ -1,4 +1,4 @@
-#packmode normal
+//#packmode normal
 
 import mods.gregtech.recipe.RecipeMap;
 import mods.gregtech.material.MaterialRegistry;
@@ -168,10 +168,110 @@ recipes.addShaped(<nomilabs:nomicoin25>, [[null, <nomilabs:nomicoin5>, null],[<n
 recipes.addShaped(<nomilabs:nomicoin5>, [[null, <nomilabs:nomicoin>, null],[<nomilabs:nomicoin>, <nomilabs:nomicoin>, <nomilabs:nomicoin>], [null, <nomilabs:nomicoin>, null]]);
 
 /*
-    Airtight Seal books for the low price of 900 Nomicoins!
+    Airtight Seal books for the low price of less than 900 Nomicoins!
  */
 recipes.addShaped("of_craft_airtight_seal",
     <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 12 as short}]}),
     [[<nomilabs:nomicoin100>, <nomilabs:nomicoin100>, <nomilabs:nomicoin100>],
-     [<nomilabs:nomicoin100>, <nomilabs:nomicoin100>, <nomilabs:nomicoin100>],
+     [<nomilabs:nomicoin100>, <minecraft:book>, <nomilabs:nomicoin100>],
      [<nomilabs:nomicoin100>, <nomilabs:nomicoin100>, <nomilabs:nomicoin100>]]);
+
+
+//Dye Shop
+recipes.addShaped(<gregtech:meta_item_1:421>, [
+  [<nomilabs:nomicoin>, null, null],
+  [null, <ore:dye>, null], 
+  [null, null, null]
+]);
+
+recipes.addShaped(<gregtech:meta_item_1:422>, [
+  [null, <nomilabs:nomicoin>, null],
+  [null, <ore:dye>, null], 
+  [null, null, null]
+]);
+
+recipes.addShaped(<gregtech:meta_item_1:423>, [
+  [null, null, <nomilabs:nomicoin>],
+  [null, <ore:dye>, null], 
+  [null, null, null]
+]);
+
+recipes.addShaped(<gregtech:meta_item_1:424>, [
+  [null, null, null],
+  [<nomilabs:nomicoin>, <ore:dye>, null], 
+  [null, null, null]
+]);
+
+
+recipes.addShaped(<gregtech:meta_item_1:425>, [
+  [null, null, null],
+  [null, <ore:dye>, <nomilabs:nomicoin>], 
+  [null, null, null]
+]);
+
+recipes.addShaped(<gregtech:meta_item_1:426>, [
+  [null, null, null],
+  [null, <ore:dye>, null], 
+  [<nomilabs:nomicoin>, null, null]
+]);
+
+recipes.addShaped(<gregtech:meta_item_1:427>, [
+  [null, null, null],
+  [null, <ore:dye>, null], 
+  [null, <nomilabs:nomicoin>, null]
+]);
+
+recipes.addShaped(<gregtech:meta_item_1:428>, [
+  [null, null, null],
+  [null, <ore:dye>, null], 
+  [null, null, <nomilabs:nomicoin>]
+]);
+
+recipes.addShaped(<gregtech:meta_item_1:429>, [
+  [<nomilabs:nomicoin>, <ore:dye>, null],
+  [null, null, null], 
+  [null, null, null]
+]);
+
+recipes.addShaped(<gregtech:meta_item_1:430>, [
+  [null, <ore:dye>, <nomilabs:nomicoin>],
+  [null, null, null], 
+  [null, null, null]
+]);
+
+recipes.addShaped(<gregtech:meta_item_1:431>, [
+  [null, <ore:dye>, null],
+  [<nomilabs:nomicoin>, null, null], 
+  [null, null, null]
+]);
+
+recipes.addShaped(<gregtech:meta_item_1:432>, [
+  [null, <ore:dye>, null],
+  [null, <nomilabs:nomicoin>, null], 
+  [null, null, null]
+]);
+
+recipes.addShaped(<gregtech:meta_item_1:433>, [
+  [null, <ore:dye>, null],
+  [null, null, <nomilabs:nomicoin>], 
+  [null, null, null]
+]);
+
+recipes.addShaped(<gregtech:meta_item_1:434>, [
+  [null, <ore:dye>, null],
+  [null, null, null], 
+  [<nomilabs:nomicoin>, null, null]
+]);
+
+recipes.addShaped(<gregtech:meta_item_1:435>, [
+  [null, <ore:dye>, null],
+  [null, null, null], 
+  [null, <nomilabs:nomicoin>, null]
+]);
+
+recipes.addShaped(<gregtech:meta_item_1:436>, [
+  [null, <ore:dye>, null],
+  [null, null, null], 
+  [null, null, <nomilabs:nomicoin>]
+]);
+
