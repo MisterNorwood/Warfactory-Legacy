@@ -1,6 +1,7 @@
 import mods.gregtech.recipe.RecipeMap;
 import mods.gregtech.material.MaterialRegistry;
 import crafttweaker.item.IItemStack;
+
 //import scripts.CommonVars.makeShaped as makeShaped;
 
 
@@ -227,25 +228,25 @@ recipes.addShaped(<icbmclassic:concrete:2>*5, [
 
 //LOW TIER SALES
 solidifier.recipeBuilder()
-    .fluidInputs(<liquid:oil> * 1000)
+    .fluidInputs(<liquid:oil> * 2000)
     .notConsumable(<metaitem:shape.mold.bottle>)
     .outputs(<contenttweaker:oil_barrel>)
     .duration(40).EUt(16).buildAndRegister();
 
 solidifier.recipeBuilder()
-    .fluidInputs(<liquid:oil_light> * 1000)
+    .fluidInputs(<liquid:oil_light> * 2000)
     .notConsumable(<metaitem:shape.mold.bottle>)
     .outputs(<contenttweaker:oil_barrel>)
     .duration(40).EUt(16).buildAndRegister();
 
 solidifier.recipeBuilder()
-    .fluidInputs(<liquid:oil_medium> * 1000)
+    .fluidInputs(<liquid:oil_medium> * 2000)
     .notConsumable(<metaitem:shape.mold.bottle>)
     .outputs(<contenttweaker:oil_barrel>)
     .duration(40).EUt(16).buildAndRegister();
 
 solidifier.recipeBuilder()
-    .fluidInputs(<liquid:oil_heavy> * 1000)
+    .fluidInputs(<liquid:oil_heavy> * 2000)
     .notConsumable(<metaitem:shape.mold.bottle>)
     .outputs(<contenttweaker:oil_barrel>)
     .duration(40).EUt(16).buildAndRegister();
@@ -253,43 +254,43 @@ solidifier.recipeBuilder()
 
 //MID TIER SALES
 solidifier.recipeBuilder()
-    .fluidInputs(<liquid:naphtha> * 500)
+    .fluidInputs(<liquid:naphtha> * 1000)
     .notConsumable(<metaitem:shape.mold.bottle>)
     .outputs(<contenttweaker:oil_barrel>)
     .duration(40).EUt(16).buildAndRegister();
 
 solidifier.recipeBuilder()
-    .fluidInputs(<liquid:light_fuel> * 500)
+    .fluidInputs(<liquid:light_fuel> * 1000)
     .notConsumable(<metaitem:shape.mold.bottle>)
     .outputs(<contenttweaker:oil_barrel>)
     .duration(40).EUt(16).buildAndRegister();
 
 solidifier.recipeBuilder()
-    .fluidInputs(<liquid:heavy_fuel> * 500)
+    .fluidInputs(<liquid:heavy_fuel> * 1000)
     .notConsumable(<metaitem:shape.mold.bottle>)
     .outputs(<contenttweaker:oil_barrel>)
     .duration(40).EUt(16).buildAndRegister();
 
 solidifier.recipeBuilder()
-    .fluidInputs(<liquid:propane> * 500)
+    .fluidInputs(<liquid:propane> * 1000)
     .notConsumable(<metaitem:shape.mold.bottle>)
     .outputs(<contenttweaker:oil_barrel>)
     .duration(40).EUt(16).buildAndRegister();
 
 solidifier.recipeBuilder()
-    .fluidInputs(<liquid:butane> * 500)
+    .fluidInputs(<liquid:butane> * 1000)
     .notConsumable(<metaitem:shape.mold.bottle>)
     .outputs(<contenttweaker:oil_barrel>)
     .duration(40).EUt(16).buildAndRegister();
 
 solidifier.recipeBuilder()
-    .fluidInputs(<liquid:lubricant> * 500)
+    .fluidInputs(<liquid:lubricant> * 1000)
     .notConsumable(<metaitem:shape.mold.bottle>)
     .outputs(<contenttweaker:oil_barrel>)
     .duration(40).EUt(16).buildAndRegister();
 
 solidifier.recipeBuilder()
-    .fluidInputs(<liquid:natural_gas> * 500)
+    .fluidInputs(<liquid:natural_gas> * 1000)
     .notConsumable(<metaitem:shape.mold.bottle>)
     .outputs(<contenttweaker:oil_barrel>)
     .duration(40).EUt(16).buildAndRegister();
@@ -298,25 +299,25 @@ solidifier.recipeBuilder()
 
 //HIGH TIER SALES
 solidifier.recipeBuilder()
-    .fluidInputs(<liquid:lpg> * 250)
+    .fluidInputs(<liquid:lpg> * 500)
     .notConsumable(<metaitem:shape.mold.bottle>)
     .outputs(<contenttweaker:oil_barrel>)
     .duration(40).EUt(16).buildAndRegister();
 
 solidifier.recipeBuilder()
-    .fluidInputs(<liquid:gasoline> * 250)
+    .fluidInputs(<liquid:gasoline> * 500)
     .notConsumable(<metaitem:shape.mold.bottle>)
     .outputs(<contenttweaker:oil_barrel>)
     .duration(40).EUt(16).buildAndRegister();
 
 solidifier.recipeBuilder()
-    .fluidInputs(<liquid:diesel> * 250)
+    .fluidInputs(<liquid:diesel> * 500)
     .notConsumable(<metaitem:shape.mold.bottle>)
     .outputs(<contenttweaker:oil_barrel>)
     .duration(40).EUt(16).buildAndRegister();
 
 solidifier.recipeBuilder()
-    .fluidInputs(<liquid:gasoline_premium> * 100)
+    .fluidInputs(<liquid:gasoline_premium> * 250)
     .notConsumable(<metaitem:shape.mold.bottle>)
     .outputs(<contenttweaker:oil_barrel>)
     .duration(40).EUt(16).buildAndRegister();
@@ -706,3 +707,4 @@ mods.jei.JEI.removeAndHide(<ancientwarfare:steel_ingot>);
 mods.jei.JEI.removeAndHide(<industrialrenewal:ingot_steel>);
 
 
+<minecraft:elytra>.maxDamage = 16;
