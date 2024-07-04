@@ -205,13 +205,13 @@ recipes.addShaped(<mwc:springfield>, [
 
 //////// LV GUNS ////////
 oreDict.lvGuns;
-val lvGuns = <ore:lvGuns>;
+val gunslv = <ore:gunslv>;
 
-lvGuns.add(<mwc:bren_mkii>);
-lvGuns.add(<mwc:m1_garand>);
-lvGuns.add(<mwc:m1897>);
+gunslv.add(<mwc:bren_mkii>);
+gunslv.add(<mwc:m1_garand>);
+gunslv.add(<mwc:m1897>);
 
-<ore:lvGuns>.addTooltip(format.gold("LV-tier gun"));
+<ore:gunslv>.addTooltip(format.gold("LV-tier gun"));
 
 assembler.recipeBuilder()
   .inputs( [<ore:plateTreatedWood>*4,<ore:stickTreatedWood>*5, <ore:plateDoubleSteel>*5, <contenttweaker:action_steel>, <contenttweaker:barrel_steel>, <contenttweaker:receiver_steel>] )
@@ -239,14 +239,14 @@ assembler.recipeBuilder()
 //////// MV GUNS ////////
 
 oreDict.mvGuns;
-val mvGuns = <ore:mvGuns>;
+val gunsmv = <ore:gunsmv>;
 
-lvGuns.add(<mwc:ak47>);
-lvGuns.add(<mwc:svd_dragunov>);
-lvGuns.add(<mwc:supernova>);
-lvGuns.add(<mwc:m79>);
-lvGuns.add(<mwc:mac10>);
-lvGuns.add(<mwc:python>);
+gunsmv.add(<mwc:ak47>);
+gunsmv.add(<mwc:svd_dragunov>);
+gunsmv.add(<mwc:supernova>);
+gunsmv.add(<mwc:m79>);
+gunsmv.add(<mwc:mac10>);
+gunsmv.add(<mwc:python>);
 
 <ore:mvGuns>.addTooltip(format.darkAqua("MV-tier gun"));
 
@@ -298,12 +298,12 @@ assembler.recipeBuilder()
 
 //////// HV GUNS ////////
 
-val hvGuns = <ore:hvGuns>;
+val gunshv = <ore:gunshv>;
 
-lvGuns.add(<mwc:m4a1>);
-lvGuns.add(<mwc:spas_12>);
-lvGuns.add(<mwc:m17>);
-lvGuns.add(<mwc:mp7>);
+gunshv.add(<mwc:m4a1>);
+gunshv.add(<mwc:spas_12>);
+gunshv.add(<mwc:m17>);
+gunshv.add(<mwc:mp7>);
 
 assembler.recipeBuilder()
   .inputs([<ore:plateDenseGunMetal>*2, <contenttweaker:action_stainless>, <contenttweaker:barrel_bluesteel>*1, <contenttweaker:receiver_stainless>, <ore:stickPolytetrafluoroethylene>, <ore:platePolytetrafluoroethylene>*2, <ore:boltGunMetal>*16, <ore:springSmallGunMetal>] )
@@ -346,15 +346,15 @@ assembler.recipeBuilder()
 
 //////// EV GUNS ////////
 
-oreDict.evGuns;
-val evGuns = <ore:evGuns>;
+oreDict.gunsev;
+val gunsev = <ore:gunsev>;
 
-evGuns.add(<mwc:ngsw_r>);
-evGuns.add(<mwc:origin12>);
+gunsev.add(<mwc:ngsw_r>);
+gunsev.add(<mwc:origin12>);
 //evGuns.add(<mwc:vss_vintorez>); DEBATED
-evGuns.add(<mwc:p90>);
-evGuns.add(<mwc:ssg_08>);
-evGuns.add(<mwc:glock_19>);
+gunsev.add(<mwc:p90>);
+gunsev.add(<mwc:ssg_08>);
+gunsev.add(<mwc:glock_19>);
 
 assembler.recipeBuilder()
   .inputs([<ore:plateDenseGunSteel>*4, <ore:platePolyvinylButyral>*5, <ore:stickLongGunSteel>*2, <contenttweaker:action_titanium>, <contenttweaker:barrel_ultimet>*2, <contenttweaker:receiver_titanium>,<gregtech:meta_item_1:175>,<ore:springHssg>] )
@@ -378,40 +378,4 @@ assembler.recipeBuilder()
   .inputs([<ore:platePolyvinylButyral>*4, <ore:springSmallGunMetal>*2])
   .fluidInputs([<liquid:polytetrafluoroethylene>*144])
   .outputs(<mwc:p90mag>)
-  .duration(2400).EUt(1920).buildAndRegister();
-
-assembler.recipeBuilder()
-  .inputs([<ore:plateDoubleGunSteel>*4, <ore:platePolyvinylButyral>*18, <ore:stickLongTitanium>, <contenttweaker:action_titanium>, <contenttweaker:barrel_ultimet>*2, <contenttweaker:receiver_titanium>,<ore:springHssg>] )
-  .fluidInputs([<liquid:lubricant> * 500])
-  .outputs(<mwc:origin12>)
-  .duration(2400).EUt(1920).buildAndRegister();
-
-assembler.recipeBuilder()
-  .inputs([<ore:platePolyvinylButyral>*4, <ore:springSmallKanthal>*2] )
-  .fluidInputs([<liquid:polytetrafluoroethylene>*144])
-  .outputs(<mwc:origin12mag>)
-  .duration(2400).EUt(1920).buildAndRegister();
-
-assembler.recipeBuilder()
-  .inputs([<ore:plateDenseGunSteel>*4, <ore:platePolyvinylButyral>*18, <ore:stickLongTitanium>*2, <contenttweaker:action_titanium>, <contenttweaker:barrel_ultimet>*4, <contenttweaker:receiver_titanium>])
-  .fluidInputs([<liquid:lubricant> * 500])
-  .outputs(<mwc:ssg_08>)
-  .duration(2400).EUt(1920).buildAndRegister();
-
-assembler.recipeBuilder()
-  .inputs([<ore:platePolycaprolactam>*4, <ore:springSmallHssg>*4] )
-  .fluidInputs([<liquid:polytetrafluoroethylene>*144])
-  .outputs(<mwc:ssg08mag>)
-  .duration(2400).EUt(1920).buildAndRegister();
-
-assembler.recipeBuilder()
-  .inputs([<ore:plateGunSteel>*3, <ore:platePolyvinylButyral>*4, <ore:stickLongTitanium>*2, <contenttweaker:action_titanium>, <contenttweaker:barrel_ultimet>*1, <contenttweaker:receiver_titanium>])
-  .fluidInputs([<liquid:lubricant> * 500])
-  .outputs(<mwc:glock_19>)
-  .duration(2400).EUt(1920).buildAndRegister();
-
-assembler.recipeBuilder()
-  .inputs([<ore:foilGunMetal>*4, <ore:springSmallHssg>*4] )
-  .fluidInputs([<liquid:polytetrafluoroethylene>*144])
-  .outputs(<mwc:glockmag13>)
   .duration(2400).EUt(1920).buildAndRegister();

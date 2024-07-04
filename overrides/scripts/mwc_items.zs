@@ -235,3 +235,30 @@ recipes.addShaped(<mwc:juggernaut_boots>, [
   [<ore:plateAluminium>, <mwc:swat_boots>, <ore:plateAluminium>], 
   [null, <ore:plateAluminium>, null]
 ]);
+
+
+lathe.recipeBuilder()
+    .inputs(<ore:plateBrass>)
+    .outputs(<contenttweaker:casing>*8)
+    .duration(40).EUt(16).buildAndRegister();
+
+
+forming_press.recipeBuilder()
+    .inputs(<contenttweaker:casing>*4, <ore:roundLead>*4, <minecraft:gunpowder>)
+    .outputs(<contenttweaker:bullet_kit>*4)
+    .duration(60).EUt(16).buildAndRegister();
+
+forming_press.recipeBuilder()
+    .inputs(<contenttweaker:casing>*4, <ore:roundLead>*4, <gregtech:meta_item_1:498>)
+    .outputs(<contenttweaker:bullet_kit>*8)
+    .duration(60).EUt(16).buildAndRegister();
+
+forming_press.recipeBuilder()
+    .inputs(<contenttweaker:casing>*4, <ore:nuggetUranium238>*4, <minecraft:gunpowder>)
+    .outputs(<contenttweaker:bullet_kit_adv>*4)
+    .duration(60).EUt(16).buildAndRegister();
+
+forming_press.recipeBuilder()
+    .inputs(<contenttweaker:casing>*4, <ore:nuggetUranium238>*4, <gregtech:meta_item_1:498>)
+    .outputs(<contenttweaker:bullet_kit_adv>*8)
+    .duration(60).EUt(16).buildAndRegister();
