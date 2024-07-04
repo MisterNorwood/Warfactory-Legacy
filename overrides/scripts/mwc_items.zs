@@ -45,10 +45,10 @@ recipes.addShapeless(<mwc:spetznaz_chest>, [<mwc:urban_chest>]);
 recipes.addShapeless(<mwc:marine_chest>, [<mwc:spetznaz_chest>]);
 recipes.addShapeless(<mwc:spec_ops_chest>, [<mwc:marine_chest>]);
 
-recipes.addShapeless(<mwc:urban_helmet>, [<mwc:spec_ops_boots>]);
-recipes.addShapeless(<mwc:spetznaz_helmet>, [<mwc:urban_boots>]);
-recipes.addShapeless(<mwc:marine_helmet>, [<mwc:spetznaz_boots>]);
-recipes.addShapeless(<mwc:spec_ops_helmet>, [<mwc:marine_boots>]);
+recipes.addShapeless(<mwc:urban_boots>, [<mwc:spec_ops_boots>]);
+recipes.addShapeless(<mwc:spetznaz_boots>, [<mwc:urban_boots>]);
+recipes.addShapeless(<mwc:marine_boots>, [<mwc:spetznaz_boots>]);
+recipes.addShapeless(<mwc:spec_ops_boots>, [<mwc:marine_boots>]);
 
 
 

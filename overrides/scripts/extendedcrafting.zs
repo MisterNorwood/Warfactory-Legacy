@@ -902,3 +902,19 @@ makeShaped("of_star_from_nuggets", <minecraft:nether_star>,
      "NNN",
      "NNN"],
     { N : <extendedcrafting:material:140> });
+
+
+
+mods.extendedcrafting.TableCrafting.remove(<armorplus:ender_dragon_chestplate>);
+makeExtremeRecipe7(<armorplus:ender_dragon_chestplate>,
+    [" A   A ",
+     "AAA AAA",
+     "AAAAAAA",
+     "AAACAAA",
+     "AABDBAA",
+     " AACAA ",
+     " AAAAA "],
+    { A : <armorplus:material:3>,
+      B : <minecraft:end_crystal>,
+      C : <gregtech:meta_item_1:208>,
+      D : <redstonearsenal:armor.plate_flux> });
