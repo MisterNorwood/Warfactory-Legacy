@@ -37,6 +37,18 @@ mods.jei.JEI.removeAndHide(<icbmclassic:bombcart:21>);
 mods.jei.JEI.removeAndHide(<icbmclassic:grenade:7>);
 
 
+mods.jei.JEI.removeAndHide(<icbmclassic:ingot>);
+mods.jei.JEI.removeAndHide(<icbmclassic:ingot:1>);
+mods.jei.JEI.removeAndHide(<icbmclassic:plate:0>);
+mods.jei.JEI.removeAndHide(<icbmclassic:plate:1>);
+mods.jei.JEI.removeAndHide(<icbmclassic:circuit>);
+mods.jei.JEI.removeAndHide(<icbmclassic:circuit:1>);
+mods.jei.JEI.removeAndHide(<icbmclassic:circuit:2>);
+mods.jei.JEI.removeAndHide(<icbmclassic:wire>);
+mods.jei.JEI.removeAndHide(<icbmclassic:wire:1>);
+mods.jei.JEI.removeAndHide(<icbmclassic:battery>);
+
+
 recipes.remove(<icbmclassic:explosive_missile:24>);
 <icbmclassic:explosive_missile:24>.displayName = "Empty ICBM";
 
@@ -336,4 +348,27 @@ recipes.addShaped(<icbmclassic:cluster_missile>, [
     [null, <ore:foilAluminium>, null],
     [null, <minecraft:dispenser>, null], 
     [null, <icbmclassic:surface_to_air_missile>, null]
+]);
+
+
+<ore:concrete>.add(<gregtech:stone_smooth>);
+recipes.remove(<icbmclassic:concrete:0>);
+recipes.addShaped(<icbmclassic:concrete:0>*8, [
+    [<ore:concrete>, <ore:concrete>, <ore:concrete>],
+    [<ore:concrete>, <ore:barsIron>, <ore:concrete>], 
+    [<ore:concrete>, <ore:concrete>, <ore:concrete>]
+]);
+
+recipes.remove(<icbmclassic:concrete:1>);
+recipes.addShaped(<icbmclassic:concrete:1>*5, [
+    [<icbmclassic:concrete:0>, <ore:stickSteel>, <icbmclassic:concrete:0>],
+    [<ore:stickSteel>, <icbmclassic:concrete:0>, <ore:stickSteel>], 
+    [<icbmclassic:concrete:0>, <ore:stickSteel>, <icbmclassic:concrete:0>]
+]);
+
+recipes.remove(<icbmclassic:concrete:2>);
+recipes.addShaped(<icbmclassic:concrete:2>*5, [
+    [<icbmclassic:concrete:1>, <ore:dustObsidian>, <icbmclassic:concrete:1>],
+    [<ore:dustObsidian>, <icbmclassic:concrete:1>, <ore:dustObsidian>], 
+    [<icbmclassic:concrete:1>, <ore:dustObsidian>, <icbmclassic:concrete:1>]
 ]);

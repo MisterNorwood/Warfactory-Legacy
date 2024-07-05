@@ -1,15 +1,3 @@
-
-
-
-
-
-
-
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-////////     STOLEN SHAMELESSLY FROM THE SUSY SCRIPTS. THANK YOU TO WHOEVER MADE THESE RECIPES ORIGINALLY.     ////////
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
 import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
@@ -487,3 +475,11 @@ recipes.remove(<industrialrenewal:dam_turbine>);
 recipes.remove(<industrialrenewal:dam_generator>);
 recipes.remove(<industrialrenewal:steam_boiler>);
 recipes.remove(<industrialrenewal:steam_turbine>);
+
+
+
+mods.jei.JEI.removeAndHide(<industrialrenewal:stick_iron>);
+mods.jei.JEI.removeAndHide(<industrialrenewal:stick_steel>);
+
+<ore:ingotSteel>.remove(<industrialrenewal:ingot_steel>);
+mods.jei.JEI.removeAndHide(<industrialrenewal:ingot_steel>);

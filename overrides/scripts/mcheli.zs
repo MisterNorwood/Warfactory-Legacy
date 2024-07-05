@@ -231,7 +231,7 @@ assembler.recipeBuilder()
     .inputs([<gregtech:turbine_casing:3>*6, <gregtech:meta_item_1:160>, <ore:circuitEv>*4, <ore:rotorTungstenSteel>, <gregtech:machine:1011>, <gregtech:meta_item_1:175>*6, <ore:foilTitanium>*48, <ore:fusedGlass>*4])
     .fluidInputs(<liquid:tin> * 1152)
     .outputs(<mcheli:t-4>)
-    .duration(1024).EUt(32).buildAndRegister();
+    .duration(1024).EUt(1024).buildAndRegister();
 
 
 recipes.remove(<mcheli:n1k1>);
@@ -1318,11 +1318,17 @@ distillery.recipeBuilder()
     .duration(80).EUt(64).buildAndRegister();
 
 
+recipes.remove(<mcheli:spawn_gunner_vs_monster>);
+recipes.remove(<mcheli:spawn_gunner_vs_player>);
 
+recipes.addShaped(<mcheli:spawn_gunner_vs_monster>, [
+    [null, null, null],
+    [null, null, null], 
+    [<contenttweaker:barackbuck>, null, null]
+]);
 
-<nuclearcraft:record_wanderer>.clearTooltip(true);
-<nuclearcraft:record_wanderer>.addTooltip("Roy Bee - Kiss Me Again (Nightcore)");
-
-
-<nuclearcraft:record_end_of_the_world>.clearTooltip(true);
-<nuclearcraft:record_end_of_the_world>.addTooltip("CaptainSparklez - Fallen Kingdom");
+recipes.addShaped(<mcheli:spawn_gunner_vs_player>, [
+    [null, null, null],
+    [null, null, null], 
+    [null, <contenttweaker:barackbuck>, null]
+]);

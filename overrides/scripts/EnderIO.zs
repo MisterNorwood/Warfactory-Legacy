@@ -553,3 +553,10 @@ recipes.addShaped(<actuallyadditions:item_misc:15>, [
 recipes.addShapeless(<enderio:block_cap_bank:1>, [<enderio:block_cap_bank:1>]);
 recipes.addShapeless(<enderio:block_cap_bank:2>, [<enderio:block_cap_bank:2>]);
 recipes.addShapeless(<enderio:block_cap_bank:3>, [<enderio:block_cap_bank:3>]);
+
+recipes.remove(<enderio:item_travel_staff>);
+recipes.addShaped(<enderio:item_travel_staff>, [
+    [null, <ore:itemPrecientCrystal>, <gregtech:meta_item_1:208>],
+    [null, <ore:stickLongNaquadahAlloy>, <ore:itemPrecientCrystal>], 
+    [<ore:stickLongNaquadahAlloy>, null, null]
+]);

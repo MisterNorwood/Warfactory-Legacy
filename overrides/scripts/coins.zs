@@ -275,3 +275,8 @@ recipes.addShaped(<gregtech:meta_item_1:436>, [
   [null, null, <nomilabs:nomicoin>]
 ]);
 
+recipes.addShaped(<appliedenergistics2:material:32>, [
+    [null, <nomilabs:nomicoin25>, null],
+    [null, null, null], 
+    [null, <nomilabs:nomicoin25>, null]
+]);
