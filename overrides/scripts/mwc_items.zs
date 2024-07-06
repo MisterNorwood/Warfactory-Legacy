@@ -360,5 +360,153 @@ packager.recipeBuilder()
 
 packager.recipeBuilder()
     .inputs(<contenttweaker:bullet_kit>, <gregtech:itnt>)
-    .outputs(<mwc:grenade40mm>*4)
+    .outputs(<mwc:grenade40mm>*2)
     .duration(30).EUt(10).buildAndRegister();
+
+
+recipes.addShaped(<mwc:spec_ops_boots>, [
+  [null, null, null],
+  [<mwc:carbon_fiber>, <ore:craftingToolSoftHammer>, <mwc:carbon_fiber>], 
+  [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]
+]);
+
+
+
+
+//Ironsights
+recipes.addShaped(<mwc:kobra>, [
+  [<ore:ringSteel>, <ore:craftingToolSoftHammer>, <ore:lensGlass>],
+  [<ore:plateSteel>, <ore:foilSteel>, <ore:plateSteel>], 
+  [<ore:craftingToolHardHammer>, null, <ore:craftingToolScrewdriver>]
+]);
+
+recipes.addShaped(<mwc:mbusrearsights>, [
+  [<ore:ringSteel>, <ore:craftingToolSoftHammer>, <ore:boltSteel>],
+  [<ore:plateSteel>, <ore:foilSteel>, <ore:plateSteel>], 
+  [<ore:craftingToolHardHammer>, <ore:plateSteel>, <ore:craftingToolScrewdriver>]
+]);
+
+
+
+//Holographics and Reflex
+assembler.recipeBuilder()
+    .inputs([<ore:foilSteel>*4, <ore:screwSteel>*2, <ore:lensGlass>])
+    .fluidInputs(<liquid:tin> * 72)
+    .circuit(1)
+    .outputs(<mwc:microreflex>)
+    .duration(200).EUt(32).buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs([<ore:foilSteel>*4, <ore:screwSteel>*2, <ore:lensGlass>])
+    .fluidInputs(<liquid:tin> * 72)
+    .circuit(2)
+    .outputs(<mwc:bijiareflex>)
+    .duration(200).EUt(32).buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs([<ore:foilSteel>*4, <ore:screwSteel>*2, <ore:lensGlass>])
+    .fluidInputs(<liquid:tin> * 72)
+    .circuit(3)
+    .outputs(<mwc:reflex>)
+    .duration(200).EUt(32).buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs([<ore:foilSteel>*4, <ore:screwSteel>*2, <ore:lensGlass>])
+    .fluidInputs(<liquid:tin> * 72)
+    .circuit(4)
+    .outputs(<mwc:rmrsight>)
+    .duration(200).EUt(32).buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs([<ore:foilSteel>*4, <ore:screwSteel>*2, <ore:lensGlass>])
+    .fluidInputs(<liquid:tin> * 72)
+    .circuit(5)
+    .outputs(<mwc:holographicalt>)
+    .duration(200).EUt(32).buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs([<ore:foilSteel>*4, <ore:screwSteel>*2, <ore:lensGlass>])
+    .fluidInputs(<liquid:tin> * 72)
+    .circuit(6)
+    .outputs(<mwc:holographic2>)
+    .duration(200).EUt(32).buildAndRegister();
+
+
+
+
+//Scopes
+assembler.recipeBuilder()
+    .inputs([<ore:plateSteel>*3, <ore:screwSteel>*2, <ore:lensGlass>*2])
+    .fluidInputs(<liquid:tin> * 72)
+    .circuit(1)
+    .outputs(<mwc:acog>)
+    .duration(300).EUt(32).buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs([<ore:plateSteel>*3, <ore:screwSteel>*2, <ore:lensGlass>*2])
+    .fluidInputs(<liquid:tin> * 72)
+    .circuit(2)
+    .outputs(<mwc:leupoldrailscope>)
+    .duration(300).EUt(32).buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs([<ore:plateSteel>*3, <ore:screwSteel>*2, <ore:lensGlass>*2])
+    .fluidInputs(<liquid:tin> * 72)
+    .circuit(3)
+    .outputs(<mwc:pso1>)
+    .duration(300).EUt(32).buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs([<ore:plateSteel>*3, <ore:screwSteel>*2, <ore:lensGlass>*2])
+    .fluidInputs(<liquid:tin> * 72)
+    .circuit(4)
+    .outputs(<mwc:specter>)
+    .duration(300).EUt(32).buildAndRegister();
+
+
+
+
+//Skibidi Lasers
+
+assembler.recipeBuilder()
+    .inputs([<ore:foilGunMetal>*3, <ore:screwGunMetal>*2, <gregtech:meta_item_1:217>])
+    .fluidInputs(<liquid:tin> * 72)
+    .circuit(1)
+    .outputs(<mwc:laser>)
+    .duration(300).EUt(32).buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs([<ore:foilGunMetal>*3, <ore:screwGunMetal>*2, <gregtech:meta_item_1:217>])
+    .fluidInputs(<liquid:tin> * 72)
+    .circuit(2)
+    .outputs(<mwc:danwessonlaser>)
+    .duration(300).EUt(32).buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs([<ore:foilGunMetal>*3, <ore:screwGunMetal>*2, <gregtech:meta_item_1:217>])
+    .fluidInputs(<liquid:tin> * 72)
+    .circuit(3)
+    .outputs(<mwc:sccycpx2laser>)
+    .duration(300).EUt(32).buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs([<ore:foilGunMetal>*3, <ore:screwGunMetal>*2, <gregtech:meta_item_1:217>])
+    .fluidInputs(<liquid:tin> * 72)
+    .circuit(4)
+    .outputs(<mwc:laser2>)
+    .duration(300).EUt(32).buildAndRegister();
+
+
+recipes.addShapeless(<mwc:veprdustcover>, [<mwc:ak47>.reuse(), <ore:stickLongSteel>, <ore:stickLongSteel>]);
+
+recipes.addShapeless(<mwc:dragunov98dustcover>, [<mwc:svd_dragunov>.reuse(), <ore:stickLongSteel>, <ore:stickLongSteel>]);
+
+recipes.addShapeless(<mwc:shotgunrail>, [<mwc:supernova>.reuse(), <ore:stickLongSteel>, <ore:stickLongSteel>]);
+
+recipes.addShapeless(<mwc:mk18handguardblack>, [<mwc:m4a1>.reuse(), <ore:stickLongSteel>, <ore:stickLongSteel>]);
+
+recipes.addShapeless(<mwc:m4benellistock>, [<mwc:spas_12>.reuse(), <ore:stickLongSteel>, <ore:stickLongSteel>]);
+
+recipes.addShapeless(<mwc:p90swordfish>, [<mwc:p90>.reuse(), <ore:stickLongSteel>, <ore:stickLongSteel>]);
+
+recipes.addShapeless(<mwc:fabdefensemount>, [<mwc:glock_19>.reuse(), <ore:stickLongSteel>, <ore:stickLongSteel>]);
