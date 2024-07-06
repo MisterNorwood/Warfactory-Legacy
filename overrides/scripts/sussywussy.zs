@@ -173,3 +173,7 @@ furnace.addRecipe(<futuremc:smooth_stone>, <minecraft:stone>);
 
 <nuclearcraft:record_end_of_the_world>.clearTooltip(true);
 <nuclearcraft:record_end_of_the_world>.addTooltip("CaptainSparklez - Fallen Kingdom");
+
+
+recipes.remove(<actuallyadditions:item_potion_ring:5>);
+recipes.remove(<oe:turtle_helmet>);
