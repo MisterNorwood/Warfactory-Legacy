@@ -174,7 +174,6 @@ val oogaboogaguns = <ore:gunsulv>;
 oogaboogaguns.add(<mwc:mares_leg>);
 oogaboogaguns.add(<mwc:mp43e>);
 oogaboogaguns.add(<mwc:g2_contender>);
-oogaboogaguns.add(<mwc:springfield>);
 
 <ore:oogaboogaguns>.addTooltip(format.gray("ULV-tier gun"));
 
@@ -196,33 +195,23 @@ recipes.addShaped(<mwc:g2_contender>, [
   [null, <ore:plateTreatedWood>]
 ]);
 
-recipes.addShaped(<mwc:springfield>, [
-  [<ore:boltWroughtIron>, <ore:craftingToolSoftHammer>, <ore:nuggetWroughtIron>],
-  [<contenttweaker:barrel_steel>, <contenttweaker:action_wrought>, <contenttweaker:receiver_wrought>], 
-  [<ore:plateTreatedWood>, <ore:plateTreatedWood>, <ore:craftingToolScrewdriver>]
-]);
-
 
 //////// LV GUNS ////////
 oreDict.lvGuns;
 val gunslv = <ore:gunslv>;
 
-gunslv.add(<mwc:bren_mkii>);
 gunslv.add(<mwc:m1_garand>);
 gunslv.add(<mwc:m1897>);
+gunslv.add(<mwc:springfield>);
 
 <ore:gunslv>.addTooltip(format.gold("LV-tier gun"));
 
 assembler.recipeBuilder()
-  .inputs( [<ore:plateTreatedWood>*4,<ore:stickTreatedWood>*5, <ore:plateDoubleSteel>*5, <contenttweaker:action_steel>, <contenttweaker:barrel_steel>, <contenttweaker:receiver_steel>] )
+  .inputs([<gregtech:planks:1>*3, <ore:stickLongSteel>*2, <ore:plateSteel>*3, <contenttweaker:action_steel>, <contenttweaker:barrel_steel>, <contenttweaker:receiver_steel>, <ore:boltSteel>*4] )
   .fluidInputs([<liquid:lubricant> * 144])
-  .outputs(<mwc:bren_mkii>)
+  .outputs(<mwc:springfield>)
   .duration(2400).EUt(30).buildAndRegister();
 
-assembler.recipeBuilder()
-  .inputs([<ore:springSteel>, <ore:plateSteel>*2])
-  .outputs(<mwc:brenmag>)
-  .duration(200).EUt(8).buildAndRegister();
 
 assembler.recipeBuilder()
   .inputs([<gregtech:planks:1>*2,<ore:stickTreatedWood>*4, <ore:stickLongSteel>, <ore:plateSteel>*4, <contenttweaker:action_steel>, <contenttweaker:barrel_steel>, <contenttweaker:receiver_steel>] )
