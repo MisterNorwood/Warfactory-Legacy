@@ -1028,7 +1028,7 @@ forming_press.recipeBuilder()
 forming_press.recipeBuilder()
     .inputs(<minecraft:book>, <ebwizardry:magic_crystal:6>, <contenttweaker:advanced_shadow_dollar>)
     .circuit(20)
-    .outputs(<ebwizardry:spell_book:159>)
+    .outputs(<minecraft:apple>*64)
     .duration(300).EUt(8192).buildAndRegister();
 
 forming_press.recipeBuilder()
@@ -1099,13 +1099,13 @@ forming_press.recipeBuilder()
 forming_press.recipeBuilder()
     .inputs(<minecraft:book>, <ebwizardry:magic_crystal:6>, <ebwizardry:magic_crystal>, <contenttweaker:master_shadow_dollar>)
     .circuit(1)
-    .outputs(<ebwizardry:spell_book:105>)
+    .outputs(<minecraft:apple>*64)
     .duration(300).EUt(32768).buildAndRegister();
 
 forming_press.recipeBuilder()
     .inputs(<minecraft:book>, <ebwizardry:magic_crystal:6>, <ebwizardry:magic_crystal>, <contenttweaker:master_shadow_dollar>)
     .circuit(2)
-    .outputs(<ebwizardry:spell_book:106>)
+    .outputs(<minecraft:apple>*64)
     .duration(300).EUt(32768).buildAndRegister();
 
 forming_press.recipeBuilder()
@@ -1123,13 +1123,13 @@ forming_press.recipeBuilder()
 forming_press.recipeBuilder()
     .inputs(<minecraft:book>, <ebwizardry:magic_crystal:6>, <ebwizardry:magic_crystal>, <contenttweaker:master_shadow_dollar>)
     .circuit(5)
-    .outputs(<ebwizardry:spell_book:170>)
+    .outputs(<minecraft:apple>*64)
     .duration(300).EUt(32768).buildAndRegister();
 
 forming_press.recipeBuilder()
     .inputs(<minecraft:book>, <ebwizardry:magic_crystal:6>, <ebwizardry:magic_crystal>, <contenttweaker:master_shadow_dollar>)
     .circuit(6)
-    .outputs(<ebwizardry:spell_book:171>)
+    .outputs(<minecraft:apple>*64)
     .duration(300).EUt(32768).buildAndRegister();
 
 
@@ -1308,7 +1308,7 @@ forming_press.recipeBuilder()
 forming_press.recipeBuilder()
     .inputs(<minecraft:book>, <ebwizardry:magic_crystal:7>, <contenttweaker:master_shadow_dollar>)
     .circuit(25)
-    .outputs(<ebwizardry:spell_book:109>)
+    .outputs(<minecraft:apple>*64)
     .duration(300).EUt(32768).buildAndRegister();
 
 forming_press.recipeBuilder()
