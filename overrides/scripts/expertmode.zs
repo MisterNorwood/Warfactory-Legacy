@@ -89,6 +89,9 @@ recipes.addShapeless("clay_dust", <metaitem:dustFireclay> * 16, [<metaitem:dustC
 // Ender Tank (Ender Storage)
 recipes.remove(<enderstorage:ender_storage:1>);
 
+//Red Alloy Dust
+recipes.addShapeless(<metaitem:dustRedAlloy>, [<metaitem:dustCopper>, <minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>]);
+recipes.addShapeless(<metaitem:nomilabs:dustConductiveIron>, [<metaitem:dustIron>,<minecraft:redstone>]);
 
 // Pulsating Mesh
 alloy.recipeBuilder()
