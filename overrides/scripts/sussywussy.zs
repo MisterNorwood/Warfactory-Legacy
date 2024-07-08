@@ -162,7 +162,7 @@ furnace.addRecipe(<futuremc:smooth_stone>, <minecraft:stone>);
 
 <minecraft:elytra>.maxDamage = 16;
 <avaritia:infinity_sword>.displayName = "Sword of the Desmos";
-
+<mcheli:bnr32>.displayName = "K9 Grabowska Turboboost";
 
 
 <nuclearcraft:record_wanderer>.clearTooltip(true);
