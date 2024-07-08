@@ -16,7 +16,7 @@ recipes.addShapeless(<contenttweaker:barackbuck>, [<nomilabs:nomicoin>, <nomilab
 recipes.addShapeless(<nomilabs:nomicoin>, [<minecraft:water_bucket>.reuse(), <ore:dustTinyRockSalt>, <ancientwarfarenpc:coin>.withTag({metal: "copper"})]);
 recipes.addShapeless(<nomilabs:nomicoin5>, [<minecraft:water_bucket>.reuse(), <ore:dustTinyRockSalt>, <ancientwarfarenpc:coin>.withTag({metal: "silver"})]);
 recipes.addShapeless(<nomilabs:nomicoin25>, [<minecraft:water_bucket>.reuse(), <ore:dustTinyRockSalt>, <ancientwarfarenpc:coin>.withTag({metal: "gold"})]);
-recipes.addShapeless(<nomilabs:nomicoin100>, [<minecraft:water_bucket>.reuse(), <ore:dustTinyRockSalt>, <ancientwarfarenpc:coin>.withTag({metal: "ancient"})]);
+recipes.addShapeless(<nomilabs:nomicoin25>, [<minecraft:water_bucket>.reuse(), <ore:dustTinyRockSalt>, <ancientwarfarenpc:coin>.withTag({metal: "ancient"})]);
 
 mods.jei.JEI.removeAndHide(<ancientwarfare:component>);
 mods.jei.JEI.removeAndHide(<ancientwarfare:component:1>);
@@ -184,7 +184,7 @@ ore_washer.recipeBuilder()
 ore_washer.recipeBuilder()
     .inputs(<ancientwarfarenpc:coin>.withTag({metal: "ancient"}))
     .fluidInputs(<liquid:water> * 100)
-    .outputs(<nomilabs:nomicoin100>)
+    .outputs(<nomilabs:nomicoin25>)
     .duration(20).EUt(5).buildAndRegister();
 
 <ore:ingotSteel>.remove(<ancientwarfare:steel_ingot>);
