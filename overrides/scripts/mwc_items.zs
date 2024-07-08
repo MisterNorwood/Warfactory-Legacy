@@ -510,3 +510,17 @@ recipes.addShapeless(<mwc:m4benellistock>, [<mwc:spas_12>.reuse(), <ore:stickLon
 recipes.addShapeless(<mwc:p90swordfish>, [<mwc:p90>.reuse(), <ore:stickLongSteel>, <ore:stickLongSteel>]);
 
 recipes.addShapeless(<mwc:fabdefensemount>, [<mwc:glock_19>.reuse(), <ore:stickLongSteel>, <ore:stickLongSteel>]);
+
+mixer.recipeBuilder()
+    .inputs([<metaitem:dustStainlessSteel> * 4, <metaitem:dustCarbon> * 2, <metaitem:dustPhosphorus>, <metaitem:dustMolybdenum>, <metaitem:dustSulfur>, <metaitem:dustSilicon>])
+    .outputs(<metaitem:dustGunSteel> * 4)
+    .duration(120)
+    .EUt(16)
+    .buildAndRegister();
+
+mixer.recipeBuilder()
+    .inputs([<metaitem:dustBronze> * 2, <metaitem:dustZinc>, <metaitem:dustPhosphorus>])
+    .outputs(<metaitem:dustGunMetal> * 2)
+    .duration(120)
+    .EUt(16)
+    .buildAndRegister();
