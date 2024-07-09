@@ -53,11 +53,11 @@ recipes.remove(<icbmclassic:explosive_missile:24>);
 <icbmclassic:explosive_missile:24>.displayName = "Empty ICBM";
 
 assembler.recipeBuilder()
-    .inputs([<contenttweaker:simple_rocket>*4, <gregtech:hermetic_casing>*2, <ore:foilAluminium>*8])
+    .inputs([<contenttweaker:simple_rocket>*4, <gregtech:hermetic_casing>*2, <ore:foilTungstenSteel>*8, <ore:circuitIv>])
     .fluidInputs(<liquid:tin> * 288)
     .circuit(1)
     .outputs(<icbmclassic:explosive_missile:24>)
-    .duration(200).EUt(120).buildAndRegister();
+    .duration(200).EUt(8000).buildAndRegister();
 
 
 recipes.remove(<icbmclassic:explosives>);
@@ -157,15 +157,12 @@ assembler.recipeBuilder()
     .outputs(<icbmclassic:explosives:15>)
     .duration(200).EUt(11024).buildAndRegister();
 
-//Ultradense Hydro in place of stone
+
 recipes.remove(<icbmclassic:explosives:22>);
-
-
-recipes.remove(<icbmclassic:explosives:23>);
 assembler.recipeBuilder()
-    .inputs([<ore:plateDenseDarmstadtium>*4, <draconicevolution:chaos_shard:2>*6, <nomilabs:universecreationdata>, <ore:screwRhodiumPlatedPalladium>*4, <gregtech:itnt>*8, <nomilabs:ultradensehydrogen>*2, <ore:wireFineTritanium>*8, <ore:wireGtSingleDraconium>*8])
+    .inputs([<ore:plateDenseDarmstadtium>*4, <draconicevolution:chaos_shard:2>*6, <ore:screwRhodiumPlatedPalladium>*4, <gregtech:itnt>*8, <nomilabs:ultradensehydrogen>*2, <ore:wireFineTritanium>*8, <ore:wireGtSingleDraconium>*8])
     .fluidInputs(<liquid:tin> * 288)
-    .outputs(<icbmclassic:explosives:23>)
+    .outputs(<icbmclassic:explosives:22>)
     .duration(200).EUt(331072).buildAndRegister();
 
 
