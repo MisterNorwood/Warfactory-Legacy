@@ -180,3 +180,11 @@ recipes.remove(<oe:turtle_helmet>);
 
 //Caballed Uber Apple
 recipes.addShapeless(<rustic:wildberry_bush>, [<rustic:wildberries>, <rustic:wildberries>]);
+
+<mcheli:bnr32>.displayName = "K9 Grabowska Turboboost";
+
+recipes.addShaped(<minecraft:golden_apple:1>, [
+    [<minecraft:dragon_egg>, <minecraft:dragon_egg>, <minecraft:dragon_egg>],
+    [<minecraft:dragon_egg>, <minecraft:apple>, <minecraft:dragon_egg>], 
+    [<minecraft:dragon_egg>, <minecraft:dragon_egg>, <minecraft:dragon_egg>]
+]);
