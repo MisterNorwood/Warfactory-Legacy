@@ -524,3 +524,101 @@ mixer.recipeBuilder()
     .duration(120)
     .EUt(16)
     .buildAndRegister();
+
+//Depleted fuel -> DU penetrators
+lathe.recipeBuilder()
+    .inputs([<ore:depletedFuelLEU235>])
+    .outputs(<contenttweaker:depleted_uranium_penetrator> * 2)
+    .duration(120)
+    .EUt(480)
+    .buildAndRegister();
+
+lathe.recipeBuilder()
+    .inputs([<ore:depletedFuelLEU233>])
+    .outputs(<contenttweaker:depleted_uranium_penetrator> * 2)
+    .duration(120)
+    .EUt(480)
+    .buildAndRegister();
+
+lathe.recipeBuilder()
+    .inputs([<ore:depletedFuelHEU235>])
+    .outputs(<contenttweaker:depleted_uranium_penetrator> * 4)
+    .duration(120)
+    .EUt(480)
+    .buildAndRegister();
+
+lathe.recipeBuilder()
+    .inputs([<ore:depletedFuelHEU233>])
+    .outputs(<contenttweaker:depleted_uranium_penetrator> * 4)
+    .duration(120)
+    .EUt(480)
+    .buildAndRegister();
+
+//Tungsten -> tungsten penetrators
+forming_press.recipeBuilder()
+    .inputs([<metaitem:plateTungsten> * 4,<metaitem:foilPolyvinylChloride> * 8])
+    .outputs(<contenttweaker:tungsten_penetrator> * 4)
+    .duration(240)
+    .EUt(480)
+    .buildAndRegister();
+
+//Turning projectiles into 50bmg
+forming_press.recipeBuilder()
+    .inputs([<contenttweaker:tungsten_penetrator> * 4, <gregtech:meta_item_1:498> * 16, <contenttweaker:casing> * 4])
+    .outputs(<mwc:bullet50bmg> * 4)
+    .duration(240)
+    .EUt(480)
+    .buildAndRegister();
+
+forming_press.recipeBuilder()
+    .inputs([<contenttweaker:depleted_uranium_penetrator> * 4, <gregtech:meta_item_1:498> * 16, <contenttweaker:casing> * 24])
+    .outputs(<mwc:bullet50bmg> * 24)
+    .duration(240)
+    .EUt(480)
+    .buildAndRegister();
+
+//7.62x51 projectile recipes
+//:sisyphus:
+forming_press.recipeBuilder()
+    .inputs([<metaitem:stickLead>, <metaitem:plateBrass> * 2])
+    .outputs(<contenttweaker:m80_762>)
+    .duration(240)
+    .EUt(16)
+    .buildAndRegister();
+
+forming_press.recipeBuilder()
+    .inputs([<metaitem:stickStainlessSteel>, <metaitem:plateCopper> * 2])
+    .outputs(<contenttweaker:m80a1_762>)
+    .duration(240)
+    .EUt(480)
+    .buildAndRegister();
+
+forming_press.recipeBuilder()
+    .inputs([<metaitem:boltTungstenCarbide>, <metaitem:stickAluminium>, <metaitem:plateCopper> * 2])
+    .outputs(<contenttweaker:m993_762>)
+    .duration(240)
+    .EUt(600)
+    .buildAndRegister();
+
+//Loading the 7.62x51 projectile into the bullet
+
+forming_press.recipeBuilder()
+    .inputs([<contenttweaker:m80_762> * 4, <gregtech:meta_item_1:498> * 8, <contenttweaker:casing> * 4])
+    .outputs(<mwc:bullet762x51> * 4)
+    .duration(240)
+    .EUt(16)
+    .buildAndRegister();
+
+forming_press.recipeBuilder()
+    .inputs([<contenttweaker:m80a1_762> * 4, <gregtech:meta_item_1:498> * 8, <contenttweaker:casing> * 12])
+    .outputs(<mwc:bullet762x51> * 12)
+    .duration(240)
+    .EUt(16)
+    .buildAndRegister();
+
+forming_press.recipeBuilder()
+    .inputs([<contenttweaker:m993_762> * 4, <gregtech:meta_item_1:498> * 8, <contenttweaker:casing> * 36])
+    .outputs(<mwc:bullet762x51> * 36)
+    .duration(240)
+    .EUt(16)
+    .buildAndRegister();
