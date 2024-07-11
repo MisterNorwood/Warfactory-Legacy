@@ -202,3 +202,7 @@ m80a1_762.register();
 var m993_762 = VanillaFactory.createItem("m993_762");
 m993_762.maxStackSize = 64;
 m993_762.register();
+
+var smokeless_powder = VanillaFactory.createItem("smokeless_powder");
+smokeless_powder.maxStackSize = 64;
+smokeless_powder.register();
