@@ -181,3 +181,24 @@ bullet_kit.register();
 var bullet_kit_adv = VanillaFactory.createItem("bullet_kit_adv");
 bullet_kit_adv.maxStackSize = 64;
 bullet_kit_adv.register();
+
+//Bullet projectiles
+var depleted_uranium_penetrator = VanillaFactory.createItem("depleted_uranium_penetrator");
+depleted_uranium_penetrator.maxStackSize = 64;
+depleted_uranium_penetrator.register();
+
+var tungsten_penetrator = VanillaFactory.createItem("tungsten_penetrator");
+tungsten_penetrator.maxStackSize = 64;
+tungsten_penetrator.register();
+
+var m80_762 = VanillaFactory.createItem("m80_762");
+m80_762.maxStackSize = 64;
+m80_762.register();
+
+var m80a1_762 = VanillaFactory.createItem("m80a1_762");
+m80a1_762.maxStackSize = 64;
+m80a1_762.register();
+
+var m993_762 = VanillaFactory.createItem("m993_762");
+m993_762.maxStackSize = 64;
+m993_762.register();
