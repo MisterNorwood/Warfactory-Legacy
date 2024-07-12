@@ -622,3 +622,19 @@ forming_press.recipeBuilder()
     .duration(240)
     .EUt(16)
     .buildAndRegister();
+
+
+//Smokeless Powder
+chemical_reactor.recipeBuilder()
+    .inputs(<minecraft:gunpowder>)
+    .fluidInputs(<liquid:nitric_oxide> * 100)
+    .outputs(<contenttweaker:smokeless_powder>*9)
+    .fluidOutputs(<liquid:water> * 100)
+    .duration(60).EUt(16).buildAndRegister();
+
+chemical_reactor.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:498>)
+    .fluidInputs(<liquid:nitric_oxide> * 100)
+    .outputs(<contenttweaker:smokeless_powder>*18)
+    .fluidOutputs(<liquid:water> * 100)
+    .duration(60).EUt(16).buildAndRegister();
