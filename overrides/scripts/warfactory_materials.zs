@@ -12,7 +12,9 @@ var blackSteel = <material:black_steel>;
 var hsse = <material:hsse>;
 var hssg = <material:hssg>;
 var kanthal = <material:kanthal>;
-stainlessSteel.addFlags("generate_rod", "generate_spring_small");
+var brass = <material:brass>;
+
+stainlessSteel.addFlags("generate_rod", "generate_spring_small", "generate_round");
 hssg.addFlags("generate_rod", "generate_spring_small");
 kanthal.addFlags("generate_rod", "generate_spring_small");
 lead.addFlags("generate_round");
@@ -20,6 +22,8 @@ blueSteel.addFlags("generate_rod", "generate_long_rod");
 hslaSteel.addFlags("generate_rod", "generate_spring_small", "generate_bolt_screw", "generate_dense");
 blackSteel.addFlags("generate_spring_small", "generate_ring", "generate_bolt_screw", "generate_rod", "generate_dense", "generate_spring");
 hsse.addFlags("generate_long_rod", "generate_spring");
+brass.addFlags("generate_foil");
+
 
 // Gun metal
 var gunMetal = MaterialBuilder(32100, "gun_metal")

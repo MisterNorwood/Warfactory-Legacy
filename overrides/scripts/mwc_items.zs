@@ -239,129 +239,10 @@ recipes.addShaped(<mwc:juggernaut_boots>, [
 
 
 lathe.recipeBuilder()
-    .inputs(<ore:plateBrass>)
+    .inputs(<ore:foilBrass>)
     .outputs(<contenttweaker:casing>*8)
     .duration(40).EUt(16).buildAndRegister();
 
-
-forming_press.recipeBuilder()
-    .inputs(<contenttweaker:casing>*4, <ore:roundLead>*4, <minecraft:gunpowder>)
-    .outputs(<contenttweaker:bullet_kit>*4)
-    .duration(60).EUt(16).buildAndRegister();
-
-forming_press.recipeBuilder()
-    .inputs(<contenttweaker:casing>*4, <ore:roundLead>*4, <gregtech:meta_item_1:498>)
-    .outputs(<contenttweaker:bullet_kit>*8)
-    .duration(60).EUt(16).buildAndRegister();
-
-forming_press.recipeBuilder()
-    .inputs(<contenttweaker:casing>*4, <ore:nuggetUranium238>*4, <minecraft:gunpowder>)
-    .outputs(<contenttweaker:bullet_kit_adv>*4)
-    .duration(60).EUt(16).buildAndRegister();
-
-forming_press.recipeBuilder()
-    .inputs(<contenttweaker:casing>*4, <ore:nuggetUranium238>*4, <gregtech:meta_item_1:498>)
-    .outputs(<contenttweaker:bullet_kit_adv>*8)
-    .duration(60).EUt(16).buildAndRegister();
-
-
-
-//AMMUNITION
-
-packager.recipeBuilder()
-    .inputs(<contenttweaker:bullet_kit>)
-    .circuit(1)
-    .outputs(<mwc:bullet44>*30)
-    .duration(30).EUt(10).buildAndRegister();
-
-packager.recipeBuilder()
-    .inputs(<contenttweaker:bullet_kit>)
-    .circuit(2)
-    .outputs(<mwc:bullet3006springfield>*30)
-    .duration(30).EUt(10).buildAndRegister();
-
-packager.recipeBuilder()
-    .inputs(<contenttweaker:bullet_kit>)
-    .circuit(3)
-    .outputs(<mwc:shotgun12gauge>*10)
-    .duration(30).EUt(10).buildAndRegister();
-
-packager.recipeBuilder()
-    .inputs(<contenttweaker:bullet_kit>)
-    .circuit(4)
-    .outputs(<mwc:bullet4570>*30)
-    .duration(30).EUt(10).buildAndRegister();
-
-packager.recipeBuilder()
-    .inputs(<contenttweaker:bullet_kit>)
-    .circuit(5)
-    .outputs(<mwc:bullet762x51>*30)
-    .duration(30).EUt(10).buildAndRegister();
-
-packager.recipeBuilder()
-    .inputs(<contenttweaker:bullet_kit>)
-    .circuit(6)
-    .outputs(<mwc:bullet762x39>*30)
-    .duration(30).EUt(10).buildAndRegister();
-
-packager.recipeBuilder()
-    .inputs(<contenttweaker:bullet_kit>)
-    .circuit(7)
-    .outputs(<mwc:bullet762x54>*30)
-    .duration(30).EUt(10).buildAndRegister();
-
-packager.recipeBuilder()
-    .inputs(<contenttweaker:bullet_kit>)
-    .circuit(8)
-    .outputs(<mwc:bullet45acp>*30)
-    .duration(30).EUt(10).buildAndRegister();
-
-packager.recipeBuilder()
-    .inputs(<contenttweaker:bullet_kit>)
-    .circuit(9)
-    .outputs(<mwc:bullet357>*30)
-    .duration(30).EUt(10).buildAndRegister();
-
-packager.recipeBuilder()
-    .inputs(<contenttweaker:bullet_kit>)
-    .circuit(10)
-    .outputs(<mwc:bullet308winchester>*30)
-    .duration(30).EUt(10).buildAndRegister();
-
-packager.recipeBuilder()
-    .inputs(<contenttweaker:bullet_kit>)
-    .circuit(11)
-    .outputs(<mwc:bullet556x45>*30)
-    .duration(30).EUt(10).buildAndRegister();
-
-packager.recipeBuilder()
-    .inputs(<contenttweaker:bullet_kit>)
-    .circuit(12)
-    .outputs(<mwc:bullet46x30mm>*30)
-    .duration(30).EUt(10).buildAndRegister();
-
-packager.recipeBuilder()
-    .inputs(<contenttweaker:bullet_kit>)
-    .circuit(13)
-    .outputs(<mwc:bullet9x19mm>*30)
-    .duration(30).EUt(10).buildAndRegister();
-
-packager.recipeBuilder()
-    .inputs(<contenttweaker:bullet_kit>)
-    .circuit(14)
-    .outputs(<mwc:bullet_277>*30)
-    .duration(30).EUt(10).buildAndRegister();
-
-packager.recipeBuilder()
-    .inputs(<contenttweaker:bullet_kit>)
-    .circuit(15)
-    .outputs(<mwc:bullet57x28mm>*30)
-    .duration(30).EUt(10).buildAndRegister();
-
-packager.recipeBuilder()
-    .inputs(<contenttweaker:bullet_kit>, <gregtech:itnt>)
-    .outputs(<mwc:grenade40mm>*2)
-    .duration(30).EUt(10).buildAndRegister();
 
 
 recipes.addShaped(<mwc:spec_ops_boots>, [
@@ -577,47 +458,65 @@ forming_press.recipeBuilder()
     .EUt(480)
     .buildAndRegister();
 
-//7.62x51 projectile recipes
+
+
+
+
+//Projectile recipes
 //:sisyphus:
 forming_press.recipeBuilder()
-    .inputs([<metaitem:stickLead>, <metaitem:plateBrass> * 2])
-    .outputs(<contenttweaker:m80_762>)
-    .duration(240)
+    .inputs([<metaitem:stickLead>, <metaitem:foilBrass> * 2])
+    .outputs(<contenttweaker:lv_penetrator>)
+    .duration(120)
     .EUt(16)
     .buildAndRegister();
 
 forming_press.recipeBuilder()
-    .inputs([<metaitem:stickStainlessSteel>, <metaitem:plateCopper> * 2])
-    .outputs(<contenttweaker:m80a1_762>)
-    .duration(240)
+    .inputs([<metaitem:stickAluminium>, <metaitem:foilBrass> * 2])
+    .outputs(<contenttweaker:mv_penetrator>)
+    .duration(120)
+    .EUt(64)
+    .buildAndRegister();
+
+forming_press.recipeBuilder()
+    .inputs([<metaitem:stickStainlessSteel>, <metaitem:foilCopper> * 2])
+    .outputs(<contenttweaker:hv_penetrator>)
+    .duration(120)
     .EUt(480)
     .buildAndRegister();
 
 forming_press.recipeBuilder()
-    .inputs([<metaitem:boltTungstenCarbide>, <metaitem:stickAluminium>, <metaitem:plateCopper> * 2])
-    .outputs(<contenttweaker:m993_762>)
-    .duration(240)
+    .inputs([<metaitem:boltTungstenCarbide>, <metaitem:stickAluminium>, <metaitem:foilCopper> * 2])
+    .outputs(<contenttweaker:ev_penetrator>)
+    .duration(120)
     .EUt(600)
     .buildAndRegister();
+
+
+
+
+
+
+
 
 //Loading the 7.62x51 projectile into the bullet
 
 forming_press.recipeBuilder()
-    .inputs([<contenttweaker:m80_762> * 4, <gregtech:meta_item_1:498> * 8, <contenttweaker:casing> * 4])
+    .inputs([<contenttweaker:lv_penetrator> * 4, <gregtech:meta_item_1:498> * 8, <contenttweaker:casing> * 4])
     .outputs(<mwc:bullet762x51> * 4)
     .duration(240)
     .EUt(16)
     .buildAndRegister();
 
 forming_press.recipeBuilder()
-    .inputs([<contenttweaker:m80a1_762> * 4, <gregtech:meta_item_1:498> * 8, <contenttweaker:casing> * 12])
+    .inputs([<contenttweaker:hv_penetrator> * 4, <gregtech:meta_item_1:498> * 8, <contenttweaker:casing> * 12])
     .outputs(<mwc:bullet762x51> * 12)
     .duration(240)
     .EUt(16)
     .buildAndRegister();
 
 forming_press.recipeBuilder()
-    .inputs([<contenttweaker:m993_762> * 4, <gregtech:meta_item_1:498> * 8, <contenttweaker:casing> * 36])
+    .inputs([<contenttweaker:ev_penetrator> * 4, <gregtech:meta_item_1:498> * 8, <contenttweaker:casing> * 36])
     .outputs(<mwc:bullet762x51> * 36)
     .duration(240)
     .EUt(16)
@@ -627,14 +526,12 @@ forming_press.recipeBuilder()
 //Smokeless Powder
 chemical_reactor.recipeBuilder()
     .inputs(<minecraft:gunpowder>)
-    .fluidInputs(<liquid:nitric_oxide> * 100)
-    .outputs(<contenttweaker:smokeless_powder>*9)
-    .fluidOutputs(<liquid:water> * 100)
+    .fluidInputs(<liquid:ammonia> * 50)
+    .outputs(<contenttweaker:smokeless_powder>*15)
     .duration(60).EUt(16).buildAndRegister();
 
 chemical_reactor.recipeBuilder()
     .inputs(<gregtech:meta_item_1:498>)
-    .fluidInputs(<liquid:nitric_oxide> * 100)
-    .outputs(<contenttweaker:smokeless_powder>*18)
-    .fluidOutputs(<liquid:water> * 100)
+    .fluidInputs(<liquid:ammonia> * 50)
+    .outputs(<contenttweaker:smokeless_powder>*30)
     .duration(60).EUt(16).buildAndRegister();

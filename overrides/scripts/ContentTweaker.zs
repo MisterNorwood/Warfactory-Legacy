@@ -191,17 +191,21 @@ var tungsten_penetrator = VanillaFactory.createItem("tungsten_penetrator");
 tungsten_penetrator.maxStackSize = 64;
 tungsten_penetrator.register();
 
-var m80_762 = VanillaFactory.createItem("m80_762");
-m80_762.maxStackSize = 64;
-m80_762.register();
+var lv_penetrator = VanillaFactory.createItem("lv_penetrator");
+lv_penetrator.maxStackSize = 64;
+lv_penetrator.register();
 
-var m80a1_762 = VanillaFactory.createItem("m80a1_762");
-m80a1_762.maxStackSize = 64;
-m80a1_762.register();
+var mv_penetrator = VanillaFactory.createItem("mv_penetrator");
+mv_penetrator.maxStackSize = 64;
+mv_penetrator.register();
 
-var m993_762 = VanillaFactory.createItem("m993_762");
-m993_762.maxStackSize = 64;
-m993_762.register();
+var hv_penetrator = VanillaFactory.createItem("hv_penetrator");
+hv_penetrator.maxStackSize = 64;
+hv_penetrator.register();
+
+var ev_penetrator = VanillaFactory.createItem("ev_penetrator");
+ev_penetrator.maxStackSize = 64;
+ev_penetrator.register();
 
 var smokeless_powder = VanillaFactory.createItem("smokeless_powder");
 smokeless_powder.maxStackSize = 64;
