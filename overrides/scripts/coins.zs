@@ -84,7 +84,7 @@ recipes.addShaped(<gregtech:ore_pitchblende_0> * 32, [[<nomilabs:nomicoin>, null
 recipes.addShaped(<gregtech:ore_saltpeter_0> * 32, [[null, <nomilabs:nomicoin>, null],[<nomilabs:nomicoin>, <nomilabs:nomicoin>, <nomilabs:nomicoin>], [null, null, <nomilabs:nomicoin>]]);
 recipes.addShaped(<gregtech:ore_graphite_0> * 32, [[null, null, <nomilabs:nomicoin>],[<nomilabs:nomicoin>, <nomilabs:nomicoin>, <nomilabs:nomicoin>], [null, null, <nomilabs:nomicoin>]]);
 recipes.addShaped(<gregtech:ore_powellite_0> * 32, [[null, <nomilabs:nomicoin>, null],[<nomilabs:nomicoin>, <nomilabs:nomicoin>, <nomilabs:nomicoin>], [<nomilabs:nomicoin>, null, null]]);
-recipes.addShaped(<gregtech:ore_oilsands_0> * 32, [[<nomilabs:nomicoin>, null, null],[<nomilabs:nomicoin>, <nomilabs:nomicoin>, <nomilabs:nomicoin>], [null, <nomilabs:nomicoin>, null]]);
+recipes.addShaped(<gregtech:ore_oilsands_0> * 32, [[<nomilabs:nomicoin25>, null, null],[<nomilabs:nomicoin25>, <nomilabs:nomicoin25>, <nomilabs:nomicoin25>], [null, <nomilabs:nomicoin25>, null]]);
 recipes.addShaped(<gregtech:ore_gold_0> * 32, [[<nomilabs:nomicoin25>, null, <nomilabs:nomicoin25>],[null, null, null], [null, null, null]]);
 recipes.addShaped(<gregtech:ore_emerald_0> * 32, [[<nomilabs:nomicoin25>, null, null],[null, null, null], [<nomilabs:nomicoin25>, null, null]]);
 recipes.addShaped(<gregtech:ore_palladium_0> * 32, [[<nomilabs:nomicoin25>, null, null],[null, null, null], [null, <nomilabs:nomicoin25>, null]]);
