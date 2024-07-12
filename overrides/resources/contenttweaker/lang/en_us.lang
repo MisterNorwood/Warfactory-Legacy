@@ -39,10 +39,11 @@ item.contenttweaker.casing.name= Bullet Casing
 item.contenttweaker.bullet_kit.name= Bullet Kit
 item.contenttweaker.bullet_kit_adv.name= Advanced Bullet Kit
 
-item.contenttweaker.depleted_uranium_penetrator.name= Depleted Uranium Penetrator (50BMG)
-item.contenttweaker.tungsten_penetrator.name= Tungsten Penetrator (50BMG)
+item.contenttweaker.depleted_uranium_penetrator.name= Depleted Uranium Penetrator
+item.contenttweaker.tungsten_penetrator.name= Heavy Tungsten Penetrator
 
-item.contenttweaker.m80_762.name= M80 Projectile (7.62x51)
-item.contenttweaker.m80a1_762.name= M80a1 Projectile (7.62x51)
-item.contenttweaker.m993_762.name= M993 Projectile (7.62x51)
+item.contenttweaker.lv_penetrator.name= Lead Projectile
+item.contenttweaker.mv_penetrator.name= Advanced Projectile
+item.contenttweaker.hv_penetrator.name= Stainless Steel Projectile
+item.contenttweaker.ev_penetrator.name= Tungsten Carbide Projectile
 item.contenttweaker.smokeless_powder.name= Smokeless Powder
