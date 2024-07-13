@@ -102,15 +102,15 @@ recipes.addShapeless(<mwc:usmc_vest_black>, [<mwc:usmc_vest>]);
 
 
 //Backpacks
-recipes.addShaped(<mwc:combat_sustainment_backpack_black>, [
-  [<ore:string>, <ore:craftingToolSoftHammer>, <ore:string>],
-  [<mwc:carbon_fiber>, <ore:chest>, <mwc:carbon_fiber>], 
-  [null, <mwc:carbon_fiber>, null]
-]);
+//recipes.addShaped(<mwc:combat_sustainment_backpack_black>, [
+//  [<ore:string>, <ore:craftingToolSoftHammer>, <ore:string>],
+//  [<mwc:carbon_fiber>, <ore:chest>, <mwc:carbon_fiber>], 
+//  [null, <mwc:carbon_fiber>, null]
+//]);
 
-recipes.addShapeless(<mwc:combat_sustainment_backpack_forest>, [<mwc:combat_sustainment_backpack_black>]);
-recipes.addShapeless(<mwc:combat_sustainment_backpack_tan>, [<mwc:combat_sustainment_backpack_forest>]);
-recipes.addShapeless(<mwc:combat_sustainment_backpack_black>, [<mwc:combat_sustainment_backpack_tan>]);
+//recipes.addShapeless(<mwc:combat_sustainment_backpack_forest>, [<mwc:combat_sustainment_backpack_black>]);
+//recipes.addShapeless(<mwc:combat_sustainment_backpack_tan>, [<mwc:combat_sustainment_backpack_forest>]);
+//recipes.addShapeless(<mwc:combat_sustainment_backpack_black>, //[<mwc:combat_sustainment_backpack_tan>]);
 
 
 
