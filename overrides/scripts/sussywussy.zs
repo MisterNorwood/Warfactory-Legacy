@@ -83,12 +83,6 @@ solidifier.recipeBuilder()
     .duration(40).EUt(16).buildAndRegister();
 
 solidifier.recipeBuilder()
-    .fluidInputs(<liquid:lubricant> * 1000)
-    .notConsumable(<metaitem:shape.mold.bottle>)
-    .outputs(<contenttweaker:oil_barrel>)
-    .duration(40).EUt(16).buildAndRegister();
-
-solidifier.recipeBuilder()
     .fluidInputs(<liquid:natural_gas> * 1000)
     .notConsumable(<metaitem:shape.mold.bottle>)
     .outputs(<contenttweaker:oil_barrel>)
