@@ -52,8 +52,10 @@ recipes.addShaped(<meta_tile_entity:macerator.lv>, [
 furnace.remove(<metaitem:nuggetWroughtIron>);
 furnace.addRecipe(<metaitem:ingotWroughtIron>, <minecraft:iron_ingot>, 0.0);
 
-
-
+chemical_reactor.recipeBuilder().inputs([<nomilabs:block_dust>]).fluidInputs([<liquid:water> * 1000]).outputs(<minecraft:clay>).EUt(15).duration(20).buildAndRegister();
+// Amount stays the same, as you are hydrating the dust, so fact that it is distilled doesn't improve amount of water
+// Duration is improved, because its distilled, its easier to react
+chemical_reactor.recipeBuilder().inputs([<nomilabs:block_dust>]).fluidInputs([<liquid:distilled_water> * 1000]).outputs(<minecraft:clay>).EUt(15).duration(10).buildAndRegister();
 
 
 //MV Macerator
