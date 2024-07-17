@@ -11,16 +11,28 @@ var hslaSteel = <material:hsla_steel>;
 var blackSteel = <material:black_steel>;
 var hsse = <material:hsse>;
 var hssg = <material:hssg>;
+var hsss = <material:hsss>;
 var kanthal = <material:kanthal>;
 var brass = <material:brass>;
+var incoloy = <material:incoloy_ma_956>;
+var nichrome = <material:nichrome>;
+var pbi = <material:polybenzimidazole>;
+var rurdit = <material:ruridit>;
+var osmium = <material:osmium>;
 
 stainlessSteel.addFlags("generate_rod", "generate_spring_small", "generate_round");
 hssg.addFlags("generate_rod", "generate_spring_small");
 kanthal.addFlags("generate_rod", "generate_spring_small");
+nichrome.addFlags("generate_spring_small");
+rurdit.addFlags("generate_spring");
+osmium.addFlags("generate_spring");
+hsss.addFlags("generate_spring");
 lead.addFlags("generate_round");
+pbi.addFlags("generate_double_plate");
 blueSteel.addFlags("generate_rod", "generate_long_rod");
 hslaSteel.addFlags("generate_rod", "generate_spring_small", "generate_bolt_screw", "generate_dense");
 blackSteel.addFlags("generate_spring_small", "generate_ring", "generate_bolt_screw", "generate_rod", "generate_dense", "generate_spring");
+incoloy.addFlags("generate_spring_small", "generate_ring", "generate_bolt_screw", "generate_rod", "generate_dense", "generate_spring");
 hsse.addFlags("generate_long_rod", "generate_spring");
 brass.addFlags("generate_foil");
 
@@ -36,7 +48,6 @@ var gunMetal = MaterialBuilder(32100, "gun_metal")
 .build();
 
 //Vanax 
-
 var vanaxSteel = MaterialBuilder(32101, "vanax_steel")
 .ingot()
 .color(0x5E5E9F)
@@ -54,5 +65,5 @@ var gunSteel = MaterialBuilder(32102, "gun_steel")
 .components([<material:stainless_steel>*4, <material:carbon>*2, <material:phosphorus>*1, <material:molybdenum>*1, <material:sulfur>*1, <material:silicon>*1])
 .blastTemp(3600, "HIGH", 500, 600)
 .iconSet("DULL")
-.flags(["generate_plate","generate_rod", "generate_long_rod","generate_dense", "generate_bolt_screw", "generate_spring_small", "generate_spring", "generate_foil"])
+.flags(["generate_plate", "generate_double_plate", "generate_rod", "generate_long_rod","generate_dense", "generate_bolt_screw", "generate_spring_small", "generate_spring", "generate_foil"])
 .build();
