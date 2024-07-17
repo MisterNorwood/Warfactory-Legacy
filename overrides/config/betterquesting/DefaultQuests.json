@@ -48090,7 +48090,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "You are §cweak§r right now. You barely have the means to stand against the §5fragile ghouls in the dark§r.\n\nBut that will change.\n\nIn your hands is the heart of a new empire. This device - the §eCitadel Block§r - may be placed at the very bottom of the world, upon the §dinterstice between here and The Beneath§r. Once done, the block will become a ward, and shall protect your land from those who would seek to take it from you. But be warned, §cit does not render you invulnerable§r.\n\nAn enemy with the §aright techniques§r and §asufficient firepower§r, can still conquer you.\n\nBe quick. Be cautious. Be strong.",
+          "desc:8": "You are §cweak§r right now. You barely have the means to stand against the §5fragile ghouls in the dark§r.\n\nBut that will change.\n\nIn your hands is the heart of a new empire. This device - the §eCitadel Block§r - may be placed on the surface. Once done, the block will become a ward, and shall protect your land from those who would seek to take it from you. But be warned, §cit does not render you invulnerable§r.\n\nAn enemy with the §aright techniques§r and §asufficient firepower§r, can still conquer you.\n\nBe quick. Be cautious. Be strong.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -64860,28 +64860,24 @@
     },
     "1054:10": {
       "preRequisites:11": [
-        782
+        1091
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oThe Coryification of Nomifactory and its consequences have been a disaster for the human race.§r\n\nFollowing the Macerator Incident, you\u0027ve realised that your machines can\u0027t exactly meet all of your needs.\n\nYou need more soldiers. Better soldiers. Cuter soldiers.\n\nOnce you reach §a§lHV§r, you will be able to craft §aanime girls§r. These are significantly stronger, faster and lower-maintenance than your current soldiers. With them, you can conquer the world.",
+          "desc:8": "As you\u0027ve progressed, you\u0027ve found that your crude bolt action rifles won\u0027t do. You want, no, §oneed§r more firepower. With your new EBF simmering away in your base, you realize that you now have the alloys you need for the next step in gunsmithing.\n\nThat next step comes in the form of §3Medium-Voltage Guns§r. These weapons make full use of your new materials to operate in unprecedented ways. These new autoloading firearms will be able to fire far faster, in higher calibers and with fewer jams. \n\n\nYou shudder to think of the §4§lfirepower§r that will soon be at your disposal.\n\n\nMedium voltage guns can be found by searching §3$gunsMV§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": "",
-            "id:8": "touhou_little_maid:garage_kit",
-            "tag:10": {
-              "EntityId:8": "touhou_little_maid:entity.passive.maid",
-              "ModelId:8": "touhou_little_maid:hakurei_reimu"
-            }
+            "id:8": "contenttweaker:receiver_aluminium"
           },
           "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "Aishiteru yo, Senpai~ \u003ew\u003c",
+          "name:8": "Medium Voltage Guns",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -64893,23 +64889,7 @@
         }
       },
       "questID:3": 1054,
-      "rewards:9": {
-        "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 10,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "ancientwarfarenpc:coin",
-              "tag:10": {
-                "metal:8": "gold"
-              }
-            }
-          }
-        }
-      },
+      "rewards:9": {},
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -64924,7 +64904,7 @@
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": "",
-              "id:8": "touhou_little_maid:smart_slab"
+              "id:8": "contenttweaker:receiver_aluminium"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -65163,22 +65143,13 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§cWarfactory§r wouldn\u0027t be §cWarfactory§r if it didn\u0027t have guns. Techguns is fully implemented and gregified, with all guns tied to an appropriate voltage tier.\n\nIn the beginning, you\u0027ll only have access to crude black powder weapons. Maybe a Thompson if you\u0027re lucky. But as time goes by, you\u0027ll gain the ability to manufacture increasingly-powerful guns in §bAssembly Machines§r.\n\nYou will also gain access to Techguns armor. You\u0027ll start with simple Steam Armor, and soon progress to advanced Power Armor and more!\n\nThis quest will see you crafting a §6Basic Gun Action§r. Actions and Receivers are the foundation for almost every gun you will make.",
+          "desc:8": "§cWarfactory§r wouldn\u0027t be §cWarfactory§r if it didn\u0027t have guns. Modern Warfare Cubed is fully implemented and gregified, with its best guns tied to an appropriate voltage tier.\n\nIn the beginning, you\u0027ll only have access to crude black powder weapons. Maybe a Mare\u0027s Leg if you\u0027re lucky. But as time goes by, you\u0027ll gain the ability to manufacture increasingly-powerful guns in §bAssembly Machines§r.\n\nYou will also gain access to body armor. You\u0027ll start with cheap police vests, and soon progress to advanced military gear and more!\n\nThis quest will see you crafting a §6Wrought Iron Gun Action§r. Actions and Receivers are the foundation for almost every gun you will make.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": "",
-            "id:8": "betterquesting:placeholder",
-            "tag:10": {
-              "orig_id:8": "techguns:ak47",
-              "orig_meta:3": 0,
-              "orig_tag:10": {
-                "ammo:2": 30,
-                "ammovariant:8": "default",
-                "camo:1": 0
-              }
-            }
+            "id:8": "mwc:ak47"
           },
           "ignoresview:1": 0,
           "ismain:1": 0,
@@ -65202,7 +65173,7 @@
           "rewardID:8": "bq_standard:item",
           "rewards:9": {
             "0:10": {
-              "Count:3": 32,
+              "Count:3": 4,
               "Damage:2": 0,
               "OreDict:8": "",
               "id:8": "minecraft:gunpowder"
@@ -65222,13 +65193,9 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
-              "Damage:2": 57,
+              "Damage:2": 0,
               "OreDict:8": "",
-              "id:8": "betterquesting:placeholder",
-              "tag:10": {
-                "orig_id:8": "techguns:itemshared",
-                "orig_meta:3": 57
-              }
+              "id:8": "contenttweaker:action_wrought"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -65576,27 +65543,24 @@
     },
     "1064:10": {
       "preRequisites:11": [
-        1054
+        1094
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "And you thought the anime girls were just for show. Boy, how wrong you were.\n\nThe Touhou Mod also adds in §bDanmaku§r, which are like guns but not as good.\n\nOnce you obtain the §cGohei§r (an HV item), you can craft a Torii Gate and a Crafting Altar, which allows you to make special items. For instance, a Maid Bed gives a maid a much-needed rest, while a computer station/reading nook gives your maid a chance to relax every once in a while.\n\nThe Altar has its uses, and the Gohei has its uses too. But I doubt you\u0027ll find either to be essential to progression.",
+          "desc:8": "You continue to push the cutting edge of your technology. Nothing is enough. Nothing will do. Your servants and researchers tire in their labs. They don\u0027t share your fear. They don\u0027t share your vision. \n\nYou run a shaking hand through matted hair, so lost in thought that you can barely function. You have so many enemies. So many skulls you crave to put a bullet through. And §cnot enough guns.§r \n\nYou find yourself at your firing range shortly after midnight. Your greatest scientists, too exhausted to stand up straight, present you with their latest creation: a gun receiver forged entirely from your newest, strongest alloys. Your scientists watch you with wide eyes, brimming with fear.\n\nThey speak of \"deterrence\", of \"peace through firepower\", but what do they know? Will their guns really put an end to war? No. Not when you\u0027ve gotten so far. These guns will fuel that war. You can almost hear the screams, see §4blood§r gushing from fresh bullet holes in tattered enemy fatigues. Without realizing, you twist your face into a toothy grin and let out a breathless chuckle. \n\nOh, yes. This will do well.\n\n\nThese guns can be found by searching §1$gunsIv§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": "",
-            "id:8": "touhou_little_maid:hakurei_gohei",
-            "tag:10": {
-              "GoheiMode:3": 0
-            }
+            "id:8": "contenttweaker:receiver_tungstensteel"
           },
           "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "B-B-BAKA!!!!",
+          "name:8": "Insane-Voltage Guns",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -65607,36 +65571,8 @@
           "visibility:8": "NORMAL"
         }
       },
-      "questID:3": 1066,
-      "rewards:9": {
-        "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "patchouli:guide_book",
-              "tag:10": {
-                "patchouli:book:8": "touhou_little_maid:memorizable_gensokyo"
-              }
-            },
-            "1:10": {
-              "Count:3": 16,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "touhou_little_maid:power_point"
-            },
-            "2:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "touhou_little_maid:maid_beacon"
-            }
-          }
-        }
-      },
+      "questID:3": 1064,
+      "rewards:9": {},
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -65644,17 +65580,14 @@
           "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
+          "index:3": 1,
           "partialMatch:1": 1,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": "",
-              "id:8": "touhou_little_maid:hakurei_gohei",
-              "tag:10": {
-                "GoheiMode:3": 0
-              }
+              "id:8": "contenttweaker:receiver_tungstensteel"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -65662,6 +65595,40 @@
       }
     },
     "1065:10": {
+      "preRequisites:11": [
+        1064
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:nether_star"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "New Quest",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 1065,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "1066:10": {
       "preRequisites:11": [
         1056
       ],
@@ -65713,7 +65680,7 @@
         }
       }
     },
-    "1066:10": {
+    "1067:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -65750,7 +65717,7 @@
         }
       }
     },
-    "1067:10": {
+    "1068:10": {
       "preRequisites:11": [
         1068
       ],
@@ -65816,7 +65783,7 @@
         }
       }
     },
-    "1068:10": {
+    "1069:10": {
       "preRequisites:11": [
         1069
       ],
@@ -65882,7 +65849,7 @@
         }
       }
     },
-    "1069:10": {
+    "1070:10": {
       "preRequisites:11": [
         1070
       ],
@@ -65954,7 +65921,7 @@
         }
       }
     },
-    "1070:10": {
+    "1071:10": {
       "preRequisites:11": [
         1069
       ],
@@ -66020,7 +65987,7 @@
         }
       }
     },
-    "1071:10": {
+    "1072:10": {
       "preRequisites:11": [
         1069
       ],
@@ -66086,7 +66053,7 @@
         }
       }
     },
-    "1072:10": {
+    "1073:10": {
       "preRequisites:11": [
         1069
       ],
@@ -66152,7 +66119,7 @@
         }
       }
     },
-    "1073:10": {
+    "1074:10": {
       "preRequisites:11": [
         1069
       ],
@@ -66218,7 +66185,7 @@
         }
       }
     },
-    "1074:10": {
+    "1075:10": {
       "preRequisites:11": [
         1069
       ],
@@ -66284,7 +66251,7 @@
         }
       }
     },
-    "1075:10": {
+    "1076:10": {
       "preRequisites:11": [
         1069
       ],
@@ -66350,7 +66317,7 @@
         }
       }
     },
-    "1076:10": {
+    "1077:10": {
       "preRequisites:11": [
         1069
       ],
@@ -66416,7 +66383,7 @@
         }
       }
     },
-    "1077:10": {
+    "1078:10": {
       "preRequisites:11": [
         1068
       ],
@@ -66469,7 +66436,7 @@
         }
       }
     },
-    "1078:10": {
+    "1079:10": {
       "preRequisites:11": [
         1068
       ],
@@ -66522,7 +66489,7 @@
         }
       }
     },
-    "1079:10": {
+    "1080:10": {
       "preRequisites:11": [
         1068
       ],
@@ -66575,7 +66542,7 @@
         }
       }
     },
-    "1080:10": {
+    "1081:10": {
       "preRequisites:11": [
         1068
       ],
@@ -66628,7 +66595,7 @@
         }
       }
     },
-    "1081:10": {
+    "1082:10": {
       "preRequisites:11": [
         1079
       ],
@@ -66681,7 +66648,7 @@
         }
       }
     },
-    "1082:10": {
+    "1083:10": {
       "preRequisites:11": [
         1080
       ],
@@ -66734,7 +66701,7 @@
         }
       }
     },
-    "1083:10": {
+    "1084:10": {
       "preRequisites:11": [
         1081
       ],
@@ -66787,7 +66754,7 @@
         }
       }
     },
-    "1084:10": {
+    "1085:10": {
       "preRequisites:11": [
         1082
       ],
@@ -66840,7 +66807,7 @@
         }
       }
     },
-    "1085:10": {
+    "1086:10": {
       "preRequisites:11": [
         1068
       ],
@@ -66893,7 +66860,7 @@
         }
       }
     },
-    "1086:10": {
+    "1087:10": {
       "preRequisites:11": [
         1069
       ],
@@ -66959,7 +66926,7 @@
         }
       }
     },
-    "1087:10": {
+    "1088:10": {
       "preRequisites:11": [
         3
       ],
@@ -67011,30 +66978,26 @@
         }
       }
     },
-    "1088:10": {
+    "1089:10": {
       "preRequisites:11": [
         782
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Guns are tiered into Gregtech\u0027s voltages. \n\nTo start, you have a handful of §cULV§r guns like the Hand Cannon or Thompson. Those are simple enough to make entirely by hand.\n\nOnce you have an assembly machine, you can start manufacturing §3LV§r-tier guns. These all require §3Iron Receivers§r, which are made with §3Basic Gun Actions§r.",
+          "desc:8": "Guns are tiered into Gregtech\u0027s voltages. \n\nTo start, you have a handful of §7ULV§r guns like the Mare\u0027s Leg or Contender. Those are simple enough to make entirely by hand.\n\nOnce you have an assembly machine, you can start manufacturing §7ULV§r-tier guns. These all require §3Wrought Iron Receivers§r and a handful of other earlygame components.\n\nThey can be found by searching §7gunsUlv§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 33,
+            "Damage:2": 0,
             "OreDict:8": "",
-            "id:8": "betterquesting:placeholder",
-            "tag:10": {
-              "orig_id:8": "techguns:itemshared",
-              "orig_meta:3": 33
-            }
+            "id:8": "contenttweaker:receiver_wrought"
           },
           "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "Low-Voltage Guns",
+          "name:8": "Ultra-low Voltage Guns",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -67059,43 +67022,35 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
-              "Damage:2": 33,
+              "Damage:2": 0,
               "OreDict:8": "",
-              "id:8": "betterquesting:placeholder",
-              "tag:10": {
-                "orig_id:8": "techguns:itemshared",
-                "orig_meta:3": 33
-              }
+              "id:8": "contenttweaker:receiver_wrought"
             }
           },
           "taskID:8": "bq_standard:retrieval"
         }
       }
     },
-    "1089:10": {
+    "1090:10": {
       "preRequisites:11": [
         1090
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "While LV-tier guns are decent for defending your property, they don\u0027t quite cut it for your use case. You need to put all hell of a lot of hurt downrange, fast. §cMere iron won\u0027t cut it§r. \n\nAfter tinkering around in your workshop, you\u0027ve discovered how to make an §dAdvanced Gun Action§r using aluminium and obsidian steel. It can withstand far higher temperatures and operate far longer without jamming.\n\nYou shudder to think of the §4§lfirepower§r that will soon be at your disposal.",
+          "desc:8": "While ULV-tier guns are decent for defending your property, they don\u0027t quite cut it for your use case. You need to put all hell of a lot of hurt downrange, fast. §cWrought iron won\u0027t cut it§r. You need to make §6Low-Voltage guns§r instead.\n\nAfter tinkering around in your workshop, you\u0027ve discovered how to make a §dSteel Gun Action§r using your more advanced construction techiques. It can withstand far higher temperatures and operate far longer without jamming.\n\nAs §6LV-tier§r guns are more complex than their predecessors, they require an §6assembly machine§r to make.\n\nThey can be found by searching §6$gunsLv§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 34,
+            "Damage:2": 0,
             "OreDict:8": "",
-            "id:8": "betterquesting:placeholder",
-            "tag:10": {
-              "orig_id:8": "techguns:itemshared",
-              "orig_meta:3": 34
-            }
+            "id:8": "contenttweaker:receiver_steel"
           },
           "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "Medium-Voltage Guns",
+          "name:8": "Low-Voltage Guns",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -67120,37 +67075,29 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
-              "Damage:2": 34,
+              "Damage:2": 0,
               "OreDict:8": "",
-              "id:8": "betterquesting:placeholder",
-              "tag:10": {
-                "orig_id:8": "techguns:itemshared",
-                "orig_meta:3": 34
-              }
+              "id:8": "contenttweaker:receiver_steel"
             }
           },
           "taskID:8": "bq_standard:retrieval"
         }
       }
     },
-    "1090:10": {
+    "1091:10": {
       "preRequisites:11": [
-        1091
+        1054
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No, this won\u0027t do at all! You need more firepower! You need to fire faster! Hurt things more!\n\nYou throw your blueprints to the floor in a fit of rage. There must be something stronger out there! Something better than steel!\n\nOh, but there is.\n\nWith §7Stainless Steel§r, you can craft a new receiver, to use for even more powerful guns. It takes the same action as a normal steel receiver, but uses a fully stainless-steel construction to enhance its tolerance for heat and prevent corrosion.\n\nFinally, your dreams of destruction are within your grasp.",
+          "desc:8": "No, this won\u0027t do at all! You need more firepower! You need to fire faster! Hurt things more!\n\nYou throw your blueprints to the floor in a fit of rage. There must be something stronger out there! Something better than steel!\n\nOh, but there is.\n\nWith §7Stainless Steel§r, you can craft a new receiver, to use for even more powerful guns. It takes the same action as a normal steel receiver, but uses a fully stainless-steel construction to enhance its tolerance for heat and prevent corrosion.\n\nFinally, your dreams of destruction are within your grasp.\n\nYou can find these guns by searching §a$gunsHv§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 35,
+            "Damage:2": 0,
             "OreDict:8": "",
-            "id:8": "betterquesting:placeholder",
-            "tag:10": {
-              "orig_id:8": "techguns:itemshared",
-              "orig_meta:3": 35
-            }
+            "id:8": "contenttweaker:receiver_stainless"
           },
           "ignoresview:1": 0,
           "ismain:1": 0,
@@ -67181,136 +67128,9 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
-              "Damage:2": 35,
-              "OreDict:8": "",
-              "id:8": "betterquesting:placeholder",
-              "tag:10": {
-                "orig_id:8": "techguns:itemshared",
-                "orig_meta:3": 35
-              }
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "1091:10": {
-      "preRequisites:11": [
-        782
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "Bullets tend to eat straight through old-fasioned plate armor. There\u0027s just no way to prevent it.\n\nYour brilliant scientific mind, however, has found a way. All §3Techguns§r armor has some degree of resistance to §3Techguns§r damage types. Anything from humble military fatigues to advanced Doomslayer armor has some means of defense.\n\nOne good place to start would be with §6Steam Armor§r. It\u0027s made of a crude brass-steel-bronze composite, animated with a pneumatic system tied to synaptically-responsive circuitry. The outer layers prevent blunt damage and slow incoming projectiles, while the inner spall lining stops AP rounds from inflicting serious damage. ",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "betterquesting:placeholder",
-            "tag:10": {
-              "orig_id:8": "techguns:steam_helmet",
-              "orig_meta:3": 0,
-              "orig_tag:10": {
-                "power:3": 0
-              }
-            }
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "Iron Man",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 1093,
-      "rewards:9": {
-        "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 2,
-              "Damage:2": 23,
-              "OreDict:8": "",
-              "id:8": "betterquesting:placeholder",
-              "tag:10": {
-                "orig_id:8": "techguns:itemshared",
-                "orig_meta:3": 23
-              }
-            }
-          }
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": "",
-              "id:8": "betterquesting:placeholder",
-              "tag:10": {
-                "orig_id:8": "techguns:steam_helmet",
-                "orig_meta:3": 0,
-                "orig_tag:10": {
-                  "power:3": 0
-                }
-              }
-            },
-            "1:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "betterquesting:placeholder",
-              "tag:10": {
-                "orig_id:8": "techguns:steam_chestplate",
-                "orig_meta:3": 0,
-                "orig_tag:10": {
-                  "power:3": 0
-                }
-              }
-            },
-            "2:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "betterquesting:placeholder",
-              "tag:10": {
-                "orig_id:8": "techguns:steam_leggings",
-                "orig_meta:3": 0,
-                "orig_tag:10": {
-                  "power:3": 0
-                }
-              }
-            },
-            "3:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "betterquesting:placeholder",
-              "tag:10": {
-                "orig_id:8": "techguns:steam_boots",
-                "orig_meta:3": 0,
-                "orig_tag:10": {
-                  "power:3": 0
-                }
-              }
+              "id:8": "contenttweaker:receiver_stainless"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -67324,17 +67144,13 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "With your new advances in high-energy physics come new ways to take lives. Your research has brought you to the study of plasmas, of the way globs of it can magnetically self-contain themselves even in Earth\u0027s dense atmosphere. \n\nNo longer are you bound by simple bullets and cartridges. Your research has paved the way for caseless ammunition, electrically-propelled projectiles, even slinging hot plasma at your enemies at will!",
+          "desc:8": "With your new advances in high-energy physics come new ways to take lives. Your research has brought you to the study of superalloys; the key to a whole new world of hurt. \n\nNo longer are you bound by crude, unwieldy firearms. Your research has paved the way for ever-increasing rates of fire, bigger bullets and more death and destruction than you can imagine.\n\nThese guns can be found by searching §d$gunsEv§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 36,
+            "Damage:2": 0,
             "OreDict:8": "",
-            "id:8": "betterquesting:placeholder",
-            "tag:10": {
-              "orig_id:8": "techguns:itemshared",
-              "orig_meta:3": 36
-            }
+            "id:8": "contenttweaker:receiver_titanium"
           },
           "ignoresview:1": 0,
           "ismain:1": 0,
@@ -67365,68 +67181,12 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
-              "Damage:2": 36,
+              "Damage:2": 0,
               "OreDict:8": "",
-              "id:8": "betterquesting:placeholder",
-              "tag:10": {
-                "orig_id:8": "techguns:itemshared",
-                "orig_meta:3": 36
-              }
+              "id:8": "contenttweaker:receiver_titanium"
             }
           },
           "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "1093:10": {
-      "preRequisites:11": [
-        782
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "§oNo army is complete with infantry alone. \n\nAs you toil away in your factory, you find yourself confronted with a sudden sense of weakness. Your very body is only flesh and bone. Clad it as you might in armor, you never get any bigger. \n\nOnly the mighty §aAutomobile§r§o can cure you of this shameful state. \n\nNo longer will you run around the battlefield like a fool. You shall §ccrush your enemies beneath steel tracks§r. You shall §6riddle them with bullets from above§r§o. Your jets shall pierce the heavens and your wheels shall crush all savage lands.\n\nAll will fall silent at the mighty roar of your engine.§r\n\n\nThis modpack has §bMCHeli§r included. §bMCHeli§r adds a dozen vehicles, all integrated into the Gregtech progression tree. Whether you prefer the safety of an M1A2 Abrams tank or the freedom of a Hind, there is something for you here.",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "mcheli:mh-60g"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "Vehicles of War",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 1095,
-      "rewards:9": {
-        "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "mcheli:fuel"
-            }
-          }
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "index:3": 0,
-          "taskID:8": "bq_standard:checkbox"
         }
       }
     }
@@ -74402,8 +74162,8 @@
           "id:3": 1054,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 84,
-          "y:3": -12
+          "x:3": 216,
+          "y:3": -36
         },
         "10:10": {
           "id:3": 1055,
@@ -74469,60 +74229,53 @@
           "y:3": -12
         },
         "19:10": {
-          "id:3": 1066,
+          "id:3": 1064,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 180,
-          "y:3": -12
+          "x:3": 396,
+          "y:3": -72
         },
         "20:10": {
+          "id:3": 1065,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 456,
+          "y:3": -84
+        },
+        "21:10": {
           "id:3": 1067,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -108,
           "y:3": -60
         },
-        "21:10": {
+        "22:10": {
           "id:3": 1090,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -72,
-          "y:3": 36
+          "x:3": 96,
+          "y:3": -12
         },
-        "22:10": {
+        "23:10": {
           "id:3": 1091,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -108,
-          "y:3": 72
+          "x:3": 156,
+          "y:3": -24
         },
-        "23:10": {
+        "24:10": {
           "id:3": 1092,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -144,
-          "y:3": 108
-        },
-        "24:10": {
-          "id:3": 1093,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -60,
+          "x:3": 276,
           "y:3": -48
         },
         "25:10": {
           "id:3": 1094,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -180,
-          "y:3": 144
-        },
-        "26:10": {
-          "id:3": 1095,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 48,
-          "y:3": 12
+          "x:3": 336,
+          "y:3": -60
         }
       }
     },
