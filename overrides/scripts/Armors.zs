@@ -389,7 +389,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<armorplus:ender_dragon_sword>, [
 [compobs,null,null,scale,scale,scale,null],
 [null,compobs,scale,scale,scale,null,null],
 [null,ends,compobs,scale,null,null,null],
-[ends,<redstonearsenal:tool.sword_flux>	,ends,compobs,null,null,null],
+[ends,<armorplus:emerald_sword>	,ends,compobs,null,null,null],
 [scale,ends,null,null,compobs,null,null]]);
 
 //Superstar
@@ -447,7 +447,7 @@ recipes.addShaped(<armorplus:emerald_bow>, [
 mods.extendedcrafting.TableCrafting.addShaped(<armorplus:ender_dragon_bow>, [
 [null,null,null,<armorplus:material:3>,<armorplus:material:3>,<armorplus:material:3>,null],
 [null,null,<armorplus:material:3>,<armorplus:material:3>,null,<minecraft:dragon_breath>,null],
-[null,<redstonearsenal:tool.bow_flux>,null,null,null,<minecraft:dragon_breath>,null],
+[null,<enderio:item_end_steel_bow>,null,null,null,<minecraft:dragon_breath>,null],
 [null,<armorplus:material:3>,null,null,null,<minecraft:dragon_breath>,null],
 [null,<redstonearsenal:util.quiver_flux>,null,null,null,<minecraft:dragon_breath>,null],
 [null,null,<armorplus:material:3>,<armorplus:material:3>,null,<minecraft:dragon_breath>,null],
@@ -670,13 +670,9 @@ mods.extendedcrafting.TableCrafting.addShaped(<avaritia:infinity_boots>, [
 [null,null,null,null,null,null,null,null,null],
 [null,null,null,null,null,null,null,null,null]]); 
 
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+recipes.remove(<redstonearsenal:tool.sword_flux>);
+recipes.remove(<redstonearsenal:tool.bow_flux>);
+recipes.remove(<redstonearsenal:tool.sickle_flux>);
+recipes.remove(<redstonearsenal:tool.hammer_flux>);
+recipes.remove(<redstonearsenal:tool.excavator_flux>);
+recipes.remove(<redstonearsenal:tool.shield_flux>);
