@@ -49,10 +49,10 @@ item.contenttweaker.ev_penetrator.name= Tungsten Carbide Projectile
 item.contenttweaker.smokeless_powder.name= Smokeless Powder
 
 
-item.contenttweaker.action_europium= Europium Action
-item.contenttweaker.barrel_trinium= Trinium Gun Barrel
-item.contenttweaker.receiver_vanax= Vanax Receiver
-item.contenttweaker.barrel_tritanium= Tritanium Gun Barrel
-item.contenttweaker.receiver_duranium= Duranium Receiver
-item.contenttweaker.action_naquadah_alloy= Naquadah Alloy Action
+item.contenttweaker.action_europium.name= Europium Action
+item.contenttweaker.barrel_trinium.name= Trinium Gun Barrel
+item.contenttweaker.receiver_vanax.name= Vanax Receiver
+item.contenttweaker.barrel_tritanium.name= Tritanium Gun Barrel
+item.contenttweaker.receiver_duranium.name= Duranium Receiver
+item.contenttweaker.action_naquadah_alloy.name= Naquadah Alloy Action
 
