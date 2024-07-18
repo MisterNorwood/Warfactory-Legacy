@@ -210,3 +210,31 @@ ev_penetrator.register();
 var smokeless_powder = VanillaFactory.createItem("smokeless_powder");
 smokeless_powder.maxStackSize = 64;
 smokeless_powder.register();
+
+
+
+
+//LUV and ZPM Parts
+var receiver_vanax = VanillaFactory.createItem("receiver_vanax");
+receiver_vanax.maxStackSize = 64;
+receiver_vanax.register();
+
+var receiver_duranium = VanillaFactory.createItem("receiver_duranium");
+receiver_duranium.maxStackSize = 64;
+receiver_duranium.register();
+
+var barrel_trinium = VanillaFactory.createItem("barrel_trinium");
+barrel_trinium.maxStackSize = 64;
+barrel_trinium.register();
+
+var barrel_tritanium = VanillaFactory.createItem("barrel_tritanium");
+barrel_tritanium.maxStackSize = 64;
+barrel_tritanium.register();
+
+var action_europium = VanillaFactory.createItem("action_europium");
+action_europium.maxStackSize = 64;
+action_europium.register();
+
+var action_naquadah_alloy = VanillaFactory.createItem("action_naquadah_alloy");
+action_naquadah_alloy.maxStackSize = 64;
+action_naquadah_alloy.register();
