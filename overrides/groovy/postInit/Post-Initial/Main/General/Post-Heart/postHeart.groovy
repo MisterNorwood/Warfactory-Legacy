@@ -14,16 +14,18 @@ if (LabsModeHelper.expert) {
             .buildAndRegister()
 }
 
-mods.extendedcrafting.TableCrafting.addShaped(0, item('contenttweaker:gegagedigedagedago'), [
+mods.extendedcrafting.TableCrafting.addShaped(0, item('contenttweaker:woman').withNbt(["ench": [["id": 10, "lvl": (short) 1]]]), [
 [item('gregtech:fusion_casing', 1), item('gregtech:fusion_casing', 1), ore('plateDenseDarmstadtium'), item('extendedcrafting:singularity_ultimate'), item('extendedcrafting:singularity_ultimate'), item('extendedcrafting:singularity_ultimate'), ore('plateDenseDarmstadtium'), item('gregtech:fusion_casing', 1), item('gregtech:fusion_casing', 1)], 
 [item('gregtech:fusion_casing', 1), ore('plateDenseDarmstadtium'), item('contenttweaker:master_shadow_dollar'), item('nomilabs:universalnavigator'), item('nomilabs:heartofauniverse'), item('gregtech:meta_item_1', 263), item('contenttweaker:master_shadow_dollar'), ore('plateDenseDarmstadtium'), item('gregtech:fusion_casing', 1)], 
 [ore('plateDenseDarmstadtium'), item('gregtech:wire_coil', 7), item('gregtech:meta_item_1', 282), item('draconicevolution:chaotic_core'), item('draconicevolution:reactor_core'), item('draconicevolution:chaotic_core'), item('gregtech:meta_item_1', 282), item('gregtech:wire_coil', 7), ore('plateDenseDarmstadtium')], 
 [item('extendedcrafting:singularity_ultimate'), item('gregtech:wire_coil', 7), item('nomilabs:tiereightship_stabilized'), ore('circuitUhv'), item('nomilabs:ultimate_gem'), ore('circuitUhv'), item('nomilabs:tiersevenship_stabilized'), item('gregtech:wire_coil', 7), item('extendedcrafting:singularity_ultimate')], 
-[item('gregtech:meta_item_1', 104), ore('materialTheUltimate'), item('nomilabs:universecreationdata'), ore('materialTheUltimate'), item('minecraft:cooked_chicken'), ore('materialTheUltimate'), item('nomilabs:universecreationdata'), ore('materialTheUltimate'), item('gregtech:meta_item_1', 104)], 
+[item('gregtech:meta_item_1', 104), ore('materialTheUltimate'), item('nomilabs:universecreationdata'), ore('materialTheUltimate'), item('gregtech:meta_item_1', 709), ore('materialTheUltimate'), item('nomilabs:universecreationdata'), ore('materialTheUltimate'), item('gregtech:meta_item_1', 104)], 
 [item('extendedcrafting:singularity_ultimate'), ore('blockRutheniumTriniumAmericiumNeutronate'), ore('materialTheUltimate'), ore('circuitUhv'), ore('circuitUv'), ore('circuitUhv'), ore('materialTheUltimate'), ore('blockRutheniumTriniumAmericiumNeutronate'), item('extendedcrafting:singularity_ultimate')], 
 [ore('plateDenseDarmstadtium'), ore('blockRutheniumTriniumAmericiumNeutronate'), item('nomilabs:ultimate_gem'), item('gregtech:battery_block', 8), item('nomilabs:impossiblerealmdata'), item('gregtech:battery_block', 8), item('nomilabs:ultimate_gem'), ore('blockRutheniumTriniumAmericiumNeutronate'), ore('plateDenseDarmstadtium')], 
 [ore('plateDenseDarmstadtium'), item('extendedcrafting:singularity_ultimate'), ore('materialTheUltimate'), item('nomilabs:doublecompressedoctadiccapacitor'), ore('gemPerfectDiamond'), item('nomilabs:doublecompressedoctadiccapacitor'), ore('materialTheUltimate'), item('extendedcrafting:singularity_ultimate'), ore('plateDenseDarmstadtium')], 
 [item('gregtech:fusion_casing', 1), item('gregtech:fusion_casing', 1), item('extendedcrafting:singularity_ultimate'), ore('plateDenseDarmstadtium'), item('gregtech:fusion_casing', 1), ore('plateDenseDarmstadtium'), item('extendedcrafting:singularity_ultimate'), item('gregtech:fusion_casing', 1), item('gregtech:fusion_casing', 1)]
 ])
+
+
 
 
