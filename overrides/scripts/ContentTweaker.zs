@@ -238,3 +238,7 @@ action_europium.register();
 var action_naquadah_alloy = VanillaFactory.createItem("action_naquadah_alloy");
 action_naquadah_alloy.maxStackSize = 64;
 action_naquadah_alloy.register();
+
+var gegagedigedagedago = VanillaFactory.createItem("gegagedigedagedago");
+gegagedigedagedago.maxStackSize = 64;
+gegagedigedagedago.register();
