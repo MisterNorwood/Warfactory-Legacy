@@ -600,7 +600,7 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:steel> * 1152)
     .circuit(1)
     .outputs(<mcheli:centauro>)
-    .duration(2400).EUt(256).buildAndRegister();
+    .duration(108000).EUt(256).buildAndRegister();
 
 vehiclesHv.add(<mcheli:kurganets25>);
 recipes.remove(<mcheli:kurganets25>);
@@ -610,7 +610,7 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:steel> * 1152)
     .circuit(2)
     .outputs(<mcheli:kurganets25>)
-    .duration(2400).EUt(256).buildAndRegister();
+    .duration(108000).EUt(256).buildAndRegister();
 
 vehiclesHv.add(<mcheli:m1129>);
 recipes.remove(<mcheli:m1129>);
@@ -620,7 +620,7 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:steel> * 1152)
     .circuit(3)
     .outputs(<mcheli:m1129>)
-    .duration(2400).EUt(256).buildAndRegister();
+    .duration(108000).EUt(256).buildAndRegister();
 
 
 //TANKS
@@ -632,7 +632,7 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:steel> * 1152)
     .circuit(4)
     .outputs(<mcheli:t84>)
-    .duration(2400).EUt(256).buildAndRegister();
+    .duration(108000).EUt(256).buildAndRegister();
 
 vehiclesHv.add(<mcheli:merkava_mk4>);
 recipes.remove(<mcheli:merkava_mk4>);
@@ -642,7 +642,7 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:steel> * 1152)
     .circuit(5)
     .outputs(<mcheli:merkava_mk4>)
-    .duration(2400).EUt(256).buildAndRegister();
+    .duration(108000).EUt(256).buildAndRegister();
 
 vehiclesHv.add(<mcheli:t-90>);
 recipes.remove(<mcheli:t-90>);
@@ -652,7 +652,7 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:steel> * 1152)
     .circuit(6)
     .outputs(<mcheli:t-90>)
-    .duration(2400).EUt(256).buildAndRegister();
+    .duration(108000).EUt(256).buildAndRegister();
 
 vehiclesHv.add(<mcheli:m1a2>);
 recipes.remove(<mcheli:m1a2>);
@@ -662,7 +662,7 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:steel> * 1152)
     .circuit(7)
     .outputs(<mcheli:m1a2>)
-    .duration(2400).EUt(256).buildAndRegister();
+    .duration(108000).EUt(256).buildAndRegister();
 
 
 
@@ -723,7 +723,7 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:steel> * 1152)
     .circuit(1)
     .outputs(<mcheli:uh-1c>)
-    .duration(2400).EUt(256).buildAndRegister();
+    .duration(108000).EUt(256).buildAndRegister();
 
 vehiclesHv.add(<mcheli:ch47>);
 recipes.remove(<mcheli:ch47>);
@@ -733,7 +733,7 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:steel> * 1152)
     .circuit(2)
     .outputs(<mcheli:ch47>)
-    .duration(2400).EUt(256).buildAndRegister();
+    .duration(108000).EUt(256).buildAndRegister();
 
 vehiclesEv.add(<mcheli:mi-24>);
 recipes.remove(<mcheli:mi-24>);
@@ -743,7 +743,7 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:steel> * 1152)
     .circuit(3)
     .outputs(<mcheli:mi-24>)
-    .duration(2400).EUt(1024).buildAndRegister();
+    .duration(108000).EUt(1024).buildAndRegister();
 
 vehiclesHv.add(<mcheli:mh-60g>);
 recipes.remove(<mcheli:mh-60g>);
@@ -753,7 +753,7 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:steel> * 1152)
     .circuit(4)
     .outputs(<mcheli:mh-60g>)
-    .duration(2400).EUt(256).buildAndRegister();
+    .duration(108000).EUt(256).buildAndRegister();
 
 vehiclesEv.add(<mcheli:ah-64>);
 recipes.remove(<mcheli:ah-64>);
@@ -763,7 +763,7 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:steel> * 1152)
     .circuit(5)
     .outputs(<mcheli:ah-64>)
-    .duration(3200).EUt(1024).buildAndRegister();
+    .duration(144000).EUt(1024).buildAndRegister();
 
 vehiclesEv.add(<mcheli:bell207>);
 recipes.remove(<mcheli:bell207>);
@@ -773,7 +773,7 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:steel> * 1152)
     .circuit(6)
     .outputs(<mcheli:bell207>)
-    .duration(2400).EUt(1024).buildAndRegister();
+    .duration(108000).EUt(1024).buildAndRegister();
 
 vehiclesMv.add(<mcheli:ah-6x>);
 recipes.remove(<mcheli:ah-6x>);
@@ -783,7 +783,7 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:steel> * 1152)
     .circuit(7)
     .outputs(<mcheli:ah-6x>)
-    .duration(2400).EUt(120).buildAndRegister();
+    .duration(108000).EUt(120).buildAndRegister();
 
 vehiclesHv.add(<mcheli:sh-60>);
 recipes.remove(<mcheli:sh-60>);
@@ -793,7 +793,7 @@ assembler.recipeBuilder()
     .inputs([<gregtech:turbine_casing:2>*12, <gregtech:meta_item_1:159>*2, <ore:circuitHv>*3, <gregtech:machine:967>, <ore:turbineBladeStainlessSteel>*8, <gregtech:meta_item_1:174>*5, <ore:frameGtStainlessSteel>*12, <ore:fusedGlass>*2])
     .circuit(8)
     .outputs(<mcheli:sh-60>)
-    .duration(2400).EUt(256).buildAndRegister();
+    .duration(108000).EUt(256).buildAndRegister();
 
 vehiclesHv.add(<mcheli:sh-3>);
 recipes.remove(<mcheli:sh-3>);
@@ -803,7 +803,7 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:steel> * 1152)
     .circuit(9)
     .outputs(<mcheli:sh-3>)
-    .duration(2400).EUt(256).buildAndRegister();
+    .duration(108000).EUt(256).buildAndRegister();
 
 vehiclesHv.add(<mcheli:ka-27>);
 recipes.remove(<mcheli:ka-27>);
@@ -813,7 +813,7 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:steel> * 1152)
     .circuit(10)
     .outputs(<mcheli:ka-27>)
-    .duration(2400).EUt(256).buildAndRegister();
+    .duration(108000).EUt(256).buildAndRegister();
 
 vehiclesEv.add(<mcheli:oh-1>);
 recipes.remove(<mcheli:oh-1>);
@@ -823,7 +823,7 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:steel> * 1152)
     .circuit(20)
     .outputs(<mcheli:oh-1>)
-    .duration(2400).EUt(1024).buildAndRegister();
+    .duration(108000).EUt(1024).buildAndRegister();
 
 vehiclesHv.add(<mcheli:ka-29>);
 recipes.remove(<mcheli:ka-29>);
@@ -833,7 +833,7 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:steel> * 1152)
     .circuit(11)
     .outputs(<mcheli:ka-29>)
-    .duration(2400).EUt(256).buildAndRegister();
+    .duration(108000).EUt(256).buildAndRegister();
 
 vehiclesHv.add(<mcheli:ah-6>);
 recipes.remove(<mcheli:ah-6>);
@@ -843,7 +843,7 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:steel> * 1152)
     .circuit(12)
     .outputs(<mcheli:ah-6>)
-    .duration(2400).EUt(256).buildAndRegister();
+    .duration(108000).EUt(256).buildAndRegister();
 
 vehiclesEv.add(<mcheli:mh-60l_dap>);
 recipes.remove(<mcheli:mh-60l_dap>);
@@ -853,7 +853,7 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:steel> * 1152)
     .circuit(13)
     .outputs(<mcheli:mh-60l_dap>)
-    .duration(2400).EUt(1024).buildAndRegister();
+    .duration(108000).EUt(1024).buildAndRegister();
 
 vehiclesEv.add(<mcheli:ka52>);
 recipes.remove(<mcheli:ka52>);
@@ -863,7 +863,7 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:steel> * 1152)
     .circuit(14)
     .outputs(<mcheli:ka52>)
-    .duration(2400).EUt(1024).buildAndRegister();
+    .duration(108000).EUt(1024).buildAndRegister();
 
 vehiclesEv.add(<mcheli:ka50n>);
 recipes.remove(<mcheli:ka50n>);
@@ -873,7 +873,7 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:steel> * 1152)
     .circuit(15)
     .outputs(<mcheli:ka50n>)
-    .duration(2400).EUt(1024).buildAndRegister();
+    .duration(108000).EUt(1024).buildAndRegister();
 
 vehiclesHv.add(<mcheli:nh90>);
 recipes.remove(<mcheli:nh90>);
@@ -883,7 +883,7 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:steel> * 1152)
     .circuit(16)
     .outputs(<mcheli:nh90>)
-    .duration(2400).EUt(256).buildAndRegister();
+    .duration(108000).EUt(256).buildAndRegister();
 
 vehiclesEv.add(<mcheli:mi-24ps>);
 recipes.remove(<mcheli:mi-24ps>);
@@ -893,7 +893,7 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:steel> * 1152)
     .circuit(17)
     .outputs(<mcheli:mi-24ps>)
-    .duration(2400).EUt(1024).buildAndRegister();
+    .duration(108000).EUt(1024).buildAndRegister();
 
 vehiclesEv.add(<mcheli:mi28>);
 recipes.remove(<mcheli:mi28>);
@@ -903,7 +903,7 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:steel> * 1152)
     .circuit(18)
     .outputs(<mcheli:mi28>)
-    .duration(2400).EUt(1024).buildAndRegister();
+    .duration(108000).EUt(1024).buildAndRegister();
 
 vehiclesHv.add(<mcheli:w3>);
 recipes.remove(<mcheli:w3>);
@@ -913,7 +913,7 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:steel> * 1152)
     .circuit(19)
     .outputs(<mcheli:w3>)
-    .duration(2400).EUt(256).buildAndRegister();
+    .duration(108000).EUt(256).buildAndRegister();
 
 
 //Barco
@@ -926,7 +926,7 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:steel> * 1152)
     .circuit(1)
     .outputs(<mcheli:cb90>)
-    .duration(2400).EUt(120).buildAndRegister();
+    .duration(108000).EUt(120).buildAndRegister();
 
 vehiclesMv.add(<mcheli:mark5>);
 recipes.remove(<mcheli:mark5>);
@@ -936,7 +936,7 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:steel> * 1152)
     .circuit(2)
     .outputs(<mcheli:mark5>)
-    .duration(2400).EUt(120).buildAndRegister();
+    .duration(108000).EUt(120).buildAndRegister();
 
 
 //Aeroplan
@@ -948,7 +948,7 @@ assembly_line.recipeBuilder()
     .fluidInputs(<liquid:titanium> * 1152)
     .circuit(1)
     .outputs(<mcheli:f4a>)
-    .duration(2400).EUt(32768).buildAndRegister();
+    .duration(108000).EUt(32768).buildAndRegister();
 
 vehiclesLuv.add(<mcheli:tornado-ids>);
 recipes.remove(<mcheli:tornado-ids>);
@@ -958,7 +958,7 @@ assembly_line.recipeBuilder()
     .fluidInputs(<liquid:titanium> * 1152)
     .circuit(2)
     .outputs(<mcheli:tornado-ids>)
-    .duration(2400).EUt(32768).buildAndRegister();
+    .duration(108000).EUt(32768).buildAndRegister();
 
 vehiclesLuv.add(<mcheli:f-15s_mtd>);
 recipes.remove(<mcheli:f-15s_mtd>);
@@ -968,7 +968,7 @@ assembly_line.recipeBuilder()
     .fluidInputs(<liquid:titanium> * 1152)
     .circuit(3)
     .outputs(<mcheli:f-15s_mtd>)
-    .duration(2400).EUt(32768).buildAndRegister();
+    .duration(108000).EUt(32768).buildAndRegister();
 
 vehiclesLuv.add(<mcheli:tornado-gr4>);
 recipes.remove(<mcheli:tornado-gr4>);
@@ -978,7 +978,7 @@ assembly_line.recipeBuilder()
     .fluidInputs(<liquid:titanium> * 1152)
     .circuit(4)
     .outputs(<mcheli:tornado-gr4>)
-    .duration(2400).EUt(32768).buildAndRegister();
+    .duration(108000).EUt(32768).buildAndRegister();
 
 vehiclesLuv.add(<mcheli:su37>);
 recipes.remove(<mcheli:su37>);
@@ -988,7 +988,7 @@ assembly_line.recipeBuilder()
     .fluidInputs(<liquid:titanium> * 1152)
     .circuit(5)
     .outputs(<mcheli:su37>)
-    .duration(2400).EUt(32768).buildAndRegister();
+    .duration(108000).EUt(32768).buildAndRegister();
 
 recipes.remove(<mcheli:p180>);
 
@@ -1001,7 +1001,7 @@ assembly_line.recipeBuilder()
     .fluidInputs(<liquid:titanium> * 1152)
     .circuit(7)
     .outputs(<mcheli:mig29>)
-    .duration(2400).EUt(32768).buildAndRegister();
+    .duration(108000).EUt(32768).buildAndRegister();
 
 vehiclesLuv.add(<mcheli:harrier_en>);
 recipes.remove(<mcheli:harrier_en>);
@@ -1011,7 +1011,7 @@ assembly_line.recipeBuilder()
     .fluidInputs(<liquid:titanium> * 1152)
     .circuit(8)
     .outputs(<mcheli:harrier_en>)
-    .duration(2400).EUt(32768).buildAndRegister();
+    .duration(108000).EUt(32768).buildAndRegister();
 
 vehiclesLuv.add(<mcheli:harrier>);
 recipes.remove(<mcheli:harrier>);
@@ -1021,7 +1021,7 @@ assembly_line.recipeBuilder()
     .fluidInputs(<liquid:titanium> * 1152)
     .circuit(9)
     .outputs(<mcheli:harrier>)
-    .duration(2400).EUt(32768).buildAndRegister();
+    .duration(108000).EUt(32768).buildAndRegister();
 
 vehiclesLuv.add(<mcheli:f-15e>);
 recipes.remove(<mcheli:f-15e>);
@@ -1031,7 +1031,7 @@ assembly_line.recipeBuilder()
     .fluidInputs(<liquid:titanium> * 1152)
     .circuit(10)
     .outputs(<mcheli:f-15e>)
-    .duration(2400).EUt(32768).buildAndRegister();
+    .duration(108000).EUt(32768).buildAndRegister();
 
 vehiclesLuv.add(<mcheli:a-10>);
 recipes.remove(<mcheli:a-10>);
@@ -1041,7 +1041,7 @@ assembly_line.recipeBuilder()
     .fluidInputs(<liquid:titanium> * 1152)
     .circuit(11)
     .outputs(<mcheli:a-10>)
-    .duration(2400).EUt(32768).buildAndRegister();
+    .duration(108000).EUt(32768).buildAndRegister();
 
 vehiclesLuv.add(<mcheli:f14d>);
 recipes.remove(<mcheli:f14d>);
@@ -1051,7 +1051,7 @@ assembly_line.recipeBuilder()
     .fluidInputs(<liquid:titanium> * 1152)
     .circuit(12)
     .outputs(<mcheli:f14d>)
-    .duration(2400).EUt(32768).buildAndRegister();
+    .duration(108000).EUt(32768).buildAndRegister();
 
 vehiclesLuv.add(<mcheli:fa18f>);
 recipes.remove(<mcheli:fa18f>);
@@ -1061,7 +1061,7 @@ assembly_line.recipeBuilder()
     .fluidInputs(<liquid:titanium> * 1152)
     .circuit(13)
     .outputs(<mcheli:fa18f>)
-    .duration(2400).EUt(32768).buildAndRegister();
+    .duration(108000).EUt(32768).buildAndRegister();
 
 
 
@@ -1088,7 +1088,7 @@ assembly_line.recipeBuilder()
     .fluidInputs(<liquid:titanium> * 1152)
     .circuit(1)
     .outputs(<mcheli:f-35b>)
-    .duration(3200).EUt(32768).buildAndRegister();
+    .duration(144000).EUt(32768).buildAndRegister();
 
 vehiclesLuv.add(<mcheli:f-35c>);
 recipes.remove(<mcheli:f-35c>);
@@ -1098,7 +1098,7 @@ assembly_line.recipeBuilder()
     .fluidInputs(<liquid:titanium> * 1152)
     .circuit(2)
     .outputs(<mcheli:f-35c>)
-    .duration(3200).EUt(32768).buildAndRegister();
+    .duration(144000).EUt(32768).buildAndRegister();
 
 vehiclesLuv.add(<mcheli:su-33>);
 recipes.remove(<mcheli:su-33>);
@@ -1108,7 +1108,7 @@ assembly_line.recipeBuilder()
     .fluidInputs(<liquid:titanium> * 1152)
     .circuit(3)
     .outputs(<mcheli:su-33>)
-    .duration(3200).EUt(32768).buildAndRegister();
+    .duration(144000).EUt(32768).buildAndRegister();
 
 vehiclesLuv.add(<mcheli:f22a>);
 recipes.remove(<mcheli:f22a>);
@@ -1118,7 +1118,7 @@ assembly_line.recipeBuilder()
     .fluidInputs(<liquid:titanium> * 1152)
     .circuit(4)
     .outputs(<mcheli:f22a>)
-    .duration(3200).EUt(32768).buildAndRegister();
+    .duration(144000).EUt(32768).buildAndRegister();
 
 vehiclesLuv.add(<mcheli:su-47>);
 recipes.remove(<mcheli:su-47>);
@@ -1128,7 +1128,7 @@ assembly_line.recipeBuilder()
     .fluidInputs(<liquid:titanium> * 1152)
     .circuit(5)
     .outputs(<mcheli:su-47>)
-    .duration(3200).EUt(32768).buildAndRegister();
+    .duration(144000).EUt(32768).buildAndRegister();
 
 vehiclesLuv.add(<mcheli:b-2a>);
 recipes.remove(<mcheli:b-2a>);
@@ -1138,7 +1138,7 @@ assembly_line.recipeBuilder()
     .fluidInputs(<liquid:titanium>* 1152, <liquid:polytetrafluoroethylene> * 1152)
     .circuit(6)
     .outputs(<mcheli:b-2a>)
-    .duration(3200).EUt(32768).buildAndRegister();
+    .duration(144000).EUt(32768).buildAndRegister();
 
 vehiclesLuv.add(<mcheli:f-35a>);
 recipes.remove(<mcheli:f-35a>);
@@ -1148,7 +1148,7 @@ assembly_line.recipeBuilder()
     .fluidInputs(<liquid:titanium> * 1152)
     .circuit(7)
     .outputs(<mcheli:f-35a>)
-    .duration(3200).EUt(32768).buildAndRegister();
+    .duration(144000).EUt(32768).buildAndRegister();
 
 vehiclesEv.add(<mcheli:mv-22>);
 recipes.remove(<mcheli:mv-22>);
@@ -1158,7 +1158,7 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:aluminium> * 1152)
     .circuit(8)
     .outputs(<mcheli:mv-22>)
-    .duration(3200).EUt(1024).buildAndRegister();
+    .duration(144000).EUt(1024).buildAndRegister();
 
 recipes.remove(<mcheli:ac-130>);
 
@@ -1182,7 +1182,7 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:aluminium> * 576)
     .circuit(1)
     .outputs(<mcheli:s-75>)
-    .duration(1600).EUt(1024).buildAndRegister();
+    .duration(144000).EUt(1024).buildAndRegister();
 
 vehiclesHv.add(<mcheli:searam>);
 recipes.remove(<mcheli:searam>);
@@ -1192,7 +1192,7 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:aluminium> * 576)
     .circuit(2)
     .outputs(<mcheli:searam>)
-    .duration(1600).EUt(420).buildAndRegister();
+    .duration(144000).EUt(420).buildAndRegister();
 
 
 
@@ -1261,7 +1261,7 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:aluminium> * 1152)
     .circuit(1)
     .outputs(<mcheli:ec665>)
-    .duration(3200).EUt(1024).buildAndRegister();
+    .duration(144000).EUt(1024).buildAndRegister();
 
 vehiclesHv.add(<mcheli:mh-53e>);
 recipes.remove(<mcheli:mh-53e>);
@@ -1271,7 +1271,7 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:aluminium> * 1152)
     .circuit(2)
     .outputs(<mcheli:mh-53e>)
-    .duration(3200).EUt(420).buildAndRegister();
+    .duration(144000).EUt(420).buildAndRegister();
 
 vehiclesEv.add(<mcheli:ah-1z>);
 recipes.remove(<mcheli:ah-1z>);
@@ -1281,7 +1281,7 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:aluminium> * 1152)
     .circuit(3)
     .outputs(<mcheli:ah-1z>)
-    .duration(3200).EUt(1024).buildAndRegister();
+    .duration(144000).EUt(1024).buildAndRegister();
 
 vehiclesEv.add(<mcheli:penetrator>);
 recipes.remove(<mcheli:penetrator>);
@@ -1291,7 +1291,7 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:aluminium> * 1152)
     .circuit(4)
     .outputs(<mcheli:penetrator>)
-    .duration(3200).EUt(1024).buildAndRegister();
+    .duration(144000).EUt(1024).buildAndRegister();
 
 
 //Boats and Cars???
@@ -1304,7 +1304,7 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:aluminium> * 1152)
     .circuit(1)
     .outputs(<mcheli:bnr32>)
-    .duration(3200).EUt(420).buildAndRegister();
+    .duration(144000).EUt(420).buildAndRegister();
 
 vehiclesHv.add(<mcheli:project1204>);
 recipes.remove(<mcheli:project1204>);
