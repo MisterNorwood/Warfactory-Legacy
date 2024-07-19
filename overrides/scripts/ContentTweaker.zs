@@ -239,6 +239,13 @@ var action_naquadah_alloy = VanillaFactory.createItem("action_naquadah_alloy");
 action_naquadah_alloy.maxStackSize = 64;
 action_naquadah_alloy.register();
 
-var gegagedigedagedago = VanillaFactory.createItem("gegagedigedagedago");
+var woman = VanillaFactory.createItem("woman");
+woman.maxStackSize = 1;
+woman.rarity = "epic";
+woman.register();
+
+var gegagedigedagedago = VanillaFactory.createItemFood("gegagedigedagedago", 20);
 gegagedigedagedago.maxStackSize = 64;
+gegagedigedagedago.saturation = 1;
+gegagedigedagedago.rarity = "rare";
 gegagedigedagedago.register();
