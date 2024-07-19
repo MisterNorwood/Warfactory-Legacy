@@ -177,8 +177,11 @@ recipes.addShapeless(<rustic:wildberry_bush>, [<rustic:wildberries>, <rustic:wil
 
 <mcheli:bnr32>.displayName = "K9 Grabowska Turboboost";
 
-recipes.addShaped(<minecraft:golden_apple:1>, [
-    [<minecraft:dragon_egg>, <minecraft:dragon_egg>, <minecraft:dragon_egg>],
-    [<minecraft:dragon_egg>, <minecraft:apple>, <minecraft:dragon_egg>], 
-    [<minecraft:dragon_egg>, <minecraft:dragon_egg>, <minecraft:dragon_egg>]
-]);
+chemical_reactor.recipeBuilder()
+    .inputs(<minecraft:cooked_chicken>, <ore:dustWheat> * 2)
+    .fluidInputs(<liquid:sterilized_growth_medium> * 500, <liquid:oliveoil> * 1000)
+    .outputs(<contenttweaker:gegagedigedagedago> * 64, <contenttweaker:gegagedigedagedago> * 64)
+    .fluidOutputs(<liquid:bacterial_sludge> * 500)
+    .property("cleanroom", "sterile_cleanroom")
+    .duration(600).EUt(8192).buildAndRegister();
+
