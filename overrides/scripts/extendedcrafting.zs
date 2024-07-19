@@ -570,7 +570,7 @@ makeExtremeRecipe9(<avaritia:infinity_sword>,
       F : <draconicevolution:wyvern_sword>,
       G : <draconicevolution:draconic_sword>.withTag({Energy: 0}, false),
       H : <avaritia:skullfire_sword>,
-      N : <avaritia:resource:5> });
+      N : <contenttweaker:woman> });
 
 makeExtremeRecipe9(<draconicevolution:creative_rf_source>,
     ["ABBCDCBBA",
