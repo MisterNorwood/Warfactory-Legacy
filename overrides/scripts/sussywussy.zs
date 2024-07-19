@@ -182,6 +182,6 @@ chemical_reactor.recipeBuilder()
     .fluidInputs(<liquid:sterilized_growth_medium> * 500, <liquid:oliveoil> * 1000)
     .outputs(<contenttweaker:gegagedigedagedago> * 64, <contenttweaker:gegagedigedagedago> * 64)
     .fluidOutputs(<liquid:bacterial_sludge> * 500)
-    .property("cleanroom")
+    .property("cleanroom", "cleanroom")
     .duration(600).EUt(8192).buildAndRegister();
 
