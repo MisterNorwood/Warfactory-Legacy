@@ -943,9 +943,9 @@ assembler.recipeBuilder()
 vehiclesLuv.add(<mcheli:f4a>);
 recipes.remove(<mcheli:f4a>);
 <mcheli:f4a>.addTooltip(format.red("LuV-Tier Jet"));
-assembler.recipeBuilder()
+assembly_line.recipeBuilder()
     .inputs([<gregtech:machine_casing:6>*12, <gregtech:meta_item_1:162>*3, <ore:circuitLuv>*2, <ore:rotorHsss>*2, <gregtech:machine:1011>, <gregtech:meta_item_1:177>*4, <ore:plateRhodiumPlatedPalladium>*8, <ore:fusedGlass>*4])
-    .fluidInputs(<liquid:steel> * 1152)
+    .fluidInputs(<liquid:titanium> * 1152)
     .circuit(1)
     .outputs(<mcheli:f4a>)
     .duration(2400).EUt(32768).buildAndRegister();
@@ -953,9 +953,9 @@ assembler.recipeBuilder()
 vehiclesLuv.add(<mcheli:tornado-ids>);
 recipes.remove(<mcheli:tornado-ids>);
 <mcheli:tornado-ids>.addTooltip(format.red("LuV-Tier Jet"));
-assembler.recipeBuilder()
+assembly_line.recipeBuilder()
     .inputs([<gregtech:machine_casing:6>*12, <gregtech:meta_item_1:162>*3, <ore:circuitMv>*2, <ore:rotorHsss>*2, <gregtech:machine:1011>, <gregtech:meta_item_1:177>*4, <ore:plateRhodiumPlatedPalladium>*8, <ore:fusedGlass>*4])
-    .fluidInputs(<liquid:steel> * 1152)
+    .fluidInputs(<liquid:titanium> * 1152)
     .circuit(2)
     .outputs(<mcheli:tornado-ids>)
     .duration(2400).EUt(32768).buildAndRegister();
@@ -963,9 +963,9 @@ assembler.recipeBuilder()
 vehiclesLuv.add(<mcheli:f-15s_mtd>);
 recipes.remove(<mcheli:f-15s_mtd>);
 <mcheli:f-15s_mtd>.addTooltip(format.red("LuV-Tier Jet"));
-assembler.recipeBuilder()
+assembly_line.recipeBuilder()
     .inputs([<gregtech:machine_casing:6>*12, <gregtech:meta_item_1:162>*3, <ore:circuitLuv>*2, <ore:rotorHsss>*2, <gregtech:machine:1011>, <gregtech:meta_item_1:177>*4, <ore:plateRhodiumPlatedPalladium>*16, <ore:fusedGlass>*4])
-    .fluidInputs(<liquid:steel> * 1152)
+    .fluidInputs(<liquid:titanium> * 1152)
     .circuit(3)
     .outputs(<mcheli:f-15s_mtd>)
     .duration(2400).EUt(32768).buildAndRegister();
@@ -973,9 +973,9 @@ assembler.recipeBuilder()
 vehiclesLuv.add(<mcheli:tornado-gr4>);
 recipes.remove(<mcheli:tornado-gr4>);
 <mcheli:tornado-gr4>.addTooltip(format.red("LuV-Tier Jet"));
-assembler.recipeBuilder()
+assembly_line.recipeBuilder()
     .inputs([<gregtech:machine_casing:6>*12, <gregtech:meta_item_1:163>*3, <ore:circuitLuv>*2, <ore:rotorHsss>*2, <gregtech:machine:1011>, <gregtech:meta_item_1:177>*4, <ore:plateRhodiumPlatedPalladium>*10, <ore:fusedGlass>*4])
-    .fluidInputs(<liquid:steel> * 1152)
+    .fluidInputs(<liquid:titanium> * 1152)
     .circuit(4)
     .outputs(<mcheli:tornado-gr4>)
     .duration(2400).EUt(32768).buildAndRegister();
@@ -983,9 +983,9 @@ assembler.recipeBuilder()
 vehiclesLuv.add(<mcheli:su37>);
 recipes.remove(<mcheli:su37>);
 <mcheli:su37>.addTooltip(format.red("LuV-Tier Jet"));
-assembler.recipeBuilder()
+assembly_line.recipeBuilder()
     .inputs([<gregtech:machine_casing:6>*12, <gregtech:meta_item_1:162>*3, <ore:circuitLuv>*2, <ore:rotorHsss>*2, <gregtech:machine:1011>, <gregtech:meta_item_1:177>*4, <ore:plateRhodiumPlatedPalladium>*16, <ore:fusedGlass>*4])
-    .fluidInputs(<liquid:steel> * 1152)
+    .fluidInputs(<liquid:titanium> * 1152)
     .circuit(5)
     .outputs(<mcheli:su37>)
     .duration(2400).EUt(32768).buildAndRegister();
@@ -996,9 +996,9 @@ recipes.remove(<mcheli:p180>);
 vehiclesLuv.add(<mcheli:mig29>);
 recipes.remove(<mcheli:mig29>);
 <mcheli:mig29>.addTooltip(format.red("LuV-Tier Jet"));
-assembler.recipeBuilder()
+assembly_line.recipeBuilder()
     .inputs([<gregtech:machine_casing:6>*12, <gregtech:meta_item_1:162>*3, <ore:circuitLuv>*2, <ore:rotorHsss>*2, <gregtech:machine:1011>, <gregtech:meta_item_1:177>*4, <ore:plateRhodiumPlatedPalladium>*16, <ore:fusedGlass>*4])
-    .fluidInputs(<liquid:steel> * 1152)
+    .fluidInputs(<liquid:titanium> * 1152)
     .circuit(7)
     .outputs(<mcheli:mig29>)
     .duration(2400).EUt(32768).buildAndRegister();
@@ -1006,9 +1006,9 @@ assembler.recipeBuilder()
 vehiclesLuv.add(<mcheli:harrier_en>);
 recipes.remove(<mcheli:harrier_en>);
 <mcheli:harrier_en>.addTooltip(format.red("LuV-Tier Jet"));
-assembler.recipeBuilder()
+assembly_line.recipeBuilder()
     .inputs([<gregtech:machine_casing:6>*12, <gregtech:meta_item_1:162>*3, <ore:circuitLuv>*2, <ore:rotorHsss>*2, <gregtech:machine:1011>*2, <gregtech:meta_item_1:177>*4, <ore:plateRhodiumPlatedPalladium>*9, <ore:fusedGlass>*4])
-    .fluidInputs(<liquid:steel> * 1152)
+    .fluidInputs(<liquid:titanium> * 1152)
     .circuit(8)
     .outputs(<mcheli:harrier_en>)
     .duration(2400).EUt(32768).buildAndRegister();
@@ -1016,9 +1016,9 @@ assembler.recipeBuilder()
 vehiclesLuv.add(<mcheli:harrier>);
 recipes.remove(<mcheli:harrier>);
 <mcheli:harrier>.addTooltip(format.red("LuV-Tier Jet"));
-assembler.recipeBuilder()
+assembly_line.recipeBuilder()
     .inputs([<gregtech:machine_casing:6>*12, <gregtech:meta_item_1:162>*3, <ore:circuitLuv>*2, <ore:rotorHsss>*2, <gregtech:machine:1011>*2, <gregtech:meta_item_1:177>*4, <ore:plateRhodiumPlatedPalladium>*9, <ore:fusedGlass>*4])
-    .fluidInputs(<liquid:steel> * 1152)
+    .fluidInputs(<liquid:titanium> * 1152)
     .circuit(9)
     .outputs(<mcheli:harrier>)
     .duration(2400).EUt(32768).buildAndRegister();
@@ -1026,9 +1026,9 @@ assembler.recipeBuilder()
 vehiclesLuv.add(<mcheli:f-15e>);
 recipes.remove(<mcheli:f-15e>);
 <mcheli:f-15e>.addTooltip(format.red("LuV-Tier Jet"));
-assembler.recipeBuilder()
+assembly_line.recipeBuilder()
     .inputs([<gregtech:machine_casing:6>*12, <gregtech:meta_item_1:162>*4, <ore:circuitLuv>*3, <ore:rotorHsss>*2, <gregtech:machine:1011>, <gregtech:meta_item_1:177>*2, <ore:plateRhodiumPlatedPalladium>*16, <ore:fusedGlass>*4])
-    .fluidInputs(<liquid:steel> * 1152)
+    .fluidInputs(<liquid:titanium> * 1152)
     .circuit(10)
     .outputs(<mcheli:f-15e>)
     .duration(2400).EUt(32768).buildAndRegister();
@@ -1036,9 +1036,9 @@ assembler.recipeBuilder()
 vehiclesLuv.add(<mcheli:a-10>);
 recipes.remove(<mcheli:a-10>);
 <mcheli:a-10>.addTooltip(format.red("LuV-Tier Jet"));
-assembler.recipeBuilder()
+assembly_line.recipeBuilder()
     .inputs([<gregtech:machine_casing:6>*14, <gregtech:meta_item_1:162>*4, <ore:circuitLuv>*3, <ore:rotorHsss>*2, <gregtech:machine:1011>, <gregtech:meta_item_1:177>*2, <ore:plateDoubleTitanium>*16, <ore:plateDoubleSteel>*4])
-    .fluidInputs(<liquid:steel> * 1152)
+    .fluidInputs(<liquid:titanium> * 1152)
     .circuit(11)
     .outputs(<mcheli:a-10>)
     .duration(2400).EUt(32768).buildAndRegister();
@@ -1046,9 +1046,9 @@ assembler.recipeBuilder()
 vehiclesLuv.add(<mcheli:f14d>);
 recipes.remove(<mcheli:f14d>);
 <mcheli:f14d>.addTooltip(format.red("LuV-Tier Jet"));
-assembler.recipeBuilder()
+assembly_line.recipeBuilder()
     .inputs([<gregtech:machine_casing:6>*12, <gregtech:meta_item_1:162>*4, <ore:circuitLuv>*3, <ore:rotorHsss>*2, <gregtech:machine:1011>, <gregtech:meta_item_1:177>*2, <ore:plateRhodiumPlatedPalladium>*32, <ore:fusedGlass>*4])
-    .fluidInputs(<liquid:steel> * 1152)
+    .fluidInputs(<liquid:titanium> * 1152)
     .circuit(12)
     .outputs(<mcheli:f14d>)
     .duration(2400).EUt(32768).buildAndRegister();
@@ -1056,9 +1056,9 @@ assembler.recipeBuilder()
 vehiclesLuv.add(<mcheli:fa18f>);
 recipes.remove(<mcheli:fa18f>);
 <mcheli:fa18f>.addTooltip(format.red("LuV-Tier Jet"));
-assembler.recipeBuilder()
+assembly_line.recipeBuilder()
     .inputs([<gregtech:machine_casing:6>*12, <gregtech:meta_item_1:162>*4, <ore:circuitLuv>*3, <ore:rotorHsss>*2, <gregtech:machine:1011>, <gregtech:meta_item_1:177>*2, <ore:plateRhodiumPlatedPalladium>*16, <ore:fusedGlass>*4])
-    .fluidInputs(<liquid:steel> * 1152)
+    .fluidInputs(<liquid:titanium> * 1152)
     .circuit(13)
     .outputs(<mcheli:fa18f>)
     .duration(2400).EUt(32768).buildAndRegister();
@@ -1083,9 +1083,9 @@ assembler.recipeBuilder()
 vehiclesLuv.add(<mcheli:f-35b>);
 recipes.remove(<mcheli:f-35b>);
 <mcheli:f-35b>.addTooltip(format.red("LuV-Tier Jet"));
-assembler.recipeBuilder()
+assembly_line.recipeBuilder()
     .inputs([<gregtech:machine_casing:6>*18, <gregtech:meta_item_1:162>*4, <ore:circuitLuv>*4, <gregtech:meta_item_1:222>, <gregtech:machine:1011>*2, <gregtech:meta_item_1:177>*6, <ore:plateDoubleRhodiumPlatedPalladium>*16, <gregtech:transparent_casing:2>*4])
-    .fluidInputs(<liquid:aluminium> * 1152)
+    .fluidInputs(<liquid:titanium> * 1152)
     .circuit(1)
     .outputs(<mcheli:f-35b>)
     .duration(3200).EUt(32768).buildAndRegister();
@@ -1093,9 +1093,9 @@ assembler.recipeBuilder()
 vehiclesLuv.add(<mcheli:f-35c>);
 recipes.remove(<mcheli:f-35c>);
 <mcheli:f-35c>.addTooltip(format.red("LuV-Tier Jet"));
-assembler.recipeBuilder()
+assembly_line.recipeBuilder()
     .inputs([<gregtech:machine_casing:6>*18, <gregtech:meta_item_1:162>*4, <ore:circuitLuv>*4, <gregtech:meta_item_1:222>, <gregtech:machine:1011>*2, <gregtech:meta_item_1:177>*6, <ore:plateDoubleRhodiumPlatedPalladium>*16, <gregtech:transparent_casing:2>*4])
-    .fluidInputs(<liquid:aluminium> * 1152)
+    .fluidInputs(<liquid:titanium> * 1152)
     .circuit(2)
     .outputs(<mcheli:f-35c>)
     .duration(3200).EUt(32768).buildAndRegister();
@@ -1103,9 +1103,9 @@ assembler.recipeBuilder()
 vehiclesLuv.add(<mcheli:su-33>);
 recipes.remove(<mcheli:su-33>);
 <mcheli:su-33>.addTooltip(format.red("LuV-Tier Jet"));
-assembler.recipeBuilder()
+assembly_line.recipeBuilder()
     .inputs([<gregtech:machine_casing:6>*18, <gregtech:meta_item_1:162>*4, <ore:circuitLuv>*4, <gregtech:meta_item_1:222>, <gregtech:machine:1011>, <gregtech:meta_item_1:177>*6, <ore:plateDoubleRhodiumPlatedPalladium>*16, <gregtech:transparent_casing:2>*4])
-    .fluidInputs(<liquid:aluminium> * 1152)
+    .fluidInputs(<liquid:titanium> * 1152)
     .circuit(3)
     .outputs(<mcheli:su-33>)
     .duration(3200).EUt(32768).buildAndRegister();
@@ -1113,9 +1113,9 @@ assembler.recipeBuilder()
 vehiclesLuv.add(<mcheli:f22a>);
 recipes.remove(<mcheli:f22a>);
 <mcheli:f22a>.addTooltip(format.red("LuV-Tier Jet"));
-assembler.recipeBuilder()
+assembly_line.recipeBuilder()
     .inputs([<gregtech:machine_casing:6>*18, <gregtech:meta_item_1:162>*4, <ore:circuitLuv>*4, <gregtech:meta_item_1:222>, <gregtech:machine:1011>, <gregtech:meta_item_1:177>*6, <ore:plateDoubleRhodiumPlatedPalladium>*16, <gregtech:transparent_casing:2>*4])
-    .fluidInputs(<liquid:aluminium> * 1152)
+    .fluidInputs(<liquid:titanium> * 1152)
     .circuit(4)
     .outputs(<mcheli:f22a>)
     .duration(3200).EUt(32768).buildAndRegister();
@@ -1123,9 +1123,9 @@ assembler.recipeBuilder()
 vehiclesLuv.add(<mcheli:su-47>);
 recipes.remove(<mcheli:su-47>);
 <mcheli:su-47>.addTooltip(format.red("LuV-Tier Jet"));
-assembler.recipeBuilder()
+assembly_line.recipeBuilder()
     .inputs([<gregtech:machine_casing:6>*18, <gregtech:meta_item_1:162>*4, <ore:circuitLuv>*4, <gregtech:meta_item_1:222>, <gregtech:machine:1011>, <gregtech:meta_item_1:177>*6, <ore:plateDoubleRhodiumPlatedPalladium>*16, <gregtech:transparent_casing:2>*4])
-    .fluidInputs(<liquid:aluminium> * 1152)
+    .fluidInputs(<liquid:titanium> * 1152)
     .circuit(5)
     .outputs(<mcheli:su-47>)
     .duration(3200).EUt(32768).buildAndRegister();
@@ -1133,9 +1133,9 @@ assembler.recipeBuilder()
 vehiclesLuv.add(<mcheli:b-2a>);
 recipes.remove(<mcheli:b-2a>);
 <mcheli:b-2a>.addTooltip(format.red("LuV-Tier Bomber"));
-assembler.recipeBuilder()
+assembly_line.recipeBuilder()
     .inputs([<gregtech:machine_casing:6>*24, <gregtech:meta_item_1:162>*4, <ore:circuitLuv>*4, <gregtech:meta_item_1:237>*2, <gregtech:machine:1011>, <gregtech:meta_item_1:177>*6, <ore:plateDoubleRhodiumPlatedPalladium>*20, <gregtech:transparent_casing:2>*4])
-    .fluidInputs(<liquid:polytetrafluoroethylene> * 1152)
+    .fluidInputs(<liquid:titanium>* 1152, <liquid:polytetrafluoroethylene> * 1152)
     .circuit(6)
     .outputs(<mcheli:b-2a>)
     .duration(3200).EUt(32768).buildAndRegister();
@@ -1143,9 +1143,9 @@ assembler.recipeBuilder()
 vehiclesLuv.add(<mcheli:f-35a>);
 recipes.remove(<mcheli:f-35a>);
 <mcheli:f-35a>.addTooltip(format.red("LuV-Tier Jet"));
-assembler.recipeBuilder()
+assembly_line.recipeBuilder()
     .inputs([<gregtech:machine_casing:6>*18, <gregtech:meta_item_1:162>*4, <ore:circuitLuv>*4, <gregtech:meta_item_1:222>, <gregtech:machine:1011>*2, <gregtech:meta_item_1:177>*6, <ore:plateDoubleRhodiumPlatedPalladium>*16, <gregtech:transparent_casing:2>*4])
-    .fluidInputs(<liquid:aluminium> * 1152)
+    .fluidInputs(<liquid:titanium> * 1152)
     .circuit(7)
     .outputs(<mcheli:f-35a>)
     .duration(3200).EUt(32768).buildAndRegister();
