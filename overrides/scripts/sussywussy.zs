@@ -121,7 +121,7 @@ recipes.addShapeless(<nomilabs:nomicoin>, [<contenttweaker:oil_barrel>]);
 recipes.addShapeless(<nomilabs:nomicoin5>, [<contenttweaker:oil_barrel>, <contenttweaker:oil_barrel>, <contenttweaker:oil_barrel>, <contenttweaker:oil_barrel>, <contenttweaker:oil_barrel>]);
 
 
-recipes.addShapeless(<actuallyadditions:item_food:14>*16, [<contenttweaker:behelit>, <contenttweaker:behelit>]);
+recipes.addShapeless(<actuallyadditions:item_food:14>*4, [<contenttweaker:behelit>, <contenttweaker:behelit>]);
 
 
 
