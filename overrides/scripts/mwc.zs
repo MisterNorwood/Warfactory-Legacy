@@ -471,7 +471,7 @@ assembler.recipeBuilder()
 
 //Origin 12 drum magazine recipe
 assembler.recipeBuilder()
-    .inputs(<metaitem:plateNaquadah> * 8,<metaitem:springSmallHssg> * 4, <metaitem:ringNaquadah> * 2)
+    .inputs(<metaitem:plateNaquadah> * 8,<metaitem:springSmallHssg> * 4, <metaitem:ringNaquadahAlloy> * 2)
     .fluidInputs(<liquid:tin> * 144)
     .outputs(<mwc:origin12drummag>)
     .duration(80)
