@@ -377,12 +377,6 @@ assembler.recipeBuilder()
   .duration(2400).EUt(1920).buildAndRegister();
 
 assembler.recipeBuilder()
-  .inputs([<ore:plateDoubleGunSteel>*4, <ore:platePolyvinylButyral>*18, <ore:stickLongTitanium>, <contenttweaker:action_titanium>, <contenttweaker:barrel_ultimet>*2, <contenttweaker:receiver_titanium>,<ore:springHssg>] )
-  .fluidInputs([<liquid:lubricant> * 500])
-  .outputs(<mwc:origin12>)
-  .duration(2400).EUt(1920).buildAndRegister();
-
-assembler.recipeBuilder()
   .inputs([<ore:platePolyvinylButyral>*4, <ore:springSmallKanthal>*2] )
   .fluidInputs([<liquid:polytetrafluoroethylene>*144])
   .outputs(<mwc:origin12mag>)
@@ -463,13 +457,29 @@ assembler.recipeBuilder()
   .duration(2400).EUt(8192).buildAndRegister();
 
 assembler.recipeBuilder()
-  .inputs([<ore:platePolybenzimidazole>*16, <ore:springOsmium>*1, <ore:boltIridium>*48, <ore:stickRuridit>*8  ])
-  .fluidInputs(<liquid:polybenzimidazole>*3000)
-  .outputs(<mwc:origin12drummag>)
-  .duration(2400).EUt(8192).buildAndRegister();
-
-assembler.recipeBuilder()
   .inputs([<ore:platePolybenzimidazole>*16, <ore:springOsmium>*2, <ore:ringTungstenSteel>*48, <ore:stickLongIncoloyMa956>*8  ])
   .fluidInputs(<liquid:polybenzimidazole>*3000)
   .outputs(<mwc:asvalmag>)
+  .duration(2400).EUt(8192).buildAndRegister();
+
+assembler.recipeBuilder()
+  .inputs([<ore:plateDoubleGunSteel>*4, <ore:platePolyvinylButyral>*18, <ore:stickLongTitanium>, <contenttweaker:action_titanium>, <contenttweaker:barrel_ultimet>*2, <contenttweaker:receiver_titanium>,<ore:springHssg>] )
+  .fluidInputs([<liquid:lubricant> * 500])
+  .outputs(<mwc:saiga12>)
+  .duration(2400).EUt(1920).buildAndRegister();
+  
+
+//Origin 12 drum magazine recipe
+assembler.recipeBuilder()
+    .inputs(<metaitem:plateNaquadah> * 8,<metaitem:springSmallHssg> * 4, <metaitem:ringNaquadah> * 2)
+    .fluidInputs(<liquid:tin> * 144)
+    .outputs(<mwc:origin12drummag>)
+    .duration(80)
+    .EUt(16384)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+  .inputs([<ore:plateDenseIncoloyMa956>*4, <ore:platePolybenzimidazole>*18, <ore:stickLongRuridit>, <contenttweaker:action_tungstensteel>, <contenttweaker:barrel_hss>*2, <contenttweaker:receiver_tungstensteel>,<ore:springNiobiumTitanium>] )
+  .fluidInputs([<liquid:lubricant> * 500])
+  .outputs(<mwc:origin12>)
   .duration(2400).EUt(8192).buildAndRegister();
