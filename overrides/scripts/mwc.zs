@@ -343,7 +343,7 @@ gunsev.add(<mwc:origin12>);
 gunsev.add(<mwc:vss_vintorez>); 
 gunsev.add(<mwc:p90>);
 gunsev.add(<mwc:ssg_08>);
-gunsev.add(<mwc:glock_19>);
+gunsev.add(<mwc:glock_18c>);
 
 
 assembler.recipeBuilder()
@@ -403,7 +403,7 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
   .inputs([<ore:plateGunSteel>*3, <ore:platePolyvinylButyral>*4, <ore:stickLongTitanium>*2, <contenttweaker:action_titanium>, <contenttweaker:barrel_ultimet>*1, <contenttweaker:receiver_titanium>])
   .fluidInputs([<liquid:lubricant> * 500])
-  .outputs(<mwc:glock_19>)
+  .outputs(<mwc:glock_18c>)
   .duration(2400).EUt(1920).buildAndRegister();
 
 assembler.recipeBuilder()
