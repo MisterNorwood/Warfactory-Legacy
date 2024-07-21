@@ -243,47 +243,47 @@ assembler.recipeBuilder()
   .inputs([<gregtech:planks:1>*4, <ore:stickLongSteel>*2, <ore:plateDenseBlackSteel>*3, <contenttweaker:action_blacksteel>, <contenttweaker:barrel_vanadiumsteel>, <contenttweaker:receiver_aluminium>, <gregtech:meta_item_1:172>, <ore:foilSteel>] )
   .fluidInputs([<liquid:lubricant> * 144])
   .outputs(<mwc:ak47>)
-  .duration(2400).EUt(30).buildAndRegister();
+  .duration(2400).EUt(120).buildAndRegister();
 
 assembler.recipeBuilder()
   .inputs([<gregtech:planks:1>*4, <ore:stickLongSteel>*1, <ore:plateBlackSteel>*5, <contenttweaker:action_blacksteel>, <contenttweaker:barrel_vanadiumsteel>*2, <contenttweaker:receiver_aluminium>] )
   .fluidInputs([<liquid:lubricant> * 144])
   .outputs(<mwc:svd_dragunov>)
-  .duration(2400).EUt(30).buildAndRegister();
+  .duration(2400).EUt(120).buildAndRegister();
   
 assembler.recipeBuilder()
   .inputs([<ore:platePolyvinylChloride>*4, <ore:stickLongSteel>*1, <ore:plateBlackSteel>*5, <contenttweaker:action_blacksteel>, <contenttweaker:barrel_vanadiumsteel>*2, <contenttweaker:receiver_aluminium>] )
   .fluidInputs([<liquid:lubricant> * 144])
   .outputs(<mwc:supernova>)
-  .duration(2400).EUt(30).buildAndRegister();
+  .duration(2400).EUt(120).buildAndRegister();
 
 assembler.recipeBuilder()
   .inputs([<ore:plateAluminium>*2, <ore:springBlackSteel>, <ore:boltVanadiumSteel>] )
   .outputs(<mwc:ak74mag>)
-  .duration(2400).EUt(30).buildAndRegister();
+  .duration(2400).EUt(120).buildAndRegister();
 
 assembler.recipeBuilder()
   .inputs([<ore:pipeNormalFluidVanadiumSteel>, <ore:stickLongSteel>*1, <ore:plateDenseBlackSteel>*6, <contenttweaker:action_blacksteel>, <contenttweaker:receiver_aluminium>] )
   .fluidInputs([<liquid:lubricant> * 144])
   .outputs(<mwc:m79>)
-  .duration(2400).EUt(30).buildAndRegister();
+  .duration(2400).EUt(120).buildAndRegister();
 
 assembler.recipeBuilder()
   .inputs([<ore:stickSteel>*1, <ore:plateBlackSteel>*5, <contenttweaker:action_blacksteel>, <contenttweaker:barrel_vanadiumsteel>*1, <contenttweaker:receiver_aluminium>] )
   .fluidInputs([<liquid:lubricant> * 144])
   .outputs(<mwc:mac10>)
-  .duration(2400).EUt(30).buildAndRegister();
+  .duration(2400).EUt(120).buildAndRegister();
 
 assembler.recipeBuilder()
   .inputs([<ore:plateAluminium>*2, <ore:springSmallBlackSteel>*2, <ore:boltBlackSteel>] )
   .outputs(<mwc:mac10mag>)
-  .duration(2400).EUt(30).buildAndRegister();
+  .duration(2400).EUt(120).buildAndRegister();
 
 assembler.recipeBuilder()
   .inputs([<ore:plateVanadiumSteel>*2, <contenttweaker:action_blacksteel>, <contenttweaker:barrel_vanadiumsteel>*1, <contenttweaker:receiver_aluminium>, <ore:plateTreatedWood>] )
   .fluidInputs([<liquid:lubricant> * 144])
   .outputs(<mwc:python>)
-  .duration(2400).EUt(30).buildAndRegister();
+  .duration(2400).EUt(120).buildAndRegister();
 
 //////// HV GUNS ////////
 
@@ -298,40 +298,40 @@ assembler.recipeBuilder()
   .inputs([<ore:plateDenseGunMetal>*2, <contenttweaker:action_stainless>, <contenttweaker:barrel_bluesteel>*1, <contenttweaker:receiver_stainless>, <ore:stickPolytetrafluoroethylene>, <ore:platePolytetrafluoroethylene>*2, <ore:boltGunMetal>*16, <ore:springSmallGunMetal>] )
   .fluidInputs([<liquid:lubricant> * 288])
   .outputs(<mwc:m4a1>)
-  .duration(2400).EUt(30).buildAndRegister();
+  .duration(2400).EUt(480).buildAndRegister();
 
 assembler.recipeBuilder()
   .inputs([<ore:plateGunMetal>*2, <ore:springBlackSteel>, <ore:boltGunMetal>] )
   .outputs(<mwc:m4a1mag_2>)
-  .duration(2400).EUt(30).buildAndRegister();
+  .duration(2400).EUt(480).buildAndRegister();
 
 assembler.recipeBuilder()
   .inputs([<ore:plateGunMetal>*18, <contenttweaker:action_stainless>, <contenttweaker:barrel_bluesteel>*1, <contenttweaker:receiver_stainless>, <ore:stickLongGunMetal>*2, <ore:platePolytetrafluoroethylene>*3, <ore:boltGunMetal>*8] )
   .fluidInputs([<liquid:lubricant> * 288])
   .outputs(<mwc:spas_12>)
-  .duration(2400).EUt(30).buildAndRegister();
+  .duration(2400).EUt(480).buildAndRegister();
 
 assembler.recipeBuilder()
   .inputs([<ore:plateGunMetal>*5, <contenttweaker:action_stainless>, <contenttweaker:barrel_bluesteel>*1, <contenttweaker:receiver_stainless>, <ore:platePolytetrafluoroethylene>*1, <ore:boltGunMetal>*4, <ore:springSmallGunMetal>] )
   .fluidInputs([<liquid:lubricant> * 288])
   .outputs(<mwc:m17>)
-  .duration(2400).EUt(30).buildAndRegister();
+  .duration(2400).EUt(480).buildAndRegister();
 
 assembler.recipeBuilder()
   .inputs([<ore:foilGunMetal>*2, <ore:plateGunMetal>, <ore:springSmallBlackSteel>, <ore:boltGunMetal>] )
   .outputs(<mwc:m17mag>)
-  .duration(2400).EUt(30).buildAndRegister();
+  .duration(2400).EUt(480).buildAndRegister();
 
 assembler.recipeBuilder()
   .inputs([<ore:plateGunMetal>*5, <contenttweaker:action_stainless>, <contenttweaker:barrel_bluesteel>*1, <contenttweaker:receiver_stainless>, <ore:platePolytetrafluoroethylene>*1, <ore:boltGunMetal>*4, <ore:springSmallGunMetal>, <ore:stickGunMetal>] )
   .fluidInputs([<liquid:lubricant> * 288])
   .outputs(<mwc:mp7>)
-  .duration(2400).EUt(30).buildAndRegister();
+  .duration(2400).EUt(480).buildAndRegister();
 
 assembler.recipeBuilder()
   .inputs([<ore:plateGunMetal>*2, <ore:springSmallBlackSteel>, <ore:boltGunMetal>] )
   .outputs(<mwc:mp7mag>)
-  .duration(2400).EUt(30).buildAndRegister();
+  .duration(2400).EUt(480).buildAndRegister();
 
 //////// EV GUNS ////////
 
