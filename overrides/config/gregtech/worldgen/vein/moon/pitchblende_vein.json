@@ -1,10 +1,10 @@
 {
-  "weight": 40,
+  "weight": 20,
   "density": 0.25,
-  "min_height": 10,
-  "max_height": 80,
+  "min_height": 30,
+  "max_height": 60,
     "dimension_filter": [
-    "name:the_end"
+      "dimension_id:100"
   ],
   "generator": {
     "type": "layered",
@@ -17,16 +17,16 @@
     "type": "layered",
     "values": [
       {
-        "primary": "ore:bauxite"
+        "primary": "ore:pitchblende"
       },
       {
-        "secondary": "ore:ilmenite"
+        "secondary": "ore:pitchblende"
       },
       {
-        "between": "ore:aluminium"
+        "between": "ore:uraninite"
       },
       {
-        "sporadic": "ore:ilmenite"
+        "sporadic": "ore:uraninite"
       }
     ]
   }

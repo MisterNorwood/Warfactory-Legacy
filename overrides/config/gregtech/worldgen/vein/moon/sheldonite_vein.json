@@ -1,32 +1,32 @@
 {
-  "weight": 20,
+  "weight": 10,
   "density": 0.2,
-  "min_height": 20,
-  "max_height": 60,
+  "min_height": 5,
+  "max_height": 50,
     "dimension_filter": [
-    "name:the_end"
+      "dimension_id:100"
   ],
   "generator": {
     "type": "layered",
     "radius": [
-      17,
-      24
+      14,
+      16
     ]
   },
   "filler": {
     "type": "layered",
     "values": [
       {
-        "primary": "ore:scheelite"
+        "primary": "ore:bornite"
       },
       {
-        "secondary": "ore:scheelite"
+        "secondary": "ore:cooperite"
       },
       {
-        "between": "ore:tungstate"
+        "between": "ore:platinum"
       },
       {
-        "sporadic": "ore:lithium"
+        "sporadic": "ore:palladium"
       }
     ]
   }
