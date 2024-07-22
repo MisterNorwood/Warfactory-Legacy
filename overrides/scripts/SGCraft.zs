@@ -51,9 +51,9 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <sgcraft:zpm_console>, [
 recipes.remove(<sgcraft:sgpowerunit>);
 mods.extendedcrafting.TableCrafting.addShaped(0, <sgcraft:sgpowerunit>, [
 [<ore:platePolybenzimidazole>, <ore:plateEuropium>, <ore:plateNeutronium>, <ore:plateEuropium>, <ore:platePolybenzimidazole>], 
-[<ore:plateEuropium>, <ore:circuitUhv>, <gregtech:machine:1343>, <ore:circuitUhv>, <ore:plateEuropium>], 
+[<ore:plateEuropium>, <ore:circuitZpm>, <gregtech:machine:1343>, <ore:circuitZpm>, <ore:plateEuropium>], 
 [<ore:plateNeutronium>, <ore:wireGtDoubleEnderium>, <gregtech:meta_item_1:103>, <ore:wireGtDoubleEnderium>, <ore:plateNeutronium>], 
-[<ore:plateEuropium>, <ore:circuitUhv>, <ore:wireGtDoubleEnderium>, <ore:circuitUhv>, <ore:plateEuropium>], 
+[<ore:plateEuropium>, <ore:circuitZpm>, <ore:wireGtDoubleEnderium>, <ore:circuitZpm>, <ore:plateEuropium>], 
 [<ore:platePolybenzimidazole>, <ore:plateEuropium>, <ore:plateNeutronium>, <ore:plateEuropium>, <ore:platePolybenzimidazole>]
 ]);
 
