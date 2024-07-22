@@ -4,9 +4,9 @@ import crafttweaker.item.IItemStack;
 
 recipes.remove(<sgcraft:pegasus_upgrade>);
 recipes.addShaped(<sgcraft:pegasus_upgrade>, [
-    [<ore:nuggetSyrmorite>, <ore:plateNaquadah>, <ore:nuggetSyrmorite>],
+    [<ore:nuggetTitanium>, <ore:plateNaquadah>, <ore:nuggetTitanium>],
     [<ore:clathrateGlowstone>, <ore:plateSignalum>, <ore:clathrateGlowstone>], 
-    [<ore:nuggetSyrmorite>, <ore:plateNaquadah>, <ore:nuggetSyrmorite>]
+    [<ore:nuggetTitanium>, <ore:plateNaquadah>, <ore:nuggetTitanium>]
 ]);
 
 
