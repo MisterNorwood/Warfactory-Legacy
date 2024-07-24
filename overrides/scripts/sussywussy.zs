@@ -185,3 +185,17 @@ chemical_reactor.recipeBuilder()
     .property("cleanroom", "cleanroom")
     .duration(600).EUt(8192).buildAndRegister();
 
+chemical_bath.recipeBuilder()
+    .inputs(<ore:foilAluminium>)
+    .fluidInputs(<liquid:salt_water> * 250)
+    .outputs(<contenttweaker:vaporeon>)
+    .duration(40).EUt(8).buildAndRegister();
+
+recipes.addShaped(<contenttweaker:vaporeon_block>, [
+    [<contenttweaker:vaporeon>, <contenttweaker:vaporeon>],
+    [<contenttweaker:vaporeon>, <contenttweaker:vaporeon>]
+]);
+
+recipes.addShapeless(<contenttweaker:vaporeon>*4, [<contenttweaker:vaporeon_block>]);
+
+recipes.addShapeless(<gregtech:meta_dust:309>*2, [<ore:oreRockSalt>, <ore:craftingToolMortar>]);
