@@ -249,3 +249,16 @@ gegagedigedagedago.maxStackSize = 64;
 gegagedigedagedago.saturation = 1;
 gegagedigedagedago.rarity = "rare";
 gegagedigedagedago.register();
+
+var vaporeon = VanillaFactory.createItem("vaporeon");
+vaporeon.maxStackSize = 64;
+vaporeon.rarity = "rare";
+vaporeon.register();
+
+var vaporeonBlock = VanillaFactory.createBlock("vaporeon_block", <blockmaterial:clay>);
+vaporeonBlock.setBlockHardness(2.0);
+vaporeonBlock.setBlockResistance(8.0);
+vaporeonBlock.setToolClass("shovel");
+vaporeonBlock.setToolLevel(0);
+vaporeonBlock.setBlockSoundType(<soundtype:snow>);
+vaporeonBlock.register();
