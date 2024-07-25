@@ -285,7 +285,7 @@ makeExtremeRecipe9(<nomilabs:tiertenship>,
 	{ A : <meta_tile_entity:super_chest.iv>,
 	  C : <draconicevolution:reactor_core>,
 	  N : <ore:plateDoubleNeutronium>,
-	  P : <solarflux:solar_panel_neutronium>,
+	  P : <solarflux:solar_panel_6>,
 	  R : <draconicevolution:reactor_component>,
 	  U : <nomilabs:universalnavigator>,
 	  W : <nomilabs:warpengine> }

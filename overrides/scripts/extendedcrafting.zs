@@ -701,7 +701,7 @@ makeExtremeRecipe9(<thermalcultivation:watering_can:32000>,
       E : <thermalcultivation:watering_can:4>.withTag({Water:0, Mode:4}, false),
       I : <avaritia:resource:5>});
 
-makeExtremeRecipe9(<solarflux:solar_panel_infinity>,
+makeExtremeRecipe9(<solarflux:solar_panel_6>,
     ["SNNNNNNNS",
      "NPPPNPPPN",
      "NPPPNPPPN",
@@ -861,14 +861,14 @@ dynamo5 = dynamo5.only(isResonant);
 //Ultimate Generator
 mods.extendedcrafting.TableCrafting.addShapeless(<nomilabs:ultimate_generator>,
 [<meta_tile_entity:large_boiler.bronze>, <meta_tile_entity:large_boiler.steel>, <meta_tile_entity:combustion_generator.lv>, <meta_tile_entity:combustion_generator.mv>, <nuclearcraft:fission_controller_new_fixed>, <nuclearcraft:salt_fission_controller>, <meta_tile_entity:combustion_generator.hv>, <meta_tile_entity:large_boiler.titanium>, <meta_tile_entity:large_boiler.tungstensteel>,
-<solarflux:solar_panel_1>, <solarflux:solar_panel_4>, <solarflux:solar_panel_5>, <solarflux:solar_panel_6>, <draconicevolution:generator>, <solarflux:solar_panel_7>, <solarflux:solar_panel_8>, <solarflux:solar_panel_wyvern>, <solarflux:solar_panel_neutronium>,
-<solarflux:solar_panel_2>, <solarflux:solar_panel_3>, xu01, xu02, xu03, xu04, xu05, <solarflux:solar_panel_chaotic>, <solarflux:solar_panel_draconic>,
+<solarflux:solar_panel_1>, <solarflux:solar_panel_4>, <solarflux:solar_panel_5>, <solarflux:solar_panel_6>, <draconicevolution:generator>, <solarflux:solar_panel_6>, <solarflux:solar_panel_6>, <solarflux:solar_panel_6>, <solarflux:solar_panel_6>,
+<solarflux:solar_panel_2>, <solarflux:solar_panel_3>, xu01, xu02, xu03, xu04, xu05, <solarflux:solar_panel_6>, <solarflux:solar_panel_6>,
 <enderio:block_zombie_generator>, <meta_tile_entity::fusion_reactor.luv>, xu16, dynamo0, <extrautils2:rainbowgenerator:2>, dynamo0, xu06, <meta_tile_entity::fusion_reactor.uv>, <enderio:block_zombie_generator>,
 <enderio:block_franken_zombie_generator>, dynamo5, xu15, dynamo1, <draconicevolution:reactor_core>, dynamo1, xu07, dynamo5, <enderio:block_franken_zombie_generator>,
 <enderio:block_ender_generator>, <meta_tile_entity:fusion_reactor.zpm>, xu14, dynamo3, <extrautils2:rainbowgenerator:1>, dynamo3, xu08, <draconicevolution:reactor_component>, <enderio:block_ender_generator>,
 <meta_tile_entity:large_turbine.steam>, <meta_tile_entity:steam_turbine.lv>, xu13, xu12, xu11, xu10, xu09, <meta_tile_entity:gas_turbine.hv>, <meta_tile_entity:large_turbine.plasma>,
-<solarflux:solar_panel_1>, <solarflux:solar_panel_4>, <meta_tile_entity:steam_turbine.mv>, <meta_tile_entity:steam_turbine.hv>, <meta_tile_entity:large_turbine.gas>, <meta_tile_entity:gas_turbine.lv>, <meta_tile_entity:gas_turbine.mv>, <solarflux:solar_panel_chaotic>, <solarflux:solar_panel_draconic>,
-<solarflux:solar_panel_2>, <solarflux:solar_panel_3>, <solarflux:solar_panel_5>, <solarflux:solar_panel_6>, <extrautils2:passivegenerator>, <solarflux:solar_panel_7>, <solarflux:solar_panel_8>, <solarflux:solar_panel_wyvern>, <solarflux:solar_panel_neutronium>]);
+<solarflux:solar_panel_1>, <solarflux:solar_panel_4>, <meta_tile_entity:steam_turbine.mv>, <meta_tile_entity:steam_turbine.hv>, <meta_tile_entity:large_turbine.gas>, <meta_tile_entity:gas_turbine.lv>, <meta_tile_entity:gas_turbine.mv>, <solarflux:solar_panel_6>, <solarflux:solar_panel_6>,
+<solarflux:solar_panel_2>, <solarflux:solar_panel_3>, <solarflux:solar_panel_5>, <solarflux:solar_panel_6>, <extrautils2:passivegenerator>, <solarflux:solar_panel_6>, <solarflux:solar_panel_6>, <solarflux:solar_panel_6>, <solarflux:solar_panel_6>]);
 <nomilabs:ultimate_generator>.addTooltip(format.yellow("Recipe is shapeless."));
 
 
