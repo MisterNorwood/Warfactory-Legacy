@@ -48094,9 +48094,12 @@
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 3,
+            "Damage:2": 0,
             "OreDict:8": "",
-            "id:8": "ancientwarfarenpc:bard_instrument"
+            "id:8": "redstonearsenal:tool.sword_flux",
+            "tag:10": {
+              "Energy:3": 0
+            }
           },
           "ignoresview:1": 0,
           "ismain:1": 1,
@@ -64322,272 +64325,6 @@
     },
     "1046:10": {
       "preRequisites:11": [
-        1049
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "Normally, your soldiers need to be fed directly. This sucks.\n\nA good alternative is the §6Town Hall§r, which holds food for soldiers to retrieve whenever they get hungry. Don\u0027t worry about thirst; they get all they need from licking up puddles on the ground.\n\nAn added benefit is that Town Halls will §lstore all dead soldiers§r to be revived by a §dPriest§r later. Coming back from the dead will leave soldiers hungry and unhappy, so they may take some time to adjust.",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "ancientwarfarenpc:town_hall"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "Man\u0027s Gotta Eat",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 1046,
-      "rewards:9": {
-        "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 2,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "ancientwarfarenpc:coin",
-              "tag:10": {
-                "metal:8": "gold"
-              }
-            }
-          }
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "index:3": 0,
-          "taskID:8": "bq_standard:checkbox"
-        }
-      }
-    },
-    "1047:10": {
-      "preRequisites:11": [
-        1049
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "Combat NPCs are not just pieces on a chessboard. They are humans, just like you. They need to §eeat§r to maintain combat effectiveness. To that end, any food can do. \n\nThey must also be armed and armored to be of any use on the battlefield.",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "minecraft:iron_sword"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "The Horde",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 1047,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "ancientwarfarenpc:npc_spawner",
-              "tag:10": {
-                "npcSubtype:8": "",
-                "npcType:8": "combat"
-              }
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "1048:10": {
-      "preRequisites:11": [
-        1052
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "Workers will use any of Ancient Warfare\u0027s §afarm§r blocks, and will steadily operate on the blocks/entities within the farm\u0027s bounding box. With this, you can easily set up automated crops, butchers or even quarries.\n\nNormally you\u0027d have to use Ancient Warfare\u0027s §cresearch§r system to make these, but certain recipes are in place to circumvent that for your convenience.",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "ancientwarfareautomation:crop_farm"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "Farms",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 1048,
-      "rewards:9": {
-        "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 276,
-              "OreDict:8": "",
-              "id:8": "gregtech:meta_dust"
-            }
-          }
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "OR",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "ancientwarfareautomation:tree_farm"
-            },
-            "1:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "ancientwarfareautomation:crop_farm"
-            },
-            "2:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "ancientwarfareautomation:fruit_farm"
-            },
-            "3:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "ancientwarfareautomation:animal_farm"
-            },
-            "4:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "ancientwarfareautomation:fish_farm"
-            },
-            "5:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "ancientwarfareautomation:quarry"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "1049:10": {
-      "preRequisites:11": [
-        782
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "§6Ancient Warfare 2§r uses a slightly different system of currency than §bGregtech§r. To obtain anything soldier or worker related, you must spend §6§lBarack Bucks§r.\n\nThey are relatively easy to make; all you need is §afood§r, §bwater§r, and §7a penny§r. A little bit of each goes very far.\n\nWith §6§lBarack Bucks§r, you can purchase soldiers, workers and more!",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "contenttweaker:barackbuck"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "Barack Bucks",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 1049,
-      "rewards:9": {
-        "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 3,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "contenttweaker:barackbuck"
-            },
-            "1:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "ancientwarfare:manual"
-            }
-          }
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "index:3": 0,
-          "taskID:8": "bq_standard:checkbox"
-        }
-      }
-    },
-    "1050:10": {
-      "preRequisites:11": [
         782
       ],
       "properties:10": {
@@ -64638,7 +64375,7 @@
         }
       }
     },
-    "1051:10": {
+    "1047:10": {
       "preRequisites:11": [
         1050
       ],
@@ -64690,175 +64427,7 @@
         }
       }
     },
-    "1052:10": {
-      "preRequisites:11": [
-        1049
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "Not all of your NPCs are soldiers. Some seek a simpler path in life. For most, that\u0027s §afarming§r. Workers are vital in setting up thriving colonies, automating food for your war machine, and making your base appear more lively than it really is.",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "ancientwarfarenpc:npc_spawner",
-            "tag:10": {
-              "npcSubtype:8": "",
-              "npcType:8": "worker"
-            }
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "Our Boys Back Home",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 1052,
-      "rewards:9": {
-        "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 3,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "ancientwarfarenpc:coin",
-              "tag:10": {
-                "metal:8": "gold"
-              }
-            }
-          }
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "index:3": 0,
-          "taskID:8": "bq_standard:checkbox"
-        }
-      }
-    },
-    "1053:10": {
-      "preRequisites:11": [
-        1046,
-        1047,
-        1052
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "*Smack* *Smack* *Smack* *Smack* *Smack* *Smack* *Smack* *Smack* *Smack* *Smack* *Smack* *Smack* USE THE FARM USE THE FARM *Smack* *Smack* *Smack* *Smack* *Smack* *Smack* *Smack* *Smack* *Smack* *Smack* *Smack* *Smack* \n\nBatons can basically make your soldiers and workers use blocks, move to locations, follow patrol routes or attack certain entities. They are very useful. Also, they double as swords.",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "ancientwarfarenpc:diamond_command_baton",
-            "tag:10": {
-              "mode:10": {
-                "mode:8": "clear"
-              }
-            }
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "Batons For Whacking You With",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 1053,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "OR",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "ancientwarfarenpc:wooden_command_baton",
-              "tag:10": {
-                "mode:10": {
-                  "mode:8": "clear"
-                }
-              }
-            },
-            "1:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "ancientwarfarenpc:stone_command_baton",
-              "tag:10": {
-                "mode:10": {
-                  "mode:8": "clear"
-                }
-              }
-            },
-            "2:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "ancientwarfarenpc:iron_command_baton",
-              "tag:10": {
-                "mode:10": {
-                  "mode:8": "clear"
-                }
-              }
-            },
-            "3:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "ancientwarfarenpc:gold_command_baton",
-              "tag:10": {
-                "mode:10": {
-                  "mode:8": "clear"
-                }
-              }
-            },
-            "4:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "ancientwarfarenpc:diamond_command_baton",
-              "tag:10": {
-                "mode:10": {
-                  "mode:8": "clear"
-                }
-              }
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "1054:10": {
+    "1048:10": {
       "preRequisites:11": [
         1091
       ],
@@ -64911,62 +64480,7 @@
         }
       }
     },
-    "1055:10": {
-      "preRequisites:11": [
-        1049
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "§cWarforge§r has one small issue: it does not tie NPCs to your team.\n\nFor that, the §eTeams Mod§r has been added. This ties into the vanilla scoreboard system to create teams that AW2 Soldiers are able to recognize. Manage your team through the §lT Button§r on the top right of your inventory GUI.",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "ancientwarfarestructure:decorative_flag",
-            "tag:10": {
-              "name:8": "empire"
-            }
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "Soldiers and Teams",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 1055,
-      "rewards:9": {
-        "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 10,
-              "Damage:2": 13,
-              "OreDict:8": "",
-              "id:8": "actuallyadditions:item_food"
-            }
-          }
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "index:3": 0,
-          "taskID:8": "bq_standard:checkbox"
-        }
-      }
-    },
-    "1056:10": {
+    "1049:10": {
       "preRequisites:11": [
         782
       ],
@@ -65052,7 +64566,7 @@
         }
       }
     },
-    "1057:10": {
+    "1050:10": {
       "preRequisites:11": [
         1056
       ],
@@ -65136,7 +64650,7 @@
         }
       }
     },
-    "1058:10": {
+    "1051:10": {
       "preRequisites:11": [
         782
       ],
@@ -65202,7 +64716,7 @@
         }
       }
     },
-    "1059:10": {
+    "1052:10": {
       "preRequisites:11": [
         782
       ],
@@ -65268,7 +64782,7 @@
         }
       }
     },
-    "1060:10": {
+    "1053:10": {
       "preRequisites:11": [
         1057
       ],
@@ -65337,7 +64851,7 @@
         }
       }
     },
-    "1061:10": {
+    "1054:10": {
       "preRequisites:11": [
         1057
       ],
@@ -65403,7 +64917,7 @@
         }
       }
     },
-    "1062:10": {
+    "1055:10": {
       "preRequisites:11": [
         1057
       ],
@@ -65475,7 +64989,7 @@
         }
       }
     },
-    "1063:10": {
+    "1056:10": {
       "preRequisites:11": [
         1062
       ],
@@ -65541,7 +65055,7 @@
         }
       }
     },
-    "1064:10": {
+    "1057:10": {
       "preRequisites:11": [
         1094
       ],
@@ -65594,7 +65108,7 @@
         }
       }
     },
-    "1065:10": {
+    "1058:10": {
       "preRequisites:11": [
         1064
       ],
@@ -65607,13 +65121,13 @@
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": "",
-            "id:8": "minecraft:nether_star"
+            "id:8": "contenttweaker:receiver_vanax"
           },
           "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "Zero-Point-Voltage Guns",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -65628,7 +65142,7 @@
       "rewards:9": {},
       "tasks:9": {}
     },
-    "1066:10": {
+    "1059:10": {
       "preRequisites:11": [
         357,
         1093
@@ -65682,7 +65196,7 @@
         }
       }
     },
-    "1067:10": {
+    "1060:10": {
       "preRequisites:11": [
         1056
       ],
@@ -65734,7 +65248,7 @@
         }
       }
     },
-    "1068:10": {
+    "1061:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -65771,7 +65285,7 @@
         }
       }
     },
-    "1069:10": {
+    "1062:10": {
       "preRequisites:11": [
         1068
       ],
@@ -65837,7 +65351,7 @@
         }
       }
     },
-    "1070:10": {
+    "1063:10": {
       "preRequisites:11": [
         1069
       ],
@@ -65903,7 +65417,7 @@
         }
       }
     },
-    "1071:10": {
+    "1064:10": {
       "preRequisites:11": [
         1070
       ],
@@ -65975,7 +65489,7 @@
         }
       }
     },
-    "1072:10": {
+    "1065:10": {
       "preRequisites:11": [
         1069
       ],
@@ -66041,7 +65555,7 @@
         }
       }
     },
-    "1073:10": {
+    "1066:10": {
       "preRequisites:11": [
         1069
       ],
@@ -66107,7 +65621,7 @@
         }
       }
     },
-    "1074:10": {
+    "1067:10": {
       "preRequisites:11": [
         1069
       ],
@@ -66173,7 +65687,7 @@
         }
       }
     },
-    "1075:10": {
+    "1068:10": {
       "preRequisites:11": [
         1069
       ],
@@ -66239,7 +65753,7 @@
         }
       }
     },
-    "1076:10": {
+    "1069:10": {
       "preRequisites:11": [
         1069
       ],
@@ -66305,7 +65819,7 @@
         }
       }
     },
-    "1077:10": {
+    "1070:10": {
       "preRequisites:11": [
         1069
       ],
@@ -66371,7 +65885,7 @@
         }
       }
     },
-    "1078:10": {
+    "1071:10": {
       "preRequisites:11": [
         1069
       ],
@@ -66437,7 +65951,7 @@
         }
       }
     },
-    "1079:10": {
+    "1072:10": {
       "preRequisites:11": [
         1068
       ],
@@ -66490,7 +66004,7 @@
         }
       }
     },
-    "1080:10": {
+    "1073:10": {
       "preRequisites:11": [
         1068
       ],
@@ -66543,7 +66057,7 @@
         }
       }
     },
-    "1081:10": {
+    "1074:10": {
       "preRequisites:11": [
         1068
       ],
@@ -66596,7 +66110,7 @@
         }
       }
     },
-    "1082:10": {
+    "1075:10": {
       "preRequisites:11": [
         1068
       ],
@@ -66649,7 +66163,7 @@
         }
       }
     },
-    "1083:10": {
+    "1076:10": {
       "preRequisites:11": [
         1079
       ],
@@ -66702,7 +66216,7 @@
         }
       }
     },
-    "1084:10": {
+    "1077:10": {
       "preRequisites:11": [
         1080
       ],
@@ -66755,7 +66269,7 @@
         }
       }
     },
-    "1085:10": {
+    "1078:10": {
       "preRequisites:11": [
         1081
       ],
@@ -66808,7 +66322,7 @@
         }
       }
     },
-    "1086:10": {
+    "1079:10": {
       "preRequisites:11": [
         1082
       ],
@@ -66861,7 +66375,7 @@
         }
       }
     },
-    "1087:10": {
+    "1080:10": {
       "preRequisites:11": [
         1068
       ],
@@ -66914,7 +66428,7 @@
         }
       }
     },
-    "1088:10": {
+    "1081:10": {
       "preRequisites:11": [
         1069
       ],
@@ -66980,7 +66494,7 @@
         }
       }
     },
-    "1089:10": {
+    "1082:10": {
       "preRequisites:11": [
         3
       ],
@@ -67032,7 +66546,7 @@
         }
       }
     },
-    "1090:10": {
+    "1083:10": {
       "preRequisites:11": [
         782
       ],
@@ -67085,7 +66599,7 @@
         }
       }
     },
-    "1091:10": {
+    "1084:10": {
       "preRequisites:11": [
         1090
       ],
@@ -67138,7 +66652,7 @@
         }
       }
     },
-    "1092:10": {
+    "1085:10": {
       "preRequisites:11": [
         1054
       ],
@@ -67191,7 +66705,7 @@
         }
       }
     },
-    "1093:10": {
+    "1086:10": {
       "preRequisites:11": [
         280
       ],
@@ -67244,7 +66758,7 @@
         }
       }
     },
-    "1094:10": {
+    "1087:10": {
       "preRequisites:11": [
         1092
       ],
@@ -74206,10 +73720,7 @@
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": "",
-            "id:8": "ancientwarfarestructure:protection_flag",
-            "tag:10": {
-              "name:8": "sarkonid"
-            }
+            "id:8": "minecraft:shield"
           },
           "name:8": "Conquest",
           "visibility:8": "NORMAL"
@@ -74224,174 +73735,125 @@
           "y:3": -24
         },
         "1:10": {
-          "id:3": 1046,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -12,
-          "y:3": -120
-        },
-        "2:10": {
-          "id:3": 1047,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 36,
-          "y:3": -120
-        },
-        "3:10": {
-          "id:3": 1048,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -60,
-          "y:3": -168
-        },
-        "4:10": {
-          "id:3": 1049,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -12,
-          "y:3": -72
-        },
-        "5:10": {
           "id:3": 1050,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -12,
           "y:3": 48
         },
-        "6:10": {
+        "2:10": {
           "id:3": 1051,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -12,
           "y:3": 108
         },
-        "7:10": {
-          "id:3": 1052,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -60,
-          "y:3": -120
-        },
-        "8:10": {
-          "id:3": 1053,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -12,
-          "y:3": -192
-        },
-        "9:10": {
+        "3:10": {
           "id:3": 1054,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 216,
           "y:3": -36
         },
-        "10:10": {
-          "id:3": 1055,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 36,
-          "y:3": -192
-        },
-        "11:10": {
+        "4:10": {
           "id:3": 1056,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -108,
           "y:3": -12
         },
-        "12:10": {
+        "5:10": {
           "id:3": 1057,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -192,
           "y:3": -12
         },
-        "13:10": {
+        "6:10": {
           "id:3": 1058,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 48,
           "y:3": 48
         },
-        "14:10": {
+        "7:10": {
           "id:3": 1059,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 48,
           "y:3": -72
         },
-        "15:10": {
+        "8:10": {
           "id:3": 1060,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -192,
           "y:3": 60
         },
-        "16:10": {
+        "9:10": {
           "id:3": 1061,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -192,
           "y:3": -84
         },
-        "17:10": {
+        "10:10": {
           "id:3": 1062,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -276,
           "y:3": -12
         },
-        "18:10": {
+        "11:10": {
           "id:3": 1063,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -348,
           "y:3": -12
         },
-        "19:10": {
+        "12:10": {
           "id:3": 1064,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 396,
           "y:3": -72
         },
-        "20:10": {
+        "13:10": {
           "id:3": 1065,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 456,
           "y:3": -84
         },
-        "21:10": {
+        "14:10": {
           "id:3": 1067,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -108,
           "y:3": -60
         },
-        "22:10": {
+        "15:10": {
           "id:3": 1090,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 96,
           "y:3": -12
         },
-        "23:10": {
+        "16:10": {
           "id:3": 1091,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 156,
           "y:3": -24
         },
-        "24:10": {
+        "17:10": {
           "id:3": 1092,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 276,
           "y:3": -48
         },
-        "25:10": {
+        "18:10": {
           "id:3": 1094,
           "sizeX:3": 24,
           "sizeY:3": 24,
