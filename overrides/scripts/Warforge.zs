@@ -5,7 +5,7 @@ import crafttweaker.item.IItemStack;
 recipes.remove(<warforge:basicclaimblock>);
 recipes.addShaped(<warforge:basicclaimblock>, [
     [null, <ore:blockGlass>, null],
-    [<ore:blockGlass>, <contenttweaker:barackbuck>, <ore:blockGlass>], 
+    [<ore:blockGlass>, <ore:dustGold>, <ore:blockGlass>], 
     [<ore:plateWroughtIron>, <enderio:block_reinforced_obsidian>, <ore:plateWroughtIron>]
 ]);
 

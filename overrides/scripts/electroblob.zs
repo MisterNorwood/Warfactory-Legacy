@@ -78,14 +78,14 @@ mixer.recipeBuilder()
 
 recipes.addShaped(<contenttweaker:basic_slayer>, [
     [<ore:plateDoubleStainlessSteel>, <ore:circuitHv>, <ore:plateDoubleStainlessSteel>],
-    [<ore:stickLongStainlessSteel>, <ancientwarfarenpc:npc_spawner>.withTag({npcSubtype: "", npcType: "combat"}), <ore:stickLongStainlessSteel>], 
+    [<ore:stickLongStainlessSteel>, <contenttweaker:barackbuck>, <ore:stickLongStainlessSteel>], 
     [<ore:dustMana>, <ore:circuitHv>, <ore:dustMana>]
 ]);
 
 
 recipes.addShaped(<contenttweaker:apprentice_slayer>, [
     [<ore:plateDoubleTitanium>, <ore:circuitEv>, <ore:plateDoubleTitanium>],
-    [<ore:stickLongTitanium>, <ancientwarfarenpc:npc_spawner>.withTag({npcSubtype: "", npcType: "combat"}), <ore:stickLongTitanium>], 
+    [<ore:stickLongTitanium>, <contenttweaker:barackbuck>, <ore:stickLongTitanium>], 
     [<ore:dustMana>, <ore:circuitEv>, <ore:dustMana>]
 ]);
 
@@ -93,7 +93,7 @@ recipes.addShaped(<contenttweaker:apprentice_slayer>, [
 
 recipes.addShaped(<contenttweaker:advanced_slayer>, [
     [<ore:plateDoubleTungstenSteel>, <ore:circuitIv>, <ore:plateDoubleTungstenSteel>],
-    [<ore:stickLongTungstenSteel>, <ancientwarfarenpc:npc_spawner>.withTag({npcSubtype: "", npcType: "combat"}), <ore:stickLongTungstenSteel>], 
+    [<ore:stickLongTungstenSteel>, <contenttweaker:barackbuck>, <ore:stickLongTungstenSteel>], 
     [<ore:dustMana>, <ore:circuitIv>, <ore:dustMana>]
 ]);
 
@@ -101,7 +101,7 @@ recipes.addShaped(<contenttweaker:advanced_slayer>, [
 
 recipes.addShaped(<contenttweaker:master_slayer>, [
     [<ore:plateDoubleRhodiumPlatedPalladium>, <ore:circuitLuv>, <ore:plateDoubleRhodiumPlatedPalladium>],
-    [<ore:stickLongRhodiumPlatedPalladium>, <ancientwarfarenpc:npc_spawner>.withTag({npcSubtype: "", npcType: "combat"}), <ore:stickLongRhodiumPlatedPalladium>], 
+    [<ore:stickLongRhodiumPlatedPalladium>, <contenttweaker:barackbuck>, <ore:stickLongRhodiumPlatedPalladium>], 
     [<ore:dustMana>, <ore:circuitLuv>, <ore:dustMana>]
 ]);
 
@@ -125,7 +125,7 @@ recipes.addShaped(<ebwizardry:imbuement_altar>, [
 
 recipes.addShaped(<ebwizardry:melee_upgrade>, [
     [null, <minecraft:paper>, null],
-    [<minecraft:paper>, <ancientwarfarenpc:diamond_command_baton>, <minecraft:paper>], 
+    [<minecraft:paper>, <ore:stickDiamond>, <minecraft:paper>], 
     [null, <minecraft:paper>, null]
 ]);
 

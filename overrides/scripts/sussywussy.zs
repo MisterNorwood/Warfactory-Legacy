@@ -191,6 +191,7 @@ chemical_bath.recipeBuilder()
     .outputs(<contenttweaker:vaporeon>)
     .duration(40).EUt(8).buildAndRegister();
 
+
 recipes.addShaped(<contenttweaker:vaporeon_block>, [
     [<contenttweaker:vaporeon>, <contenttweaker:vaporeon>],
     [<contenttweaker:vaporeon>, <contenttweaker:vaporeon>]
@@ -199,3 +200,5 @@ recipes.addShaped(<contenttweaker:vaporeon_block>, [
 recipes.addShapeless(<contenttweaker:vaporeon>*4, [<contenttweaker:vaporeon_block>]);
 
 recipes.addShapeless(<gregtech:meta_dust:309>*2, [<ore:oreRockSalt>, <ore:craftingToolMortar>]);
+
+recipes.addShapeless(<contenttweaker:barackbuck>, [<ore:ingotGold>, <ore:ingotGold>, <minecraft:bread>, <minecraft:water_bucket>]);
