@@ -208,12 +208,9 @@ recipes.remove(<gregtech:gt_armor:21>);
 recipes.remove(<gregtech:gt_armor:22>);
 recipes.remove(<gregtech:gt_armor:23>);
 recipes.remove(<gregtech:gt_armor:30>);
-recipes.remove(<gregtech:gt_armor:40>);
-recipes.remove(<gregtech:gt_armor:41>);
-recipes.remove(<gregtech:gt_armor:42>);
-recipes.remove(<gregtech:gt_armor:43>);
-recipes.remove(<gregtech:gt_armor:50>);
 recipes.remove(<armorplus:coal_arrow>);
+recipes.remove(<gregtech:gt_armor:4>);
+recipes.remove(<gregtech:gt_armor:3>);
 
 
 recipes.addShaped(<gregtech:gt_armor:23>, [
@@ -259,6 +256,7 @@ recipes.addShaped(<gregtech:gt_armor:4>, [
     [<metaitem:power_thruster>, <ore:batteryIv>, <metaitem:power_thruster>], 
     [<ore:wireGtQuadrupleSamariumIronArsenicOxide>, null, <ore:wireGtQuadrupleSamariumIronArsenicOxide>]
 ]);
+
 
 chemical_reactor.recipeBuilder()
     .inputs(<ore:plateSiliconeRubber>*4, <nomilabs:thermalcloth>*2)
