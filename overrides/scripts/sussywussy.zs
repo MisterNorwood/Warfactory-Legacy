@@ -252,9 +252,9 @@ recipes.addShaped(<gregtech:gt_armor:3>, [
 ]);
 
 recipes.addShaped(<gregtech:gt_armor:4>, [
-    [<ore:craftingToolWireCutter>, <gregtech:gt_armor:3>, <ore:craftingToolScrewdriver>],
-    [<metaitem:power_thruster>, <ore:batteryIv>, <metaitem:power_thruster>], 
-    [<ore:wireGtQuadrupleSamariumIronArsenicOxide>, null, <ore:wireGtQuadrupleSamariumIronArsenicOxide>]
+    [<ore:plateDoubleRhodiumPlatedPalladium>, <gregtech:gt_armor:3>, <ore:plateDoubleRhodiumPlatedPalladium>],
+    [<metaitem:power_thruster_advanced>, <ore:batteryLuv>, <metaitem:power_thruster_advanced>], 
+    [<ore:wireGtQuadrupleIndiumTinBariumTitaniumCuprate>, <ore:craftingToolScrewdriver>, <ore:wireGtQuadrupleIndiumTinBariumTitaniumCuprate>]
 ]);
 
 
