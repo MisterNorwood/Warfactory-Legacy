@@ -64325,6 +64325,256 @@
     },
     "1046:10": {
       "preRequisites:11": [
+        782,
+        1048
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§o\"Only the dead have seen the end of war,\"§r they say. That seems like a load of rubbish to you. Your §amachines§r, coupled with your §5arcane knowledge§r, can put good use to all those useless skeletons sitting around.\n\nYou begin your research into necromancy. The flesh is weak. But the bones... Those are strong. \n\nEver since you first woke up in orbit of this world, you\u0027ve craved to create an army of the undead to do your bidding. Now, you can finally realize that dream.\n\nThe §7Baby Skeleton Maker§r is your first step. It lacks the channelling power to make adult-sized skeletons, so small ones will have to do. When fed bones and milk and attuned to your §bSeal§r, it can create baby skeletons to do your bidding.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:bone"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "The Bone Zone",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 1046,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "minecraft:spawn_egg",
+              "tag:10": {
+                "EntityTag:10": {
+                  "id:8": "minecraft:cow"
+                }
+              }
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "overlord:baby_skeleton_maker"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "1047:10": {
+      "preRequisites:11": [
+        1046
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Having an army of child soldiers is helpful, but not ideal. \n\nIf you really want to keep your stuff safe, you need real soldiers. The time for a true §cArmy of the Dead§r is nigh.\n\nThe §4Skeleton Warrior Maker§r can create full-grown, bloodthirsty skeleton warriors en-masse. Just give it bones, milk, and an §bOverlord\u0027s Seal§r. \n\nIf you\u0027re feeling adventurous, you can throw in a §6skinsuit§r and some §aadditives§r as well.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "overlord:skeleton_maker"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Hail to the King, Baby",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 1047,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "overlord:skeleton_maker"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "1048:10": {
+      "preRequisites:11": [
+        782
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "The §bOverlord\u0027s Seal§r uses a simple form of Sympathetic Magic to record your will and essence in a useable item. When placed in a Skeleton Maker, it will attune that skeleton to you. It will become your loyal follower, from death and beyond.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "overlord:overlords_seal"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "One Ring to Rule Them All",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 1048,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 32,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "minecraft:bone"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "overlord:overlords_seal"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "1049:10": {
+      "preRequisites:11": [
+        1047
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "The §7Squad Book§r is fairly simple once you get a hang of it. \n\nAll you really need to do is §3write the names of different squads§r in each slot, and you\u0027ll be able to §aassign those squads§r to your skeleton warriors without any fuss.\n\nBy using your §bOverlord\u0027s Seal§r, you can give orders to all of your skeletons at once, or just to individual squads.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "overlord:squad_editor"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Goon Squad",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 1049,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "overlord:squad_editor"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "overlord:overlords_seal"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "1050:10": {
+      "preRequisites:11": [
         782
       ],
       "properties:10": {
@@ -64375,7 +64625,7 @@
         }
       }
     },
-    "1047:10": {
+    "1051:10": {
       "preRequisites:11": [
         1050
       ],
@@ -64427,7 +64677,113 @@
         }
       }
     },
-    "1048:10": {
+    "1052:10": {
+      "preRequisites:11": [
+        1047
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Skeletons are mostly made of §lCalcium§r. Thus, they need milk to heal and grow. \n\n§lMilk Bottles§r can be placed in a skeleton\u0027s inventory to §6level them up§r, or thrown at them to §cheal§r. They can be ccheaply bottled in a canning machine.\n\n§lMilk Buckets§r can be fed directly to skeletons to rapidly heal them.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:milk_bucket"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "I Want to Get Off Mr. Bones\u0027 Wild Ride",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 1052,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "overlord:milk_bottle"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "1053:10": {
+      "preRequisites:11": [
+        1047
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "With so many armies at your command, it would be foolish to call you anything other than a true §6§lKing§r. All these lands shall be yours. Your armies shall crush all who defy you, and your followers shall sing songs of your fair and noble leadership. A royal line of a thousand generations shall burst forth from your lifeblood. \n\nThat is your fate. That is your birthright.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "overlord:crown"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "You Dropped This, King",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 1053,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "overlord:crown"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "1054:10": {
       "preRequisites:11": [
         1091
       ],
@@ -64480,7 +64836,60 @@
         }
       }
     },
-    "1049:10": {
+    "1055:10": {
+      "preRequisites:11": [
+        1047
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "overlord:keychain_empty"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Yoink!",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 1055,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "overlord:keychain_empty"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "1056:10": {
       "preRequisites:11": [
         782
       ],
@@ -64566,7 +64975,7 @@
         }
       }
     },
-    "1050:10": {
+    "1057:10": {
       "preRequisites:11": [
         1056
       ],
@@ -64650,7 +65059,7 @@
         }
       }
     },
-    "1051:10": {
+    "1058:10": {
       "preRequisites:11": [
         782
       ],
@@ -64716,7 +65125,7 @@
         }
       }
     },
-    "1052:10": {
+    "1059:10": {
       "preRequisites:11": [
         782
       ],
@@ -64782,7 +65191,7 @@
         }
       }
     },
-    "1053:10": {
+    "1060:10": {
       "preRequisites:11": [
         1057
       ],
@@ -64851,7 +65260,7 @@
         }
       }
     },
-    "1054:10": {
+    "1061:10": {
       "preRequisites:11": [
         1057
       ],
@@ -64917,7 +65326,7 @@
         }
       }
     },
-    "1055:10": {
+    "1062:10": {
       "preRequisites:11": [
         1057
       ],
@@ -64989,7 +65398,7 @@
         }
       }
     },
-    "1056:10": {
+    "1063:10": {
       "preRequisites:11": [
         1062
       ],
@@ -65055,7 +65464,7 @@
         }
       }
     },
-    "1057:10": {
+    "1064:10": {
       "preRequisites:11": [
         1094
       ],
@@ -65108,7 +65517,7 @@
         }
       }
     },
-    "1058:10": {
+    "1065:10": {
       "preRequisites:11": [
         1064
       ],
@@ -65142,7 +65551,7 @@
       "rewards:9": {},
       "tasks:9": {}
     },
-    "1059:10": {
+    "1066:10": {
       "preRequisites:11": [
         357,
         1093
@@ -65196,7 +65605,7 @@
         }
       }
     },
-    "1060:10": {
+    "1067:10": {
       "preRequisites:11": [
         1056
       ],
@@ -65248,7 +65657,7 @@
         }
       }
     },
-    "1061:10": {
+    "1068:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -65285,7 +65694,7 @@
         }
       }
     },
-    "1062:10": {
+    "1069:10": {
       "preRequisites:11": [
         1068
       ],
@@ -65351,7 +65760,7 @@
         }
       }
     },
-    "1063:10": {
+    "1070:10": {
       "preRequisites:11": [
         1069
       ],
@@ -65417,7 +65826,7 @@
         }
       }
     },
-    "1064:10": {
+    "1071:10": {
       "preRequisites:11": [
         1070
       ],
@@ -65489,7 +65898,7 @@
         }
       }
     },
-    "1065:10": {
+    "1072:10": {
       "preRequisites:11": [
         1069
       ],
@@ -65555,7 +65964,7 @@
         }
       }
     },
-    "1066:10": {
+    "1073:10": {
       "preRequisites:11": [
         1069
       ],
@@ -65621,7 +66030,7 @@
         }
       }
     },
-    "1067:10": {
+    "1074:10": {
       "preRequisites:11": [
         1069
       ],
@@ -65687,7 +66096,7 @@
         }
       }
     },
-    "1068:10": {
+    "1075:10": {
       "preRequisites:11": [
         1069
       ],
@@ -65753,7 +66162,7 @@
         }
       }
     },
-    "1069:10": {
+    "1076:10": {
       "preRequisites:11": [
         1069
       ],
@@ -65819,7 +66228,7 @@
         }
       }
     },
-    "1070:10": {
+    "1077:10": {
       "preRequisites:11": [
         1069
       ],
@@ -65885,7 +66294,7 @@
         }
       }
     },
-    "1071:10": {
+    "1078:10": {
       "preRequisites:11": [
         1069
       ],
@@ -65951,7 +66360,7 @@
         }
       }
     },
-    "1072:10": {
+    "1079:10": {
       "preRequisites:11": [
         1068
       ],
@@ -66004,7 +66413,7 @@
         }
       }
     },
-    "1073:10": {
+    "1080:10": {
       "preRequisites:11": [
         1068
       ],
@@ -66057,7 +66466,7 @@
         }
       }
     },
-    "1074:10": {
+    "1081:10": {
       "preRequisites:11": [
         1068
       ],
@@ -66110,7 +66519,7 @@
         }
       }
     },
-    "1075:10": {
+    "1082:10": {
       "preRequisites:11": [
         1068
       ],
@@ -66163,7 +66572,7 @@
         }
       }
     },
-    "1076:10": {
+    "1083:10": {
       "preRequisites:11": [
         1079
       ],
@@ -66216,7 +66625,7 @@
         }
       }
     },
-    "1077:10": {
+    "1084:10": {
       "preRequisites:11": [
         1080
       ],
@@ -66269,7 +66678,7 @@
         }
       }
     },
-    "1078:10": {
+    "1085:10": {
       "preRequisites:11": [
         1081
       ],
@@ -66322,7 +66731,7 @@
         }
       }
     },
-    "1079:10": {
+    "1086:10": {
       "preRequisites:11": [
         1082
       ],
@@ -66375,7 +66784,7 @@
         }
       }
     },
-    "1080:10": {
+    "1087:10": {
       "preRequisites:11": [
         1068
       ],
@@ -66428,7 +66837,7 @@
         }
       }
     },
-    "1081:10": {
+    "1088:10": {
       "preRequisites:11": [
         1069
       ],
@@ -66494,7 +66903,7 @@
         }
       }
     },
-    "1082:10": {
+    "1089:10": {
       "preRequisites:11": [
         3
       ],
@@ -66546,7 +66955,7 @@
         }
       }
     },
-    "1083:10": {
+    "1090:10": {
       "preRequisites:11": [
         782
       ],
@@ -66599,7 +67008,7 @@
         }
       }
     },
-    "1084:10": {
+    "1091:10": {
       "preRequisites:11": [
         1090
       ],
@@ -66652,7 +67061,7 @@
         }
       }
     },
-    "1085:10": {
+    "1092:10": {
       "preRequisites:11": [
         1054
       ],
@@ -66705,7 +67114,7 @@
         }
       }
     },
-    "1086:10": {
+    "1093:10": {
       "preRequisites:11": [
         280
       ],
@@ -66758,7 +67167,7 @@
         }
       }
     },
-    "1087:10": {
+    "1094:10": {
       "preRequisites:11": [
         1092
       ],
@@ -66805,6 +67214,164 @@
               "Damage:2": 0,
               "OreDict:8": "",
               "id:8": "contenttweaker:receiver_titanium"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "1095:10": {
+      "preRequisites:11": [
+        1047
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "There\u0027s a slot in the Skeleton Maker which is §labelled with a little PLUS§r. This is the §bAdditive Slot§r: certain items placed there will enhance your skeletons in certain ways.\n\n- §7Iron Ingot§r: Resistance\n\n- §5Obsidian§r: Resistance, Slowness, Fire Resistance\n\n- §8Anvil§r: Fast Falling and Squashing Ability. Also resistance.\n\n- §6Golden Apple§r: Regeneration\n\n- §4Wither Skull§r: Wither on Attack (also Fire Resistance)",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": "",
+            "id:8": "minecraft:skull"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Additives and You!",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 1095,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "minecraft:milk_bucket"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "1096:10": {
+      "preRequisites:11": [
+        1047
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Sometimes, your skeletons can wander away. It happens to the best of us.\n\nIf you wanna §6drag them back§r, use a §6rallying horn§r. Also doubles as an easy way to annoy your teammates.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "overlord:rallying_horn"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "DOOT",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 1096,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "overlord:rallying_horn"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "1097:10": {
+      "preRequisites:11": [
+        1047
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Your skeletons still have one major problem: §cthey\u0027re dead§r. Undead, more accurately. And you worry that commanding an army of walking dead might be bad for your PR.\n\nYou have breathed the §bforce of life§r into the dead, but have yet to make them §atruly alive§r. To do so, you build on some knowledge from Old Earth. §6The Ship\u0027s§r archives make note of the \"Trainvoification\" - an attempt to use a mix of technology and arcane knowledge to create sentient biological life from inanimate matter. \n\nYou devise a means to recreate that with the technology at hand. Using simple biomass, a degradable rubber substrate and a human alchemical base, you can create a \"Skinsuit\": a mass of human stem cells programmed to clothe your skeletons in living flesh, effectively transforming them into living human beings.\n\nJust place a skinsuit in a §cSkeleton Warrior Maker§r to apply it to the next skeleton.\n\nSkinsuits can be §brenamed§r in an anvil to a player\u0027s username, whichs §bgives the skeleton that player\u0027s skin§r.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "overlord:skinsuit"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Skin Theory",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 1097,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "overlord:skinsuit"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -73735,130 +74302,200 @@
           "y:3": -24
         },
         "1:10": {
+          "id:3": 1046,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -12,
+          "y:3": -96
+        },
+        "2:10": {
+          "id:3": 1047,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -12,
+          "y:3": -168
+        },
+        "3:10": {
+          "id:3": 1048,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -48,
+          "y:3": -60
+        },
+        "4:10": {
+          "id:3": 1049,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 36,
+          "y:3": -132
+        },
+        "5:10": {
           "id:3": 1050,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -12,
           "y:3": 48
         },
-        "2:10": {
+        "6:10": {
           "id:3": 1051,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -12,
           "y:3": 108
         },
-        "3:10": {
+        "7:10": {
+          "id:3": 1052,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -60,
+          "y:3": -132
+        },
+        "8:10": {
+          "id:3": 1053,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -48,
+          "y:3": -228
+        },
+        "9:10": {
           "id:3": 1054,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 216,
           "y:3": -36
         },
-        "4:10": {
+        "10:10": {
+          "id:3": 1055,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 24,
+          "y:3": -228
+        },
+        "11:10": {
           "id:3": 1056,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -108,
           "y:3": -12
         },
-        "5:10": {
+        "12:10": {
           "id:3": 1057,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -192,
           "y:3": -12
         },
-        "6:10": {
+        "13:10": {
           "id:3": 1058,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 48,
           "y:3": 48
         },
-        "7:10": {
+        "14:10": {
           "id:3": 1059,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 48,
           "y:3": -72
         },
-        "8:10": {
+        "15:10": {
           "id:3": 1060,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -192,
           "y:3": 60
         },
-        "9:10": {
+        "16:10": {
           "id:3": 1061,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -192,
           "y:3": -84
         },
-        "10:10": {
+        "17:10": {
           "id:3": 1062,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -276,
           "y:3": -12
         },
-        "11:10": {
+        "18:10": {
           "id:3": 1063,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -348,
           "y:3": -12
         },
-        "12:10": {
+        "19:10": {
           "id:3": 1064,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 396,
           "y:3": -72
         },
-        "13:10": {
+        "20:10": {
           "id:3": 1065,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 456,
           "y:3": -84
         },
-        "14:10": {
+        "21:10": {
           "id:3": 1067,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -108,
           "y:3": -60
         },
-        "15:10": {
+        "22:10": {
           "id:3": 1090,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 96,
           "y:3": -12
         },
-        "16:10": {
+        "23:10": {
           "id:3": 1091,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 156,
           "y:3": -24
         },
-        "17:10": {
+        "24:10": {
           "id:3": 1092,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 276,
           "y:3": -48
         },
-        "18:10": {
+        "25:10": {
           "id:3": 1094,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 336,
           "y:3": -60
+        },
+        "26:10": {
+          "id:3": 1095,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 48,
+          "y:3": -192
+        },
+        "27:10": {
+          "id:3": 1096,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -72,
+          "y:3": -192
+        },
+        "28:10": {
+          "id:3": 1097,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -12,
+          "y:3": -240
         }
       }
     },
