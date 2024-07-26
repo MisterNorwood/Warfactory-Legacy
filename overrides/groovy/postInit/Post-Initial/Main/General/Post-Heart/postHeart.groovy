@@ -26,6 +26,17 @@ mods.extendedcrafting.TableCrafting.addShaped(0, item('contenttweaker:woman').wi
 [item('gregtech:fusion_casing', 1), item('gregtech:fusion_casing', 1), item('extendedcrafting:singularity_ultimate'), ore('plateDenseDarmstadtium'), item('gregtech:fusion_casing', 1), ore('plateDenseDarmstadtium'), item('extendedcrafting:singularity_ultimate'), item('gregtech:fusion_casing', 1), item('gregtech:fusion_casing', 1)]
 ])
 
+// QuarkTech™ Suite Helmet * 1
+mods.gregtech.assembler.removeByInput(7680, [metaitem('circuit.nano_mainframe') * 2, metaitem('wireGtQuadrupleTungsten') * 5, metaitem('energy.lapotronic_orb'), metaitem('sensor.iv'), metaitem('field.generator.iv'), metaitem('screwTungstenSteel') * 4, metaitem('plateIridium') * 5, metaitem('foilRuthenium') * 20, metaitem('wireFineRhodium') * 32], [fluid('titanium') * 1440])
 
+// QuarkTech™ Suite Chestplate * 1
+mods.gregtech.assembler.removeByInput(7680, [metaitem('circuit.nano_mainframe') * 2, metaitem('wireGtQuadrupleTungsten') * 8, metaitem('energy.lapotronic_orb'), metaitem('emitter.iv') * 2, metaitem('field.generator.iv'), metaitem('screwTungstenSteel') * 4, metaitem('plateIridium') * 8, metaitem('foilRuthenium') * 32, metaitem('wireFineRhodium') * 48], [fluid('titanium') * 2304])
 
+// QuarkTech™ Suite Leggings * 1
+mods.gregtech.assembler.removeByInput(7680, [metaitem('circuit.nano_mainframe') * 2, metaitem('wireGtQuadrupleTungsten') * 7, metaitem('energy.lapotronic_orb'), metaitem('electric.motor.iv') * 4, metaitem('field.generator.iv'), metaitem('screwTungstenSteel') * 4, metaitem('plateIridium') * 7, metaitem('foilRuthenium') * 28, metaitem('wireFineRhodium') * 40], [fluid('titanium') * 2016])
 
+// QuarkTech™ Suite Boots * 1
+mods.gregtech.assembler.removeByInput(7680, [metaitem('circuit.nano_mainframe') * 2, metaitem('wireGtQuadrupleTungsten') * 4, metaitem('energy.lapotronic_orb'), metaitem('electric.piston.iv') * 2, metaitem('field.generator.iv'), metaitem('screwTungstenSteel') * 4, metaitem('plateIridium') * 4, metaitem('foilRuthenium') * 16, metaitem('wireFineRhodium') * 16], [fluid('titanium') * 1152])
+
+// Advanced QuarkTech™ Suite Chestplate * 1
+mods.gregtech.assembly_line.removeByInput(30720, [metaitem('qts.chestplate'), metaitem('plate.high_power_integrated_circuit') * 2, metaitem('wireFineNiobiumTitanium') * 64, metaitem('wireGtQuadrupleOsmium') * 6, metaitem('plateDoubleIridium') * 4, metaitem('gravitation_engine') * 2, metaitem('circuit.quantum_mainframe'), metaitem('plateDenseRhodiumPlatedPalladium') * 2, metaitem('energy.lapotronic_orb_cluster'), metaitem('field.generator.luv') * 2, metaitem('electric.motor.luv') * 2, metaitem('screwHsss') * 8], null)
