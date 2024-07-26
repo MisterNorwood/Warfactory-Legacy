@@ -259,3 +259,9 @@ recipes.addShaped(<gregtech:gt_armor:4>, [
     [<metaitem:power_thruster>, <ore:batteryIv>, <metaitem:power_thruster>], 
     [<ore:wireGtQuadrupleSamariumIronArsenicOxide>, null, <ore:wireGtQuadrupleSamariumIronArsenicOxide>]
 ]);
+
+chemical_reactor.recipeBuilder()
+    .inputs(<ore:plateSiliconeRubber>*4, <nomilabs:thermalcloth>*2)
+    .fluidInputs(<liquid:polybenzimidazole> * 288)
+    .outputs(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 13}]}))
+    .duration(60).EUt(7000).buildAndRegister();
