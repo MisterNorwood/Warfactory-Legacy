@@ -202,3 +202,60 @@ recipes.addShapeless(<contenttweaker:vaporeon>*4, [<contenttweaker:vaporeon_bloc
 recipes.addShapeless(<gregtech:meta_dust:309>*2, [<ore:oreRockSalt>, <ore:craftingToolMortar>]);
 
 recipes.addShapeless(<contenttweaker:barackbuck>, [<ore:ingotGold>, <ore:ingotGold>, <minecraft:bread>, <minecraft:water_bucket>]);
+
+recipes.remove(<gregtech:gt_armor:20>);
+recipes.remove(<gregtech:gt_armor:21>);
+recipes.remove(<gregtech:gt_armor:22>);
+recipes.remove(<gregtech:gt_armor:23>);
+recipes.remove(<gregtech:gt_armor:30>);
+recipes.remove(<gregtech:gt_armor:40>);
+recipes.remove(<gregtech:gt_armor:41>);
+recipes.remove(<gregtech:gt_armor:42>);
+recipes.remove(<gregtech:gt_armor:43>);
+recipes.remove(<gregtech:gt_armor:50>);
+recipes.remove(<armorplus:coal_arrow>);
+
+
+recipes.addShaped(<gregtech:gt_armor:23>, [
+    [<ore:plateNaquadahAlloy>, <ore:circuitZpm>, <ore:plateNaquadahAlloy>],
+    [<nomilabs:carbonarmorplate>, <ore:craftingToolWireCutter>, <nomilabs:carbonarmorplate>], 
+    [<nomilabs:carbonarmorplate>, <ore:batteryZpm>, <nomilabs:carbonarmorplate>]
+]);
+
+recipes.addShaped(<gregtech:gt_armor:22>, [
+    [<ore:plateNaquadahAlloy>, <nomilabs:carbonarmorplate>, <ore:plateNaquadahAlloy>],
+    [<nomilabs:carbonarmorplate>, <ore:batteryZpm>, <nomilabs:carbonarmorplate>], 
+    [<nomilabs:carbonarmorplate>, <ore:craftingToolWireCutter>, <nomilabs:carbonarmorplate>]
+]);
+
+
+recipes.addShaped(<gregtech:gt_armor:21>, [
+    [<metaitem:electric.piston.zpm>, <ore:batteryZpm>, <metaitem:electric.piston.zpm>],
+    [<nomilabs:carbonarmorplate>, <nomilabs:carbonarmorplate>, <nomilabs:carbonarmorplate>], 
+    [<ore:plateNaquadahAlloy>, <ore:circuitZpm>, <ore:plateNaquadahAlloy>]
+]);
+
+recipes.addShaped(<gregtech:gt_armor:20>, [
+    [<nomilabs:carbonarmorplate>, <nomilabs:carbonarmorplate>, <nomilabs:carbonarmorplate>],
+    [<nomilabs:carbonarmorplate>, <metaitem:nightvision_goggles>, <nomilabs:carbonarmorplate>], 
+    [<ore:circuitZpm>, <ore:batteryZpm>, <ore:craftingToolScrewdriver>]
+]);
+
+
+recipes.addShaped(<gregtech:gt_armor:30>, [
+    [<ore:craftingToolWireCutter>, <gregtech:gt_armor:4>, <ore:craftingToolScrewdriver>],
+    [<metaitem:fluid.regulator.zpm>, <gregtech:gt_armor:21>, <metaitem:fluid.regulator.zpm>], 
+    [<ore:wireGtOctalEnderium>, <ore:circuitZpm>, <ore:wireGtOctalEnderium>]
+]);
+
+recipes.addShaped(<gregtech:gt_armor:3>, [
+    [<ore:craftingToolWireCutter>, <ore:circuitIv>, <ore:craftingToolScrewdriver>],
+    [<metaitem:power_thruster>, <ore:batteryIv>, <metaitem:power_thruster>], 
+    [<ore:wireGtQuadrupleSamariumIronArsenicOxide>, null, <ore:wireGtQuadrupleSamariumIronArsenicOxide>]
+]);
+
+recipes.addShaped(<gregtech:gt_armor:4>, [
+    [<ore:craftingToolWireCutter>, <gregtech:gt_armor:3>, <ore:craftingToolScrewdriver>],
+    [<metaitem:power_thruster>, <ore:batteryIv>, <metaitem:power_thruster>], 
+    [<ore:wireGtQuadrupleSamariumIronArsenicOxide>, null, <ore:wireGtQuadrupleSamariumIronArsenicOxide>]
+]);
