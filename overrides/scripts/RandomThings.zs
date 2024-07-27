@@ -7,7 +7,7 @@ import crafttweaker.item.IItemStack;
 recipes.remove(<randomthings:timeinabottle>);
 recipes.addShaped(<randomthings:timeinabottle>, [
     [<minecraft:clock>, <enderio:item_xp_transfer>, <minecraft:clock>],
-    [<ore:gemCrystalFlux>, <ore:circuitHv>, <ore:gemCrystalFlux>], 
+    [<nomilabs:heartofauniverse>, <ore:circuitUhv>, <nomilabs:heartofauniverse>], 
     [<ore:dustMana>, <minecraft:glass_bottle>, <ore:dustMana>]
 ]);
 
@@ -32,7 +32,7 @@ recipes.addShaped(<randomthings:rainshield>, [
     [<minecraft:nether_brick>, <minecraft:nether_brick>, <minecraft:nether_brick>]
 ]);
 
-
+mods.jei.JEI.removeAndHide(<randomthings:block_destabilizer>);
 mods.jei.JEI.removeAndHide(<randomthings:luminousblock:*>);
 mods.jei.JEI.removeAndHide(<randomthings:translucentluminousblock:*>);
 mods.jei.JEI.removeAndHide(<randomthings:customworkbench>);

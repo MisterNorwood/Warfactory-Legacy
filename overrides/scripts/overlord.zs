@@ -45,3 +45,10 @@ recipes.addShaped(<overlord:baby_skeleton_maker>, [
     [<ore:bricksStone>, <ore:dustPulsating>, <ore:bricksStone>], 
     [<ore:bricksStone>, <ore:circuitLv>, <ore:bricksStone>]
 ]);
+
+recipes.remove(<overlord:overlords_seal>);
+recipes.addShaped(<overlord:overlords_seal>, [
+    [<ore:nuggetSilver>, <ore:wireGtSinglePulsatingIron>, <ore:nuggetSilver>],
+    [<ore:wireGtSinglePulsatingIron>, <ore:craftingToolHardHammer>, <ore:wireGtSinglePulsatingIron>], 
+    [<ore:nuggetSilver>, <ore:wireGtSinglePulsatingIron>, <ore:nuggetSilver>]
+]);
