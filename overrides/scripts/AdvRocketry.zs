@@ -917,7 +917,7 @@ makeExtremeRecipe5(<advancedrocketry:spacelaser>,
 		S: <metaitem:large_miner.luv>,
 		W: <advancedrocketry:warpcore>,
 	});
-<advancedrocketry:spacelaser>.addTooltip(format.red("WARNING: ") + format.gray("Keep away from illiterate procrastinators."));
+<advancedrocketry:spacelaser>.addTooltip(format.red("WARNING: ") + format.red("Kill them all; let Greg sort them out."));
 <advancedrocketry:spacelaser>.addTooltip(format.gray("Consult the AR Wiki for building instructions."));
 <advancedrocketry:spacelaser>.addTooltip(format.gray("Consumes ") + format.yellow("1,000,000") + format.gray(" RF/t"));
 <advancedrocketry:spacelaser>.addTooltip(format.red("Extremely finicky. Use at your own risk. Try restarting your world if it isn't working."));
