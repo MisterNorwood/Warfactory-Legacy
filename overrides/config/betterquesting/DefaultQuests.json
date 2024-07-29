@@ -65543,7 +65543,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "Your new technologies are promising indeed. This §1Vanax Superclean Steel§r casts off the hard material limits of tungstensteel, boasting even stronger heat resistance and durability. With this new material, war has truly changed once and for all.\n\nYou instruct your soldiers to go forth, and claim what is rightfully yours! \n\nYour new machines shall §cstrike fears in the hearts of the wicked§r. You shall §4lay waste to all who defy you§r! You shall slaugher all, hear the sweet song of their death-screams and watch with glee as their houses burn and their spouses grieve! \n\n§cYour very name will embody fear and ruin for generations untold§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -65555,7 +65555,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "Zero-Point-Voltage Guns",
+          "name:8": "Ludicrous-Voltage Guns",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -65568,7 +65568,26 @@
       },
       "questID:3": 1065,
       "rewards:9": {},
-      "tasks:9": {}
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:receiver_vanax"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     },
     "1066:10": {
       "preRequisites:11": [
@@ -67459,6 +67478,166 @@
               "Damage:2": 950,
               "OreDict:8": "",
               "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "1099:10": {
+      "preRequisites:11": [
+        1065
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Despite all you\u0027ve done, they still persist. Your enemies are truly relentless, but §cso are you§r.\n\nUsing the bleeding edge of material science, your nation has devised an even stronger receiver. This one is composed of §3Duranium§r: a truly exotic material. It is over a hundred times more durable than steel. It arrests even gamma rays. No natural amount of heat is sufficient to even weaken it. The §donce-immutable laws§r of §6Thermodynamics§r have gone entirely out the window, leaving only your twisted creativity as the limit for your designs.\n\nWith this material, you can design weapons of war once thought impossible.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "contenttweaker:receiver_duranium"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Zero-Point-Voltage Guns",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 1099,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:receiver_duranium"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "1100:10": {
+      "preRequisites:11": [
+        782
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Bullets are fairly complicated. They require §6casings§r, which can be made very cheaply from §6brass§r. They also require §7smokeless powder§r, which can be manufactured from gunpowder or gelled toluene. Lastly, they require a §cpenetrator§r (also called a §cprojectile§r for lower calibers). Low-tier penetrators like lead can only make a few bullets, but higher-tier ones will provide entire clips.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "mwc:bullet380acp"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "I Need More Boolets!",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 1100,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:casing"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:smokeless_powder"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "OR",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:lv_penetrator"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:mv_penetrator"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:hv_penetrator"
+            },
+            "3:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:ev_penetrator"
+            },
+            "4:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:depleted_uranium_penetrator"
+            },
+            "5:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:tungsten_penetrator"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -74590,6 +74769,20 @@
           "sizeY:3": 24,
           "x:3": -12,
           "y:3": -240
+        },
+        "29:10": {
+          "id:3": 1099,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 516,
+          "y:3": -96
+        },
+        "30:10": {
+          "id:3": 1100,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -60,
+          "y:3": 48
         }
       }
     },
@@ -74764,7 +74957,7 @@
   },
   "questSettings:10": {
     "betterquesting:10": {
-      "editmode:1": 0,
+      "editmode:1": 1,
       "hardcore:1": 0,
       "home_anchor_x:5": 0.5,
       "home_anchor_y:5": 0.0,
