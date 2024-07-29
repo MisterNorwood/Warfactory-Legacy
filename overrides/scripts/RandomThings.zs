@@ -32,7 +32,7 @@ recipes.addShaped(<randomthings:rainshield>, [
     [<minecraft:nether_brick>, <minecraft:nether_brick>, <minecraft:nether_brick>]
 ]);
 
-mods.jei.JEI.removeAndHide(<randomthings:block_destabilizer>);
+mods.jei.JEI.removeAndHide(<randomthings:blockdestabilizer>);
 mods.jei.JEI.removeAndHide(<randomthings:luminousblock:*>);
 mods.jei.JEI.removeAndHide(<randomthings:translucentluminousblock:*>);
 mods.jei.JEI.removeAndHide(<randomthings:customworkbench>);
