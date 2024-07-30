@@ -392,6 +392,9 @@ recipes.addShapeless(<mwc:p90swordfish>, [<mwc:p90>.reuse(), <ore:stickLongSteel
 
 recipes.addShapeless(<mwc:fabdefensemount>, [<mwc:glock_19>.reuse(), <ore:stickLongSteel>, <ore:stickLongSteel>]);
 
+recipes.addShapeless(<mwc:mk48upperhandguard>, [<mwc:m249>.reuse(), <ore:stickLongSteel>, <ore:stickLongSteel>]);
+
+
 mixer.recipeBuilder()
     .inputs([<metaitem:dustStainlessSteel> * 4, <metaitem:dustCarbon> * 2, <metaitem:dustPhosphorus>, <metaitem:dustMolybdenum>, <metaitem:dustSulfur>, <metaitem:dustSilicon>])
     .outputs(<metaitem:dustGunSteel> * 4)

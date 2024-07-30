@@ -19,6 +19,9 @@ var nichrome = <material:nichrome>;
 var pbi = <material:polybenzimidazole>;
 var rurdit = <material:ruridit>;
 var osmium = <material:osmium>;
+var trinium = <material:trinium>;
+var duranium = <material:duranium>;
+var europium = <material:europium>;
 
 stainlessSteel.addFlags("generate_rod", "generate_spring_small", "generate_round");
 hssg.addFlags("generate_rod", "generate_spring_small");
@@ -30,11 +33,15 @@ hsss.addFlags("generate_spring");
 lead.addFlags("generate_round");
 pbi.addFlags("generate_double_plate");
 blueSteel.addFlags("generate_rod", "generate_long_rod");
+trinium.addFlags("generate_long_rod");
 hslaSteel.addFlags("generate_rod", "generate_spring_small", "generate_bolt_screw", "generate_dense");
 blackSteel.addFlags("generate_spring_small", "generate_ring", "generate_bolt_screw", "generate_rod", "generate_dense", "generate_spring");
 incoloy.addFlags("generate_spring_small", "generate_ring", "generate_bolt_screw", "generate_rod", "generate_dense", "generate_spring");
 hsse.addFlags("generate_long_rod", "generate_spring");
 brass.addFlags("generate_foil");
+duranium.addFlags("generate_bolt_screw", "generate_ring");
+europium.addFlags("generate_bolt_screw", "generate_ring");
+
 
 
 // Gun metal
@@ -54,7 +61,7 @@ var vanaxSteel = MaterialBuilder(32101, "vanax_steel")
 .components([<material:iron>*133, <material:chrome>*35, <material:vanadium>*7, <material:carbon>*11, <material:nitrogen>*11, <material:molybdenum>*1])
 .blastTemp(3600, "HIGH", 500, 600)
 .iconSet("SHINY")
-.flags(["no_unification", "generate_plate","generate_rod", "generate_long_rod","generate_dense", "generate_bolt_screw", "generate_spring_small", "generate_foil"])
+.flags(["no_unification", "generate_plate","generate_rod", "generate_long_rod","generate_dense", "generate_bolt_screw", "generate_spring_small", "generate_ring", "generate_foil", "generate_double_plate"])
 .build();
 
 // 4140 steel
