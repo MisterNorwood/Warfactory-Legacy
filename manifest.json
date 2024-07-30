@@ -1,6 +1,10 @@
 {
   "author": "",
-  "files": [
+  "files": [{
+      "fileID": 4716907,
+      "projectID": 495693,
+      "required": true
+    },
     {
       "fileID": 4883852,
       "projectID": 873867,
