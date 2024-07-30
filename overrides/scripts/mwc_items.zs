@@ -170,6 +170,11 @@ recipes.addShaped(<mwc:santa_helmet>, [
 
 
 
+recipes.addShapeless(<mwc:nazisanta_helmet>, [<mwc:santa_helmet>, <ore:dyeBlack>]);
+recipes.addShapeless(<mwc:nazisanta_chest>, [<mwc:santa_chest>, <ore:dyeBlack>]);
+recipes.addShapeless(<mwc:nazisanta_boots>, [<mwc:santa_boots>, <ore:dyeBlack>]);
+
+
 
 recipes.addShapeless(<mwc:swat_helmet>, [<mwc:spec_ops_helmet>, <ore:dyeGray>]);
 recipes.addShapeless(<mwc:swat_chest>, [<mwc:spec_ops_chest>, <ore:dyeGray>]);
@@ -403,6 +408,25 @@ mixer.recipeBuilder()
     .duration(120)
     .EUt(16)
     .buildAndRegister();
+
+
+mixer.recipeBuilder()
+    .inputs([<metaitem:dustSteel> * 3, <metaitem:dustChrome>, <metaitem:dustVanadium>*2, <metaitem:dustMolybdenum>])
+    .outputs(<metaitem:dustVanaxSteel> * 4)
+    .duration(100)
+    .EUt(9126)
+    .buildAndRegister();
+
+mixer.recipeBuilder()
+    .inputs([<metaitem:dustIron> * 5, <metaitem:dustChrome> * 2, <metaitem:dustVanadium>*2, <metaitem:dustManganese>, <metaitem:dustAluminium> * 2, <metaitem:dustYttrium>])
+    .outputs(<metaitem:dustIncoloyMa956> * 8)
+    .duration(100)
+    .EUt(6100)
+    .buildAndRegister();
+
+
+
+
 
 //Depleted fuel -> DU penetrators
 lathe.recipeBuilder()
