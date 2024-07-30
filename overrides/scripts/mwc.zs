@@ -376,7 +376,6 @@ gunsev.add(<mwc:ngsw_r>);
 gunsev.add(<mwc:origin12>);
 gunsev.add(<mwc:vss_vintorez>); 
 gunsev.add(<mwc:p90>);
-gunsev.add(<mwc:ssg_08>);
 gunsev.add(<mwc:glock_18c>);
 
 
@@ -422,17 +421,6 @@ assembler.recipeBuilder()
   .outputs(<mwc:vssvintorezmag_2>)
   .duration(2400).EUt(1920).buildAndRegister();
 
-assembler.recipeBuilder()
-  .inputs([<ore:plateDenseGunSteel>*4, <ore:platePolyvinylButyral>*18, <ore:stickLongTitanium>*2, <contenttweaker:action_titanium>, <contenttweaker:barrel_ultimet>*4, <contenttweaker:receiver_titanium>])
-  .fluidInputs([<liquid:lubricant> * 500])
-  .outputs(<mwc:ssg_08>)
-  .duration(2400).EUt(1920).buildAndRegister();
-
-assembler.recipeBuilder()
-  .inputs([<ore:platePolycaprolactam>*4, <ore:springSmallHssg>*4] )
-  .fluidInputs([<liquid:polytetrafluoroethylene>*144])
-  .outputs(<mwc:ssg08mag>)
-  .duration(2400).EUt(1920).buildAndRegister();
 
 assembler.recipeBuilder()
   .inputs([<ore:plateGunSteel>*3, <ore:platePolyvinylButyral>*4, <ore:stickLongTitanium>*2, <contenttweaker:action_titanium>, <contenttweaker:barrel_ultimet>*1, <contenttweaker:receiver_titanium>])
@@ -560,12 +548,6 @@ assembler.recipeBuilder()
   .outputs(<mwc:m32_mgl>)
   .duration(2400).EUt(24069).buildAndRegister();
 
-  assembler.recipeBuilder()
-  .inputs([<ore:plateDoubleOsmiridium>*6, <ore:platePolybenzimidazole>*12, <ore:gearRhodium>, <contenttweaker:action_europium>, <contenttweaker:barrel_trinium>, <contenttweaker:receiver_vanax>, <ore:stickLongHsse>*3] )
-  .fluidInputs([<liquid:lubricant> * 500])
-  .outputs(<mwc:taurus_raging_hunter>)
-  .duration(2400).EUt(24069).buildAndRegister();
-
 assembler.recipeBuilder()
   .inputs([<ore:plateDoubleOsmiridium>*10, <ore:platePolybenzimidazole>*16, <ore:gearHsse>, <contenttweaker:action_europium>, <contenttweaker:barrel_trinium>*2, <contenttweaker:receiver_vanax>, <ore:wireFineNiobiumTitanium>*4] )
   .fluidInputs([<liquid:lubricant> * 500])
@@ -588,6 +570,12 @@ assembler.recipeBuilder()
   .inputs([<ore:plateDoubleOsmiridium>*12, <ore:platePolybenzimidazole>*16, <ore:springHsse>*3, <contenttweaker:action_europium>, <contenttweaker:barrel_trinium>*2, <contenttweaker:receiver_vanax>, <ore:gearSmallHsss>*8] )
   .fluidInputs([<liquid:lubricant> * 500])
   .outputs(<mwc:scorpion_evo3_a1>)
+  .duration(2400).EUt(24069).buildAndRegister();
+
+assembler.recipeBuilder()
+  .inputs([<ore:plateDoubleOsmiridium>*14, <ore:platePolybenzimidazole>*15, <ore:screwHsse>*5, <contenttweaker:action_europium>,  <contenttweaker:barrel_trinium>*4, <contenttweaker:receiver_vanax>, <ore:gearSmallHsss>*7, <ore:wireGtSingleNiobiumTitanium>*16] )
+  .fluidInputs([<liquid:lubricant> * 500])
+  .outputs(<mwc:as50>)
   .duration(2400).EUt(24069).buildAndRegister();
 
 //LUV Mags
@@ -637,6 +625,15 @@ assembler.recipeBuilder()
     .circuit(5)
     .buildAndRegister();
 
+assembler.recipeBuilder()
+    .inputs(<ore:platePolybenzimidazole> * 4, <ore:springSmallNiobiumTitanium> * 2, <ore:ringOsmiridium>)
+    .fluidInputs(<liquid:stainless_steel> * 144)
+    .outputs(<mwc:as50mag_2>)
+    .duration(80)
+    .EUt(24069)
+    .circuit(3)
+    .buildAndRegister();
+
 
 
 
@@ -651,25 +648,25 @@ assembler.recipeBuilder()
   .inputs([<ore:plateNaquadahAlloy>*16, <ore:platePolybenzimidazole>*24, <ore:gearOsmiridium>, <contenttweaker:action_naquadah_alloy>, <contenttweaker:barrel_tritanium>*2, <contenttweaker:receiver_duranium>, <ore:wireFineNiobiumTitanium>*4, <ore:circuitLuv>] )
   .fluidInputs([<liquid:lubricant> * 500])
   .outputs(<mwc:m134>)
-  .duration(2400).EUt(24069).buildAndRegister();
+  .duration(2400).EUt(120000).buildAndRegister();
 
 assembler.recipeBuilder()
   .inputs([<ore:plateNaquadahAlloy>*12, <ore:platePolybenzimidazole>*32, <ore:pipeLargeItemOsmiridium>*4, <contenttweaker:action_naquadah_alloy>, <contenttweaker:barrel_tritanium>*4, <contenttweaker:receiver_duranium>, <ore:stickLongVanadiumGallium>*4, <gregtech:meta_item_1:208>] )
   .fluidInputs([<liquid:lubricant> * 500])
   .outputs(<mwc:m202>)
-  .duration(2400).EUt(24069).buildAndRegister();
+  .duration(2400).EUt(120000).buildAndRegister();
 
 assembler.recipeBuilder()
   .inputs([<ore:plateNaquadahAlloy>*10, <ore:platePolybenzimidazole>*20, <ore:gearTrinium>*4, <contenttweaker:action_naquadah_alloy>, <contenttweaker:barrel_tritanium>*4, <contenttweaker:receiver_duranium>, <ore:ringOsmiridium>*6, <ore:wireFineEnderium>*6] )
   .fluidInputs([<liquid:lubricant> * 500])
   .outputs(<mwc:m82_barrett>)
-  .duration(2400).EUt(24069).buildAndRegister();
+  .duration(2400).EUt(120000).buildAndRegister();
 
-assembler.recipeBuilder()
-  .inputs([<ore:plateNaquadahAlloy>*14, <ore:platePolybenzimidazole>*15, <ore:screwDuranium>*5, <contenttweaker:action_naquadah_alloy>, <contenttweaker:barrel_tritanium>*4, <contenttweaker:receiver_duranium>, <ore:gearSmallOsmiridium>*7, <ore:wireGtSingleDraconium>*16] )
+  assembler.recipeBuilder()
+  .inputs([<ore:plateNaquadahAlloy>*6, <ore:platePolybenzimidazole>*12, <ore:gearTrinium>, <contenttweaker:action_europium>, <contenttweaker:barrel_tritanium>, <contenttweaker:receiver_duranium>, <ore:stickLongVanadiumGallium>*3] )
   .fluidInputs([<liquid:lubricant> * 500])
-  .outputs(<mwc:as50>)
-  .duration(2400).EUt(24069).buildAndRegister();
+  .outputs(<mwc:taurus_raging_hunter>)
+  .duration(2400).EUt(120000).buildAndRegister();
 
 
 //ZPM Mags
@@ -700,11 +697,4 @@ assembler.recipeBuilder()
     .circuit(2)
     .buildAndRegister();
 
-assembler.recipeBuilder()
-    .inputs(<ore:plateNaquadah> * 4, <ore:springSmallVanadiumGallium> * 2, <ore:ringOsmiridium>)
-    .fluidInputs(<liquid:stainless_steel> * 144)
-    .outputs(<mwc:as50mag_2>)
-    .duration(80)
-    .EUt(124124)
-    .circuit(3)
-    .buildAndRegister();
+
