@@ -267,7 +267,7 @@ val gunsmv = <ore:gunsMv>;
 gunsmv.add(<mwc:ak47>);
 gunsmv.add(<mwc:svd_dragunov>);
 gunsmv.add(<mwc:supernova>);
-gunsmv.add(<mwc:m79>);
+
 gunsmv.add(<mwc:mac10>);
 gunsmv.add(<mwc:python>);
 
@@ -296,11 +296,7 @@ assembler.recipeBuilder()
   .outputs(<mwc:ak74mag>)
   .duration(2400).EUt(120).buildAndRegister();
 
-assembler.recipeBuilder()
-  .inputs([<ore:pipeNormalFluidVanadiumSteel>, <ore:stickLongSteel>*1, <ore:plateDenseBlackSteel>*6, <contenttweaker:action_blacksteel>, <contenttweaker:receiver_aluminium>] )
-  .fluidInputs([<liquid:lubricant> * 144])
-  .outputs(<mwc:m79>)
-  .duration(2400).EUt(120).buildAndRegister();
+
 
 assembler.recipeBuilder()
   .inputs([<ore:stickSteel>*1, <ore:plateBlackSteel>*5, <contenttweaker:action_blacksteel>, <contenttweaker:barrel_vanadiumsteel>*1, <contenttweaker:receiver_aluminium>] )
@@ -377,6 +373,8 @@ gunsev.add(<mwc:origin12>);
 gunsev.add(<mwc:vss_vintorez>); 
 gunsev.add(<mwc:p90>);
 gunsev.add(<mwc:glock_18c>);
+gunsev.add(<mwc:m79>);
+
 
 
 assembler.recipeBuilder()
@@ -434,7 +432,11 @@ assembler.recipeBuilder()
   .outputs(<mwc:glockmag13>)
   .duration(2400).EUt(1920).buildAndRegister();
 
-
+assembler.recipeBuilder()
+  .inputs([<ore:pipeNormalFluidVanadiumSteel>, <ore:stickLongSteel>*1, <ore:plateGunSteel>*12, <contenttweaker:action_titanium>, <contenttweaker:receiver_titanium>] )
+  .fluidInputs([<liquid:polytetrafluoroethylene>*144])
+  .outputs(<mwc:m79>)
+  .duration(2400).EUt(1920).buildAndRegister();
 
 
 
