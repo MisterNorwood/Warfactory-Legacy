@@ -65543,7 +65543,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Your new technologies are promising indeed. This §1Vanax Superclean Steel§r casts off the hard material limits of tungstensteel, boasting even stronger heat resistance and durability. With this new material, war has truly changed once and for all.\n\nYou instruct your soldiers to go forth, and claim what is rightfully yours! \n\nYour new machines shall §cstrike fears in the hearts of the wicked§r. You shall §4lay waste to all who defy you§r! You shall slaugher all, hear the sweet song of their death-screams and watch with glee as their houses burn and their spouses grieve! \n\n§cYour very name will embody fear and ruin for generations untold§r.",
+          "desc:8": "Your new technologies are promising indeed. This §1Vanax Superclean Steel§r casts off the hard material limits of tungstensteel, boasting even stronger heat resistance and durability. With this new material, war has truly changed once and for all.\n\nYou instruct your soldiers to go forth, and claim what is rightfully yours! \n\nYour new machines shall §cstrike fears in the hearts of the wicked§r. You shall §4lay waste to all who defy you§r! You shall slaugher all, hear the sweet song of their death-screams and watch with glee as their houses burn and their spouses grieve! \n\n§cYour very name will embody fear and ruin for generations untold§r.\n\n\nThese guns can be found by searching §c$gunsLuv§r in JEI.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -67491,7 +67491,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Despite all you\u0027ve done, they still persist. Your enemies are truly relentless, but §cso are you§r.\n\nUsing the bleeding edge of material science, your nation has devised an even stronger receiver. This one is composed of §3Duranium§r: a truly exotic material. It is over a hundred times more durable than steel. It arrests even gamma rays. No natural amount of heat is sufficient to even weaken it. The §donce-immutable laws§r of §6Thermodynamics§r have gone entirely out the window, leaving only your twisted creativity as the limit for your designs.\n\nWith this material, you can design weapons of war once thought impossible.",
+          "desc:8": "Despite all you\u0027ve done, they still persist. Your enemies are truly relentless, but §cso are you§r.\n\nUsing the bleeding edge of material science, your nation has devised an even stronger receiver. This one is composed of §3Duranium§r: a truly exotic material. It is over a hundred times more durable than steel. It arrests even gamma rays. No natural amount of heat is sufficient to even weaken it. The §donce-immutable laws§r of §6Thermodynamics§r have gone entirely out the window, leaving only your twisted creativity as the limit for your designs.\n\nWith this material, you can design weapons of war once thought impossible.\n\nThese can be found by searching §e$gunsZpm§r in JEI.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -74957,7 +74957,7 @@
   },
   "questSettings:10": {
     "betterquesting:10": {
-      "editmode:1": 1,
+      "editmode:1": 0,
       "hardcore:1": 0,
       "home_anchor_x:5": 0.5,
       "home_anchor_y:5": 0.0,
