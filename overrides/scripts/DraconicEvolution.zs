@@ -23,13 +23,14 @@ recipes.addShaped(<draconicevolution:wyvern_energy_core>, [
 	[<actuallyadditions:block_crystal_empowered>, <actuallyadditions:item_battery_quintuple>, <actuallyadditions:block_crystal_empowered>], 
 	[dragcore, <actuallyadditions:block_crystal_empowered>, dragcore]]);	
 
+recipes.remove(<draconicevolution:wyvern_helm>);	
+recipes.remove(<draconicevolution:wyvern_chestplate>);	
+recipes.remove(<draconicevolution:wyvern_leggings>);	
+recipes.remove(<draconicevolution:wyvern_boots>);	
+
 //Wyvern Bow	
 recipes.remove(<draconicevolution:wyvern_bow>);	
-recipes.addShaped(<draconicevolution:wyvern_bow>, [
-	[star, wyvcore, star],
-	[dragcore, <armorplus:ender_dragon_bow>, dragcore], 
-	[star, <draconicevolution:wyvern_energy_core>, star]]);	
-	
+
 //Wyvern Axe	
 recipes.remove(<draconicevolution:wyvern_axe>);	
 recipes.addShaped(<draconicevolution:wyvern_axe>, [
