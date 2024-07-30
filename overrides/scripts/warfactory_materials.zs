@@ -61,7 +61,7 @@ var vanaxSteel = MaterialBuilder(32101, "vanax_steel")
 .components([<material:iron>*133, <material:chrome>*35, <material:vanadium>*7, <material:carbon>*11, <material:nitrogen>*11, <material:molybdenum>*1])
 .blastTemp(3600, "HIGH", 500, 600)
 .iconSet("SHINY")
-.flags(["no_unification", "generate_plate","generate_rod", "generate_long_rod","generate_dense", "generate_bolt_screw", "generate_spring_small", "generate_ring", "generate_foil", "generate_double_plate"])
+.flags(["generate_plate","generate_rod", "generate_long_rod","generate_dense", "generate_bolt_screw", "generate_spring_small", "generate_ring", "generate_foil", "generate_double_plate"])
 .build();
 
 // 4140 steel
