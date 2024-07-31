@@ -375,7 +375,6 @@ oreDict.gunsev;
 val gunsev = <ore:gunsEv>;
 
 gunsev.add(<mwc:ngsw_r>);
-gunsev.add(<mwc:origin12>);
 gunsev.add(<mwc:vss_vintorez>); 
 gunsev.add(<mwc:p90>);
 gunsev.add(<mwc:glock_18c>);
