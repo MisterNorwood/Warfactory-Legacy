@@ -516,7 +516,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<armorplus:the_ultimate_part:1>, [
 	[null,null,<enderio:block_reinforced_obsidian>,null,null], 
 	[null,<enderio:block_reinforced_obsidian>,<armorplus:super_star_helmet>,<enderio:block_reinforced_obsidian>,null], 
 	[<enderio:block_reinforced_obsidian>,<armorplus:cobalt_helmet>,<armorplus:manyullyn_helmet>,<armorplus:ardite_helmet>,<enderio:block_reinforced_obsidian>],
-	[<enderio:block_reinforced_obsidian>,<enderio:item_dark_steel_helmet>,<armorplus:guardian_helmet>,<enderio:item_end_steel_helmet>,<enderio:block_reinforced_obsidian>],
+	[<enderio:block_reinforced_obsidian>,null,<armorplus:guardian_helmet>, null,<enderio:block_reinforced_obsidian>],
 	[null,<enderio:block_reinforced_obsidian>,<enderio:block_reinforced_obsidian>,<enderio:block_reinforced_obsidian>,null]]);
 	
 //Right
@@ -570,7 +570,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<armorplus:the_ultimate_part:4>, [
 	[null,null,null,null,null],
 	[null,<enderio:block_reinforced_obsidian>,<armorplus:super_star_chestplate>,<enderio:block_reinforced_obsidian>,null], 
 	[<enderio:block_reinforced_obsidian>,<armorplus:cobalt_chestplate>,<armorplus:manyullyn_chestplate>,<armorplus:ardite_chestplate>,<enderio:block_reinforced_obsidian>],
-	[<enderio:block_reinforced_obsidian>,<enderio:item_dark_steel_chestplate>,<armorplus:guardian_chestplate>,<enderio:item_end_steel_chestplate>,<enderio:block_reinforced_obsidian>],
+	[<enderio:block_reinforced_obsidian>,null,<armorplus:guardian_chestplate>,null,<enderio:block_reinforced_obsidian>],
 	[null,<enderio:block_reinforced_obsidian>,<enderio:block_reinforced_obsidian>,<enderio:block_reinforced_obsidian>,null]]);
 	
 //Right
@@ -619,7 +619,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<armorplus:the_ultimate_part:8>, [
 mods.extendedcrafting.TableCrafting.addShaped(<armorplus:the_ultimate_part:7>, [
 	[<enderio:block_reinforced_obsidian>,<metaitem:quantumstar>,<armorplus:super_star_leggings>,<metaitem:quantumstar>,<enderio:block_reinforced_obsidian>],
 	[<enderio:block_reinforced_obsidian>,<armorplus:cobalt_leggings>,<armorplus:manyullyn_leggings>,<armorplus:ardite_leggings>,<enderio:block_reinforced_obsidian>], 
-	[<enderio:block_reinforced_obsidian>,<enderio:item_dark_steel_leggings>,<armorplus:guardian_leggings>,<enderio:item_end_steel_leggings>,<enderio:block_reinforced_obsidian>],
+	[<enderio:block_reinforced_obsidian>,null,<armorplus:guardian_leggings>,null,<enderio:block_reinforced_obsidian>],
 	[null,<metaitem:quantumstar>,null,<metaitem:quantumstar>,null],
 	[null,null,null,null,null]]);
 	
@@ -673,7 +673,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<armorplus:the_ultimate_part:10>, 
 	[<enderio:block_reinforced_obsidian>,<armorplus:guardian_boots>,null,<armorplus:manyullyn_boots>,<enderio:block_reinforced_obsidian>],
 	[<enderio:block_reinforced_obsidian>,<armorplus:cobalt_boots>,null,<armorplus:ardite_boots>,<enderio:block_reinforced_obsidian>],
 	[<enderio:block_reinforced_obsidian>,<metaitem:quantumstar>,null,<metaitem:quantumstar>,<enderio:block_reinforced_obsidian>],
-	[null,<enderio:item_dark_steel_boots>,null,<enderio:item_end_steel_boots>,null]]);
+	[null,null,null,null,null]]);
 	
 //Right
 mods.extendedcrafting.TableCrafting.addShaped(<armorplus:the_ultimate_part:9>, [
