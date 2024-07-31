@@ -525,7 +525,6 @@ val gunsluv = <ore:gunsLuv>;
 
 gunsluv.add(<mwc:m249>);
 gunsluv.add(<mwc:m32_mgl>);
-gunsluv.add(<mwc:taurus_raging_hunter>);
 gunsluv.add(<mwc:hk_417>);
 gunsluv.add(<mwc:aac_honey_badger>);
 gunsluv.add(<mwc:fiveseven>);
@@ -625,6 +624,7 @@ val gunszpm = <ore:gunsZpm>;
 gunszpm.add(<mwc:m134>);
 gunszpm.add(<mwc:m202>);
 gunszpm.add(<mwc:m82_barrett>);
+gunszpm.add(<mwc:taurus_raging_hunter>);
 
 assembler.recipeBuilder()
   .inputs([<ore:plateNaquadahAlloy>*16, <ore:platePolybenzimidazole>*24, <ore:gearOsmiridium>, <contenttweaker:action_naquadah_alloy>, <contenttweaker:barrel_tritanium>*2, <contenttweaker:receiver_duranium>, <ore:wireFineNiobiumTitanium>*4, <ore:circuitLuv>] )
