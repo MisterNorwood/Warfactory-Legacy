@@ -160,7 +160,7 @@ recipes.addShaped(<contenttweaker:barrel_steel>, [
 ]);
 
 recipes.addShaped(<contenttweaker:barrel_wrought_iron>, [
-  [null, <ore:stickSteel>, <ore:foilSteel>],
+  [null, <ore:stickWroughtIron>, <ore:foilWroughtIron>],
   [<ore:stickWroughtIron>, <ore:foilWroughtIron>, <ore:stickWroughtIron>],
   [<ore:foilWroughtIron>, <ore:stickWroughtIron>, null]
 ]);
@@ -219,19 +219,19 @@ oogaboogaguns.add(<mwc:g2_contender>);
 
 recipes.addShaped(<mwc:mares_leg>, [
   [<ore:screwWroughtIron>, null, <ore:screwWroughtIron>],
-  [<contenttweaker:barrel_steel>, <contenttweaker:action_wrought>, <contenttweaker:receiver_wrought>], 
+  [<contenttweaker:barrel_wrought_iron>, <contenttweaker:action_wrought>, <contenttweaker:receiver_wrought>],
   [<ore:craftingToolSoftHammer>, <ore:plankWood>, <ore:craftingToolScrewdriver>]
 ]);
 
 recipes.addShaped(<mwc:mp43e>, [
-  [<contenttweaker:barrel_steel>, <ore:boltWroughtIron>, null],
-  [<contenttweaker:barrel_steel>, <contenttweaker:action_wrought>, <contenttweaker:receiver_wrought>], 
+  [<contenttweaker:barrel_wrought_iron>, <ore:boltWroughtIron>, null],
+  [<contenttweaker:barrel_wrought_iron>>, <contenttweaker:action_wrought>, <contenttweaker:receiver_wrought>],
   [<ore:craftingToolSoftHammer>, <ore:plankWood>, <ore:craftingToolScrewdriver>]
 ]);
 
 
 recipes.addShaped(<mwc:g2_contender>, [
-  [<contenttweaker:barrel_steel>, <contenttweaker:receiver_wrought>],
+  [<contenttweaker:barrel_wrought_iron>, <contenttweaker:receiver_wrought>],
   [null, <ore:plankWood>]
 ]);
 
