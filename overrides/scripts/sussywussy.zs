@@ -213,36 +213,7 @@ recipes.remove(<gregtech:gt_armor:4>);
 recipes.remove(<gregtech:gt_armor:3>);
 
 
-recipes.addShaped(<gregtech:gt_armor:23>, [
-    [<ore:plateNaquadahAlloy>, <ore:circuitZpm>, <ore:plateNaquadahAlloy>],
-    [<nomilabs:carbonarmorplate>, <ore:craftingToolWireCutter>, <nomilabs:carbonarmorplate>], 
-    [<nomilabs:carbonarmorplate>, <ore:batteryZpm>, <nomilabs:carbonarmorplate>]
-]);
 
-recipes.addShaped(<gregtech:gt_armor:22>, [
-    [<ore:plateNaquadahAlloy>, <nomilabs:carbonarmorplate>, <ore:plateNaquadahAlloy>],
-    [<nomilabs:carbonarmorplate>, <ore:batteryZpm>, <nomilabs:carbonarmorplate>], 
-    [<nomilabs:carbonarmorplate>, <ore:craftingToolWireCutter>, <nomilabs:carbonarmorplate>]
-]);
-
-
-recipes.addShaped(<gregtech:gt_armor:21>, [
-    [<metaitem:electric.piston.zpm>, <ore:batteryZpm>, <metaitem:electric.piston.zpm>],
-    [<nomilabs:carbonarmorplate>, <nomilabs:carbonarmorplate>, <nomilabs:carbonarmorplate>], 
-    [<ore:plateNaquadahAlloy>, <ore:circuitZpm>, <ore:plateNaquadahAlloy>]
-]);
-
-recipes.addShaped(<gregtech:gt_armor:20>, [
-    [<nomilabs:carbonarmorplate>, <nomilabs:carbonarmorplate>, <nomilabs:carbonarmorplate>],
-    [<nomilabs:carbonarmorplate>, <metaitem:nightvision_goggles>, <nomilabs:carbonarmorplate>], 
-    [<ore:circuitZpm>, <ore:batteryZpm>, <ore:craftingToolScrewdriver>]
-]);
-
-
-recipes.addShaped(<gregtech:gt_armor:30>, [
-    [<ore:craftingToolWireCutter>, <gregtech:gt_armor:4>, <ore:craftingToolScrewdriver>],
-    [<metaitem:fluid.regulator.zpm>, <gregtech:gt_armor:21>, <metaitem:fluid.regulator.zpm>], 
-    [<ore:wireGtOctalEnderium>, <ore:circuitZpm>, <ore:wireGtOctalEnderium>]
 ]);
 
 recipes.addShaped(<gregtech:gt_armor:3>, [
