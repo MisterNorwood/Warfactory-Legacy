@@ -159,6 +159,12 @@ recipes.addShaped(<contenttweaker:barrel_steel>, [
   [<ore:foilSteel>, <ore:stickSteel>, null]
 ]);
 
+recipes.addShaped(<contenttweaker:barrel_wrought_iron>, [
+  [null, <ore:stickWroughtIron>, <ore:foilWroughtIron>],
+  [<ore:stickWroughtIron>, <ore:foilWroughtIron>, <ore:stickWroughtIron>],
+  [<ore:foilWroughtIron>, <ore:stickWroughtIron>, null]
+]);
+
 lathe.recipeBuilder()
   .inputs([<ore:stickLongVanadiumSteel>])
   .outputs(<contenttweaker:barrel_vanadiumsteel>)
@@ -213,20 +219,20 @@ oogaboogaguns.add(<mwc:g2_contender>);
 
 recipes.addShaped(<mwc:mares_leg>, [
   [<ore:screwWroughtIron>, null, <ore:screwWroughtIron>],
-  [<contenttweaker:barrel_steel>, <contenttweaker:action_wrought>, <contenttweaker:receiver_wrought>], 
-  [<ore:craftingToolSoftHammer>, <ore:plateTreatedWood>, <ore:craftingToolScrewdriver>]
+  [<contenttweaker:barrel_wrought_iron>, <contenttweaker:action_wrought>, <contenttweaker:receiver_wrought>],
+  [<ore:craftingToolSoftHammer>, <ore:plankWood>, <ore:craftingToolScrewdriver>]
 ]);
 
 recipes.addShaped(<mwc:mp43e>, [
-  [<contenttweaker:barrel_steel>, <ore:boltWroughtIron>, null],
-  [<contenttweaker:barrel_steel>, <contenttweaker:action_wrought>, <contenttweaker:receiver_wrought>], 
-  [<ore:craftingToolSoftHammer>, <ore:plateTreatedWood>, <ore:craftingToolScrewdriver>]
+  [<contenttweaker:barrel_wrought_iron>, <ore:boltWroughtIron>, null],
+  [<contenttweaker:barrel_wrought_iron>, <contenttweaker:action_wrought>, <contenttweaker:receiver_wrought>],
+  [<ore:craftingToolSoftHammer>, <ore:plankWood>, <ore:craftingToolScrewdriver>]
 ]);
 
 
 recipes.addShaped(<mwc:g2_contender>, [
-  [<contenttweaker:barrel_steel>, <contenttweaker:receiver_wrought>],
-  [null, <ore:plateTreatedWood>]
+  [<contenttweaker:barrel_wrought_iron>, <contenttweaker:receiver_wrought>],
+  [null, <ore:plankWood>]
 ]);
 
 
@@ -267,7 +273,7 @@ val gunsmv = <ore:gunsMv>;
 gunsmv.add(<mwc:ak47>);
 gunsmv.add(<mwc:svd_dragunov>);
 gunsmv.add(<mwc:supernova>);
-gunsmv.add(<mwc:m79>);
+
 gunsmv.add(<mwc:mac10>);
 gunsmv.add(<mwc:python>);
 
@@ -296,11 +302,7 @@ assembler.recipeBuilder()
   .outputs(<mwc:ak74mag>)
   .duration(2400).EUt(120).buildAndRegister();
 
-assembler.recipeBuilder()
-  .inputs([<ore:pipeNormalFluidVanadiumSteel>, <ore:stickLongSteel>*1, <ore:plateDenseBlackSteel>*6, <contenttweaker:action_blacksteel>, <contenttweaker:receiver_aluminium>] )
-  .fluidInputs([<liquid:lubricant> * 144])
-  .outputs(<mwc:m79>)
-  .duration(2400).EUt(120).buildAndRegister();
+
 
 assembler.recipeBuilder()
   .inputs([<ore:stickSteel>*1, <ore:plateBlackSteel>*5, <contenttweaker:action_blacksteel>, <contenttweaker:barrel_vanadiumsteel>*1, <contenttweaker:receiver_aluminium>] )
@@ -373,10 +375,11 @@ oreDict.gunsev;
 val gunsev = <ore:gunsEv>;
 
 gunsev.add(<mwc:ngsw_r>);
-gunsev.add(<mwc:origin12>);
 gunsev.add(<mwc:vss_vintorez>); 
 gunsev.add(<mwc:p90>);
 gunsev.add(<mwc:glock_18c>);
+gunsev.add(<mwc:m79>);
+
 
 
 assembler.recipeBuilder()
@@ -434,7 +437,11 @@ assembler.recipeBuilder()
   .outputs(<mwc:glockmag13>)
   .duration(2400).EUt(1920).buildAndRegister();
 
-
+assembler.recipeBuilder()
+  .inputs([<ore:pipeNormalFluidVanadiumSteel>, <ore:stickLongSteel>*1, <ore:plateGunSteel>*12, <contenttweaker:action_titanium>, <contenttweaker:receiver_titanium>] )
+  .fluidInputs([<liquid:polytetrafluoroethylene>*144])
+  .outputs(<mwc:m79>)
+  .duration(2400).EUt(1920).buildAndRegister();
 
 
 
@@ -445,8 +452,6 @@ val gunsiv = <ore:gunsIv>;
 gunsiv.add(<mwc:scar_h_cqc>);
 gunsiv.add(<mwc:desert_eagle>); 
 gunsiv.add(<mwc:kriss_vector>);
-gunsiv.add(<mwc:l96a1>);
-gunsiv.add(<mwc:saiga12>);
 gunsiv.add(<mwc:origin12>);
 
 assembler.recipeBuilder()
@@ -485,11 +490,6 @@ assembler.recipeBuilder()
   .outputs(<mwc:vectormag>)
   .duration(2400).EUt(8192).buildAndRegister();
 
-assembler.recipeBuilder()
-  .inputs([<ore:plateOsmium>*32, <ore:platePolybenzimidazole>*16, <ore:boltOsmium>*48, <contenttweaker:action_tungstensteel>, <contenttweaker:barrel_hss>*2, <contenttweaker:receiver_tungstensteel>,<ore:springRuridit>*4] )
-  .fluidInputs([<liquid:lubricant> * 4000])
-  .outputs(<mwc:l96a1>)
-  .duration(2400).EUt(8192).buildAndRegister();
 
 assembler.recipeBuilder()
   .inputs([<ore:platePolybenzimidazole>*16, <ore:springOsmium>*2, <ore:ringTungstenSteel>*48, <ore:stickLongIncoloyMa956>*8  ])
@@ -497,12 +497,7 @@ assembler.recipeBuilder()
   .outputs(<mwc:asvalmag>)
   .duration(2400).EUt(8192).buildAndRegister();
 
-assembler.recipeBuilder()
-  .inputs([<ore:plateDoubleGunSteel>*4, <ore:platePolyvinylButyral>*18, <ore:stickLongTitanium>, <contenttweaker:action_titanium>, <contenttweaker:barrel_ultimet>*2, <contenttweaker:receiver_titanium>,<ore:springHssg>] )
-  .fluidInputs([<liquid:lubricant> * 500])
-  .outputs(<mwc:saiga12>)
-  .duration(2400).EUt(1920).buildAndRegister();
-  
+
 
 //Origin 12 drum magazine recipe
 assembler.recipeBuilder()
@@ -530,7 +525,6 @@ val gunsluv = <ore:gunsLuv>;
 
 gunsluv.add(<mwc:m249>);
 gunsluv.add(<mwc:m32_mgl>);
-gunsluv.add(<mwc:taurus_raging_hunter>);
 gunsluv.add(<mwc:hk_417>);
 gunsluv.add(<mwc:aac_honey_badger>);
 gunsluv.add(<mwc:fiveseven>);
@@ -572,11 +566,7 @@ assembler.recipeBuilder()
   .outputs(<mwc:scorpion_evo3_a1>)
   .duration(2400).EUt(24069).buildAndRegister();
 
-assembler.recipeBuilder()
-  .inputs([<ore:plateDoubleOsmiridium>*14, <ore:platePolybenzimidazole>*15, <ore:screwHsse>*5, <contenttweaker:action_europium>,  <contenttweaker:barrel_trinium>*4, <contenttweaker:receiver_vanax>, <ore:gearSmallHsss>*7, <ore:wireGtSingleNiobiumTitanium>*16] )
-  .fluidInputs([<liquid:lubricant> * 500])
-  .outputs(<mwc:as50>)
-  .duration(2400).EUt(24069).buildAndRegister();
+
 
 //LUV Mags
 
@@ -625,14 +615,6 @@ assembler.recipeBuilder()
     .circuit(5)
     .buildAndRegister();
 
-assembler.recipeBuilder()
-    .inputs(<ore:platePolybenzimidazole> * 4, <ore:springSmallNiobiumTitanium> * 2, <ore:ringOsmiridium>)
-    .fluidInputs(<liquid:stainless_steel> * 144)
-    .outputs(<mwc:as50mag_2>)
-    .duration(80)
-    .EUt(24069)
-    .circuit(3)
-    .buildAndRegister();
 
 
 
@@ -642,7 +624,7 @@ val gunszpm = <ore:gunsZpm>;
 gunszpm.add(<mwc:m134>);
 gunszpm.add(<mwc:m202>);
 gunszpm.add(<mwc:m82_barrett>);
-gunszpm.add(<mwc:as50>);
+gunszpm.add(<mwc:taurus_raging_hunter>);
 
 assembler.recipeBuilder()
   .inputs([<ore:plateNaquadahAlloy>*16, <ore:platePolybenzimidazole>*24, <ore:gearOsmiridium>, <contenttweaker:action_naquadah_alloy>, <contenttweaker:barrel_tritanium>*2, <contenttweaker:receiver_duranium>, <ore:wireFineNiobiumTitanium>*4, <ore:circuitLuv>] )

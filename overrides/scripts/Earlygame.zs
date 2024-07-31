@@ -3,6 +3,11 @@ import mods.gregtech.material.MaterialRegistry;
 import crafttweaker.item.IItemStack;
 //import scripts.CommonVars.makeShaped as makeShaped;
 
+
+
+recipes.remove(<minecraft:golden_apple>);
+recipes.remove(<minecraft:golden_apple:1>);
+
 //Plantball
 recipes.addShaped(<metaitem:plant_ball>, [
 	[<ore:treeLeaves>,<ore:treeLeaves>,<ore:treeLeaves>],

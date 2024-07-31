@@ -170,11 +170,6 @@ recipes.addShaped(<mwc:santa_helmet>, [
 
 
 
-recipes.addShapeless(<mwc:nazisanta_helmet>, [<mwc:santa_helmet>, <ore:dyeBlack>]);
-recipes.addShapeless(<mwc:nazisanta_chest>, [<mwc:santa_chest>, <ore:dyeBlack>]);
-recipes.addShapeless(<mwc:nazisanta_boots>, [<mwc:santa_boots>, <ore:dyeBlack>]);
-
-
 
 recipes.addShapeless(<mwc:swat_helmet>, [<mwc:spec_ops_helmet>, <ore:dyeGray>]);
 recipes.addShapeless(<mwc:swat_chest>, [<mwc:spec_ops_chest>, <ore:dyeGray>]);
@@ -557,3 +552,35 @@ chemical_reactor.recipeBuilder()
     .fluidInputs(<liquid:ammonia> * 50)
     .outputs(<contenttweaker:smokeless_powder>*30)
     .duration(60).EUt(16).buildAndRegister();
+
+
+
+
+
+
+recipes.addShapeless(<contenttweaker:smokeless_powder>*4, [<minecraft:gunpowder>, <ore:craftingToolMortar>]);
+recipes.addShapeless(<contenttweaker:casing>*4, [<ore:foilBrass>, <ore:craftingToolHardHammer>]);
+recipes.addShaped(<contenttweaker:lv_penetrator>, [
+  [<ore:craftingToolFile>, <ore:foilBrass>, <ore:craftingToolSaw>],
+  [<ore:foilBrass>, <ore:stickLongLead>, <ore:foilBrass>], 
+  [null, <ore:craftingToolHardHammer>, null]
+]);
+
+
+recipes.addShaped(<mwc:shotgun12gauge>, [
+  [<ore:roundLead>, <ore:roundLead>, <ore:roundLead>],
+  [<ore:roundLead>, <ore:roundLead>, <ore:roundLead>], 
+  [<ore:craftingToolHardHammer>, <contenttweaker:casing>, <contenttweaker:smokeless_powder>]
+]);
+
+recipes.addShaped(<mwc:bullet44>*3, [
+  [<ore:craftingToolHardHammer>, <contenttweaker:lv_penetrator>, null],
+  [<contenttweaker:smokeless_powder>, <contenttweaker:smokeless_powder>, <contenttweaker:smokeless_powder>], 
+  [<contenttweaker:casing>, <contenttweaker:casing>, <contenttweaker:casing>]
+]);
+
+recipes.addShaped(<mwc:bullet4570>*3, [
+  [<contenttweaker:casing>, <contenttweaker:casing>, <contenttweaker:casing>],
+  [<contenttweaker:smokeless_powder>, <contenttweaker:smokeless_powder>, <contenttweaker:smokeless_powder>], 
+  [<ore:craftingToolHardHammer>, <contenttweaker:lv_penetrator>, null]
+]);

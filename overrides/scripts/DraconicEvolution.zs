@@ -24,8 +24,8 @@ recipes.addShaped(<draconicevolution:wyvern_energy_core>, [
 	[dragcore, <actuallyadditions:block_crystal_empowered>, dragcore]]);	
 
 recipes.remove(<draconicevolution:wyvern_helm>);	
-recipes.remove(<draconicevolution:wyvern_chestplate>);	
-recipes.remove(<draconicevolution:wyvern_leggings>);	
+recipes.remove(<draconicevolution:wyvern_chest>);
+recipes.remove(<draconicevolution:wyvern_legs>);
 recipes.remove(<draconicevolution:wyvern_boots>);	
 
 //Wyvern Bow	
