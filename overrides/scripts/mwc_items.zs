@@ -140,13 +140,6 @@ assembler.recipeBuilder()
     .outputs(<mwc:leupoldrailscope>)
     .duration(300).EUt(32).buildAndRegister();
 
-assembler.recipeBuilder()
-    .inputs([<ore:plateSteel>*3, <ore:screwSteel>*2, <ore:lensGlass>*2])
-    .fluidInputs(<liquid:tin> * 72)
-    .circuit(3)
-    .outputs(<mwc:leupold>)
-    .duration(300).EUt(32).buildAndRegister();
-
 
 assembler.recipeBuilder()
     .inputs([<ore:plateSteel>*3, <ore:screwSteel>*2, <ore:lensGlass>*2])
