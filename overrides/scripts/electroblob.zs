@@ -393,7 +393,7 @@ recipes.addShaped(<ebwizardry:ring_poison>, [
 ]);
 
 recipes.addShaped(<ebwizardry:ring_earth_melee>, [
-    [<icbmclassic:poisonpowder>, <icbmclassic:poisonpowder>, <icbmclassic:poisonpowder>],
+    [<minecraft:rotten_flesh>, <minecraft:rotten_flesh>, <minecraft:rotten_flesh>],
     [<ore:dustSodiumHydroxide>, <ore:ringBronze>, <ore:dustSodiumHydroxide>], 
     [null, <ore:dustSodiumHydroxide>, null]
 ]);
