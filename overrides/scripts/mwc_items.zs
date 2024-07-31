@@ -519,7 +519,7 @@ forming_press.recipeBuilder()
 
 forming_press.recipeBuilder()
 	.inputs([<metaitem:plateStainlessSteel> * 4, <metaitem:ringStainlessSteel> * 4])
-	.circuit(17)
+	.circuit(18)
 	.outputs(<mwc:silencer65x39>)
 	.duration(200)
 	.EUt(512)
