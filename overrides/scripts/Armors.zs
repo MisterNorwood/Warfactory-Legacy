@@ -2,6 +2,10 @@ recipes.remove(<enderio:item_dark_steel_helmet>);
 recipes.remove(<enderio:item_dark_steel_chestplate>);
 recipes.remove(<enderio:item_dark_steel_leggings>);
 recipes.remove(<enderio:item_dark_steel_boots>);
+recipes.remove(<enderio:item_end_steel_helmet>);
+recipes.remove(<enderio:item_end_steel_chestplate>);
+recipes.remove(<enderio:item_end_steel_leggings>);
+recipes.remove(<enderio:item_end_steel_boots>);
 recipes.remove(<enderio:item_stellar_alloy_helmet>);
 recipes.remove(<enderio:item_stellar_alloy_chestplate>);
 recipes.remove(<enderio:item_stellar_alloy_leggings>);
@@ -376,6 +380,56 @@ mods.extendedcrafting.TableCrafting.addShaped(<armorplus:ender_dragon_sword>, [
 [null,ends,compobs,scale,null,null,null],
 [ends,<armorplus:emerald_sword>	,ends,compobs,null,null,null],
 [scale,ends,null,null,compobs,null,null]]);
+
+//Infused Lava
+var obs = <armorplus:lava_infused_obsidian>;
+var cry = <armorplus:lava_crystal:1>;
+var stick = <minecraft:stick>;
+mods.extendedcrafting.TableCrafting.addShaped(<armorplus:infused_lava_helmet>, [
+[obs,obs,cry,obs,obs],
+[cry,null,null,null,cry],
+[cry,null,null,null,cry]]);
+mods.extendedcrafting.TableCrafting.addShaped(<armorplus:infused_lava_chestplate>, [
+[cry,null,null,null,cry],
+[cry,null,null,null,cry],
+[obs,obs,obs,obs,obs],
+[obs,cry,obs,cry,obs],
+[obs,obs,obs,obs,obs]]);
+mods.extendedcrafting.TableCrafting.addShaped(<armorplus:infused_lava_leggings>, [
+[obs,obs,obs,obs,obs],
+[obs,cry,cry,cry,obs],
+[cry,null,null,null,cry],
+[cry,null,null,null,cry],
+[cry,null,null,null,cry]]);
+mods.extendedcrafting.TableCrafting.addShaped(<armorplus:infused_lava_boots>, [
+[obs,null,null,null,obs],
+[obs,null,null,null,obs],
+[cry,null,null,null,cry]]);
+mods.extendedcrafting.TableCrafting.addShaped(<armorplus:infused_lava_sword>, [
+[null,null,cry,null,null],
+[null,null,cry,null,null],
+[null,null,cry,null,null],
+[null,obs,obs,obs,null],
+[null,null,stick,null,null]]);
+
+recipes.addShaped(<nomilabs:carbonarmorplate>, [
+[null, <metaitem:carbon.plate>, null],
+[<metaitem:carbon.plate>, <thermalfoundation:material:833>, <metaitem:carbon.plate>],
+[null, <metaitem:carbon.plate>, null]]);
+recipes.addShaped(<armorplus:coal_helmet>, [
+	[<nomilabs:carbonarmorplate>,<nomilabs:carbonarmorplate>,<nomilabs:carbonarmorplate>],
+	[<nomilabs:carbonarmorplate>, null, <nomilabs:carbonarmorplate>]]);
+recipes.addShaped(<armorplus:coal_chestplate>, [
+[<nomilabs:carbonarmorplate>, null, <nomilabs:carbonarmorplate>],
+[<nomilabs:carbonarmorplate>, <nomilabs:carbonarmorplate>, <nomilabs:carbonarmorplate>],
+[<nomilabs:carbonarmorplate>, <nomilabs:carbonarmorplate>, <nomilabs:carbonarmorplate>]]);
+recipes.addShaped(<armorplus:coal_leggings>, [
+	[<nomilabs:carbonarmorplate>, <nomilabs:carbonarmorplate>, <nomilabs:carbonarmorplate>],
+	[<nomilabs:carbonarmorplate>, null, <nomilabs:carbonarmorplate>],
+	[<nomilabs:carbonarmorplate>, null, <nomilabs:carbonarmorplate>]]);
+recipes.addShaped(<armorplus:coal_boots>, [
+	[<nomilabs:carbonarmorplate>, null, <nomilabs:carbonarmorplate>],
+	[<nomilabs:carbonarmorplate>, null, <nomilabs:carbonarmorplate>]]);
 
 //Superstar
 var star = <minecraft:nether_star>;
