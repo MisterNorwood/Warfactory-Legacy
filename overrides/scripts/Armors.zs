@@ -41,7 +41,7 @@ recipes.addShaped(<armorplus:redstone_arrow> * 4, [[<minecraft:redstone>], [<ore
 recipes.addShaped(<armorplus:infused_lava_arrow> * 4, [[<armorplus:lava_crystal:1>], [<ore:stickWood>], [<ore:feather>]]);
 recipes.addShaped(<armorplus:ender_dragon_arrow> * 4, [[<armorplus:material:3>], [<ore:stickWood>], [<ore:feather>]]);
 	
-	
+var stick = <minecraft:stick>;	
 //Diamond Armor
 recipes.remove(<minecraft:diamond_helmet>);
 recipes.addShaped(<minecraft:diamond_helmet>, [
@@ -258,7 +258,7 @@ recipes.addShaped(<armorplus:emerald_leggings>, [
 	[<metaitem:plateEmerald>, <metaitem:plateEmerald>, <metaitem:plateEmerald>],
 	[<metaitem:plateAluminium>, null, <metaitem:plateAluminium>],
 	[<metaitem:plateEmerald>, null, <metaitem:plateEmerald>]]);
-recipes.addShaped(<armorplus:<armorplus:emerald_boots>, [
+recipes.addShaped(<armorplus:emerald_boots>, [
 	[<metaitem:plateEmerald>, null, <metaitem:plateEmerald>],
 	[<metaitem:plateAluminium>, null, <metaitem:plateAluminium>]]);
 
@@ -384,7 +384,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<armorplus:ender_dragon_sword>, [
 //Infused Lava
 var obs = <armorplus:lava_infused_obsidian>;
 var cry = <armorplus:lava_crystal:1>;
-var stick = <minecraft:stick>;
+
 mods.extendedcrafting.TableCrafting.addShaped(<armorplus:infused_lava_helmet>, [
 [obs,obs,cry,obs,obs],
 [cry,null,null,null,cry],
