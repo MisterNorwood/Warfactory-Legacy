@@ -225,7 +225,7 @@ recipes.addShaped(<mwc:mares_leg>, [
 
 recipes.addShaped(<mwc:mp43e>, [
   [<contenttweaker:barrel_wrought_iron>, <ore:boltWroughtIron>, null],
-  [<contenttweaker:barrel_wrought_iron>>, <contenttweaker:action_wrought>, <contenttweaker:receiver_wrought>],
+  [<contenttweaker:barrel_wrought_iron>, <contenttweaker:action_wrought>, <contenttweaker:receiver_wrought>],
   [<ore:craftingToolSoftHammer>, <ore:plankWood>, <ore:craftingToolScrewdriver>]
 ]);
 
