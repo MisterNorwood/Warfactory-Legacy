@@ -63,22 +63,6 @@ lathe.recipeBuilder()
 
 
 
-recipes.addShaped(<mwc:santa_helmet>, [
-  [<ore:string>, <mwc:carbon_fiber>, <ore:string>],
-  [<ore:plateStainlessSteel>, <ore:dyeRed>, <ore:plateStainlessSteel>],
-  [null, null, null]
-]);
-recipes.addShaped(<mwc:santa_chest, [
-  [<ore:plateStainlessSteel> <mwc:carbon_fiber>, <ore:plateStainlessSteel>],
-  [<ore:string>, <ore:dyeRed>, <ore:string>],
-  [<ore:plateStainlessSteel>, <ore:plateStainlessSteel>, <ore:plateStainlessSteel>]
-]);
-recipes.addShaped(<mwc:santa_helmet>, [
-  [<ore:plateStainlessSteel>, <mwc:carbon_fiber>, <ore:plateStainlessSteel>],
-  [<ore:string>, <ore:dyeRed>, <ore:string>],
-  [null, null, null]
-]);
-
 
 //Ironsights
 recipes.addShaped(<mwc:kobra>, [
