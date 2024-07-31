@@ -970,10 +970,10 @@
           "rewardID:8": "bq_standard:item",
           "rewards:9": {
             "0:10": {
-              "Count:3": 2,
+              "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": "",
-              "id:8": "minecraft:air"
+              "id:8": "gregtech:rubber_sapling"
             }
           }
         }
@@ -1946,20 +1946,7 @@
         }
       },
       "questID:3": 24,
-      "rewards:9": {
-        "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "minecraft:air"
-            }
-          }
-        }
-      },
+      "rewards:9": {},
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -35206,20 +35193,7 @@
         }
       },
       "questID:3": 558,
-      "rewards:9": {
-        "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "minecraft:air"
-            }
-          }
-        }
-      },
+      "rewards:9": {},
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -64915,176 +64889,6 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Leave your old notions of warfare behind. This is a new age, and with it comes new means of conquest. Your dominion shall be forged §cnot at the edge of a blade§r, but §bat the tip of a missile§r.\n\nWith ICBMs, you need not look your enemy in the eye as you drain the life out of them. You may take lives without guilt, without any personal stakes. §6Murder has never been easier§r.",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 23,
-            "ForgeCaps:10": {
-              "Parent:10": {
-                "explosive:10": {
-                  "customizations:9": {}
-                }
-              }
-            },
-            "OreDict:8": "",
-            "id:8": "icbmclassic:explosive_missile"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "Mutually Assured Destruction, and You!",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 1056,
-      "rewards:9": {
-        "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "cfm:toilet"
-            },
-            "1:10": {
-              "Count:3": 5,
-              "Damage:2": 14,
-              "OreDict:8": "",
-              "id:8": "actuallyadditions:item_food"
-            }
-          }
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 24,
-              "ForgeCaps:10": {
-                "Parent:10": {
-                  "explosive:10": {
-                    "customizations:9": {}
-                  }
-                }
-              },
-              "OreDict:8": "",
-              "id:8": "icbmclassic:explosive_missile"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "1057:10": {
-      "preRequisites:11": [
-        1056
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "Your missiles can\u0027t just be launched from some patch of mud. They need a §2launchpad§r, and a system to guide them. This quest will force you to obtain everything you need to construct a fully-functional missile silo.\n\nThe §2Launcher Pad§r itself holds the missile in place.\n\nThe §2Launcher Screen§r ties into the missile\u0027s computer systems, allowing you to designate a target and launch when the time is right.\n\n §2Launcher Frames§r are not strictly necessary, but they do increase the missile\u0027s accuracy when placed next to it.\n\nThe  §2Launcher Connector§r allows you to tie your  §2Launcher Screen§r to  §2Launcher Pads§r not directly adjacent to it. You can daisy-chain multiple different pads together this way. ",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "icbmclassic:launcherbase"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "Launchpads 101",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 1057,
-      "rewards:9": {
-        "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 32,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "minecraft:carrot"
-            }
-          }
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "icbmclassic:launcherscreen"
-            },
-            "1:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "icbmclassic:launcherbase"
-            },
-            "2:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "icbmclassic:launcherframe"
-            },
-            "3:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "icbmclassic:launcher_connector"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "1058:10": {
-      "preRequisites:11": [
-        782
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
           "desc:8": "§cWarfactory§r wouldn\u0027t be §cWarfactory§r if it didn\u0027t have guns. Modern Warfare Cubed is fully implemented and gregified, with its best guns tied to an appropriate voltage tier.\n\nIn the beginning, you\u0027ll only have access to crude black powder weapons. Maybe a Mare\u0027s Leg if you\u0027re lucky. But as time goes by, you\u0027ll gain the ability to manufacture increasingly-powerful guns in §bAssembly Machines§r.\n\nYou will also gain access to body armor. You\u0027ll start with cheap police vests, and soon progress to advanced military gear and more!\n\nThis quest will see you crafting a §6Wrought Iron Gun Action§r. Actions and Receivers are the foundation for almost every gun you will make.",
           "globalshare:1": 0,
           "icon:10": {
@@ -65144,7 +64948,7 @@
         }
       }
     },
-    "1059:10": {
+    "1057:10": {
       "preRequisites:11": [
         782
       ],
@@ -65210,280 +65014,7 @@
         }
       }
     },
-    "1060:10": {
-      "preRequisites:11": [
-        1057
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "If you replace your §2Launcher Screen§r with a §2Radar Station§r, you can turn your missile system into an anti-missile system.\n\nThe Radar Screen will detect enemy missiles and release a launch authorization in response, automagically feeding the bogey\u0027s position to the missiles in its arsenal. Only §bSurface-To-Air§r missiles can successfully intercept an enemy ICBM.",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "icbmclassic:radarstation"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "Interception",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 1060,
-      "rewards:9": {
-        "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "ForgeCaps:10": {
-                "Parent:10": {}
-              },
-              "OreDict:8": "",
-              "id:8": "icbmclassic:surface_to_air_missile"
-            }
-          }
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "icbmclassic:radarstation"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "1061:10": {
-      "preRequisites:11": [
-        1057
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "Your targets won\u0027t always be continents away. Sometimes, you need to deliver huge amounts of hurt to someone right next door. That\u0027s what the §2Cruise Launcher§r is for.\n\nIn exchange for range, the §2Cruise Launcher§r integrates the screen and pad into a single block. This is useful as a close-in weapon system, a base defense tool, a raiding tool or as a means of masculine compensation. ",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "icbmclassic:cruiselauncher"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "Cruisin\u0027 On Down Main Street",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 1061,
-      "rewards:9": {
-        "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "minecraft:cake"
-            }
-          }
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "icbmclassic:cruiselauncher"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "1062:10": {
-      "preRequisites:11": [
-        1057
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "The §4Laser Rangefinder§r does exactly what you\u0027d expect it to: it stores coordinates for later use.\n\nIt\u0027s not much use normally, though. The coordinates it keeps are stored in the item until it is used on a launch screen, so you can\u0027t authorize a launch from in the field.",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "ForgeCaps:10": {
-              "Parent:10": {}
-            },
-            "OreDict:8": "",
-            "id:8": "icbmclassic:radargun"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "I Put A Spell On You",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 1062,
-      "rewards:9": {
-        "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "minecraft:cake"
-            }
-          }
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "ForgeCaps:10": {
-                "Parent:10": {}
-              },
-              "OreDict:8": "",
-              "id:8": "icbmclassic:radargun"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "1063:10": {
-      "preRequisites:11": [
-        1062
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "The §2Laser Designator§r is the §4Laser Rangefinder§r with all the flaws removed. \n\nNot only can it store coordinates, but it can §6wirelessly stream those coordinates to a launcher§r and §bauthorize a launch§r, all in a single click!\n\nIt needs to be bounded to a launch screen, however. Make sure the frequency in the screen is something unique, or else others will be able to hack into your systems and launch your missiles for you.",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "icbmclassic:laserdetonator"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "Laser Designator",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 1063,
-      "rewards:9": {
-        "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "minecraft:cake"
-            }
-          }
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "icbmclassic:laserdetonator"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "1064:10": {
+    "1058:10": {
       "preRequisites:11": [
         1094
       ],
@@ -65536,7 +65067,7 @@
         }
       }
     },
-    "1065:10": {
+    "1059:10": {
       "preRequisites:11": [
         1064
       ],
@@ -65589,7 +65120,7 @@
         }
       }
     },
-    "1066:10": {
+    "1060:10": {
       "preRequisites:11": [
         357,
         1093
@@ -65643,59 +65174,7 @@
         }
       }
     },
-    "1067:10": {
-      "preRequisites:11": [
-        1056
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "ICBM has a few quirks. §bEMP§r devices are entirely broken and should not be used. §cBombs§r cannot be placed normally, but will work when placed in minecarts and detonated with activator rails.\n\nSorry about that.",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "icbmclassic:emptower"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "A Brief Note",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 1067,
-      "rewards:9": {
-        "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 14,
-              "OreDict:8": "",
-              "id:8": "actuallyadditions:item_food"
-            }
-          }
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "index:3": 0,
-          "taskID:8": "bq_standard:checkbox"
-        }
-      }
-    },
-    "1068:10": {
+    "1061:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -65732,7 +65211,7 @@
         }
       }
     },
-    "1069:10": {
+    "1062:10": {
       "preRequisites:11": [
         1068
       ],
@@ -65798,7 +65277,7 @@
         }
       }
     },
-    "1070:10": {
+    "1063:10": {
       "preRequisites:11": [
         1069
       ],
@@ -65864,7 +65343,7 @@
         }
       }
     },
-    "1071:10": {
+    "1064:10": {
       "preRequisites:11": [
         1070
       ],
@@ -65936,7 +65415,7 @@
         }
       }
     },
-    "1072:10": {
+    "1065:10": {
       "preRequisites:11": [
         1069
       ],
@@ -66002,7 +65481,7 @@
         }
       }
     },
-    "1073:10": {
+    "1066:10": {
       "preRequisites:11": [
         1069
       ],
@@ -66068,7 +65547,7 @@
         }
       }
     },
-    "1074:10": {
+    "1067:10": {
       "preRequisites:11": [
         1069
       ],
@@ -66134,7 +65613,7 @@
         }
       }
     },
-    "1075:10": {
+    "1068:10": {
       "preRequisites:11": [
         1069
       ],
@@ -66200,7 +65679,7 @@
         }
       }
     },
-    "1076:10": {
+    "1069:10": {
       "preRequisites:11": [
         1069
       ],
@@ -66266,7 +65745,7 @@
         }
       }
     },
-    "1077:10": {
+    "1070:10": {
       "preRequisites:11": [
         1069
       ],
@@ -66332,7 +65811,7 @@
         }
       }
     },
-    "1078:10": {
+    "1071:10": {
       "preRequisites:11": [
         1069
       ],
@@ -66398,7 +65877,7 @@
         }
       }
     },
-    "1079:10": {
+    "1072:10": {
       "preRequisites:11": [
         1068
       ],
@@ -66451,7 +65930,7 @@
         }
       }
     },
-    "1080:10": {
+    "1073:10": {
       "preRequisites:11": [
         1068
       ],
@@ -66504,7 +65983,7 @@
         }
       }
     },
-    "1081:10": {
+    "1074:10": {
       "preRequisites:11": [
         1068
       ],
@@ -66557,7 +66036,7 @@
         }
       }
     },
-    "1082:10": {
+    "1075:10": {
       "preRequisites:11": [
         1068
       ],
@@ -66610,7 +66089,7 @@
         }
       }
     },
-    "1083:10": {
+    "1076:10": {
       "preRequisites:11": [
         1079
       ],
@@ -66663,7 +66142,7 @@
         }
       }
     },
-    "1084:10": {
+    "1077:10": {
       "preRequisites:11": [
         1080
       ],
@@ -66716,7 +66195,7 @@
         }
       }
     },
-    "1085:10": {
+    "1078:10": {
       "preRequisites:11": [
         1081
       ],
@@ -66769,7 +66248,7 @@
         }
       }
     },
-    "1086:10": {
+    "1079:10": {
       "preRequisites:11": [
         1082
       ],
@@ -66822,7 +66301,7 @@
         }
       }
     },
-    "1087:10": {
+    "1080:10": {
       "preRequisites:11": [
         1068
       ],
@@ -66875,7 +66354,7 @@
         }
       }
     },
-    "1088:10": {
+    "1081:10": {
       "preRequisites:11": [
         1069
       ],
@@ -66941,7 +66420,7 @@
         }
       }
     },
-    "1089:10": {
+    "1082:10": {
       "preRequisites:11": [
         3
       ],
@@ -66993,7 +66472,7 @@
         }
       }
     },
-    "1090:10": {
+    "1083:10": {
       "preRequisites:11": [
         782
       ],
@@ -67046,7 +66525,7 @@
         }
       }
     },
-    "1091:10": {
+    "1084:10": {
       "preRequisites:11": [
         1090
       ],
@@ -67099,7 +66578,7 @@
         }
       }
     },
-    "1092:10": {
+    "1085:10": {
       "preRequisites:11": [
         1054
       ],
@@ -67152,7 +66631,7 @@
         }
       }
     },
-    "1093:10": {
+    "1086:10": {
       "preRequisites:11": [
         280
       ],
@@ -67205,7 +66684,7 @@
         }
       }
     },
-    "1094:10": {
+    "1087:10": {
       "preRequisites:11": [
         1092
       ],
@@ -67258,7 +66737,7 @@
         }
       }
     },
-    "1095:10": {
+    "1088:10": {
       "preRequisites:11": [
         1047
       ],
@@ -67310,7 +66789,7 @@
         }
       }
     },
-    "1096:10": {
+    "1089:10": {
       "preRequisites:11": [
         1047
       ],
@@ -67363,7 +66842,7 @@
         }
       }
     },
-    "1097:10": {
+    "1090:10": {
       "preRequisites:11": [
         1047
       ],
@@ -67416,7 +66895,7 @@
         }
       }
     },
-    "1098:10": {
+    "1091:10": {
       "preRequisites:11": [
         50,
         687,
@@ -67449,20 +66928,7 @@
         }
       },
       "questID:3": 1098,
-      "rewards:9": {
-        "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "minecraft:air"
-            }
-          }
-        }
-      },
+      "rewards:9": {},
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -67484,7 +66950,7 @@
         }
       }
     },
-    "1099:10": {
+    "1092:10": {
       "preRequisites:11": [
         1065
       ],
@@ -67537,7 +67003,7 @@
         }
       }
     },
-    "1100:10": {
+    "1093:10": {
       "preRequisites:11": [
         782
       ],
@@ -74645,139 +74111,90 @@
           "y:3": -228
         },
         "11:10": {
-          "id:3": 1056,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -108,
-          "y:3": -12
-        },
-        "12:10": {
-          "id:3": 1057,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -192,
-          "y:3": -12
-        },
-        "13:10": {
           "id:3": 1058,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 48,
           "y:3": 48
         },
-        "14:10": {
+        "12:10": {
           "id:3": 1059,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 48,
           "y:3": -72
         },
-        "15:10": {
-          "id:3": 1060,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -192,
-          "y:3": 60
-        },
-        "16:10": {
-          "id:3": 1061,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -192,
-          "y:3": -84
-        },
-        "17:10": {
-          "id:3": 1062,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -276,
-          "y:3": -12
-        },
-        "18:10": {
-          "id:3": 1063,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -348,
-          "y:3": -12
-        },
-        "19:10": {
+        "13:10": {
           "id:3": 1064,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 396,
           "y:3": -72
         },
-        "20:10": {
+        "14:10": {
           "id:3": 1065,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 456,
           "y:3": -84
         },
-        "21:10": {
-          "id:3": 1067,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -108,
-          "y:3": -60
-        },
-        "22:10": {
+        "15:10": {
           "id:3": 1090,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 96,
           "y:3": -12
         },
-        "23:10": {
+        "16:10": {
           "id:3": 1091,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 156,
           "y:3": -24
         },
-        "24:10": {
+        "17:10": {
           "id:3": 1092,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 276,
           "y:3": -48
         },
-        "25:10": {
+        "18:10": {
           "id:3": 1094,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 336,
           "y:3": -60
         },
-        "26:10": {
+        "19:10": {
           "id:3": 1095,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 48,
           "y:3": -192
         },
-        "27:10": {
+        "20:10": {
           "id:3": 1096,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -72,
           "y:3": -192
         },
-        "28:10": {
+        "21:10": {
           "id:3": 1097,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -12,
           "y:3": -240
         },
-        "29:10": {
+        "22:10": {
           "id:3": 1099,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 516,
           "y:3": -96
         },
-        "30:10": {
+        "23:10": {
           "id:3": 1100,
           "sizeX:3": 24,
           "sizeY:3": 24,
