@@ -115,25 +115,7 @@ recipes.addShaped(<armorplus:lapis_sword>, [
 	[null, <nomilabs:lapisarmorplate>, null], 
 	[null, <minecraft:stick>, null]]);	
 	
-//Carbon Armor
-recipes.addShaped(<nomilabs:carbonarmorplate>, [
-[null, <metaitem:carbon.plate>, null], 
-[<metaitem:carbon.plate>, <thermalfoundation:material:833>, <metaitem:carbon.plate>], 
-[null, <metaitem:carbon.plate>, null]]);
-recipes.addShaped(<armorplus:coal_helmet>, [
-	[<nomilabs:carbonarmorplate>,<nomilabs:carbonarmorplate>,<nomilabs:carbonarmorplate>], 
-	[<nomilabs:carbonarmorplate>, null, <nomilabs:carbonarmorplate>]]);
-recipes.addShaped(<armorplus:coal_chestplate>, [
-[<nomilabs:carbonarmorplate>, null, <nomilabs:carbonarmorplate>], 
-[<nomilabs:carbonarmorplate>, <nomilabs:carbonarmorplate>, <nomilabs:carbonarmorplate>], 
-[<nomilabs:carbonarmorplate>, <nomilabs:carbonarmorplate>, <nomilabs:carbonarmorplate>]]);
-recipes.addShaped(<armorplus:coal_leggings>, [
-	[<nomilabs:carbonarmorplate>, <nomilabs:carbonarmorplate>, <nomilabs:carbonarmorplate>], 
-	[<nomilabs:carbonarmorplate>, null, <nomilabs:carbonarmorplate>], 
-	[<nomilabs:carbonarmorplate>, null, <nomilabs:carbonarmorplate>]]);
-recipes.addShaped(<armorplus:coal_boots>, [
-	[<nomilabs:carbonarmorplate>, null, <nomilabs:carbonarmorplate>], 
-	[<nomilabs:carbonarmorplate>, null, <nomilabs:carbonarmorplate>]]);	
+
 	
 //Ardite Armor
 recipes.addShaped(<armorplus:ardite_helmet>, [
@@ -169,7 +151,7 @@ recipes.addShaped(<armorplus:cobalt_boots>, [
 
 //Manyullyn Armor
 recipes.addShaped(<armorplus:manyullyn_helmet>, [
-	[<metaitem:nomilabs:plateManyullyn>,<metaitem:nomilabs:plateManyullyn>,<metaitem:nomilabs:plateManyullyn>], 
+	[<metaitem:nomilabs:plateManyullyn>,<metaitem:nomilabs:plateManyullyn>,<metaitem:nomilabs:plateManyullyn>],
 	[<metaitem:nomilabs:plateManyullyn>, null, <metaitem:nomilabs:plateManyullyn>]]);
 recipes.addShaped(<armorplus:manyullyn_chestplate>, [
 [<metaitem:nomilabs:plateManyullyn>, null, <metaitem:nomilabs:plateManyullyn>], 
@@ -216,50 +198,21 @@ assembler.recipeBuilder()
 
 //Knightslime Armor
 recipes.addShaped(<armorplus:knight_slime_helmet>, [
-	[<metaitem:plateTitaniumCarbide>,<metaitem:plateTitaniumCarbide>,<metaitem:plateTitaniumCarbide>], 
-	[<metaitem:plateTitaniumCarbide>, <ore:blockSlime>, <metaitem:plateTitaniumCarbide>]]);
+	[<metaitem:plateOsmiridium>,<metaitem:plateOsmiridium>,<metaitem:plateOsmiridium>],
+	[<metaitem:plateOsmiridium>, <ore:blockSlime>, <metaitem:plateOsmiridium>]]);
 recipes.addShaped(<armorplus:knight_slime_chestplate>, [
-[<metaitem:plateTitaniumCarbide>, <ore:blockSlime>, <metaitem:plateTitaniumCarbide>], 
-[<metaitem:plateTitaniumCarbide>, <metaitem:plateTitaniumCarbide>, <metaitem:plateTitaniumCarbide>], 
-[<metaitem:plateTitaniumCarbide>, <metaitem:plateTitaniumCarbide>, <metaitem:plateTitaniumCarbide>]]);
+[<metaitem:plateOsmiridium>, <ore:blockSlime>, <metaitem:plateOsmiridium>],
+[<metaitem:plateOsmiridium>, <metaitem:plateOsmiridium>, <metaitem:plateOsmiridium>],
+[<metaitem:plateOsmiridium>, <metaitem:plateOsmiridium>, <metaitem:plateOsmiridium>]]);
 recipes.addShaped(<armorplus:knight_slime_leggings>, [
-	[<metaitem:plateTitaniumCarbide>, <metaitem:plateTitaniumCarbide>, <metaitem:plateTitaniumCarbide>], 
-	[<metaitem:plateTitaniumCarbide>, <ore:blockSlime>, <metaitem:plateTitaniumCarbide>], 
-	[<metaitem:plateTitaniumCarbide>, null, <metaitem:plateTitaniumCarbide>]]);
+	[<metaitem:plateOsmiridium>, <metaitem:plateOsmiridium>, <metaitem:plateOsmiridium>],
+	[<metaitem:plateOsmiridium>, <ore:blockSlime>, <metaitem:plateOsmiridium>],
+	[<metaitem:plateOsmiridium>, null, <metaitem:plateOsmiridium>]]);
 recipes.addShaped(<armorplus:knight_slime_boots>, [
-	[<metaitem:plateTitaniumCarbide>, <ore:blockSlime>, <metaitem:plateTitaniumCarbide>], 
-	[<metaitem:plateTitaniumCarbide>, null, <metaitem:plateTitaniumCarbide>]]);	
+	[<metaitem:plateOsmiridium>, <ore:blockSlime>, <metaitem:plateOsmiridium>],
+	[<metaitem:plateOsmiridium>, null, <metaitem:plateOsmiridium>]]);
 	
-//Infused Lava
-var obs = <armorplus:lava_infused_obsidian>;
-var cry = <armorplus:lava_crystal:1>;
-var stick = <minecraft:stick>;
-mods.extendedcrafting.TableCrafting.addShaped(<armorplus:infused_lava_helmet>, [
-[obs,obs,cry,obs,obs],
-[cry,null,null,null,cry],
-[cry,null,null,null,cry]]);
-mods.extendedcrafting.TableCrafting.addShaped(<armorplus:infused_lava_chestplate>, [
-[cry,null,null,null,cry],
-[cry,null,null,null,cry],
-[obs,obs,obs,obs,obs],
-[obs,cry,obs,cry,obs],
-[obs,obs,obs,obs,obs]]);
-mods.extendedcrafting.TableCrafting.addShaped(<armorplus:infused_lava_leggings>, [
-[obs,obs,obs,obs,obs],
-[obs,cry,cry,cry,obs],
-[cry,null,null,null,cry],
-[cry,null,null,null,cry],
-[cry,null,null,null,cry]]);
-mods.extendedcrafting.TableCrafting.addShaped(<armorplus:infused_lava_boots>, [
-[obs,null,null,null,obs],
-[obs,null,null,null,obs],
-[cry,null,null,null,cry]]);
-mods.extendedcrafting.TableCrafting.addShaped(<armorplus:infused_lava_sword>, [
-[null,null,cry,null,null],
-[null,null,cry,null,null],
-[null,null,cry,null,null],
-[null,obs,obs,obs,null],
-[null,null,stick,null,null]]);
+
 
 //Obsidian
 var obsidian = <minecraft:obsidian>;
@@ -290,6 +243,21 @@ recipes.addShaped(<armorplus:obsidian_sword>, [
 
 
 //Emerald
+recipes.addShaped(<armorplus:emerald_helmet>, [
+	[<metaitem:plateEmerald>,<metaitem:plateAluminium>,<metaitem:plateEmerald>],
+	[<metaitem:plateAluminium>, null,<metaitem:plateAluminium>]]);
+recipes.addShaped(<armorplus:emerald_helmet>, [
+[<metaitem:plateEmerald>, null, <metaitem:plateEmerald>],
+[<metaitem:plateAluminium, <metaitem:plateEmerald>, <metaitem:plateAluminium>],
+[<metaitem:plateEmerald>, <metaitem:plateAluminium>, <metaitem:plateEmerald>]]);
+recipes.addShaped(<armorplus:emerald_leggings>, [
+	[<metaitem:plateEmerald>, <metaitem:plateEmerald>, <metaitem:plateEmerald>],
+	[<metaitem:plateAluminium>, null, <metaitem:plateAluminium>],
+	[<metaitem:plateEmerald>, null, <metaitem:plateEmerald>]]);
+recipes.addShaped(<armorplus:<armorplus:emerald_boots>, [
+	[<metaitem:plateEmerald>, null, <metaitem:plateEmerald>],
+	[<metaitem:plateAluminium>, null, <metaitem:plateAluminium>]]);
+
 var emer = <metaitem:plateEmerald>;
 var em = <minecraft:emerald>;
 mods.extendedcrafting.TableCrafting.addShaped(<armorplus:emerald_helmet>, [

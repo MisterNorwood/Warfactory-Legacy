@@ -599,7 +599,7 @@ recipes.addShaped(<ebwizardry:amulet_auto_shield>, [
 recipes.addShaped(<ebwizardry:amulet_absorption>, [
     [<hooked:microcrafting:3>, null, <hooked:microcrafting:3>],
     [null, <ore:ringGold>, null], 
-    [<minecraft:golden_apple>, <ore:batteryHv>, <minecraft:golden_apple>]
+    [<ore:plateStainlessSteel>, <ore:batteryHv>, <ore:plateStainlessSteel>]
 ]);
 
 

@@ -214,7 +214,6 @@ recipes.remove(<gregtech:gt_armor:3>);
 
 
 
-]);
 
 recipes.addShaped(<gregtech:gt_armor:3>, [
     [<ore:craftingToolWireCutter>, <ore:circuitIv>, <ore:craftingToolScrewdriver>],
