@@ -212,6 +212,8 @@ recipes.remove(<armorplus:coal_arrow>);
 recipes.remove(<gregtech:gt_armor:4>);
 recipes.remove(<gregtech:gt_armor:3>);
 
+recipes.remove(<gregtech:meta_item_1:475>);
+recipes.remove(<minecraft:armor_stand>);
 
 
 
