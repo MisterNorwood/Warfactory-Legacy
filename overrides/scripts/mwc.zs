@@ -580,11 +580,7 @@ assembler.recipeBuilder()
   .outputs(<mwc:scorpion_evo3_a1>)
   .duration(2400).EUt(24069).buildAndRegister();
 
-assembler.recipeBuilder()
-  .inputs([<ore:plateDoubleOsmiridium>*14, <ore:platePolybenzimidazole>*15, <ore:screwHsse>*5, <contenttweaker:action_europium>,  <contenttweaker:barrel_trinium>*4, <contenttweaker:receiver_vanax>, <ore:gearSmallHsss>*7, <ore:wireGtSingleNiobiumTitanium>*16] )
-  .fluidInputs([<liquid:lubricant> * 500])
-  .outputs(<mwc:as50>)
-  .duration(2400).EUt(24069).buildAndRegister();
+
 
 //LUV Mags
 
@@ -633,14 +629,6 @@ assembler.recipeBuilder()
     .circuit(5)
     .buildAndRegister();
 
-assembler.recipeBuilder()
-    .inputs(<ore:platePolybenzimidazole> * 4, <ore:springSmallNiobiumTitanium> * 2, <ore:ringOsmiridium>)
-    .fluidInputs(<liquid:stainless_steel> * 144)
-    .outputs(<mwc:as50mag_2>)
-    .duration(80)
-    .EUt(24069)
-    .circuit(3)
-    .buildAndRegister();
 
 
 
@@ -650,7 +638,6 @@ val gunszpm = <ore:gunsZpm>;
 gunszpm.add(<mwc:m134>);
 gunszpm.add(<mwc:m202>);
 gunszpm.add(<mwc:m82_barrett>);
-gunszpm.add(<mwc:as50>);
 
 assembler.recipeBuilder()
   .inputs([<ore:plateNaquadahAlloy>*16, <ore:platePolybenzimidazole>*24, <ore:gearOsmiridium>, <contenttweaker:action_naquadah_alloy>, <contenttweaker:barrel_tritanium>*2, <contenttweaker:receiver_duranium>, <ore:wireFineNiobiumTitanium>*4, <ore:circuitLuv>] )
