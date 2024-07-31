@@ -452,7 +452,6 @@ val gunsiv = <ore:gunsIv>;
 gunsiv.add(<mwc:scar_h_cqc>);
 gunsiv.add(<mwc:desert_eagle>); 
 gunsiv.add(<mwc:kriss_vector>);
-gunsiv.add(<mwc:l96a1>);
 gunsiv.add(<mwc:origin12>);
 
 assembler.recipeBuilder()
@@ -491,11 +490,6 @@ assembler.recipeBuilder()
   .outputs(<mwc:vectormag>)
   .duration(2400).EUt(8192).buildAndRegister();
 
-assembler.recipeBuilder()
-  .inputs([<ore:plateOsmium>*32, <ore:platePolybenzimidazole>*16, <ore:boltOsmium>*48, <contenttweaker:action_tungstensteel>, <contenttweaker:barrel_hss>*2, <contenttweaker:receiver_tungstensteel>,<ore:springRuridit>*4] )
-  .fluidInputs([<liquid:lubricant> * 4000])
-  .outputs(<mwc:l96a1>)
-  .duration(2400).EUt(8192).buildAndRegister();
 
 assembler.recipeBuilder()
   .inputs([<ore:platePolybenzimidazole>*16, <ore:springOsmium>*2, <ore:ringTungstenSteel>*48, <ore:stickLongIncoloyMa956>*8  ])
