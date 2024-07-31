@@ -22,6 +22,7 @@ var osmium = <material:osmium>;
 var trinium = <material:trinium>;
 var duranium = <material:duranium>;
 var europium = <material:europium>;
+var base_ceu_uv_superconductor = <material:enriched_naquadah_trinium_europium_duranide>;
 
 stainlessSteel.addFlags("generate_rod", "generate_spring_small", "generate_round");
 hssg.addFlags("generate_rod", "generate_spring_small");
@@ -41,6 +42,7 @@ hsse.addFlags("generate_long_rod", "generate_spring");
 brass.addFlags("generate_foil");
 duranium.addFlags("generate_bolt_screw", "generate_ring");
 europium.addFlags("generate_bolt_screw", "generate_ring");
+base_ceu_uv_superconductor.addFlags("generate_fine_wire");
 
 
 
