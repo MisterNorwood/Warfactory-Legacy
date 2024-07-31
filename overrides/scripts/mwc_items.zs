@@ -59,96 +59,7 @@ recipes.addShapeless(<mwc:tru_spec_cordura_backpack_black>, [<mwc:tru_spec_cordu
 
 
 
-recipes.addShaped(<mwc:forest_chest>, [
-  [<ore:string>, null, <ore:string>],
-  [<ore:string>, <mwc:carbon_fiber>, <ore:string>], 
-  [<ore:string>, <nomilabs:cloth>, <ore:string>]
-]);
 
-
-recipes.addShaped(<mwc:khakijeans_boots>, [
-  [<ore:string>, <mwc:carbon_fiber>, <ore:string>],
-  [<ore:string>, null, <ore:string>], 
-  [<ore:string>, null, <ore:string>]
-]);
-
-recipes.addShapeless(<mwc:blackjeans_boots>, [<mwc:khakijeans_boots>]);
-recipes.addShapeless(<mwc:khakijeans_boots>, [<mwc:blackjeans_boots>]);
-
-
-
-
-recipes.addShapeless(<mwc:santa_chest>, [<mwc:forest_chest>, <ore:dyeRed>]);
-recipes.addShapeless(<mwc:santa_boots>, [<mwc:khakijeans_boots>, <ore:dyeRed>]);
-recipes.addShaped(<mwc:santa_helmet>, [
-  [<ore:string>, <mwc:carbon_fiber>, <ore:string>],
-  [<ore:string>, <ore:dyeRed>, <ore:string>], 
-  [null, null, null]
-]);
-
-
-
-
-recipes.addShapeless(<mwc:swat_helmet>, [<mwc:spec_ops_helmet>, <ore:dyeGray>]);
-recipes.addShapeless(<mwc:swat_chest>, [<mwc:spec_ops_chest>, <ore:dyeGray>]);
-recipes.addShapeless(<mwc:swat_boots>, [<mwc:spec_ops_boots>, <ore:dyeGray>]);
-
-
-recipes.addShaped(<mwc:ghillie_helmet>, [
-  [null, <minecraft:tallgrass:1>, null],
-  [<minecraft:tallgrass:1>, <mwc:swat_helmet>, <minecraft:tallgrass:1>], 
-  [null, <minecraft:tallgrass:1>, null]
-]);
-
-
-recipes.addShaped(<mwc:ghillie_chest>, [
-  [null, <minecraft:tallgrass:1>, null],
-  [<minecraft:tallgrass:1>, <mwc:swat_chest>, <minecraft:tallgrass:1>], 
-  [null, <minecraft:tallgrass:1>, null]
-]);
-
-
-recipes.addShaped(<mwc:ghillie_boots>, [
-  [null, <minecraft:tallgrass:1>, null],
-  [<minecraft:tallgrass:1>, <mwc:swat_boots>, <minecraft:tallgrass:1>], 
-  [null, <minecraft:tallgrass:1>, null]
-]);
-
-
-
-recipes.addShaped(<mwc:jpnvg18_helmet>, [
-  [<mwc:carbon_fiber>, null, <mwc:carbon_fiber>],
-  [<ore:craftingLensLime>, null, <ore:craftingLensLime>], 
-  [<ore:craftingLensLime>, null, <ore:craftingLensLime>]
-]);
-
-recipes.addShaped(<mwc:tactical_helmet>, [
-  [<mwc:carbon_fiber>, null, <mwc:carbon_fiber>],
-  [null, <ore:craftingLensLime>, null], 
-  [<ore:craftingLensLime>, null, <ore:craftingLensLime>]
-]);
-
-
-
-recipes.addShaped(<mwc:juggernaut_helmet>, [
-  [null, <ore:plateAluminium>, null],
-  [<ore:plateAluminium>, <mwc:swat_helmet>, <ore:plateAluminium>], 
-  [null, <ore:plateAluminium>, null]
-]);
-
-
-recipes.addShaped(<mwc:juggernaut_chest>, [
-  [null, <ore:plateAluminium>, null],
-  [<ore:plateAluminium>, <mwc:swat_chest>, <ore:plateAluminium>], 
-  [null, <ore:plateAluminium>, null]
-]);
-
-
-recipes.addShaped(<mwc:juggernaut_boots>, [
-  [null, <ore:plateAluminium>, null],
-  [<ore:plateAluminium>, <mwc:swat_boots>, <ore:plateAluminium>], 
-  [null, <ore:plateAluminium>, null]
-]);
 
 
 lathe.recipeBuilder()
@@ -158,13 +69,21 @@ lathe.recipeBuilder()
 
 
 
-recipes.addShaped(<mwc:spec_ops_boots>, [
-  [null, null, null],
-  [<mwc:carbon_fiber>, <ore:craftingToolSoftHammer>, <mwc:carbon_fiber>], 
-  [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]
+recipes.addShaped(<mwc:santa_helmet>, [
+  [<ore:string>, <mwc:carbon_fiber>, <ore:string>],
+  [<ore:plateStainlessSteel>, <ore:dyeRed>, <ore:plateStainlessSteel>],
+  [null, null, null]
 ]);
-
-
+recipes.addShaped(<mwc:santa_chest, [
+  [<ore:plateStainlessSteel> <mwc:carbon_fiber>, <ore:plateStainlessSteel>],
+  [<ore:string>, <ore:dyeRed>, <ore:string>],
+  [<ore:plateStainlessSteel>, <ore:plateStainlessSteel>, <ore:plateStainlessSteel>]
+]);
+recipes.addShaped(<mwc:santa_helmet>, [
+  [<ore:plateStainlessSteel>, <mwc:carbon_fiber>, <ore:plateStainlessSteel>],
+  [<ore:string>, <ore:dyeRed>, <ore:string>],
+  [null, null, null]
+]);
 
 
 //Ironsights
