@@ -11,10 +11,8 @@ recipes.remove(<enderio:item_stellar_alloy_chestplate>);
 recipes.remove(<enderio:item_stellar_alloy_leggings>);
 recipes.remove(<enderio:item_stellar_alloy_boots>);
 
-recipes.remove(<futuremc:netherite_helmet>);
-recipes.remove(<futuremc:netherite_chestplate);
-recipes.remove(<futuremc:netherite_leggings>);
-recipes.remove(<futuremc:netherite_boots>);
+recipes.remove(<futuremc:netherite_ingot>);
+
 
 recipes.remove(<enderio:block_dark_steel_anvil>);
 

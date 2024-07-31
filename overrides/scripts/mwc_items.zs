@@ -56,12 +56,6 @@ recipes.addShapeless(<mwc:tru_spec_cordura_backpack_tan>, [<mwc:tru_spec_cordura
 recipes.addShapeless(<mwc:tru_spec_cordura_backpack_black>, [<mwc:tru_spec_cordura_backpack_tan>]);
 
 
-
-
-
-
-
-
 lathe.recipeBuilder()
     .inputs(<ore:foilBrass>)
     .outputs(<contenttweaker:casing>*8)

@@ -599,7 +599,7 @@ alloy.recipeBuilder()
 
 
 // remove table recipes for coolers and replace with canning machine recipes
-
+recipes.remove(<nuclearcraft:moresmore>);
 recipes.remove(<nuclearcraft:cooler:1>);
 fluid_canner.recipeBuilder()
     .outputs([<nuclearcraft:cooler:1>])
