@@ -392,6 +392,218 @@ chemical_reactor.recipeBuilder()
 
 
 
+//suppressors
+
+forming_press.recipeBuilder()
+	.inputs([<metaitem:plateStainlessSteel> * 4, <metaitem:ringStainlessSteel> * 4])
+	.fluidInputs(<liquid:soldering_alloy> * 288)
+	.circuit(0)
+	.outputs(<mwc:silencer_eabh>)
+	.duration(200)
+	.EUt(512)
+	.buildAndRegister();
+
+forming_press.recipeBuilder()
+	.inputs([<metaitem:plateStainlessSteel> * 4, <metaitem:ringStainlessSteel> * 4])
+	.fluidInputs(<liquid:soldering_alloy> * 288)
+	.circuit(1)
+	.outputs(<mwc:kbp9a91suppressor>)
+	.duration(200)
+	.EUt(512)
+	.buildAndRegister();
+
+forming_press.recipeBuilder()
+	.inputs([<metaitem:plateStainlessSteel> * 4, <metaitem:ringStainlessSteel> * 4])
+	.fluidInputs(<liquid:soldering_alloy> * 288)
+	.circuit(2)
+	.outputs(<mwc:silencer45acp>)
+	.duration(200)
+	.EUt(512)
+	.buildAndRegister();
+
+forming_press.recipeBuilder()
+	.inputs([<metaitem:plateStainlessSteel> * 4, <metaitem:ringStainlessSteel> * 4])
+	.fluidInputs(<liquid:soldering_alloy> * 288)
+	.circuit(3)
+	.outputs(<mwc:silencerpbs>)
+	.duration(200)
+	.EUt(512)
+	.buildAndRegister();
+
+forming_press.recipeBuilder()
+	.inputs([<metaitem:plateStainlessSteel> * 4, <metaitem:ringStainlessSteel> * 4])
+	.fluidInputs(<liquid:soldering_alloy> * 288)
+	.circuit(4)
+	.outputs(<mwc:silencer9x39mm>)
+	.duration(200)
+	.EUt(512)
+	.buildAndRegister();
+
+forming_press.recipeBuilder()
+	.inputs([<metaitem:plateStainlessSteel> * 4, <metaitem:ringStainlessSteel> * 4])
+	.fluidInputs(<liquid:soldering_alloy> * 288)
+	.circuit(5)
+	.outputs(<mwc:samuraiedgesuppressor>)
+	.duration(200)
+	.EUt(512)
+	.buildAndRegister();
+
+forming_press.recipeBuilder()
+	.inputs([<metaitem:plateStainlessSteel> * 4, <metaitem:ringStainlessSteel> * 4])
+	.fluidInputs(<liquid:soldering_alloy> * 288)
+	.circuit(6)
+	.outputs(<mwc:silencer762x39>)
+	.duration(200)
+	.EUt(512)
+	.buildAndRegister();
+
+forming_press.recipeBuilder()
+	.inputs([<metaitem:plateStainlessSteel> * 4, <metaitem:ringStainlessSteel> * 4])
+	.fluidInputs(<liquid:soldering_alloy> * 288)
+	.circuit(7)
+	.outputs(<mwc:silencer545x39>)
+	.duration(200)
+	.EUt(512)
+	.buildAndRegister();
+
+forming_press.recipeBuilder()
+	.inputs([<metaitem:plateStainlessSteel> * 4, <metaitem:ringStainlessSteel> * 4])
+	.fluidInputs(<liquid:soldering_alloy> * 288)
+	.circuit(8)
+	.outputs(<mwc:silencer556x45>)
+	.duration(200)
+	.EUt(512)
+	.buildAndRegister();
+
+forming_press.recipeBuilder()
+	.inputs([<metaitem:plateStainlessSteel> * 4, <metaitem:ringStainlessSteel> * 4])
+	.fluidInputs(<liquid:soldering_alloy> * 288)
+	.circuit(9)
+	.outputs(<mwc:silencer300aacblackout>)
+	.duration(200)
+	.EUt(512)
+	.buildAndRegister();
+
+forming_press.recipeBuilder()
+	.inputs([<metaitem:plateStainlessSteel> * 4, <metaitem:ringStainlessSteel> * 4])
+	.fluidInputs(<liquid:soldering_alloy> * 288)
+	.circuit(10)
+	.outputs(<mwc:silencer12gauge>)
+	.duration(200)
+	.EUt(512)
+	.buildAndRegister();
+
+forming_press.recipeBuilder()
+	.inputs([<metaitem:plateStainlessSteel> * 4, <metaitem:ringStainlessSteel> * 4])
+	.fluidInputs(<liquid:soldering_alloy> * 288)
+	.circuit(11)
+	.outputs(<mwc:silencer57x38>)
+	.duration(200)
+	.EUt(512)
+	.buildAndRegister();
+
+forming_press.recipeBuilder()
+	.inputs([<metaitem:plateStainlessSteel> * 4, <metaitem:ringStainlessSteel> * 4])
+	.fluidInputs(<liquid:soldering_alloy> * 288)
+	.circuit(12)
+	.outputs(<mwc:silencer357>)
+	.duration(200)
+	.EUt(512)
+	.buildAndRegister();
+
+forming_press.recipeBuilder()
+	.inputs([<metaitem:plateStainlessSteel> * 4, <metaitem:ringStainlessSteel> * 4])
+	.fluidInputs(<liquid:soldering_alloy> * 288)
+	.circuit(13)
+	.outputs(<mwc:silencermp7>)
+	.duration(200)
+	.EUt(512)
+	.buildAndRegister();
+
+forming_press.recipeBuilder()
+	.inputs([<metaitem:plateStainlessSteel> * 4, <metaitem:ringStainlessSteel> * 4])
+	.fluidInputs(<liquid:soldering_alloy> * 288)
+	.circuit(14)
+	.outputs(<mwc:silencer556x39>)
+	.duration(200)
+	.EUt(512)
+	.buildAndRegister();
+
+forming_press.recipeBuilder()
+	.inputs([<metaitem:plateStainlessSteel> * 4, <metaitem:ringStainlessSteel> * 4])
+	.fluidInputs(<liquid:soldering_alloy> * 288)
+	.circuit(15)
+	.outputs(<mwc:silencer50bmg>)
+	.duration(200)
+	.EUt(512)
+	.buildAndRegister();
+
+forming_press.recipeBuilder()
+	.inputs([<metaitem:plateStainlessSteel> * 4, <metaitem:ringStainlessSteel> * 4])
+	.fluidInputs(<liquid:soldering_alloy> * 288)
+	.circuit(16)
+	.outputs(<mwc:silencer762x51>)
+	.duration(200)
+	.EUt(512)
+	.buildAndRegister();
+
+forming_press.recipeBuilder()
+	.inputs([<metaitem:plateStainlessSteel> * 4, <metaitem:ringStainlessSteel> * 4])
+	.fluidInputs(<liquid:soldering_alloy> * 288)
+	.circuit(17)
+	.outputs(<mwc:silencer762x54>)
+	.duration(200)
+	.EUt(512)
+	.buildAndRegister();
+
+forming_press.recipeBuilder()
+	.inputs([<metaitem:plateStainlessSteel> * 4, <metaitem:ringStainlessSteel> * 4])
+	.fluidInputs(<liquid:soldering_alloy> * 288)
+	.circuit(17)
+	.outputs(<mwc:silencer65x39>)
+	.duration(200)
+	.EUt(512)
+	.buildAndRegister();
+
+forming_press.recipeBuilder()
+    .inputs([<metaitem:platePlastic> * 3, <metaitem:stickSteel> * 2])
+    .circuit(0)
+    .outputs(<mwc:grip2>)
+    .duration(200)
+    .EUt(128)
+    .buildAndRegister();
+
+forming_press.recipeBuilder()
+    .inputs([<metaitem:platePlastic> * 3, <metaitem:stickSteel> * 2])
+    .circuit(1)
+    .outputs(<mwc:stubbygrip>)
+    .duration(200)
+    .EUt(128)
+    .buildAndRegister();
+
+forming_press.recipeBuilder()
+    .inputs([<metaitem:platePlastic> * 3, <metaitem:stickSteel> * 2])
+    .circuit(2)
+    .outputs(<mwc:vgrip>)
+    .duration(200)
+    .EUt(128)
+    .buildAndRegister();
+
+forming_press.recipeBuilder()
+    .inputs([<metaitem:platePlastic> * 3, <metaitem:stickSteel> * 2])
+    .circuit(3)
+    .outputs(<mwc:angledgrip>)
+    .duration(200)
+    .EUt(128)
+    .buildAndRegister();
+
+forming_press.recipeBuilder()
+    .inputs([<metaitem:platePlastic> * 3, <metaitem:stickSteel> * 2])
+    .circuit(4)
+    .outputs(<mwc:junogrip>)
+    .duration(200)
+    .EUt(128)
+    .buildAndRegister();
 
 
 
