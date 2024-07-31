@@ -131,6 +131,9 @@ var barrel_vanadiumsteel = VanillaFactory.createItem("barrel_vanadiumsteel");
 barrel_vanadiumsteel.maxStackSize = 64;
 barrel_vanadiumsteel.register();
 
+var barrel_wrought_iron = VanillaFactory.createItem("barrel_wrought_iron");
+barrel_wrought_iron.maxStackSize = 64;
+barrel_wrought_iron.register();
 
 
 

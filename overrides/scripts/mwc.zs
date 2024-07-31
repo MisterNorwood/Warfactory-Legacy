@@ -159,6 +159,12 @@ recipes.addShaped(<contenttweaker:barrel_steel>, [
   [<ore:foilSteel>, <ore:stickSteel>, null]
 ]);
 
+recipes.addShaped(<contenttweaker:barrel_wrought_iron>, [
+  [null, <ore:stickSteel>, <ore:foilSteel>],
+  [<ore:stickWroughtIron>, <ore:foilWroughtIron>, <ore:stickWroughtIron>],
+  [<ore:foilWroughtIron>, <ore:stickWroughtIron>, null]
+]);
+
 lathe.recipeBuilder()
   .inputs([<ore:stickLongVanadiumSteel>])
   .outputs(<contenttweaker:barrel_vanadiumsteel>)
@@ -214,19 +220,19 @@ oogaboogaguns.add(<mwc:g2_contender>);
 recipes.addShaped(<mwc:mares_leg>, [
   [<ore:screwWroughtIron>, null, <ore:screwWroughtIron>],
   [<contenttweaker:barrel_steel>, <contenttweaker:action_wrought>, <contenttweaker:receiver_wrought>], 
-  [<ore:craftingToolSoftHammer>, <ore:plateTreatedWood>, <ore:craftingToolScrewdriver>]
+  [<ore:craftingToolSoftHammer>, <ore:plankWood>, <ore:craftingToolScrewdriver>]
 ]);
 
 recipes.addShaped(<mwc:mp43e>, [
   [<contenttweaker:barrel_steel>, <ore:boltWroughtIron>, null],
   [<contenttweaker:barrel_steel>, <contenttweaker:action_wrought>, <contenttweaker:receiver_wrought>], 
-  [<ore:craftingToolSoftHammer>, <ore:plateTreatedWood>, <ore:craftingToolScrewdriver>]
+  [<ore:craftingToolSoftHammer>, <ore:plankWood>, <ore:craftingToolScrewdriver>]
 ]);
 
 
 recipes.addShaped(<mwc:g2_contender>, [
   [<contenttweaker:barrel_steel>, <contenttweaker:receiver_wrought>],
-  [null, <ore:plateTreatedWood>]
+  [null, <ore:plankWood>]
 ]);
 
 
