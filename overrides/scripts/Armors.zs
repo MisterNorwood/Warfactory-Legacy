@@ -7,6 +7,8 @@ recipes.remove(<enderio:item_stellar_alloy_chestplate>);
 recipes.remove(<enderio:item_stellar_alloy_leggings>);
 recipes.remove(<enderio:item_stellar_alloy_boots>);
 
+recipes.remove(<enderio:block_dark_steel_anvil>);
+
 recipes.remove(<redstonearsenal:util.quiver_flux>);
 recipes.remove(<enderio:item_dark_steel_sword>);
 recipes.remove(<enderio:item_end_steel_sword>);
