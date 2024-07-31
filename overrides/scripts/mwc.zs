@@ -621,16 +621,9 @@ assembler.recipeBuilder()
 
 //////// ZPM GUNS ////////
 val gunszpm = <ore:gunsZpm>;
-gunszpm.add(<mwc:m134>);
 gunszpm.add(<mwc:m202>);
 gunszpm.add(<mwc:m82_barrett>);
 gunszpm.add(<mwc:taurus_raging_hunter>);
-
-assembler.recipeBuilder()
-  .inputs([<ore:plateNaquadahAlloy>*16, <ore:platePolybenzimidazole>*24, <ore:gearOsmiridium>, <contenttweaker:action_naquadah_alloy>, <contenttweaker:barrel_tritanium>*2, <contenttweaker:receiver_duranium>, <ore:wireFineNiobiumTitanium>*4, <ore:circuitLuv>] )
-  .fluidInputs([<liquid:lubricant> * 500])
-  .outputs(<mwc:m134>)
-  .duration(2400).EUt(120000).buildAndRegister();
 
 assembler.recipeBuilder()
   .inputs([<ore:plateNaquadahAlloy>*12, <ore:platePolybenzimidazole>*32, <ore:pipeLargeItemOsmiridium>*4, <contenttweaker:action_naquadah_alloy>, <contenttweaker:barrel_tritanium>*4, <contenttweaker:receiver_duranium>, <ore:stickLongVanadiumGallium>*4, <gregtech:meta_item_1:208>] )
@@ -654,15 +647,6 @@ assembler.recipeBuilder()
 //ZPM Mags
 
 assembler.recipeBuilder()
-    .inputs(<ore:plateNaquadah> * 16, <ore:springSmallVanadiumGallium> * 4, <ore:ringOsmiridium> * 2)
-    .fluidInputs(<liquid:stainless_steel> * 144)
-    .outputs(<mwc:m134mag>)
-    .duration(80)
-    .EUt(124124)
-    .circuit(1)
-    .buildAndRegister();
-
-assembler.recipeBuilder()
     .inputs(<ore:circuitHv>, <contenttweaker:simple_rocket> * 4, <ore:dustNaquadah> * 2)
     .fluidInputs(<liquid:stainless_steel> * 144)
     .outputs(<mwc:m202rocket>*4)
@@ -680,3 +664,36 @@ assembler.recipeBuilder()
     .buildAndRegister();
 
 
+//////// UV GUNS ////////
+val gunsuv = <ore:gunsUv>;
+gunsuv.add(<mwc:m134>);
+
+assembly_line.recipeBuilder()
+  .inputs(
+	<ore:plateDoubleNaquadahAlloy> * 16,
+	<ore:ringStyreneButadieneRubber> * 24,
+	<ore:gearSmallNaquadahAlloy> * 16,
+	<ore:wireFineEnrichedNaquadahTriniumEuropiumDuranide> * 64,
+	<contenttweaker:action_naquadah_alloy>,
+	<contenttweaker:barrel_tritanium> * 12,
+	<contenttweaker:receiver_duranium>,
+	<metaitem:electric.motor.uv> * 2,
+	<ore:circuitUv>
+	)
+  .fluidInputs(
+		<liquid:lubricant> * 16000,
+		<liquid:polybenzimidazole> * 4608
+	)
+  .outputs(<mwc:m134>)
+  .duration(2400)
+  .EUt(480000)
+  .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs(<ore:plateNaquadah> * 16, <ore:springSmallVanadiumGallium> * 4, <ore:ringOsmiridium> * 2)
+    .fluidInputs(<liquid:stainless_steel> * 144)
+    .outputs(<mwc:m134mag>)
+    .duration(80)
+    .EUt(480000)
+    .circuit(1)
+    .buildAndRegister();
