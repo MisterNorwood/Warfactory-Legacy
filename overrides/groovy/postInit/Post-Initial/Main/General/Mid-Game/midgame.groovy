@@ -8,5 +8,7 @@ replaceRecipeInput(metaitem('processing_array'),
 
 // §bGolden Apple * 1
 mods.gregtech.chemical_reactor.removeByInput(30, [item('minecraft:apple'), item('minecraft:gold_ingot') * 8], null)
+mods.gregtech.large_chemical_reactor.removeByInput(30, [item('minecraft:apple'), item('minecraft:gold_ingot') * 8], null)
 // §bGolden Apple * 1
+mods.gregtech.chemical_reactor.removeByInput(30, [item('minecraft:apple'), item('minecraft:gold_block') * 8], null)
 mods.gregtech.large_chemical_reactor.removeByInput(30, [item('minecraft:apple'), item('minecraft:gold_block') * 8], null)
