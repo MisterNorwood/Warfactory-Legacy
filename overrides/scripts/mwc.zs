@@ -453,7 +453,6 @@ gunsiv.add(<mwc:scar_h_cqc>);
 gunsiv.add(<mwc:desert_eagle>); 
 gunsiv.add(<mwc:kriss_vector>);
 gunsiv.add(<mwc:l96a1>);
-gunsiv.add(<mwc:saiga12>);
 gunsiv.add(<mwc:origin12>);
 
 assembler.recipeBuilder()
@@ -504,12 +503,7 @@ assembler.recipeBuilder()
   .outputs(<mwc:asvalmag>)
   .duration(2400).EUt(8192).buildAndRegister();
 
-assembler.recipeBuilder()
-  .inputs([<ore:plateDoubleGunSteel>*4, <ore:platePolyvinylButyral>*18, <ore:stickLongTitanium>, <contenttweaker:action_titanium>, <contenttweaker:barrel_ultimet>*2, <contenttweaker:receiver_titanium>,<ore:springHssg>] )
-  .fluidInputs([<liquid:lubricant> * 500])
-  .outputs(<mwc:saiga12>)
-  .duration(2400).EUt(1920).buildAndRegister();
-  
+
 
 //Origin 12 drum magazine recipe
 assembler.recipeBuilder()
