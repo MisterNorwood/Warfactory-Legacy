@@ -296,7 +296,7 @@ var sea = <minecraft:sea_lantern>;
 var sca = <armorplus:material:1>;
 var chip = <minecraft:prismarine_crystals>;
 var shard = <minecraft:prismarine_shard>;
-var block = <metaitem:plateTitanium>;
+var block = <metaitem:plateDuranium>;
 mods.extendedcrafting.TableCrafting.addShaped(<armorplus:guardian_helmet>, [
 [sca,chip,sca,chip,sca,chip,sca],
 [sca,block,null,sea,null,block,sca],
@@ -671,6 +671,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<armorplus:the_ultimate_part:11>, 
 mods.extendedcrafting.TableCrafting.addShaped(<armorplus:the_ultimate_part:10>, [
 	[null,null,null,null,null],
 	[<enderio:block_reinforced_obsidian>,<armorplus:guardian_boots>,null,<armorplus:manyullyn_boots>,<enderio:block_reinforced_obsidian>],
+	[<enderio:block_reinforced_obsidian>,<armorplus:cobalt_boots>,null,<armorplus:ardite_boots>,<enderio:block_reinforced_obsidian>],
 	[<enderio:block_reinforced_obsidian>,<armorplus:cobalt_boots>,null,<armorplus:ardite_boots>,<enderio:block_reinforced_obsidian>],
 	[<enderio:block_reinforced_obsidian>,<metaitem:quantumstar>,null,<metaitem:quantumstar>,<enderio:block_reinforced_obsidian>],
 	[null,null,null,null,null]]);
