@@ -672,8 +672,8 @@ assembly_line.recipeBuilder()
   .inputs(
 	<ore:plateDoubleNaquadahAlloy> * 16,
 	<ore:ringStyreneButadieneRubber> * 24,
-	<ore:gearNaquadahAlloy> * 16,
-	<ore:wireFineEnrichedNaquadahTriniumEuropiumDuranide> * 16,
+	<ore:gearSmallNaquadahAlloy> * 16,
+	<ore:wireFineEnrichedNaquadahTriniumEuropiumDuranide> * 64,
 	<contenttweaker:action_naquadah_alloy>,
 	<contenttweaker:barrel_tritanium> * 12,
 	<contenttweaker:receiver_duranium>,
