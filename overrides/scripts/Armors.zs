@@ -252,7 +252,7 @@ recipes.addShaped(<armorplus:emerald_helmet>, [
 	[<metaitem:plateAluminium>, null,<metaitem:plateAluminium>]]);
 recipes.addShaped(<armorplus:emerald_helmet>, [
 [<metaitem:plateEmerald>, null, <metaitem:plateEmerald>],
-[<metaitem:plateAluminium, <metaitem:plateEmerald>, <metaitem:plateAluminium>],
+[<metaitem:plateAluminium>, <metaitem:plateEmerald>, <metaitem:plateAluminium>],
 [<metaitem:plateEmerald>, <metaitem:plateAluminium>, <metaitem:plateEmerald>]]);
 recipes.addShaped(<armorplus:emerald_leggings>, [
 	[<metaitem:plateEmerald>, <metaitem:plateEmerald>, <metaitem:plateEmerald>],
