@@ -32,3 +32,8 @@ recipes.addShaped(<warforge:siegecampblock>, [
     [<futuremc:campfire>, <ore:bed>, <ore:chest>], 
     [<futuremc:smooth_stone>, <ore:circuitUlv>, <futuremc:smooth_stone>]
 ]);
+
+recipes.recipes(<enderio:block_enchanter>);
+recipes.recipes(<extrautils2:playerchest>);
+
+
