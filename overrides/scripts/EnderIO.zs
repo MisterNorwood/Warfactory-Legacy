@@ -337,10 +337,6 @@ recipes.remove(<minecraft:stone:4>);
 recipes.remove(<minecraft:stone:6>);
 
 recipes.remove(<enderio:block_enchanter>);
-recipes.addShaped(<enderio:block_enchanter>, [
-    [<ore:gemDiamond>, <minecraft:book>, <ore:gemDiamond>],
-    [<ore:ingotDarkSteel>, <extrautils2:machine>.withTag({Type: "extrautils2:enchanter"}), <ore:ingotDarkSteel>],
-    [null, <ore:ingotDarkSteel>, null]]);
 
     
 recipes.remove(<enderio:block_soul_binder>);
