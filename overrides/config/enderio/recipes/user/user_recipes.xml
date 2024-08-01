@@ -10,5 +10,8 @@
 <recipe name="Gear, better save than sorry" disabled="true" />
 <recipe name="Gear, Stone" disabled="true" />
 <recipe name="Gear, Stone, Upgrade" disabled="true" />
+<recipe name="Enchanter: minecraft:protection" disabled="true" />
+<recipe name="Enchanter: enderio:soulbound" disabled="true" />
+<recipe name="Enchanter: minecraft:projectile_protection" disabled="true" />
 
 </enderio:recipes>
