@@ -281,7 +281,7 @@ recipes.addShaped(<armorplus:obsidian_sword>, [
 recipes.addShaped(<armorplus:emerald_helmet>, [
 	[<metaitem:plateEmerald>,<metaitem:plateAluminium>,<metaitem:plateEmerald>],
 	[<metaitem:plateAluminium>, null,<metaitem:plateAluminium>]]);
-recipes.addShaped(<armorplus:emerald_helmet>, [
+recipes.addShaped(<armorplus:emerald_chestplate>, [
 [<metaitem:plateEmerald>, null, <metaitem:plateEmerald>],
 [<metaitem:plateAluminium>, <metaitem:plateEmerald>, <metaitem:plateAluminium>],
 [<metaitem:plateEmerald>, <metaitem:plateAluminium>, <metaitem:plateEmerald>]]);
