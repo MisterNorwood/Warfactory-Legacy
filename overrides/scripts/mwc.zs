@@ -45,7 +45,7 @@ assembler.recipeBuilder()
   .inputs( [<ore:stickBlackSteel>*4, <ore:ringBlackSteel>*4, <ore:boltBlackSteel>*4, <metaitem:gearBlackSteel>, <metaitem:springSmallBlackSteel>*2])
   .fluidInputs([<liquid:lubricant> * 72])
   .outputs(<contenttweaker:action_blacksteel>*2)
-  .duration(120).EUt(256).buildAndRegister();
+  .duration(120).EUt(120).buildAndRegister();
 
 assembler.recipeBuilder()
   .inputs( [<ore:stickStainlessSteel>*4, <ore:ringStainlessSteel>*4, <ore:boltSteel>*4, <gregtech:meta_gear:2011>, <metaitem:springSmallStainlessSteel>*2])
