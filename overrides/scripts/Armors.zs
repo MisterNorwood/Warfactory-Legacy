@@ -21,6 +21,34 @@ recipes.remove(<enderio:item_dark_steel_sword>);
 recipes.remove(<enderio:item_end_steel_sword>);
 recipes.remove(<enderio:item_stellar_alloy_sword>);
 
+brewing.removeRecipe(<minecraft:lingering_potion>.withTag({Potion: "oe:turtle_master"}), <randomthings:glowingmushroom>);
+brewing.removeRecipe(<minecraft:lingering_potion>.withTag({Potion: "oe:turtle_master"}), <minecraft:glowstone_dust>);
+brewing.removeRecipe(<minecraft:splash_potion>.withTag({Potion: "oe:turtle_master_strong"}), <minecraft:dragon_breath>);
+
+brewing.removeRecipe(<minecraft:lingering_potion>.withTag({Potion: "oe:turtle_master"}), <minecraft:redstone>);
+brewing.removeRecipe(<minecraft:splash_potion>.withTag({Potion: "oe:turtle_master_long"}), <minecraft:dragon_breath>);
+
+brewing.removeRecipe(<minecraft:lingering_potion>.withTag({Potion: "minecraft:awkward"}), <oe:turtle_helmet>);
+brewing.removeRecipe(<minecraft:splash_potion>.withTag({Potion: "oe:turtle_master"}), <minecraft:dragon_breath>);
+
+brewing.removeRecipe(<minecraft:splash_potion>.withTag({Potion: "minecraft:awkward"}), <oe:turtle_helmet>);
+brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "oe:turtle_master"}), <minecraft:gunpowder>);
+
+
+brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "oe:turtle_master"}), <minecraft:redstone>);
+
+brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <oe:turtle_helmet>);
+
+brewing.removeRecipe(<minecraft:splash_potion>.withTag({Potion: "oe:turtle_master"}), <minecraft:glowstone_dust>);
+brewing.removeRecipe(<minecraft:splash_potion>.withTag({Potion: "oe:turtle_master"}), <randomthings:glowingmushroom>);
+brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "oe:turtle_master_strong"}), <minecraft:gunpowder>);
+
+brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "oe:turtle_master"}), <randomthings:glowingmushroom>);
+brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "oe:turtle_master"}), <minecraft:glowstone_dust>);
+
+brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "oe:turtle_master_long"}), <minecraft:gunpowder>);
+brewing.removeRecipe(<minecraft:splash_potion>.withTag({Potion: "oe:turtle_master"}), <minecraft:redstone>);
+
 
 recipes.remove(<enderio:block_reinforced_obsidian>);
 recipes.addShaped(<enderio:block_reinforced_obsidian>,[
