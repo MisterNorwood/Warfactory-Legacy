@@ -299,7 +299,7 @@ assembler.recipeBuilder()
 
 assembler.recipeBuilder()
   .inputs([<ore:plateAluminium>*2, <ore:springBlackSteel>, <ore:boltVanadiumSteel>] )
-  .outputs(<mwc:ak74mag>)
+  .outputs(<mwc:ak15mag_2>)
   .duration(2400).EUt(120).buildAndRegister();
 
 
