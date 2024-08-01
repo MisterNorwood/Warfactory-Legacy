@@ -439,3 +439,33 @@ forming_press.recipeBuilder()
     .EUt(8)
     .circuit(15)
     .buildAndRegister();
+
+//9x39mm
+forming_press.recipeBuilder()
+    .inputs([<contenttweaker:lv_penetrator>, <contenttweaker:smokeless_powder> * 10, <contenttweaker:casing> * 10])
+    .outputs(<mwc:bullet9x39mm> * 10)
+    .duration(40)
+    .EUt(8)
+    .circuit(18)
+    .buildAndRegister();
+forming_press.recipeBuilder()
+    .inputs([<contenttweaker:mv_penetrator>, <contenttweaker:smokeless_powder> * 25, <contenttweaker:casing> * 25])
+    .outputs(<mwc:bullet9x39mm> * 20)
+    .duration(40)
+    .EUt(8)
+    .circuit(18)
+    .buildAndRegister();
+forming_press.recipeBuilder()
+    .inputs([<contenttweaker:hv_penetrator>, <contenttweaker:smokeless_powder> * 50, <contenttweaker:casing> * 50])
+    .outputs(<mwc:bullet9x39mm> * 30)
+    .duration(40)
+    .EUt(8)
+    .circuit(18)
+    .buildAndRegister();
+forming_press.recipeBuilder()
+    .inputs([<contenttweaker:ev_penetrator>, <contenttweaker:smokeless_powder> * 64, <contenttweaker:casing> * 64])
+    .outputs(<mwc:bullet9x39mm> * 60)
+    .duration(40)
+    .EUt(8)
+    .circuit(18)
+    .buildAndRegister();
