@@ -33,7 +33,7 @@ recipes.addShaped(<warforge:siegecampblock>, [
     [<futuremc:smooth_stone>, <ore:circuitUlv>, <futuremc:smooth_stone>]
 ]);
 
-recipes.recipes(<enderio:block_enchanter>);
-recipes.recipes(<extrautils2:playerchest>);
+recipes.remove(<enderio:block_enchanter>);
+recipes.remove(<extrautils2:playerchest>);
 
 
