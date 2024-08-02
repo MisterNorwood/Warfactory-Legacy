@@ -580,22 +580,7 @@ autoclave.recipeBuilder()
 
 // Space Station Builder
 recipes.remove(<advancedrocketry:stationbuilder>);
-makeExtremeRecipe5(<advancedrocketry:stationbuilder>,
-	[
-		"RTETR",
-		"TXMXT",
-		"TCACT",
-		"TXCXT",
-		"RTETR",
-	], {
-		T: <metaitem:plateDoubleTitanium>, // Heavy Titanium Plating
-		X: <libvulpes:structuremachine>,     // Machine Structure
-		R: <metaitem:robot.arm.ev>, // EV Robot Arm
-		E: <metaitem:emitter.ev>,   // EV Emitter
-		A: <meta_tile_entity:assembler.ev>,  // EV Assembling Machine
-		C: <ore:circuitEv>, // T4 Circuit
-		M: <metaitem:cover.screen>, // Screen
-	});
+
 
 // Station ID Chip
 recipes.remove(<advancedrocketry:spacestationchip>);
