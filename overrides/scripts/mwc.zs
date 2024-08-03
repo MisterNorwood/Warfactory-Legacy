@@ -302,6 +302,10 @@ assembler.recipeBuilder()
   .outputs(<mwc:ak15mag_2>)
   .duration(2400).EUt(120).buildAndRegister();
 
+assembler.recipeBuilder()
+  .inputs([<ore:plateAluminium>*4, <ore:springBlackSteel>, <ore:boltAlumium>] )
+  .outputs(<mwc:dragunovmag>)
+  .duration(2400).EUt(120).buildAndRegister();
 
 
 assembler.recipeBuilder()
