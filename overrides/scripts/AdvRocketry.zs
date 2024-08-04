@@ -583,17 +583,17 @@ recipes.remove(<advancedrocketry:stationbuilder>);
 makeExtremeRecipe5(<advancedrocketry:stationbuilder>,
 	[
 		"RTETR",
-		"TXCXT",
+		"TXMXT",
 		"TCACT",
 		"TXCXT",
 		"RTETR",
 	], {
 		T: <metaitem:plateDoubleTungstenSteel>, // Heavy Tungstensteel Plating
 		X: <libvulpes:structuremachine>,     // Machine Structure
-		R: <metaitem:robot.arm.ev>, // EV Robot Arm
-		E: <metaitem:emitter.ev>,   // EV Emitter
-		A: <meta_tile_entity:assembler.ev>,  // EV Assembling Machine
-		C: <ore:circuitEv>, // T4 Circuit
+		R: <metaitem:robot.arm.iv>, // EV Robot Arm
+		E: <metaitem:emitter.iv>,   // EV Emitter
+		A: <meta_tile_entity:assembler.iv>,  // EV Assembling Machine
+		C: <ore:circuitIv>, // T4 Circuit
 		M: <metaitem:cover.screen>, // Screen
 	});
 
