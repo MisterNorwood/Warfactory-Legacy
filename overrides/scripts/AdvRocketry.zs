@@ -649,18 +649,7 @@ makeShaped("ar_optical_sensor",
 		S: <metaitem:sensor.ev>,     // EV Sensor
 	});
 
-// Warp Core
-recipes.remove(<advancedrocketry:warpcore>);
-makeShaped("ar_warp_core",
-	<advancedrocketry:warpcore>, [
-		"LTL",
-		"TNT",
-		"LTL",
-	], {
-		L: <ore:blockLumium>,     // Block of Lumium
-		T: <ore:blockTitanium>,   // Block of Titanium
-		N: <ore:blockNetherStar>, // Block of Nether Stars
-	});
+
 
 // Rocket Monitoring Station
 recipes.remove(<advancedrocketry:monitoringstation>);
